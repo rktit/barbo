@@ -80,23 +80,23 @@ const MenuSite = () => {
 					</div>
 				</div>
 				<div className={`justify-content-between menu-nav ${showMenu ? "show-menu" : "hide-menu"}`}>
-					<a href="#quem_somos" onClick={() => clickMenu("#quem_somos")} className={active === "#quem_somos" ? 'active ' : 'mr-3'}>
+					<a href="/quem_somos" onClick={() => clickMenu("#quem_somos")} className={active === "#quem_somos" ? 'active ' : 'mr-3'}>
 						quem somos
 					</a>
-					<a href="#empreendimentos" onClick={() => clickMenu("#empreendimentos")} className={active === "#empreendimentos" ? 'active ' : 'mr-3'}>
+					<a href="/empreendimentos" onClick={() => clickMenu("#empreendimentos")} className={active === "#empreendimentos" ? 'active ' : 'mr-3'}>
 						empreendimentos
 					</a>
-					<a href="#blog" onClick={() => clickMenu("#blog")} className={active === "#blog" ? 'active ' : 'mr-3'}>
+					<a href="/blog" onClick={() => clickMenu("#blog")} className={active === "#blog" ? 'active ' : 'mr-3'}>
 						blog
 					</a>
-					<a href="#fale_conosco" onClick={() => clickMenu("#fale_conosco")} className={active === "#fale_conosco" ? 'active ' : 'mr-3'}>
+					<a href="/fale_conosco" onClick={() => clickMenu("#fale_conosco")} className={active === "#fale_conosco" ? 'active ' : 'mr-3'}>
 						fale conosco
 						<div className="marca ml-3">|</div>
 					</a>
-					<a href="#portal_corretor" onClick={() => clickMenu("#portal_corretor")} className={active === "#portal_corretor" ? 'active ' : 'mr-3'}>
+					<a href="/portal_corretor" onClick={() => clickMenu("#portal_corretor")} className={active === "#portal_corretor" ? 'active ' : 'mr-3'}>
 						portal do corretor
 					</a>
-					<a href="#contato" onClick={() => clickMenu("#contato")} className={active === "#contato" ? 'active ' : 'mr-3'}>
+					<a href="/contato" onClick={() => clickMenu("#contato")} className={active === "#contato" ? 'active ' : 'mr-3'}>
 						contato
 					</a>
 				</div>
