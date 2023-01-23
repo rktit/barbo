@@ -16,7 +16,7 @@ let limit_scroll = 450;
 let limit_scroll_header = 250;
 
 
-function Footer(props) {
+function FooterLs(props) {
 	const dispatch = useDispatch()
 
 	const [showMenu, setShowMenu] = useState(false);
@@ -116,26 +116,22 @@ function Footer(props) {
 								<Fade>
 									<div className='titulo'>Quem somos</div>
 									<div className='conteudo'>
-										<a onClick={() => clickMenu("ls#pos_vendas")} className={active === "ls#pos_vendas" ? 'active ' : ''}
-											href="ls#pos_vendas">
+										<a onClick={() => clickMenu("/quem_somos")} className={active === "/quem_somos" ? 'active ' : ''}
+											href="/quem_somos">
 											Incorporadora
 										</a>
 									</div>
 								</Fade>
 								<Fade>
-									<div className='titulo'>
-										<a href="#politica-privacidade" onClick={() => dispatch(Actions.toggle_modal('politica'))}>Políticas de Privacidade</a>
-									</div>
-								</Fade>
-								<Fade>
 									<div className='titulo'>Cidades</div>
 									<div className='conteudo'>
-										<a onClick={() => clickMenu("ls#pos_vendas")} className={active === "ls#pos_vendas" ? 'active ' : ''}
-											href="ls#pos_vendas">
-											Piracicaba <br />
-											Rio Claro <br />
-											Americana
-										</a>
+										<a onClick={() => clickMenu("/empreendimentos")} href="/empreendimentos" id="btn-trab">Piracicaba</a>
+									</div>
+									<div className='conteudo'>
+										<a onClick={() => clickMenu("/empreendimentos")} href="/empreendimentos" id="btn-trab">Rio Claro</a>
+									</div>
+									<div className='conteudo'>
+										<a onClick={() => clickMenu("/empreendimentos")} href="/empreendimentos" id="btn-trab">Americana</a>
 									</div>
 								</Fade>
 							</div>
@@ -143,72 +139,25 @@ function Footer(props) {
 								<Fade>
 									<div className='titulo'>Empreendimentos</div>
 									<div className='conteudo'>
-										<a onClick={() => clickMenu("/site/trabalhe-conosco")} href="/site/trabalhe-conosco" id="btn-trab">Lançamentos</a>
+										<a onClick={() => clickMenu("/trabalhe-conosco")} href="/trabalhe-conosco" id="btn-trab">Lançamentos</a>
 									</div>
 									<div className='conteudo'>
-										<a onClick={() => clickMenu("/site/trabalhe-conosco")} href="/site/trabalhe-conosco" id="btn-trab">Em Obras</a>
+										<a onClick={() => clickMenu("/trabalhe-conosco")} href="/trabalhe-conosco" id="btn-trab">Em Obras</a>
 									</div>
 									<div className='conteudo'>
-										<a onClick={() => clickMenu("/site/trabalhe-conosco")} href="/site/trabalhe-conosco" id="btn-trab">Fase Final de Obras</a>
+										<a onClick={() => clickMenu("/trabalhe-conosco")} href="/trabalhe-conosco" id="btn-trab">Fase Final de Obras</a>
 									</div>
 									<div className='conteudo'>
-										<a onClick={() => clickMenu("/site/trabalhe-conosco")} href="/site/trabalhe-conosco" id="btn-trab">Prontos para Morar</a>
+										<a onClick={() => clickMenu("/trabalhe-conosco")} href="/trabalhe-conosco" id="btn-trab">Prontos para Morar</a>
 									</div>
 									<div className='conteudo'>
-										<a onClick={() => clickMenu("/site/trabalhe-conosco")} href="/site/trabalhe-conosco" id="btn-trab">Breve Lançamentos</a>
+										<a onClick={() => clickMenu("/trabalhe-conosco")} href="/trabalhe-conosco" id="btn-trab">Breve Lançamentos</a>
 									</div>
 									<div className='conteudo'>
-										<a onClick={() => clickMenu("/site/trabalhe-conosco")} href="/site/trabalhe-conosco" id="btn-trab">Outros Lançamentos</a>
+										<a onClick={() => clickMenu("/trabalhe-conosco")} href="/trabalhe-conosco" id="btn-trab">Outros Lançamentos</a>
 									</div>
 								</Fade>
 							</div>
-
-							{/* <div className='col-2 p-0 info'>
-								<Fade>
-									<div className='titulo'>Fale conosco</div>
-									<div className='conteudo'>
-										<a onClick={() => clickMenu("/site/trabalhe-conosco")} href="/site/trabalhe-conosco" id="btn-trab">Compramos seu terreno</a>
-									</div>
-									<div className='conteudo'>
-										<a onClick={() => clickMenu("/site/trabalhe-conosco")} href="/site/trabalhe-conosco" id="btn-trab">Em Obras</a>
-									</div>
-									<div className='conteudo'>
-										<a onClick={() => clickMenu("/site/trabalhe-conosco")} href="/site/trabalhe-conosco" id="btn-trab">Fase Final de Obras</a>
-									</div>
-									<div className='conteudo'>
-										<a onClick={() => clickMenu("/site/trabalhe-conosco")} href="/site/trabalhe-conosco" id="btn-trab">Prontos para Morar</a>
-									</div>
-									<div className='conteudo'>
-										<a onClick={() => clickMenu("/site/trabalhe-conosco")} href="/site/trabalhe-conosco" id="btn-trab">Breve Lançamentos</a>
-									</div>
-									<div className='conteudo'>
-										<a onClick={() => clickMenu("/site/trabalhe-conosco")} href="/site/trabalhe-conosco" id="btn-trab">Outros Lançamentos</a>
-									</div>
-								</Fade>
-							</div>
-							<div className='col-2 p-0 info'>
-								<Fade>
-									<div className='titulo'>Empreendimentos</div>
-									<div className='conteudo'>
-										<a onClick={() => clickMenu("/site/trabalhe-conosco")} href="/site/trabalhe-conosco" id="btn-trab">Lançamentos</a>
-									</div>
-									<div className='conteudo'>
-										<a onClick={() => clickMenu("/site/trabalhe-conosco")} href="/site/trabalhe-conosco" id="btn-trab">Em Obras</a>
-									</div>
-									<div className='conteudo'>
-										<a onClick={() => clickMenu("/site/trabalhe-conosco")} href="/site/trabalhe-conosco" id="btn-trab">Fase Final de Obras</a>
-									</div>
-									<div className='conteudo'>
-										<a onClick={() => clickMenu("/site/trabalhe-conosco")} href="/site/trabalhe-conosco" id="btn-trab">Prontos para Morar</a>
-									</div>
-									<div className='conteudo'>
-										<a onClick={() => clickMenu("/site/trabalhe-conosco")} href="/site/trabalhe-conosco" id="btn-trab">Breve Lançamentos</a>
-									</div>
-									<div className='conteudo'>
-										<a onClick={() => clickMenu("/site/trabalhe-conosco")} href="/site/trabalhe-conosco" id="btn-trab">Outros Lançamentos</a>
-									</div>
-								</Fade>
-							</div> */}
 							<div className="flex line"></div>
 							<div className='col-10 py-4 copyright'>
 								Desenvolvido por ÉPICA CREATIVE + Rocket IT
@@ -221,4 +170,4 @@ function Footer(props) {
 	);
 }
 
-export default Footer;
+export default FooterLs;

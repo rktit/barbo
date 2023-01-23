@@ -7,6 +7,7 @@ import { useDispatch } from "react-redux";
 import * as Actions from 'store/actions';
 
 import logo from "images/logo/logo-ls.png";
+import { HeaderLS } from "container";
 
 let limit_scroll = 450;
 let limit_scroll_header = 250;
@@ -61,11 +62,14 @@ const MenuSite = () => {
 		}
 	};
 
+	// const openContact = () => {
+	// 		window.open("https://calendly.com/liber-comercial/agendar-especialista");
+	// }
 
 	return (
 		<Content className={`navbar absolute inset-x-0 top-0 ${scroll > limit_scroll ? 'bg-active' : 'bg-active'}`}>
 			<div className="container px-3  px-md-2 offset-0 col-12 offset-md-1 col-md-10">
-				<div className={`menu-logo  ${scroll > limit_scroll ? 'menu-scroll' : 'menu-top'} col-md flex justify-between`}>
+				<div className={`menu-logo col-12 col-md-12 col-lg-5 ${scroll > limit_scroll ? 'menu-scroll' : 'menu-top'} col-md flex justify-between`}>
 					<a href="/barbo" onClick={() => clickMenu("home")} aria-label="Product">
 						<img src={logo} alt="Barbo Empreendimentos" className={scroll > limit_scroll ? 'scroll' : ''} id="logo" />
 					</a>
@@ -79,31 +83,26 @@ const MenuSite = () => {
 						</button>
 					</div>
 				</div>
-				<div className={`justify-content-between menu-nav ${showMenu ? "show-menu" : "hide-menu"}`}>
-					<a onClick={() => clickMenu("#quem_somos")} className={active === "#quem_somos" ? 'active mr-3' : 'mr-3'}
+				<div className={`col-12 col-md-12 col-lg-5 col-xl-5 justify-content-between menu-nav ${showMenu ? "show-menu" : "hide-menu"}`}>
+					<a onClick={() => clickMenu("/quem_somos")} className={active === "#quem_somos" ? 'active mr-3' : 'mr-3'}
 						href="/quem_somos">
 						quem somos
 					</a>
-					<a onClick={() => clickMenu("#empreendimentos")} className={active === "#empreendimentos" ? 'active mr-3' : 'mr-3'}
+					<a onClick={() => clickMenu("/empreendimentos")} className={active === "#empreendimentos" ? 'active ' : ''}
 						href="/empreendimentos">
 						empreendimentos
 					</a>
-					<a onClick={() => clickMenu("#blog")} className={active === "#blog" ? 'active mr-3' : 'mr-3'}
-						href="/blog">						
+					<a onClick={() => clickMenu("/blog")} className={active === "#blog" ? 'active ' : ''}
+						href="/blog">
 						blog
 					</a>
-					<a onClick={() => clickMenu("#fale_conosco")} className={active === "#fale_conosco" ? 'active mr-3' : 'mr-3'}
-						href="/fale_conosco">						
+					<a onClick={() => clickMenu("/fale_conosco")} className={active === "#fale_conosco" ? 'active ' : ''}
+						href="/fale_conosco">
 						fale conosco
-						<div className="marca ml-3">|</div>
 					</a>
-					<a onClick={() => clickMenu("#portal_corretor")} className={active === "#portal_corretor" ? 'active mr-3' : 'mr-3'}
-						href="/portal_corretor">						
-						portal do corretor
-					</a>
-					<a onClick={() => clickMenu("#contato")} className={active === "#contato" ? 'active mr-3' : 'mr-3'}
-						href="/contato">						
-						contato
+					<a onClick={() => clickMenu("/contatos")} className={active === "#contatos" ? 'active' : ''}
+						href="/contatos">
+						Contato
 					</a>
 				</div>
 			</div>
