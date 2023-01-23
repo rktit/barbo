@@ -1,0 +1,61 @@
+{
+  "name": "BARBO",
+  "version": "1.0.0",
+  "private": true,
+  "homepage1": "./",
+  "homepage": "https://rocketit.com.br/site/barbo",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "@splidejs/react-splide": "^0.4.4",
+    "@testing-library/jest-dom": "4.2.4",
+    "@testing-library/react": "9.3.2",
+    "@testing-library/user-event": "7.1.2",
+    "axios": "0.19.2",
+    "bootstrap": "^4.5.2",
+    "date-fns": "^2.16.1",
+    "js-cookie": "2.2.1",
+    "react": "^16.13.1",
+    "react-bootstrap": "1.0.1",
+    "react-bootstrap-icons": "^1.0.2-alpha4",
+    "react-dom": "^16.13.1",
+    "react-redux": "7.2.0",
+    "react-responsive-carousel": "^3.2.23",
+    "react-reveal": "^1.2.2",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1",
+    "react-scrollable-anchor": "^0.6.1",
+    "react-youtube": "^7.13.1",
+    "redux": "4.0.5",
+    "redux-saga": "1.1.3",
+    "redux-thunk": "2.3.0",
+    "styled-components": "5.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.9.6",
+    "@babel/node": "7.8.7",
+    "@babel/preset-env": "7.9.6",
+    "babel-eslint": "^10.1.0",
+    "babel-plugin-module-resolver": "4.0.0",
+    "cross-env": "7.0.2"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

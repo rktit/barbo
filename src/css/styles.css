@@ -1,0 +1,240 @@
+body {
+  margin: 0;
+  font-family: "SF-Pro-Display-Regular";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: "SF-Pro-Display-Black";
+  src: local("SF-Pro-Display-Black"),
+    url(./fonts/SF-Pro-Display-Black.ttf) format("truetype");
+}
+@font-face {
+  font-family: "SF-Pro-Display-Bold";
+  src: local("SF-Pro-Display-Bold"),
+    url(./fonts/SF-Pro-Display-Bold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "SF-Pro-Display-Heavy";
+  src: local("SF-Pro-Display-Heavy"),
+    url(./fonts/SF-Pro-Display-Heavy.ttf) format("truetype");
+}
+@font-face {
+  font-family: "SF-Pro-Display-Light";
+  src: local("SF-Pro-Display-Light"),
+    url(./fonts/SF-Pro-Display-Light.ttf) format("truetype");
+}
+@font-face {
+  font-family: "SF-Pro-Display-Medium";
+  src: local("SF-Pro-Display-Medium"),
+    url(./fonts/SF-Pro-Display-Medium.ttf) format("truetype");
+}
+@font-face {
+  font-family: "SF-Pro-Display-Regular";
+  src: local("SF-Pro-Display-Regular"),
+    url(./fonts/SF-Pro-Display-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "SF-Pro-Display-Semibold";
+  src: local("SF-Pro-Display-Semibold"),
+    url(./fonts/SF-Pro-Display-Semibold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "SF-Pro-Display-Thin";
+  src: local("SF-Pro-Display-Thin"),
+    url(./fonts/SF-Pro-Display-Thin.ttf) format("truetype");
+}
+@font-face {
+  font-family: "SF-Pro-Display-Ultralight";
+  src: local("SF-Pro-Display-Ultralight"),
+    url(./fonts/SF-Pro-Display-Ultralight.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Gotham-Black";
+  src: local("Gotham-Black"), url(./fonts/Gotham-Black.otf) format("truetype");
+}
+@font-face {
+  font-family: "GothamBold";
+  src: local("GothamBold"), url(./fonts/GothamBold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "GothamBoldItalic";
+  src: local("GothamBoldItalic"),
+    url(./fonts/GothamBoldItalic.ttf) format("truetype");
+}
+@font-face {
+  font-family: "GothamBook";
+  src: local("GothamBook"), url(./fonts/GothamBook.ttf) format("truetype");
+}
+@font-face {
+  font-family: "GothamBookItalic";
+  src: local("GothamBookItalic"),
+    url(./fonts/GothamBookItalic.ttf) format("truetype");
+}
+@font-face {
+  font-family: "GothamLight";
+  src: local("GothamLight"), url(./fonts/GothamLight.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Gotham-Light";
+  src: local("Gotham-Light"), url(./fonts/Gotham-Light.otf) format("truetype");
+}
+@font-face {
+  font-family: "GothamLightItalic";
+  src: local("GothamLightItalic"),
+    url(./fonts/GothamLightItalic.ttf) format("truetype");
+}
+@font-face {
+  font-family: "GothamMedium";
+  src: local("GothamMedium"), url(./fonts/GothamMedium.ttf) format("truetype");
+}
+@font-face {
+  font-family: "GothamMediumItalic";
+  src: local("GothamMediumItalic"),
+    url(./fonts/GothamMediumItalic.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Gotham-Thin";
+  src: local("Gotham-Thin"), url(./fonts/Gotham-Thin.otf) format("truetype");
+}
+@font-face {
+  font-family: "OpenSans-Bold";
+  src: local("OpenSans-Bold"), url(./fonts/OpenSans-Bold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "OpenSans-BoldItalic";
+  src: local("OpenSans-BoldItalic"),
+    url(./fonts/OpenSans-BoldItalic.ttf) format("truetype");
+}
+@font-face {
+  font-family: "OpenSans-ExtraBold";
+  src: local("OpenSans-ExtraBold"),
+    url(./fonts/OpenSans-ExtraBold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "OpenSans-ExtraBoldItalic";
+  src: local("OpenSans-ExtraBoldItalic"),
+    url(./fonts/OpenSans-ExtraBoldItalic.ttf) format("truetype");
+}
+@font-face {
+  font-family: "OpenSans-Italic";
+  src: local("OpenSans-Italic"),
+    url(./fonts/OpenSans-Italic.ttf) format("truetype");
+}
+@font-face {
+  font-family: "OpenSans-Light";
+  src: local("OpenSans-Light"),
+    url(./fonts/OpenSans-Light.ttf) format("truetype");
+}
+@font-face {
+  font-family: "OpenSans-LightItalic";
+  src: local("OpenSans-LightItalic"),
+    url(./fonts/OpenSans-LightItalic.ttf) format("truetype");
+}
+@font-face {
+  font-family: "OpenSans-Regular";
+  src: local("OpenSans-Regular"),
+    url(./fonts/OpenSans-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "OpenSans-Semibold";
+  src: local("OpenSans-Semibold"),
+    url(./fonts/OpenSans-Semibold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "OpenSans-SemiboldItalic";
+  src: local("OpenSans-SemiboldItalic"),
+    url(./fonts/OpenSans-SemiboldItalic.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Rounded";
+  src: local("Rounded"), url(./fonts/Rounded.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Raleway-Regular";
+  src: local("Raleway-Regular"),
+    url(./fonts/Raleway-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Raleway-Bold";
+  src: local("Raleway-Bold"),
+    url(./fonts/Raleway-Bold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Raleway-SemiBold";
+  src: local("Raleway-SemiBold"),
+    url(./fonts/Raleway-SemiBold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Raleway-Light";
+  src: local("Raleway-Light"),
+    url(./fonts/Raleway-Light.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Raleway-Medium";
+  src: local("Raleway-Medium"),
+    url(./fonts/Raleway-Medium.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Raleway-Black";
+  src: local("Raleway-Black"),
+    url(./fonts/Raleway-Black.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Raleway-ExtraBold";
+  src: local("Raleway-ExtraBold"),
+    url(./fonts/Raleway-ExtraBold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Abys-Regular";
+  src: local("Abys-Regular"),
+    url(./fonts/Abys-Regular.otf) format("truetype");
+}
+@font-face {
+  font-family: "Futura-Bold";
+  src: local("Futura-Bold"),
+    url(./fonts/Futura-Bold.ttf) format("truetype");
+}
+.row {
+  margin: 0 !important;
+}
+
+/* SCROLLBAR */
+@media only screen and (min-width: 600px) {
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #ff6f64 white;
+  }
+
+  *::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: white;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #ff6f64;
+    border-radius: 20px;
+    border: 3px solid white;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+}
+/* SCROLLBAR */
+
+/* ALERT */
+.modal-alert {
+  position: fixed !important;
+  z-index: 9999;
+  left: 0;
+  right: 0;
+  bottom: 20px;
+  max-width: 350px;
+}
