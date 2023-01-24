@@ -37,10 +37,10 @@ const Routes = () => (
              <Route path='/quem_somos' component={QuemSomos_Page} />*/}
             {/*<Route path='/blog' component={Blog_Page} />
             <Route path='/fale_conosco' component={FaleConosco_Page} />
-            <Route path='/portal_corretor' component={PortalCorretor_Page} />*/}
-            <Route path='/contato' component={Contato_Page} />  
-           {/* <Route path='/trabalhe-conosco' component={WorkWithUs} /> 
-            <Route path='/' component={Home_Page} />*/}
+            <Route path='/portal_corretor' component={PortalCorretor_Page} />
+            <Route path='/contato' component={Contato_Page} />  */}
+           {/* <Route path='/trabalhe-conosco' component={WorkWithUs} /> */}
+            <Route path='/' component={Home_Page} />
         </Switch>
     </BrowserRouter>
 )

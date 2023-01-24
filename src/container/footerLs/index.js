@@ -68,7 +68,7 @@ function FooterLs(props) {
 	return (
 		<ScrollableAnchor id="contatos">
 			<Content className="row">
-				<div className='box col-12 p-0'>
+				<div className='box col-10 p-0'>
 					<div className='offset-1 p-0 content'>
 						<div className="row p-0 text-white">
 							<Fade left>
