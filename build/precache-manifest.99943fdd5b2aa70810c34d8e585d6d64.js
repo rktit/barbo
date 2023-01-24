@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "30ca5624fb7e9d0ae4e61da2752eece1",
+    "revision": "54804aee0335815ef62df0a11300ea14",
     "url": "/barbo/contato/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/barbo/contato/static/css/2.22ca879e.chunk.css"
   },
   {
-    "revision": "f05b99ec25d191a7c9ec",
+    "revision": "8460ac1141fa62daf551",
     "url": "/barbo/contato/static/css/main.610c4a52.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/barbo/contato/static/js/2.1a4291d5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f05b99ec25d191a7c9ec",
-    "url": "/barbo/contato/static/js/main.3dd5fd85.chunk.js"
+    "revision": "8460ac1141fa62daf551",
+    "url": "/barbo/contato/static/js/main.e5dcac30.chunk.js"
   },
   {
     "revision": "3c57bf5b247a4629d74f",
