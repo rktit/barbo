@@ -1,6 +1,6 @@
 import React, { Fragment, useEffect } from "react";
 
-import {MenuLs, BannerPortal, ListaContato, Contato, Formulario, FooterLs, HeaderLS} from "container";
+import {MenuLs, BannerContato, MenuFormulario, Formulario, FooterLs} from "container";
 import { configureAnchors } from "react-scrollable-anchor";
 
 import {ModalPolitica} from 'components';
@@ -15,11 +15,9 @@ const Contato_Page = () => {
     <Fragment>
       <ModalPolitica />
       <MenuLs/>
-      <BannerPortal />
-      <Contato/>
-      <ListaContato />
-      <HeaderLS />
-      <Formulario/>
+      <BannerContato />
+      <MenuFormulario />
+      {/* <Formulario/> */}
       <FooterLs />
     </Fragment>
   );

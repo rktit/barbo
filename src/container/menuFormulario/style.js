@@ -3,14 +3,18 @@ import color from "config/colors";
 import fonts from "config/fonts";
 
 export const Content = styled.nav`
-  position: fixed;
-  padding: 0 !important;
-  z-index: 1027;
-  transition: 0.2s ease-in-out;
-  
+    display: flex!important;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 0 6rem !important;
+    z-index: 1027;
+    transition: 0.2s ease-in-out;
+
   &.bg-active {
   	transition: 0.2s ease-in-out;
-  	background-color: #ff7313;
+    background-image: linear-gradient(#726767,#efefef);
+
   }
   
   .menu-scroll {
@@ -28,61 +32,58 @@ export const Content = styled.nav`
     align-content: center;
     align-items: center;
     justify-content: space-between;
-    
     #logo {
-      width: 140px;
+      width: 130px;
       height: auto;
+      margin-top: -20px;
       transition: 0.2s ease-in-out;
-      margin-top: -8px;
       &.scroll{
       	width: 130px;
       	transition: 0.2s ease-in-out;
       }
-
-      a{
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-        align-items: center;
-        justify-content: space-between;
-      }
     }
 
-    .texto-logo{
+    span{
       color: #fff;
       font-size: 1.4rem;
       font-family: ${fonts.opensans_bold};
       margin-left: 20px;
+      margin-top: 20px;
     }
     :hover {
       text-decoration: none;
     }
   }
-
   .menu-nav {
     padding: 0.5rem 0 0.5rem 4rem;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     transition: 0.2s ease-in-out;
 
     a {
       align-content: center;
       align-items: center;
       transition: 0.2s ease-in-out;
-      color: ${color.white};
-      font-family: ${fonts.opensans_bold};
-      font-size: 12px;
+      color: #000000;
+      font-family: ${fonts.opensans_light};
+      font-size: 15px;
       display: flex;
       
       &.active {
-      	color: #ffbcbc;
+        text-decoration-line: none;        
       }
-
+      
       :hover {
         transition: 0.1s ease-in-out;
-        color: #ffbcbc;
-        text-decoration: none;
+        color: #fc1347;
+        text-decoration-line: underline;
+        text-decoration-color: #fc1347;
       }
+    }
+    .marca{
+      color: #8b515a;
+      font-size: 1.4rem;
+      font-family: ${fonts.opensans_bold};
     }
   }
 
@@ -108,8 +109,7 @@ export const Content = styled.nav`
   .menu-nav.show-menu {
     transition: 0.1s ease-in-out;
     opacity: 1;
-    height: auto;
-    padding: 0.5rem 0 0.5rem 0.05rem;
+    height: 30rem;
   }
   .menu-nav.hide-menu {
     -moz-transition: height 0.1s;
@@ -120,10 +120,16 @@ export const Content = styled.nav`
     overflow: hidden;
     padding: 0;
   }
-
+  .line {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #fc1347;
+    width: 18rem;
+    margin: 0;
+    }
   .links-mobile {
     a {
-      border: 1px solid ${color.grayLight};
+      border: 1px solid #fc1347;
       border-radius: 24px;
       font-size: 0.8rem;
     }
@@ -138,6 +144,7 @@ export const Content = styled.nav`
       }
     }
   }
+
 
   @media only screen and (max-width: 992px) {
     .menu-nav {

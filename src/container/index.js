@@ -2,11 +2,9 @@ import Badges from './badges';
 import PosVenda from './posVenda';
 import Pecas from './pecas';
 import Footer from './footer';
-import Menu from './menu';
 import ListaMaquinas from './lista-maquinas';
 import Header from './header';
 import Newsletter from './newsletter';
-import FormCatalogo from './formCatalogo';
 import Consorcio from './consorcio';
 import Banner from './banner';
 
@@ -23,6 +21,7 @@ import Blog from './blog';
 import Contato from './contato';
 import Empreendimento from './empreendimento';
 import BannerPortal from './bannerPortal';
+import BannerContato from './bannerContato';
 import Tour from './tour';
 import BannerEmpreendimento from './bannerEmpreendimento';
 import ListaContato from './listaContato';
@@ -31,6 +30,7 @@ import Mapa from './mapa';
 import Corretor from './corretor';
 import Formulario from './formulario';
 import Plantas from './plantas';
+import MenuFormulario from './menuFormulario';
 
 
 
@@ -52,7 +52,6 @@ import FormWorkWithUs from './formWorkWithUs';
 export {
 
     //Jacto
-    Menu,
     Badges,
     PosVenda,
     Pecas,
@@ -60,7 +59,6 @@ export {
     ListaMaquinas,
     Header,
     Newsletter,
-    FormCatalogo,
     Consorcio,
     Banner,
     
@@ -80,12 +78,14 @@ export {
     Contato,
     Empreendimento,
     BannerPortal,
+    BannerContato,
     Tour,
     BannerEmpreendimento,
     ListaContato,
     Portal,
     Plantas,
-
+    MenuFormulario
+,
     //LS Tractor
     BannerWorkWithUs,
     DescriptionWorkWithUs,
