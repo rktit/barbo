@@ -100,8 +100,8 @@ const MenuSite = () => {
 						href="/barbo/fale_conosco">
 						fale conosco
 					</a>
-					<a onClick={() => clickMenu("/barbo/contatos")} className={active === "/barbo/contatos" ? 'active' : ''}
-						href="/barbo/contatos">
+					<a onClick={() => clickMenu("/barbo/contato")} className={active === "/barbo/contato" ? 'active' : ''}
+						href="/barbo/contato">
 						Contato
 					</a>
 				</div>
