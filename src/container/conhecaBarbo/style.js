@@ -7,7 +7,7 @@ padding: 20px !important;
 
 .title {
   font-size: 2rem;
-  font-family: ${fonts.opensans_regular};
+  font-family: ${fonts.opensans_light};
   color: #000000;
   text-align: center;
   padding-bottom: 1rem;

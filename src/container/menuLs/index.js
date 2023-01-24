@@ -68,7 +68,7 @@ const MenuSite = () => {
 
 	return (
 		<Content className={`navbar absolute inset-x-0 top-0 ${scroll > limit_scroll ? 'bg-active' : 'bg-active'}`}>
-			<div className="container px-3  px-md-2 offset-0 col-12 offset-md-1 col-md-10">
+			<div className="container px-3 px-md-2 offset-0 col-12 offset-md-1 col-md-10">
 				<div className={`menu-logo col-12 col-md-12 col-lg-5 ${scroll > limit_scroll ? 'menu-scroll' : 'menu-top'} col-md flex justify-between`}>
 					<a href="/barbo" onClick={() => clickMenu("home")} aria-label="Product">
 						<img src={logo} alt="Barbo Empreendimentos" className={scroll > limit_scroll ? 'scroll' : ''} id="logo" />

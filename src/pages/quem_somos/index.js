@@ -1,6 +1,6 @@
 import React, { Fragment, useEffect } from "react";
 
-import {MenuLs, QuemSomos, Descricao, Essencia, ImplementosLs, ConhecaBarbo, FooterLs, HeaderLS} from "container";
+import {MenuLs, QuemSomos, Descricao, Essencia, ConhecaBarbo, FooterLs, HeaderLS} from "container";
 import { configureAnchors } from "react-scrollable-anchor";
 
 import {ModalPolitica} from 'components';

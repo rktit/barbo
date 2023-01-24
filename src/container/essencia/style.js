@@ -29,17 +29,19 @@ const Content = styled.div`
   }
 
   .title{
-    color: #20396f;
+    color: #000000;
     font-size: 2rem;
-    font-family: ${fonts.opensans_regular};
-padding-top: 80px;
-    strong{
-      font-family: ${fonts.opensans_bold};
-    }
+    font-family: ${fonts.opensans_light};
+    text-align: center;
+    padding-bottom: 3rem;
   }
 
   .text{
-    color: #20396f;
+    font-family: ${fonts.opensans_light};
+    color: #000000;
+  strong{
+      font-family: ${fonts.opensans_regular};
+    }
   }
 
   .orcamento{

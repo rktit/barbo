@@ -1,6 +1,6 @@
 import React, { Fragment, useEffect } from "react";
 
-import {MenuLs, BannerLs, BadgesLs, Parceiros, ListaTratores, ConsorcioLs, FormCatalogoLs, ImplementosLs, PecasLs, PosVendaLs, NewsletterLs, FooterLs, HeaderLS} from "container";
+import {MenuLs, BannerPortal, Portal, Contato, Corretor, FooterLs, HeaderLS} from "container";
 import { configureAnchors } from "react-scrollable-anchor";
 
 import {FlashMessageCookies, ModalPolitica} from 'components';
@@ -15,17 +15,11 @@ const PortalCorretor_Page = () => {
     <Fragment>
       <ModalPolitica />
       <MenuLs/>
-      <BannerLs />
-      {/* <BadgesLs /> */}
-      <ConsorcioLs/>
-      <ImplementosLs/>
-      {/* <Parceiros/> */}
-      <ListaTratores />
+      <BannerPortal />
+      <Contato/>
+      <Portal />
       <HeaderLS />
-      {/* <FormCatalogoLs/> */}
-      <PecasLs/>
-      {/* <PosVendaLs/> */}
-      {/* <NewsletterLs/> */}
+      <Corretor/>
       <FooterLs />
     </Fragment>
   );

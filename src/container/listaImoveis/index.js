@@ -15,7 +15,7 @@ import serieMT from "images/statics/tratores/serieMT.png";
 import CardLs from "components/cardLs";
 import ScrollableAnchor from "react-scrollable-anchor";
 
-function ListaTratores() {
+function ListaImoveis() {
 
   const [isMobile, setMobile] = useState(false);
   const [img, setImagem] = useState(null);
@@ -124,4 +124,4 @@ function ListaTratores() {
   );
 }
 
-export default ListaTratores;
+export default ListaImoveis;

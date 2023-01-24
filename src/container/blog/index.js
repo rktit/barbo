@@ -4,12 +4,12 @@ import Content from "./style";
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/splide/dist/css/themes/splide-sea-green.min.css';
 
-import serieR from "images/statics/tratores/serieR.png";
-import serieH from "images/statics/tratores/serieH.png";
-import seriePlus from "images/statics/tratores/seriePlus.png";
-import serieU from "images/statics/tratores/serieU.png";
-import serieG from "images/statics/tratores/serieG.png";
-import serieMT from "images/statics/tratores/serieMT.png";
+import iluminacao from "images/blog/iluminacao.png";
+import design from "images/blog/design.png";
+import capriche from "images/blog/capriche.png";
+import iluminacao2 from "images/blog/iluminacao2.png";
+import design2 from "images/blog/design2.png";
+import capriche2 from "images/blog/capriche2.png";
 
 
 import Card from "components/card";
@@ -43,57 +43,69 @@ function Blog() {
             arrows: false
           }}>
             <SplideSlide className="slide">
-            <Card image={serieR} 
-              title="Iluminação"
-              text="Para dar um toque mais aconchegante e requintado para os seus espaços"/>
+              <Card image={iluminacao}
+                items="Postado em Dicas - 09/12/2022"
+                title="Iluminação"
+                text="Para dar um toque mais aconchegante e requintado para os seus espaços" />
             </SplideSlide>
             <SplideSlide className="slide">
-            <Card image={serieH} 
-              title="Design Biofilico"
-              text="Leve a natureza de forma consciente para o design do seu lar"/>
+              <Card image={design}
+                items="Postado em Dicas - 09/12/2022"
+                title="Design Biofilico"
+                text="Leve a natureza de forma consciente para o design do seu lar" />
             </SplideSlide>
             <SplideSlide className="slide">
-            <Card image={seriePlus} 
-              title="Capriche nas cores"
-              text="As paredes dos seus cômodos podem te relaxar ou estimular"/>
+              <Card image={capriche}
+                items="Postado em Dicas - 09/12/2022"
+                title="Capriche nas cores"
+                text="As paredes dos seus cômodos podem te relaxar ou estimular" />
             </SplideSlide>
             <SplideSlide className="slide">
-            <Card image={serieR} 
-              title="Iluminação"
-              text="Para dar um toque mais aconchegante e requintado para os seus espaços"/>
+              <Card image={iluminacao2}
+                items="Postado em Dicas - 09/12/2022"
+                title="Iluminação"
+                text="Para dar um toque mais aconchegante e requintado para os seus espaços" />
             </SplideSlide>
             <SplideSlide className="slide">
-            <Card image={serieH} 
-              title="Design Biofilico"
-              text="Leve a natureza de forma consciente para o design do seu lar"/>
+              <Card image={design2}
+                items="Postado em Dicas - 09/12/2022"
+                title="Design Biofilico"
+                text="Leve a natureza de forma consciente para o design do seu lar" />
             </SplideSlide>
             <SplideSlide className="slide">
-            <Card image={seriePlus} 
-              title="Capriche nas cores"
-              text="As paredes dos seus cômodos podem te relaxar ou estimular"/>
+              <Card image={capriche2}
+                items="Postado em Dicas - 09/12/2022"
+                title="Capriche nas cores"
+                text="As paredes dos seus cômodos podem te relaxar ou estimular" />
             </SplideSlide>
           </Splide>
 
           :
           <div className="maquinas">
-            <Card image={serieR} 
+            <Card image={iluminacao}
+              items="Postado em Dicas - 09/12/2022"
               title="Iluminação"
-              text="Para dar um toque mais aconchegante e requintado para os seus espaços"/>
-            <Card image={serieH} 
+              text="Para dar um toque mais aconchegante e requintado para os seus espaços" />
+            <Card image={design}
+              items="Postado em Dicas - 09/12/2022"
               title="Design Biofilico"
-              text="Leve a natureza de forma consciente para o design do seu lar"/>
-            <Card image={seriePlus} 
+              text="Leve a natureza de forma consciente para o design do seu lar" />
+            <Card image={capriche}
+              items="Postado em Dicas - 09/12/2022"
               title="Capriche nas cores"
-              text="As paredes dos seus cômodos podem te relaxar ou estimular"/>
-              <Card image={serieR} 
+              text="As paredes dos seus cômodos podem te relaxar ou estimular" />
+            <Card image={iluminacao2}
+              items="Postado em Dicas - 09/12/2022"
               title="Iluminação"
-              text="Para dar um toque mais aconchegante e requintado para os seus espaços"/>
-            <Card image={serieH} 
+              text="Para dar um toque mais aconchegante e requintado para os seus espaços" />
+            <Card image={design2}
+              items="Postado em Dicas - 09/12/2022"
               title="Design Biofilico"
-              text="Leve a natureza de forma consciente para o design do seu lar"/>
-            <Card image={seriePlus} 
+              text="Leve a natureza de forma consciente para o design do seu lar" />
+            <Card image={capriche2}
+              items="Postado em Dicas - 09/12/2022"
               title="Capriche nas cores"
-              text="As paredes dos seus cômodos podem te relaxar ou estimular"/>
+              text="As paredes dos seus cômodos podem te relaxar ou estimular" />
           </div>
         }
       </Content>

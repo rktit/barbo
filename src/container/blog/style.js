@@ -6,7 +6,7 @@ const Content = styled.div`
 
 background-color: #eeeeee;
 .title{
-    font-family: ${fonts.opensans_bold};
+    font-family: ${fonts.opensans_light};
     font-size: 2rem;
     color: #000000;
     margin-bottom: 30px;

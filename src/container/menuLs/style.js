@@ -9,7 +9,8 @@ z-index: 1027;
   
   &.bg-active {
   	transition: 0.2s ease-in-out;
-  	background-color: transparent;
+    background-image: linear-gradient(#726767,#efefef);
+
   }
   
   .menu-scroll {

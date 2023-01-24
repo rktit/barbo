@@ -21,18 +21,24 @@ import Descricao from './descricao';
 import BannerBlog from './bannerBlog';
 import Blog from './blog';
 import Contato from './contato';
+import Empreendimento from './empreendimento';
+import BannerPortal from './bannerPortal';
+import Tour from './tour';
+import BannerEmpreendimento from './bannerEmpreendimento';
+import ListaContato from './listaContato';
+import Portal from './portal';
+import Mapa from './mapa';
+import Corretor from './corretor';
+import Formulario from './formulario';
+import Plantas from './plantas';
+
 
 
 
 import MenuLs from './menuLs';
-import BannerLs from './bannerLs';
 // import BadgesLs from './badgesLs';
-import ImplementosLs from './implementoLs';
-import ListaTratores from './listaTratoresLs';
 import HeaderLS from './headerLS';
-import ConsorcioLs from './consorcioLs';
 // import FormCatalogoLs from './formCatalogoLs';
-import PecasLs from './pecasLs';
 // import PosVendaLs from './posVendaLs';
 // import NewsletterLs from './newsletterLs';
 import FooterLs from './footerLs';
@@ -58,8 +64,11 @@ export {
     FormCatalogo,
     Consorcio,
     Banner,
+    
 
-
+    Formulario,
+    Corretor,
+    Mapa,
     ListaImoveis,
     VideoBarbo,
     Essencia,
@@ -69,20 +78,22 @@ export {
     BannerBlog,
     Blog,
     Contato,
+    Empreendimento,
+    BannerPortal,
+    Tour,
+    BannerEmpreendimento,
+    ListaContato,
+    Portal,
+    Plantas,
 
     //LS Tractor
     BannerWorkWithUs,
     DescriptionWorkWithUs,
     FormWorkWithUs,
     MenuLs,
-    BannerLs,
     // BadgesLs,
-    ImplementosLs,
-    ListaTratores,
     HeaderLS,
-    ConsorcioLs,
     // FormCatalogoLs,
-    PecasLs,
     // PosVendaLs,
     // NewsletterLs,
     FooterLs,

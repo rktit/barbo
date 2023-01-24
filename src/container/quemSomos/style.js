@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import fonts from "config/fonts";
 
-import background from "images/background/backgroundWelcome.jpg";
+import background from "images/quem_somos/banner_quem_somos.png";
 
 const Content = styled.div`
   flex-direction: row;

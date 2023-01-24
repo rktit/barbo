@@ -8,18 +8,25 @@ img{
 
 .card{
     width: 26rem;
+    margin: 5px;
 }
 
 .card-body{
     color: #20396f;
-    text-align: center;
+    text-align: left;
 }
 
 .card-img-top{
     height: 300px;
 }
 
+.card-items{
+    padding-bottom: 1rem;
+    font-size: 0.8rem;
+    font-family: ${fonts.opensans_light};
+}
 .card-title{
+    margin-bottom: -0.2rem;
     font-size: 1.3rem;
     font-family: ${fonts.opensans_regular};
 }
@@ -28,16 +35,38 @@ img{
     height:120px;
     font-family: ${fonts.opensans_light};
 }
-
+.love {
+    width: 2rem;
+    position: absolute;
+    height: 2rem;
+    right: 12px;
+    top: 12px;
+}
+.favoritos {
+    width: 2rem;
+    position: absolute;
+    height: 2rem;
+    right: 12px;
+    bottom: 20px;
+}
+.comente {
+    width: 2rem;
+    position: absolute;
+    height: 2rem;
+    right: 12px;
+    bottom: 20px;
+}
 .btn{
     background-color: #000000;
+    display: table-cell;
     border: none;
     border-radius: 0;
-    font-family: ${fonts.opensans_bold};
+    width: 24rem;
     
 
     &.active {
         background-color: #ff3a66;
+        width: 20rem;
         }
 
     :hover {
@@ -45,6 +74,10 @@ img{
     background-color: #ff3a66;
     text-decoration: none;
     }
+}
+.btn-primary {
+    nt-size: 1.5rem;
+    font-family: ${fonts.opensans_light};
 }
 
 @media only screen and (max-width: 600px) {
