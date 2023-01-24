@@ -66,7 +66,7 @@ function Footer(props) {
 	};
 
 	return (
-		<ScrollableAnchor id="contatos">
+		<ScrollableAnchor id="footer">
 			<Content className="row">
 				<div className='box col-12 p-0'>
 					<div className='col-10 offset-1 p-0 content'>
