@@ -11,7 +11,7 @@ import QuemSomos_Page from './pages/quem_somos'
 import Blog_Page from './pages/blog'
 import FaleConosco_Page from './pages/fale_conosco'
 import PortalCorretor_Page from './pages/portal_corretor'
-import Contato_Page from './pages/contato'
+import Contatos_Page from './pages/contatos'
 import WorkWithUs from './pages/work_with_us'
 import Error_Page_404 from './pages/error/404'
 
