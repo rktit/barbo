@@ -6,7 +6,7 @@ import { Button } from "react-bootstrap";
 import logo_ls from "images/logo/logo-ls.png";
 import logo_jacto from "images/logo/logo-jacto.png";
 
-function Welcome() {
+function Contato() {
 
     return (
         <Content className="col-12 row">
@@ -18,4 +18,4 @@ function Welcome() {
     );
 }
 
-export default Welcome;
+export default Contato;
