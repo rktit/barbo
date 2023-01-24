@@ -55,7 +55,7 @@ function NewsLetter() {
             <Content className="row">
                 <Fade right>
                     <div className='conteudo col-12 offset-md-0 p-0 row'>
-                        <div className="text col-12 offset-md-0">
+                        <div className="text col-12 offset-md-1">
                             newsletter
                         </div>
                         <div className="title">
@@ -64,12 +64,21 @@ function NewsLetter() {
                         </div>
                         <div className="col-6">
                             <form onSubmit={handleSubmit}>
-                                <div className="boxEmail col-12 d-flex">
-                                    <input type='email' name="input_newsletter" className="input-newsletter col-8 col-md-10 col-sm-11"
-                                        placeholder="Seu e-mail" onChange={e => handleChange(e)}
-                                        value={fields.input_newsletter} />
+                                <div className="d-flex col">
+                                    <div className="boxNome d-flex row">
+                                        <input type='nome' name="input_newsletter" className="input-newsletter col-11"
+                                            placeholder="Nome" onChange={e => handleChange(e)}
+                                            value={fields.input_newsletter} />
+                                    </div>
+                                    <div className="boxEmail d-flex row">
+                                        <input type='email' name="input_newsletter" className="input-newsletter col-11"
+                                            placeholder="E-mail" onChange={e => handleChange(e)}
+                                            value={fields.input_newsletter} />
+                                    </div>
+                                </div>
+                                <div className="boxCadastrar d-flex">
                                     <a href="#newsletter" className='buttom' onClick={handleSubmit}>
-                                        Cadastrar
+                                        Enviar
                                     </a>
                                 </div>
                             </form>

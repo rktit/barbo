@@ -19,7 +19,15 @@ const Content = styled.div`
   .text {
   	color: #ff0d29;
   }
- 
+  .boxNome {
+	width: 20rem;
+ }
+ .boxEmail {
+	width: 20rem;
+ }
+ .boxCadastrar {
+    padding: 7px 25px;
+ }
   .title {
   	color: #ffffff;
   	font-family: ${font.opensans_regular};
@@ -31,14 +39,17 @@ const Content = styled.div`
   }
   
   .input-newsletter {
-			border: none;
-			background-color: ${colors.white};
+			border: ${colors.white};
+			border-radius: 0.125rem;
+			border-width: 1px;
+			border-style: solid;
+			background-color: transparent;
 			color: ${colors.gray_text};
-			font-family: ${font.opensans_regular};
-			padding: 20px 25px;
+			font-family: ${font.opensans_light};
+			padding: 10px 20px;
 			z-index: 2;
 			::-webkit-input-placeholder {
-		    color: ${colors.secondary};
+		    color: ${colors.white};
 		  }
   }
   
@@ -46,11 +57,11 @@ const Content = styled.div`
   		
   		z-index: 0;
 		  display: block;
-		  padding: 20px;
+		  padding: 10px 16rem;
 		  color: ${colors.white};
 		  background-color: #ff0d29;
 		  font-size: 1rem;
-		  font-family: ${font.opensans_bold};
+		  font-family: ${font.opensans_light};
 		  transition: 0.2s ease-in-out;
 		  text-decoration: none;
 		  text-transform: uppercase;
