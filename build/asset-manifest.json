@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/barbo/static/css/main.5c245bae.chunk.css",
-    "main.js": "/barbo/static/js/main.f3e3b4d5.chunk.js",
-    "main.js.map": "/barbo/static/js/main.f3e3b4d5.chunk.js.map",
+    "main.js": "/barbo/static/js/main.a408f557.chunk.js",
+    "main.js.map": "/barbo/static/js/main.a408f557.chunk.js.map",
     "runtime-main.js": "/barbo/static/js/runtime-main.badb39d8.js",
     "runtime-main.js.map": "/barbo/static/js/runtime-main.badb39d8.js.map",
     "static/css/2.22ca879e.chunk.css": "/barbo/static/css/2.22ca879e.chunk.css",
     "static/js/2.0034b537.chunk.js": "/barbo/static/js/2.0034b537.chunk.js",
     "static/js/2.0034b537.chunk.js.map": "/barbo/static/js/2.0034b537.chunk.js.map",
     "index.html": "/barbo/index.html",
-    "precache-manifest.336f62fb99262101d4bb0b21a73bff9f.js": "/barbo/precache-manifest.336f62fb99262101d4bb0b21a73bff9f.js",
+    "precache-manifest.a064b6a8b2969fed658683c1fbfd29c1.js": "/barbo/precache-manifest.a064b6a8b2969fed658683c1fbfd29c1.js",
     "service-worker.js": "/barbo/service-worker.js",
     "static/css/2.22ca879e.chunk.css.map": "/barbo/static/css/2.22ca879e.chunk.css.map",
     "static/css/main.5c245bae.chunk.css.map": "/barbo/static/css/main.5c245bae.chunk.css.map",
@@ -130,6 +130,6 @@
     "static/css/2.22ca879e.chunk.css",
     "static/js/2.0034b537.chunk.js",
     "static/css/main.5c245bae.chunk.css",
-    "static/js/main.f3e3b4d5.chunk.js"
+    "static/js/main.a408f557.chunk.js"
   ]
 }
