@@ -60,12 +60,16 @@ background-color: #eeeeee;
         font-family: ${fonts.opensans_bold};
     }
 }
-
+.splide__arrow svg {
+    width: 2.5em;
+    height: 2.5em;
+    fill: #000000;
+    transition: fill .2s linear;
+}
 .maquinas{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
-
-    margin-bottom: 50px;
+    margin: 50px 40px;
 }
 
 

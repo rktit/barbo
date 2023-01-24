@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import fonts from "config/fonts";
 
-import background from "images/background/backgroundWelcome.jpg";
+import background from "images/home/banner_home.png";
 
 const Content = styled.div`
   flex-direction: row;
@@ -14,22 +14,34 @@ const Content = styled.div`
   text-align: center;
 
   .welcome{
-    margin-top: 30vh;
+    height: 100%;
+    width: 100%;
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 2px;
+    margin: 3rem 0 0px 12rem;
+    transform: rotate(108deg);
+  }
+  .box-texto {
+    margin-top: 16rem ;
+    transform: rotate(-108deg);
+    width: max-content;
   }
   .title{
-    font-size: 4rem;
-    font-family: ${fonts.opensans_regular};
+    font-size: 3.75rem;
+    font-family: ${fonts.opensans_light};
     color: #ffffff;
     text-align: left;
+    margin-bottom: -20px;
   }
   .title1{
-    font-size: 2.5rem;
-    font-family: ${fonts.opensans_regular};
+    font-size: 2rem;
+    font-family: ${fonts.opensans_bold};
     color: #ffffff;
     text-align: left;
   }
   .text{
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-family: ${fonts.opensans_light};
     color: #ffffff;
     text-align: left;
@@ -41,11 +53,12 @@ const Content = styled.div`
  
   .btn1{
     background-color: #000000;
-    font-family: ${fonts.opensans_light};
-    font-size: 2rem;
+    font-family: OpenSans-Light;
+    font-size: 1.75rem;
     color: #ffffff;
-    border-radius: 5px;
-    height: 70px;
+    border-radius: 4px;
+    height: 50px;
+    width: 16rem;
 
     &.active {
       background-color: #405c9a;

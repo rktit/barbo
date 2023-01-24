@@ -10,8 +10,8 @@ function Welcome() {
 
     return (
         <Content className="col-12 row">
-            <div className="col-8 col-md-3 offset-1">
-                <div className="welcome">
+            <div className="welcome col-3 offset-1">
+                <div className="box-texto">
                     <div className="title">Nome do </div>
                     <div className="title1">Empreendimento</div>
                     <p className="text">

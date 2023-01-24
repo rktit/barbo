@@ -4,7 +4,6 @@ import Pecas from './pecas';
 import Footer from './footer';
 import Menu from './menu';
 import ListaMaquinas from './lista-maquinas';
-import Welcome from './welcome';
 import Header from './header';
 import Newsletter from './newsletter';
 import FormCatalogo from './formCatalogo';
@@ -12,6 +11,7 @@ import Consorcio from './consorcio';
 import Banner from './banner';
 
 
+import BannerHome from './bannerHome';
 import ListaImoveis from './listaImoveis';
 import VideoBarbo from './videoBarbo';
 import Essencia from './essencia';
@@ -58,14 +58,14 @@ export {
     Pecas,
     Footer,
     ListaMaquinas,
-    Welcome,
     Header,
     Newsletter,
     FormCatalogo,
     Consorcio,
     Banner,
     
-
+    
+    BannerHome,
     Formulario,
     Corretor,
     Mapa,

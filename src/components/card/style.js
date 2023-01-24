@@ -7,7 +7,7 @@ img{
 }
 
 .card{
-    width: 26rem;
+    width: 25rem;
     margin: 5px;
 }
 

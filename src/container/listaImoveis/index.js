@@ -4,12 +4,13 @@ import Content from "./style";
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/splide/dist/css/themes/splide-sea-green.min.css';
 
-import serieR from "images/statics/tratores/serieR.png";
-import serieH from "images/statics/tratores/serieH.png";
-import seriePlus from "images/statics/tratores/seriePlus.png";
-import serieU from "images/statics/tratores/serieU.png";
-import serieG from "images/statics/tratores/serieG.png";
-import serieMT from "images/statics/tratores/serieMT.png";
+
+import home from "images/home/empreendimento_home.png";
+import home1 from "images/home/empreendimento_home1.png";
+import home2 from "images/home/empreendimento_home2.png";
+// import home3 from "images/home/empreendimento_home3.png";
+// import home4 from "images/home/empreendimento_home4.png";
+// import home5 from "images/home/empreendimento_home5.png";
 
 
 import CardLs from "components/cardLs";
@@ -43,84 +44,98 @@ function ListaImoveis() {
             arrows: false
           }}>
             <SplideSlide className="slide">
-              <CardLs image={serieR} 
+              <CardLs image={home}
                 title="Nome do Empreendimento"
                 text="São Paulo | Vila Mariano  
                       Área privativa de 253 m² 
                       2 suítes"/>
             </SplideSlide>
             <SplideSlide className="slide">
-              <CardLs image={serieH} 
+              <CardLs image={home1}
                 title="Nome do Empreendimento"
                 text="São Paulo | Vila Mariano  
                       Área privativa de 253 m² 
                       2 suítes"/>
             </SplideSlide>
             <SplideSlide className="slide">
-              <CardLs image={serieH} 
+              <CardLs image={home1}
                 title="Nome do Empreendimento"
                 text="São Paulo | Vila Mariano  
                       Área privativa de 253 m² 
                       2 suítes"/>
             </SplideSlide>
             <SplideSlide className="slide">
-              <CardLs image={serieH} 
+              <CardLs image={home1}
                 title="Nome do Empreendimento"
                 text="São Paulo | Vila Mariano  
                       Área privativa de 253 m² 
                       2 suítes"/>
             </SplideSlide>
             <SplideSlide className="slide">
-              <CardLs image={serieH} 
+              <CardLs image={home1}
                 title="Nome do Empreendimento"
-               text="São Paulo | Vila Mariano  
+                text="São Paulo | Vila Mariano  
                      Área privativa de 253 m² 
                      2 suítes"/>
             </SplideSlide>
             <SplideSlide className="slide">
-              <CardLs image={serieH} 
+              <CardLs image={home1}
                 title="Nome do Empreendimento"
-               text="São Paulo | Vila Mariano  
+                text="São Paulo | Vila Mariano  
                      Área privativa de 253 m² 
                      2 suítes"/>
             </SplideSlide>
           </Splide>
 
           :
-          <div className="maquinas">
-            <CardLs image={serieR} 
-              title="Nome do Empreendimento"
-              text="São Paulo | Vila Mariano  
+          <Splide className="col-12" options={{
+            rewind: true,
+            width: "100%",
+            gap: '1.5rem',
+            perPage: 1,
+            pagination: true
+          }}>
+            <SplideSlide>
+              <div className="maquinas">
+                <CardLs image={home}
+                  title="Nome do Empreendimento"
+                  text="São Paulo | Vila Mariano  
                     Área privativa de 253 m² 
                     2 suítes"/>
-            <CardLs image={serieH} 
-              title="Nome do Empreendimento"
-              text="São Paulo | Vila Mariano  
+                <CardLs image={home1}
+                  title="Nome do Empreendimento"
+                  text="São Paulo | Vila Mariano  
                     Área privativa de 253 m² 
                     2 suítes"/>
-            <CardLs image={seriePlus} title="Série Plus"
-              text="São Paulo | Vila Mariano  
+                <CardLs image={home2} title="Série Plus"
+                  text="São Paulo | Vila Mariano  
                     Área privativa de 253 m² 
                     2 suítes"/>
-            <CardLs image={serieU} 
-              title="Nome do Empreendimento"
-              text="São Paulo | Vila Mariano  
+              </div>
+            </SplideSlide>
+            <SplideSlide>
+              <div className="maquinas">
+                <CardLs image={home}
+                  title="Nome do Empreendimento"
+                  text="São Paulo | Vila Mariano  
                     Área privativa de 253 m² 
                     2 suítes"/>
-            <CardLs image={serieG} 
-              title="Nome do Empreendimento"
-              text="São Paulo | Vila Mariano  
+                <CardLs image={home1}
+                  title="Nome do Empreendimento"
+                  text="São Paulo | Vila Mariano  
                     Área privativa de 253 m² 
                     2 suítes"/>
-            <CardLs image={serieMT} 
-              title="Nome do Empreendimento"
-              text="São Paulo | Vila Mariano  
+                <CardLs image={home2}
+                  title="Nome do Empreendimento"
+                  text="São Paulo | Vila Mariano  
                     Área privativa de 253 m² 
                     2 suítes"/>
-          </div>
+              </div>
+            </SplideSlide>
+          </Splide>
         }
       </Content>
-    </ScrollableAnchor>
+    </ScrollableAnchor >
   );
 }
 
