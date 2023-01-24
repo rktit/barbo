@@ -39,7 +39,7 @@ function Mapa(props) {
             </div>
             <div className="icones-empreendimentos">
               <div className="icones">
-                <img className="" src={map} alt="garantia" />
+                <img className="" src={map} />
               </div>
               <div className="icones">
                 <a target="_blank" href="https://api.whatsapp.com/send?phone=5515997831666&text=Gostaria de falar com um consultor?">

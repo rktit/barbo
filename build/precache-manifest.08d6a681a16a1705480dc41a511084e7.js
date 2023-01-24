@@ -1,31 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "19099ce7bfcc96afe83cf3fecec35103",
+    "revision": "d9d6cdacca7a011b1c063940d4780e97",
     "url": "/barbo/index.html"
   },
   {
-    "revision": "85e3975742cd67ef287b",
+    "revision": "83cf337edc7c83cb7589",
     "url": "/barbo/static/css/2.22ca879e.chunk.css"
   },
   {
-    "revision": "5f9d61bd15459a655fb2",
+    "revision": "0171358a10a512f1de67",
     "url": "/barbo/static/css/main.5c245bae.chunk.css"
   },
   {
-    "revision": "85e3975742cd67ef287b",
-    "url": "/barbo/static/js/2.57636ff3.chunk.js"
+    "revision": "83cf337edc7c83cb7589",
+    "url": "/barbo/static/js/2.0034b537.chunk.js"
   },
   {
     "revision": "753d195a758e989a62763a73bb2ae916",
-    "url": "/barbo/static/js/2.57636ff3.chunk.js.LICENSE.txt"
+    "url": "/barbo/static/js/2.0034b537.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5f9d61bd15459a655fb2",
-    "url": "/barbo/static/js/main.4502ae33.chunk.js"
+    "revision": "0171358a10a512f1de67",
+    "url": "/barbo/static/js/main.a5aa0b55.chunk.js"
   },
   {
     "revision": "340694a8780cbb90e44e",
     "url": "/barbo/static/js/runtime-main.badb39d8.js"
+  },
+  {
+    "revision": "272642f56835321ed55d8f755ab1e12a",
+    "url": "/barbo/static/media/360-panorama.272642f5.png"
   },
   {
     "revision": "32561e2f5d10fbdeacabff6327929e6b",
@@ -356,6 +360,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/barbo/static/media/banner-lista-ls.7c2c64d0.png"
   },
   {
+    "revision": "e8cacaf17c6ade71efdc260a6f67c5da",
+    "url": "/barbo/static/media/banner_blog.e8cacaf1.png"
+  },
+  {
+    "revision": "7d7c8f9741bc0a6fc3663265c09a62fe",
+    "url": "/barbo/static/media/banner_quem_somos.7d7c8f97.png"
+  },
+  {
     "revision": "8a3eedcb72d2d7edb71afae35bb30219",
     "url": "/barbo/static/media/barra-acoplado.8a3eedcb.jpg"
   },
@@ -392,6 +404,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/barbo/static/media/canhao_carreta2.70e9b707.jpg"
   },
   {
+    "revision": "07b516b6920d16d2c80958e0c666ccca",
+    "url": "/barbo/static/media/capriche.07b516b6.png"
+  },
+  {
+    "revision": "947a288bc1fb369cfecafb09a687bc5d",
+    "url": "/barbo/static/media/capriche2.947a288b.png"
+  },
+  {
     "revision": "346cd3b5e59bef2783300b2d4604614a",
     "url": "/barbo/static/media/casale.346cd3b5.png"
   },
@@ -408,12 +428,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/barbo/static/media/colhedora2.1f9d7939.jpg"
   },
   {
-    "revision": "dc29ad5168e60d7776304b06edc1ed7d",
-    "url": "/barbo/static/media/consorcio-ls.dc29ad51.png"
+    "revision": "fcf54b5676fae371a474562883aa5c86",
+    "url": "/barbo/static/media/cozinha.fcf54b56.png"
   },
   {
     "revision": "f791a1848ddf39d8c301e7382b497673",
     "url": "/barbo/static/media/cumprimento.f791a184.jpg"
+  },
+  {
+    "revision": "033b49c385c8712b973158c043e52c07",
+    "url": "/barbo/static/media/design.033b49c3.png"
+  },
+  {
+    "revision": "37eb8179857bdbdfe49e07db46f88f6a",
+    "url": "/barbo/static/media/design2.37eb8179.png"
   },
   {
     "revision": "a83f885bcf95e5d804f62292fd4f0c31",
@@ -424,12 +452,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/barbo/static/media/especial_acoplado2.b92812dd.jpg"
   },
   {
-    "revision": "b0ba1b1b130baea3be8f23dba2d21ae0",
-    "url": "/barbo/static/media/implemento.b0ba1b1b.png"
+    "revision": "fa6ce1fbd19f15ce1c57c4dd0a41f779",
+    "url": "/barbo/static/media/iluminacao.fa6ce1fb.png"
   },
   {
-    "revision": "0551fe8c5753a4933097f7292e03666d",
-    "url": "/barbo/static/media/itapetininga.0551fe8c.png"
+    "revision": "43381028575554735af5e57bd6c46b42",
+    "url": "/barbo/static/media/iluminacao2.43381028.png"
+  },
+  {
+    "revision": "b0ba1b1b130baea3be8f23dba2d21ae0",
+    "url": "/barbo/static/media/implemento.b0ba1b1b.png"
   },
   {
     "revision": "21ad859e87bfb40aa7534d7e1fd2c821",
@@ -438,6 +470,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a064749190d8d6e7f6900e74263c3032",
     "url": "/barbo/static/media/jacto.a0647491.png"
+  },
+  {
+    "revision": "06ef795176502a11be34bfe96ba211dd",
+    "url": "/barbo/static/media/mapa.06ef7951.png"
   },
   {
     "revision": "22a4d4913375104ec79dcf6728f06524",
@@ -452,6 +488,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/barbo/static/media/newsletter.2db9f21e.jpg"
   },
   {
+    "revision": "06b28cfe29e295a161b247f240ad9950",
+    "url": "/barbo/static/media/nome_empreendimento.06b28cfe.png"
+  },
+  {
     "revision": "593a55546249674bf7c5cb5e0cc7dd6f",
     "url": "/barbo/static/media/pecas.593a5554.jpg"
   },
@@ -460,12 +500,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/barbo/static/media/piccin.175b033e.png"
   },
   {
-    "revision": "06e60d7a1b265e2aff762ded5cd838c0",
-    "url": "/barbo/static/media/piraju.06e60d7a.png"
-  },
-  {
     "revision": "530b4a7557f3885a9ba9146a8f0169bb",
     "url": "/barbo/static/media/planticenter.530b4a75.png"
+  },
+  {
+    "revision": "5c4150037c5cb51be24ce893f23a9222",
+    "url": "/barbo/static/media/predio.5c415003.png"
   },
   {
     "revision": "05c1a442c870ad6586b576a0df046c98",
@@ -474,6 +514,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "88206e76af0f8ca41df674a50e4bf21f",
     "url": "/barbo/static/media/pulverizador-especial-carreta3.88206e76.png"
+  },
+  {
+    "revision": "b2fb0f6cc4434458cf55f4187024b165",
+    "url": "/barbo/static/media/sala.b2fb0f6c.png"
+  },
+  {
+    "revision": "d24fb2805ed7a38455b03b2210a03a4d",
+    "url": "/barbo/static/media/sala.d24fb280.png"
   },
   {
     "revision": "782b9d2d303e8355b4aca7531a7a48cd",
@@ -582,10 +630,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a5d6cb5f48489bc76420713d4fa75452",
     "url": "/barbo/static/media/tatu.a5d6cb5f.png"
-  },
-  {
-    "revision": "d0adea6e49f508c3f6b2b112f7e87d01",
-    "url": "/barbo/static/media/tiete.d0adea6e.png"
   },
   {
     "revision": "505db78fbba5278ac253d3f9d3fbf314",
