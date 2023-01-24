@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "homepage1": "./",
-  "homepage": "https://rocketit.com.br/barbo/contato",
+  "homepage": "https://rocketit.com.br/barbo/contatos",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
