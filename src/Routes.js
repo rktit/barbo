@@ -38,7 +38,7 @@ const Routes = () => (
             {/*<Route path='/blog' component={Blog_Page} />
             <Route path='/fale_conosco' component={FaleConosco_Page} />
             <Route path='/portal_corretor' component={PortalCorretor_Page} />*/}
-            <Route path='/contato' component={Contato_Page} />  
+            <Route path='/barbo/contato' component={Contato_Page} />  
            {/* <Route path='/trabalhe-conosco' component={WorkWithUs} /> 
             <Route path='/' component={Home_Page} />*/}
         </Switch>

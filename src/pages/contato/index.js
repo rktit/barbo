@@ -20,7 +20,6 @@ const Contato_Page = () => {
       <ListaContato />
       <HeaderLS />
       <Formulario/>
-
       <FooterLs />
     </Fragment>
   );
