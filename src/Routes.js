@@ -40,7 +40,7 @@ const Routes = () => (
             <Route path='/portal_corretor' component={PortalCorretor_Page} />
             <Route path='/contato' component={Contato_Page} />  */}
            {/* <Route path='/trabalhe-conosco' component={WorkWithUs} /> */}
-            {/* <Route path='/' component={Home_Page} /> */}
+            <Route path='/' component={Home_Page} />
         </Switch>
     </BrowserRouter>
 )
