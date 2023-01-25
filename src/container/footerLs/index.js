@@ -74,7 +74,7 @@ function FooterLs(props) {
 							<Fade left>
 								<div className="col-4">
 									<div className="logo-footer">
-										<a href='#sobre'><img src={logo} className="logo" /></a>
+										<a href='#quem_somos'><img src={logo} className="logo" /></a>
 									</div>
 									<div className="conteudo pt-3 pb-4">
 										<span className="texto">
@@ -116,8 +116,8 @@ function FooterLs(props) {
 								<Fade>
 									<div className='titulo'>Quem somos</div>
 									<div className='conteudo'>
-										<a onClick={() => clickMenu("/sobre")} className={active === "/sobre" ? 'active ' : ''}
-											href="/sobre">
+										<a onClick={() => clickMenu("/quem_somos")} className={active === "/quem_somos" ? 'active ' : ''}
+											href="/quem_somos">
 											Incorporadora
 										</a>
 									</div>
