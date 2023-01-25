@@ -100,7 +100,9 @@ z-index: 1027;
       width: 20px;
     }
   }
-
+  .espaco {
+    color: #fc1347;
+  }
   .menu-nav.show-menu {
     transition: 0.1s ease-in-out;
     opacity: 1;

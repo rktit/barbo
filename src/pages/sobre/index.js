@@ -5,7 +5,7 @@ import { configureAnchors } from "react-scrollable-anchor";
 
 import {ModalPolitica} from 'components';
 
-const QuemSomos_Page = () => {
+const Sobre_Page = () => {
   // const _translate = useSelector(({translate}) => translate);
 
   configureAnchors({ offset: -60, scrollDuration: 500 });
@@ -25,4 +25,4 @@ const QuemSomos_Page = () => {
   );
 };
 
-export default QuemSomos_Page;
+export default Sobre_Page;

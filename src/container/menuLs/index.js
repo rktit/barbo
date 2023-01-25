@@ -67,9 +67,9 @@ const MenuSite = () => {
 	// }
 
 	return (
-		<Content className={`navbar absolute inset-x-0 top-0 ${scroll > limit_scroll ? 'bg-active' : 'bg-active'}`}>
-			<div className="container px-3 px-md-2 offset-0 col-12 offset-md-1 col-md-10">
-				<div className={`menu-logo col-12 col-md-12 col-lg-5 ${scroll > limit_scroll ? 'menu-scroll' : 'menu-top'} col-md flex justify-between`}>
+		<Content className={`navbar inset-x-0 top-0 ${scroll > limit_scroll ? 'bg-active' : 'bg-active'}`}>
+			<div className="container">
+				<div className={`menu-logo ${scroll > limit_scroll ? 'menu-scroll' : 'menu-top'} col-md flex justify-between`}>
 					<a href="/barbo" onClick={() => clickMenu("home")} aria-label="Product">
 						<img src={logo} alt="Barbo Empreendimentos" className={scroll > limit_scroll ? 'scroll' : ''} id="logo" />
 					</a>
@@ -84,8 +84,8 @@ const MenuSite = () => {
 					</div>
 				</div>
 				<div className={`col-12 col-md-12 col-lg-5 col-xl-5 justify-content-between menu-nav ${showMenu ? "show-menu" : "hide-menu"}`}>
-					<a onClick={() => clickMenu("/barbo/quem_somos")} className={active === "/barbo/quem_somos" ? 'active mr-3' : 'mr-3'}
-						href="/barbo/quem_somos">
+					<a onClick={() => clickMenu("/barbo/sobre")} className={active === "/barbo/sobre" ? 'active mr-3' : 'mr-3'}
+						href="/barbo/sobre">
 						quem somos
 					</a>
 					<a onClick={() => clickMenu("/barbo/empreendimentos")} className={active === "/barbo/empreendimentos" ? 'active ' : ''}
@@ -100,6 +100,9 @@ const MenuSite = () => {
 						href="/barbo/fale_conosco">
 						fale conosco
 					</a>
+					<div className="espaco d-flex">
+						|
+					</div>
 					<a onClick={() => clickMenu("/barbo/contato")} className={active === "/barbo/contato" ? 'active' : ''}
 						href="/barbo/contato">
 						contato
