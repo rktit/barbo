@@ -1,17 +1,21 @@
 import React from "react";
 import Content from "./style";
 
-// import banner from "images/banner/banner-economia-combustivel.jpg";
+import { Button } from "react-bootstrap";
+
+import logo_ls from "images/logo/logo-ls.png";
+import logo_jacto from "images/logo/logo-jacto.png";
 
 function Banner() {
 
     return (
-        <Content>
-            <div className="text col-12 col-md-3">
-                <strong>ECONOMIA DE<br/>COMBUSTÍVEL<br/>NA PULVERIZAÇÃO.</strong>
+        <Content className="col-12 row">
+            <div className="col-8 col-md-3 offset-1">
+                <div className="welcome">
+                    
+                </div>
             </div>
         </Content>
-            
     );
 }
 

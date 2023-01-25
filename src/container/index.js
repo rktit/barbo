@@ -18,6 +18,7 @@ import QuemSomos from './quemSomos';
 import Descricao from './descricao';
 import BannerBlog from './bannerBlog';
 import Blog from './blog';
+import Imoveis from './imoveis';
 import Contato from './contato';
 import Empreendimento from './empreendimento';
 import BannerPortal from './bannerPortal';
@@ -75,6 +76,7 @@ export {
     Descricao,
     BannerBlog,
     Blog,
+    Imoveis,
     Contato,
     Empreendimento,
     BannerPortal,

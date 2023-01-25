@@ -1,8 +1,7 @@
 import React, { Fragment, useEffect } from "react";
-
-import {MenuLs, BannerEmpreendimento, Tour, Empreendimento, Plantas, Mapa, FooterLs} from "container";
 import { configureAnchors } from "react-scrollable-anchor";
 
+import { MenuLs, Banner, Imoveis, FooterLs, ConhecaBarbo } from "container";
 import {ModalPolitica} from 'components';
 
 const Empreendimentos_Page = () => {
@@ -15,11 +14,9 @@ const Empreendimentos_Page = () => {
     <Fragment>
       <ModalPolitica />
       <MenuLs/>
-      <BannerEmpreendimento />
-      <Empreendimento/>
-      <Plantas/>
-      <Tour />
-      <Mapa/>
+      <Banner />
+      <Imoveis />
+      <ConhecaBarbo />
       <FooterLs />
     </Fragment>
   );

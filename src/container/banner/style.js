@@ -1,48 +1,82 @@
 import styled from "styled-components";
 import fonts from "config/fonts";
 
-import banner from "images/banner/banner-economia-combustivel.jpg";
-import bannerMobile from "images/banner/BackgroundJactoMobile.jpg";
-
+import background from "images/blog/banner_blog.png";
 
 const Content = styled.div`
+  flex-direction: row;
+  padding: 0 !important;
+  background: url(${background}) no-repeat top center;
+  background-size:cover;
+  height: 100vh;
 
-    background: url(${banner}) no-repeat top center;
-    background-size: cover;
-    display:flex;
-    justify-content: center;
+  font-family: ${fonts.raleway_bold};
+  text-align: center;
+
+  .welcome{
+    margin-top: 30vh;
+  }
+  .title{
+    font-size: 4rem;
+    font-family: ${fonts.opensans_regular};
+    color: #ffffff;
+    text-align: left;
+  }
+  .title1{
+    font-size: 2.5rem;
+    font-family: ${fonts.opensans_regular};
+    color: #ffffff;
+    text-align: left;
+  }
+  .text{
+    font-size: 1.5rem;
+    font-family: ${fonts.opensans_light};
+    color: #ffffff;
+    text-align: left;
+  }
+.
+  .logo{
+    width: 170px;
+  }
+ 
+  .btn1{
+    background-color: #000000;
+    font-family: ${fonts.opensans_light};
+    font-size: 2rem;
+    color: #ffffff;
+    border-radius: 5px;
+    height: 70px;
+
+    &.active {
+      background-color: #405c9a;
+    }
+
+    :hover {
+      transition: 0.1s ease-in-out;
+      background-color: #405c9a;
+      text-decoration: none;
+    }
+
+  }
+
+  @media only screen and (max-width: 600px) {
+    margin-bottom: 300px;
+    display: flex;
     align-items: center;
 
-    height: auto;
-    width: 100%;
-
-    .banner{
-        width:100%;
-        height:auto;
+    .title {
+      margin-top: 32px;
+      font-size: 1.4rem;
+      font-family: ${fonts.raleway_black};
+      color: #ffffff;
+      text-align: center;
     }
 
-    .text{
-        font-size: 2rem;
-        color: #ff7313;
-        font-family: ${fonts.opensans_bold};
-        margin-right: 50%;
-        padding: 200px 0 200px 0;
+    .logo{
+      padding: 10px;
     }
 
-
-    @media only screen and (max-width: 600px) {
-        background: url(${bannerMobile}) no-repeat top center;
-        background-size: cover;
-        padding: 400px 0 200px 0;
-        .text{
-            margin-right: 0;
-            text-align:center;
-            font-size: 1.5rem;
-            margin-top: -450px;
-            padding: 0;
-        }
-    }
-
+  }
 `;
 
 export default Content;
