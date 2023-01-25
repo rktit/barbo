@@ -6,7 +6,7 @@ const Content = styled.div`
 
 background-color: #eeeeee;
 .title{
-    font-family: ${fonts.opensans_bold};
+    font-family: ${fonts.opensans_light};
     font-size: 2rem;
     color: #000000;
     margin-bottom: 30px;
@@ -60,11 +60,31 @@ background-color: #eeeeee;
         font-family: ${fonts.opensans_bold};
     }
 }
+.splide {
+    padding: 0em 4em 3em 2em;
+}
 .splide__arrow svg {
-    width: 2.5em;
-    height: 2.5em;
+    width: 1.5em;
+    height: 1.5em;
     fill: #000000;
     transition: fill .2s linear;
+}
+.splide__pagination__page {
+    display: inline-block;
+    width: 20px;
+    height: 5px;
+    background: #ccc;
+    border-radius: 2.5px;
+    margin: 3px;
+    padding: 0;
+    transition: all .2s linear;
+    border: none;
+}
+.splide__pagination__page.is-active {
+    background: #000000;
+    :hover {
+        fill: #fc1347;
+    }
 }
 .maquinas{
     display:grid;
