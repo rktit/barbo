@@ -1,21 +1,20 @@
 import styled from "styled-components";
 import fonts from "config/fonts";
 
-import background from "images/background/backgroundWelcome.jpg";
+import background from "images/login/img.png";
 
 const Content = styled.div`
   flex-direction: row;
   padding: 0 !important;
   background: url(${background}) no-repeat top center;
   background-size:cover;
-  height: 20rem;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
 
   font-family: ${fonts.raleway_bold};
   text-align: center;
 
-  .welcome{
-    margin-top: 30vh;
-  }
   .title{
     font-size: 4rem;
     font-family: ${fonts.opensans_regular};

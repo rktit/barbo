@@ -40,7 +40,7 @@ import MenuLs from './menuLs';
 import HeaderLS from './headerLS';
 // import FormCatalogoLs from './formCatalogoLs';
 // import PosVendaLs from './posVendaLs';
-// import NewsletterLs from './newsletterLs';
+import Login from './login';
 import FooterLs from './footerLs';
 import Parceiros from './parceiros';
 
@@ -95,7 +95,7 @@ export {
     HeaderLS,
     // FormCatalogoLs,
     // PosVendaLs,
-    // NewsletterLs,
+    Login,
     FooterLs,
     Parceiros
 }
