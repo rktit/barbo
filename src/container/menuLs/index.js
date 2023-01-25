@@ -84,8 +84,8 @@ const MenuSite = () => {
 					</div>
 				</div>
 				<div className={`col-12 col-md-12 col-lg-5 col-xl-5 justify-content-between menu-nav ${showMenu ? "show-menu" : "hide-menu"}`}>
-					<a onClick={() => clickMenu("/barbo/sobre")} className={active === "/barbo/sobre" ? 'active mr-3' : 'mr-3'}
-						href="/barbo/sobre">
+					<a onClick={() => clickMenu("/barbo/quem_somos")} className={active === "/barbo/quem_somos" ? 'active mr-3' : 'mr-3'}
+						href="/barbo/quem_somos">
 						quem somos
 					</a>
 					<a onClick={() => clickMenu("/barbo/empreendimentos")} className={active === "/barbo/empreendimentos" ? 'active ' : ''}
