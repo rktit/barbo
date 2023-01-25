@@ -8,9 +8,13 @@ z-index: 1027;
   transition: 0.2s ease-in-out;
   
   &.bg-active {
-  	transition: 0.2s ease-in-out;
-    background-image: linear-gradient(#726767,#efefef);
-
+  	transition: all 0.2s ease-in-out 0s;
+    --tw-gradient-from: rgb(235 235 235 / 0%);
+    --tw-gradient-to: currentColor;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+    overflow: visible;
+    background-image: linear-gradient(to top, var(--tw-gradient-stops));
+    background-image: linear-gradient(to top, var(--tw-gradient-stops));
   }
   
   .menu-scroll {
