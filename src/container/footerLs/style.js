@@ -37,20 +37,7 @@ const Content = styled.div`
 	color: white;
   }
   
-  .info {
-	margin-top:24px;
-
-  	::before {
-  		    content: '';
-		    height: 6rem;
-		    border-left: 1px solid #fc1347;
-		    position: absolute;
-		    margin-left: -8px;
-  	}
-  	.conteudo {
-  		margin-top: 0px;
-  	}
-  }
+  
   .line {
 	padding: 20px 15px;
 	border-bottom-style: solid;

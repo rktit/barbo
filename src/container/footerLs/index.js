@@ -68,15 +68,15 @@ function FooterLs(props) {
 	return (
 		<ScrollableAnchor id="footer">
 			<Content className="row">
-				<div className='box col-10 p-0'>
+				<div className='box col-12 p-0'>
 					<div className='offset-1 p-0 content'>
 						<div className="row p-0 text-white">
 							<Fade left>
-								<div className="col-4">
+								<div className="col-3">
 									<div className="logo-footer">
 										<a href='#quem_somos'><img src={logo} className="logo" /></a>
 									</div>
-									<div className="conteudo pt-3 pb-4">
+									<div className="conteudo py-3">
 										<span className="texto">
 											<strong>Barbo Rio Claro Empreendimentos Ltda</strong><br />
 											Rua 09 Cj, 500, Cidade Jardim<br />
@@ -88,7 +88,7 @@ function FooterLs(props) {
 											Como chegar
 										</a>
 									</div>
-									<div className='texto pt-4 row infos'>
+									<div className='texto pt-3 row infos'>
 										<a target="_blank" href="https://api.whatsapp.com/send?phone=5519996965525&text=Gostaria de falar com um consultor?">
 											<strong>Whatsapp</strong>: +55 (19) 9.9696-5525
 										</a>
@@ -105,14 +105,14 @@ function FooterLs(props) {
 									</div>
 									<div className='d-flex'>
 										<div className='d-flex grid'>
-											<Fade right><div className='conteudo col-4'><a href='https://www.instagram.com/barbo/' target="_blank"><img src={ico_insta} alt='Instagram' className='icone_midia' /></a></div></Fade>
-											<Fade right><div className='conteudo col-4'><a href='https://pt-br.facebook.com/barbo/' target="_blank"><img src={ico_face} alt='Facebook' className='icone_midia' /></a></div></Fade>
-											<Fade right><div className='conteudo col-4'><a href='https://www.youtube.com/channel/UCZBSlIsy4JyqkdrdG8cPRaw' target="_blank"><img src={ico_youtube} alt='YouTube' className='icone_midia' /></a></div></Fade>
+											<Fade right><div className='conteudo col-2'><a href='https://www.instagram.com/barbo/' target="_blank"><img src={ico_insta} alt='Instagram' className='icone_midia' /></a></div></Fade>
+											<Fade right><div className='conteudo col-2'><a href='https://pt-br.facebook.com/barbo/' target="_blank"><img src={ico_face} alt='Facebook' className='icone_midia' /></a></div></Fade>
+											<Fade right><div className='conteudo col-2'><a href='https://www.youtube.com/channel/UCZBSlIsy4JyqkdrdG8cPRaw' target="_blank"><img src={ico_youtube} alt='YouTube' className='icone_midia' /></a></div></Fade>
 										</div>
 									</div>
 								</div>
 							</Fade>
-							<div className='col-4 p-0 info'>
+							<div className='col-2 p-0 info'>
 								<Fade>
 									<div className='titulo'>Quem somos</div>
 									<div className='conteudo'>
@@ -135,7 +135,7 @@ function FooterLs(props) {
 									</div>
 								</Fade>
 							</div>
-							<div className='col-4 p-0 info'>
+							<div className='col-2 p-0 info'>
 								<Fade>
 									<div className='titulo'>Empreendimentos</div>
 									<div className='conteudo'>
@@ -158,9 +158,49 @@ function FooterLs(props) {
 									</div>
 								</Fade>
 							</div>
+							<div className='col-2 p-0 info'>
+								<Fade>
+									<div className='titulo'>Fale conosco</div>
+									<div className='conteudo'>
+										<a onClick={() => clickMenu("/trabalhe-conosco")} href="/trabalhe-conosco" id="btn-trab">Compramos seu Terreno</a>
+									</div>
+									<div className='conteudo'>
+										<a onClick={() => clickMenu("/trabalhe-conosco")} href="/trabalhe-conosco" id="btn-trab">Sou Vizinho(a) de uma Obra</a>
+									</div>
+									<div className='conteudo'>
+										<a onClick={() => clickMenu("/trabalhe-conosco")} href="/trabalhe-conosco" id="btn-trab">Fornecedor</a>
+									</div>
+									<div className='conteudo'>
+										<a onClick={() => clickMenu("/trabalhe-conosco")} href="/trabalhe-conosco" id="btn-trab">Canal de Denúncias ou Sugestões</a>
+									</div>
+									<div className='conteudo'>
+										<a onClick={() => clickMenu("/trabalhe-conosco")} href="/trabalhe-conosco" id="btn-trab">Outros Assuntos</a>
+									</div>
+								</Fade>
+							</div>
+							<div className='col-2 p-0 info'>
+								<Fade>
+									<div className='titulo'>Central</div>
+									<div className='conteudo'>
+										<a onClick={() => clickMenu("/trabalhe-conosco")} href="/trabalhe-conosco" id="btn-trab">Perguntas Frequentes</a>
+									</div>
+									<div className='conteudo'>
+										<a onClick={() => clickMenu("/trabalhe-conosco")} href="/trabalhe-conosco" id="btn-trab">Portal do Corretor</a>
+									</div>
+									<div className='conteudo'>
+										<a onClick={() => clickMenu("/trabalhe-conosco")} href="/trabalhe-conosco" id="btn-trab">Trabalhe Conosnco</a>
+									</div>
+									<div className='conteudo'>
+										<a onClick={() => clickMenu("/trabalhe-conosco")} href="/trabalhe-conosco" id="btn-trab">Portal do Cliente</a>
+									</div>
+									<div className='conteudo'>
+										<a onClick={() => clickMenu("/trabalhe-conosco")} href="/trabalhe-conosco" id="btn-trab">Blog</a>
+									</div>
+								</Fade>
+							</div>
 							<div className="flex line"></div>
 							<div className='col-10 py-4 copyright'>
-								Desenvolvido por ÉPICA CREATIVE + Rocket IT
+								Desenvolvido por ÉPICA CREATIVE
 							</div>
 						</div>
 					</div>
