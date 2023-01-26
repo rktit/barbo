@@ -35,10 +35,10 @@ const Routes = () => (
     <BrowserRouter>
         <Switch>
              {/* <Route path='/barbo/empreendimentos' component={Empreendimentos_Page} />  */}
-            {/*<Route path='/barbo/quem_somos' component={QuemSomos} />*/}
-           <Route path='/barbo/blog' component={Blog_Page} />
-            {/* <Route path='/barbo/fale_conosco' component={FaleConosco_Page} />
-            <Route path='/barbo/portal_corretor' component={PortalCorretor_Page} />
+            {/*<Route path='/barbo/quem_somos' component={QuemSomos} />
+           <Route path='/barbo/blog' component={Blog_Page} />*/}
+             <Route path='/barbo/fale_conosco' component={FaleConosco_Page} />
+            {/*<Route path='/barbo/portal_corretor' component={PortalCorretor_Page} />
             <Route path='/barbo/contato' component={Contato_Page} /> 
              <Route path='/trabalhe-conosco' component={WorkWithUs} /> */}
            {/* <Route path='/empreendimentos_interna' component={EmpreendimentosInterna} /> 
