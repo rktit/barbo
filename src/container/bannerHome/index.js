@@ -19,7 +19,8 @@ function Welcome() {
                         Área privativa de 253 m² <br />
                         2 suítes
                     </p>
-                    <a href="/site/jacto" className="btn1 shadow mb-4 d-flex align-items-center justify-content-center">
+                    <a href="/empreendimentos_interna" 
+                    className="btn1 shadow mb-4 d-flex align-items-center justify-content-center">
                         Ver mais
                     </a>
                 </div>
