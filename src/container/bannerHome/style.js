@@ -8,7 +8,7 @@ const Content = styled.div`
   padding: 0 !important;
   background: url(${background}) no-repeat top center;
   background-size:cover;
-  height: 36rem;
+  height: auto;
 
   font-family: ${fonts.raleway_bold};
   text-align: center;
@@ -23,7 +23,8 @@ const Content = styled.div`
     transform: rotate(108deg);
   }
   .box-texto {
-    margin-top: 16rem ;
+    margin-top: 15rem;
+    padding-left: 5rem;
     transform: rotate(-108deg);
     width: max-content;
   }
@@ -72,6 +73,33 @@ const Content = styled.div`
 
   }
 
+  @media only screen and (max-width: 2100px) {
+  .box-texto {
+    margin-top: 15rem;
+    padding-left: 5rem;
+    margin-left: 4px;
+    transform: rotate(-108deg);
+    width: max-content;
+  }
+}
+  @media only screen and (max-width: 1600px) {
+  .box-texto {
+    margin-top: 15rem;
+    margin-left: -30px;
+    padding-left: 5rem;
+    transform: rotate(-108deg);
+    width: max-content;
+  }
+}
+@media only screen and (min-width: 1600px) {
+  .box-texto {
+    margin-top: 15rem;
+    margin-left: 3px;
+    padding-left: 5rem;
+    transform: rotate(-108deg);
+    width: max-content;
+  }
+}
   @media only screen and (max-width: 600px) {
     margin-bottom: 300px;
     display: flex;

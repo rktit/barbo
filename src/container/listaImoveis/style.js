@@ -60,9 +60,6 @@ background-color: #eeeeee;
         font-family: ${fonts.opensans_bold};
     }
 }
-.splide {
-    padding: 0em 4em 3em 2em;
-}
 .splide__arrow svg {
     width: 1.5em;
     height: 1.5em;
