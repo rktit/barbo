@@ -12,10 +12,10 @@ import design2 from "images/blog/design2.png";
 import capriche2 from "images/blog/capriche2.png";
 
 
-import Card from "components/card";
+import CardImoveis from "components/cardImoveis";
 import ScrollableAnchor from "react-scrollable-anchor";
 
-function Blog() {
+function Imoveis() {
 
   const [isMobile, setMobile] = useState(false);
   const [img, setImagem] = useState(null);
@@ -43,37 +43,37 @@ function Blog() {
             arrows: false
           }}>
             <SplideSlide className="slide">
-              <Card image={iluminacao}
+              <CardImoveis image={iluminacao}
                 items="Postado em Dicas - 09/12/2022"
                 title="Iluminação"
                 text="Para dar um toque mais aconchegante e requintado para os seus espaços" />
             </SplideSlide>
             <SplideSlide className="slide">
-              <Card image={design}
+              <CardImoveis image={design}
                 items="Postado em Dicas - 09/12/2022"
                 title="Design Biofilico"
                 text="Leve a natureza de forma consciente para o design do seu lar" />
             </SplideSlide>
             <SplideSlide className="slide">
-              <Card image={capriche}
+              <CardImoveis image={capriche}
                 items="Postado em Dicas - 09/12/2022"
                 title="Capriche nas cores"
                 text="As paredes dos seus cômodos podem te relaxar ou estimular" />
             </SplideSlide>
             <SplideSlide className="slide">
-              <Card image={iluminacao2}
+              <CardImoveis image={iluminacao2}
                 items="Postado em Dicas - 09/12/2022"
                 title="Iluminação"
                 text="Para dar um toque mais aconchegante e requintado para os seus espaços" />
             </SplideSlide>
             <SplideSlide className="slide">
-              <Card image={design2}
+              <CardImoveis image={design2}
                 items="Postado em Dicas - 09/12/2022"
                 title="Design Biofilico"
                 text="Leve a natureza de forma consciente para o design do seu lar" />
             </SplideSlide>
             <SplideSlide className="slide">
-              <Card image={capriche2}
+              <CardImoveis image={capriche2}
                 items="Postado em Dicas - 09/12/2022"
                 title="Capriche nas cores"
                 text="As paredes dos seus cômodos podem te relaxar ou estimular" />
@@ -82,27 +82,27 @@ function Blog() {
 
           :
           <div className="maquinas">
-            <Card image={iluminacao}
+            <CardImoveis image={iluminacao}
               items="Postado em Dicas - 09/12/2022"
               title="Iluminação"
               text="Para dar um toque mais aconchegante e requintado para os seus espaços" />
-            <Card image={design}
+            <CardImoveis image={design}
               items="Postado em Dicas - 09/12/2022"
               title="Design Biofilico"
               text="Leve a natureza de forma consciente para o design do seu lar" />
-            <Card image={capriche}
+            <CardImoveis image={capriche}
               items="Postado em Dicas - 09/12/2022"
               title="Capriche nas cores"
               text="As paredes dos seus cômodos podem te relaxar ou estimular" />
-            <Card image={iluminacao2}
+            <CardImoveis image={iluminacao2}
               items="Postado em Dicas - 09/12/2022"
               title="Iluminação"
               text="Para dar um toque mais aconchegante e requintado para os seus espaços" />
-            <Card image={design2}
+            <CardImoveis image={design2}
               items="Postado em Dicas - 09/12/2022"
               title="Design Biofilico"
               text="Leve a natureza de forma consciente para o design do seu lar" />
-            <Card image={capriche2}
+            <CardImoveis image={capriche2}
               items="Postado em Dicas - 09/12/2022"
               title="Capriche nas cores"
               text="As paredes dos seus cômodos podem te relaxar ou estimular" />
@@ -113,4 +113,4 @@ function Blog() {
   );
 }
 
-export default Blog;
+export default Imoveis;

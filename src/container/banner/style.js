@@ -1,14 +1,14 @@
 import styled from "styled-components";
 import fonts from "config/fonts";
 
-import background from "images/blog/banner_blog.png";
+import background from "images/empreendimento/bannerPredio.png";
 
 const Content = styled.div`
   flex-direction: row;
   padding: 0 !important;
   background: url(${background}) no-repeat top center;
   background-size:cover;
-  height: 36rem;
+  height: 21rem;
 
   font-family: ${fonts.raleway_bold};
   text-align: center;
