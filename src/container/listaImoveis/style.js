@@ -73,7 +73,7 @@ background-color: #eeeeee;
     display: inline-block;
     width: 20px;
     height: 5px;
-    background: #ccc;
+    background: #fc1347;
     border-radius: 2.5px;
     margin: 3px;
     padding: 0;
@@ -82,9 +82,7 @@ background-color: #eeeeee;
 }
 .splide__pagination__page.is-active {
     background: #000000;
-    :hover {
-        fill: #fc1347;
-    }
+    width: 5px;
 }
 .maquinas{
     display:grid;

@@ -15,10 +15,8 @@ const Content = styled.div`
     width: 100%;
     background-size:100%;
     .banner{
-        width:100%;
-        height:auto;
+        height: 36rem;
         background-repeat: no-repeat;
-        // padding-top: 80px;
     }
 
     .text{

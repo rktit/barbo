@@ -41,7 +41,7 @@ function Card(props) {
             </div>
           </div>
           <div className="d-flex">
-            <a href="#" className="btn btn-primary" onClick={() => { abreModal(props.title) }}>Ver mais</a>
+            <a href="#empreendimentos_interna">Ver mais</a>
           </div>
         </div>
       </div>

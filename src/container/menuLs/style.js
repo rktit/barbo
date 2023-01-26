@@ -35,7 +35,6 @@ z-index: 1027;
     #logo {
       width: 130px;
       height: auto;
-      margin-top: -20px;
       transition: 0.2s ease-in-out;
       &.scroll{
       	width: 130px;
@@ -130,7 +129,9 @@ z-index: 1027;
       font-size: 0.8rem;
     }
   }
-
+.container {
+  margin-top: -10px;
+}
   .links-down {
     a {
       font-size: 0.8rem;

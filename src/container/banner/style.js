@@ -8,7 +8,7 @@ const Content = styled.div`
   padding: 0 !important;
   background: url(${background}) no-repeat top center;
   background-size:cover;
-  height: 100vh;
+  height: 36rem;
 
   font-family: ${fonts.raleway_bold};
   text-align: center;
