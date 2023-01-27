@@ -68,7 +68,7 @@ function FooterLs(props) {
 	return (
 		<ScrollableAnchor id="footer">
 			<Content className="row">
-				<div className='box col-12 px-10'>
+				<div className='box col-11'>
 					<div className='offset-1 p-0 content'>
 						<div className="row p-0 text-white">
 							<Fade left>
@@ -152,7 +152,7 @@ function FooterLs(props) {
 									</div>
 								</Fade>
 							</div>
-							<div className='col-3 p-0 info'>
+							<div className='col-2 p-0 info pr-2'>
 								<Fade>
 									<div className='titulo'><strong>Fale conosco</strong></div>
 									<div className='contexto'>
