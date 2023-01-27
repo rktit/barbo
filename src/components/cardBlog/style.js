@@ -5,12 +5,7 @@ const Content = styled.div`
 img{
     height: 325px;
 }
-a {
-    color: #ffffff;
-    font-family: ${fonts.opensans_light};
-    text-decoration: none;
-    background-color: transparent;
-}
+
 .card{
     width: 25rem;
     margin: 5px;
@@ -22,7 +17,7 @@ a {
 }
 
 .card-img-top{
-    height: 20rem;
+    height: 300px;
 }
 
 .card-items{
@@ -31,28 +26,42 @@ a {
     font-family: ${fonts.opensans_light};
 }
 .card-title{
-    margin-bottom: 2rem;
+    margin-bottom: -0.2rem;
     font-size: 1.3rem;
     font-family: ${fonts.opensans_regular};
 }
 
 .card-text{
-    height: 6rem;
+    height:120px;
     font-family: ${fonts.opensans_light};
 }
 .love {
-    color: white;
-    width: 15rem;
+    width: 2rem;
     position: absolute;
-    padding: 20px 30px;
+    height: 2rem;
+    right: 12px;
+    top: 12px;
 }
-
+.favoritos {
+    width: 2rem;
+    position: absolute;
+    height: 2rem;
+    right: 12px;
+    bottom: 20px;
+}
+.comente {
+    width: 2rem;
+    position: absolute;
+    height: 2rem;
+    right: 12px;
+    bottom: 20px;
+}
 .btn{
     background-color: #000000;
     display: table-cell;
     border: none;
     border-radius: 0;
-    width: 22rem;
+    width: 24rem;
     
 
     &.active {
@@ -62,7 +71,7 @@ a {
 
     :hover {
     transition: 0.1s ease-in-out;
-    background-color: #8f8888;
+    background-color: #ff3a66;
     text-decoration: none;
     }
 }

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Content from "./style";
 
 
-function CardImoveis(props) {
+function CardBlog(props) {
 
   const [modalShow, setModalShow] = useState(false);
   const [nomeModelo, setNomeModelo] = useState("");
@@ -16,17 +16,19 @@ function CardImoveis(props) {
   return (
     <Content>
       <div className="card">
-      <div className="love" alt="Favoritar">Pronto para morar</div> 
         <img src={props.image} className="card-img-top" alt="Imagem maquina" />
         <div className="card-body col-12">
+          <div className="col-12 card-items">
+            {props.items}
+          </div>
           <div className="card-title col-12">
             {props.title}
           </div>
-          <div className="col-7 card-text">
+          <div className="col-12 card-text">
             {props.text}
           </div>
-          <div className="d-flex btn justify-content-center">
-            <a href="/barbo/empreendimentos_interna">Ver mais</a>
+          <div className="d-flex">
+            <a href="/barbo/blog_interna">Ver mais</a>
           </div>
         </div>
       </div>
@@ -34,4 +36,4 @@ function CardImoveis(props) {
   );
 }
 
-export default CardImoveis;
+export default CardBlog;

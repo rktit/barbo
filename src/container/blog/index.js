@@ -12,7 +12,7 @@ import design2 from "images/blog/design2.png";
 import capriche2 from "images/blog/capriche2.png";
 
 
-import CardImoveis from "components/cardImoveis";
+import CardBlog from "components/cardBlog";
 import ScrollableAnchor from "react-scrollable-anchor";
 
 function Blog() {
@@ -53,37 +53,37 @@ function Blog() {
             arrows: false
           }}>
             <SplideSlide className="slide">
-              <CardImoveis image={iluminacao}
+              <CardBlog image={iluminacao}
                 items="Postado em Dicas - 09/12/2022"
                 title="Iluminação"
                 text="Para dar um toque mais aconchegante e requintado para os seus espaços" />
             </SplideSlide>
             <SplideSlide className="slide">
-              <CardImoveis image={design}
+              <CardBlog image={design}
                 items="Postado em Dicas - 09/12/2022"
                 title="Design Biofilico"
                 text="Leve a natureza de forma consciente para o design do seu lar" />
             </SplideSlide>
             <SplideSlide className="slide">
-              <CardImoveis image={capriche}
+              <CardBlog image={capriche}
                 items="Postado em Dicas - 09/12/2022"
                 title="Capriche nas cores"
                 text="As paredes dos seus cômodos podem te relaxar ou estimular" />
             </SplideSlide>
             <SplideSlide className="slide">
-              <CardImoveis image={iluminacao2}
+              <CardBlog image={iluminacao2}
                 items="Postado em Dicas - 09/12/2022"
                 title="Iluminação"
                 text="Para dar um toque mais aconchegante e requintado para os seus espaços" />
             </SplideSlide>
             <SplideSlide className="slide">
-              <CardImoveis image={design2}
+              <CardBlog image={design2}
                 items="Postado em Dicas - 09/12/2022"
                 title="Design Biofilico"
                 text="Leve a natureza de forma consciente para o design do seu lar" />
             </SplideSlide>
             <SplideSlide className="slide">
-              <CardImoveis image={capriche2}
+              <CardBlog image={capriche2}
                 items="Postado em Dicas - 09/12/2022"
                 title="Capriche nas cores"
                 text="As paredes dos seus cômodos podem te relaxar ou estimular" />
@@ -92,27 +92,27 @@ function Blog() {
 
           :
           <div className="maquinas">
-            <CardImoveis image={iluminacao}
+            <CardBlog image={iluminacao}
               items="Postado em Dicas - 09/12/2022"
               title="Iluminação"
               text="Para dar um toque mais aconchegante e requintado para os seus espaços" />
-            <CardImoveis image={design}
+            <CardBlog image={design}
               items="Postado em Dicas - 09/12/2022"
               title="Design Biofilico"
               text="Leve a natureza de forma consciente para o design do seu lar" />
-            <CardImoveis image={capriche}
+            <CardBlog image={capriche}
               items="Postado em Dicas - 09/12/2022"
               title="Capriche nas cores"
               text="As paredes dos seus cômodos podem te relaxar ou estimular" />
-            <CardImoveis image={iluminacao2}
+            <CardBlog image={iluminacao2}
               items="Postado em Dicas - 09/12/2022"
               title="Iluminação"
               text="Para dar um toque mais aconchegante e requintado para os seus espaços" />
-            <CardImoveis image={design2}
+            <CardBlog image={design2}
               items="Postado em Dicas - 09/12/2022"
               title="Design Biofilico"
               text="Leve a natureza de forma consciente para o design do seu lar" />
-            <CardImoveis image={capriche2}
+            <CardBlog image={capriche2}
               items="Postado em Dicas - 09/12/2022"
               title="Capriche nas cores"
               text="As paredes dos seus cômodos podem te relaxar ou estimular" />
