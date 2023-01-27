@@ -1,17 +1,8 @@
 import styled from "styled-components";
 import fonts from "config/fonts";
 
-import banner from "images/banner/Banner_Terrazul.png";
-import bannerMobile from "images/banner/Mobile__Terrazul.png";
 
 const Content = styled.div`
-
-    /* background: url(${banner}) no-repeat bottom center; */
-
-    /* display:flex;
-    justify-content: center;
-    align-items: center; */
-
     width: 100%;
     background-size:100%;
     .banner{

@@ -10,9 +10,9 @@ const Content = styled.div`
   background-color: #eeeeee;
   
    .icone_whatsapp{
-    width: 30px;
-    height: 30px;
-    padding-right: 4px;
+    width: 60%;
+    height: auto;
+    padding-left: 10px;
   }
 
   .title1{
@@ -27,7 +27,24 @@ const Content = styled.div`
     text-size: 0.8rem;
     color: #20396f;
   }
-  
+  .btn1{
+    font-family: ${fonts.opensans_bold};
+    color: #000000;
+    font-size: 1.2rem;
+    text-aling: center;
+    background-color: #ffffff;
+    margin: 10px;
+    width: 200px;
+
+    &.active {
+      background-color: #ff3a66;
+      }
+
+      :hover {
+        background-color: #00000075;
+        color: #ffffff;
+      }
+  }
   .btn{
     font-family: ${fonts.opensans_bold};
     color: #000000;
@@ -52,10 +69,13 @@ const Content = styled.div`
     font-family: ${fonts.opensans_bold};
     color: #000000;
     font-size: 1.2rem;
-    text-aling: center;
     background-color: #ffffff;
     margin: 10px;
-    width: 200px;    
+    padding: 4px;
+    width: 200px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;  
   }
   .icones{
     margin-bottom: 20px;
@@ -63,7 +83,7 @@ const Content = styled.div`
     color: #20396f;
 
     img{
-      width: 40px;
+      width: auto;
       heigth: auto;
       margin-left: 10px;
     }
@@ -101,16 +121,14 @@ const Content = styled.div`
     background: #000000;
     color: #ffffff;
     align-items: center;
-    width: 65rem;
-    margin-left: 9rem; 
+    width: 65rem; 
     justify-content: center;
   }
   .consulta{
     background: #000000;
     color: #ffffff;
     align-items: center;
-    width: 65rem;
-    margin-left: 9rem;    
+    width: 65rem;    
     justify-content: center;
   }
   .marca{

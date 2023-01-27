@@ -41,9 +41,9 @@ function Mapa(props) {
               <div className="icones">
                 <img className="" src={map} />
               </div>
-              <div className="icones">
+              <div className="icone_whatsapp">
                 <a target="_blank" href="https://api.whatsapp.com/send?phone=5515997831666&text=Gostaria de falar com um consultor?">
-                  <img className="icone_whatsapp" src={whatsapp} alt="Whatsapp" />
+                  <img className="" src={whatsapp} alt="Whatsapp" />
                 </a>
               </div>
             </div>

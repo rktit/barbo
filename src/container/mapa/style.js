@@ -25,10 +25,7 @@ const Content = styled.div`
   padding-right: 4rem;
   margin-left: -10rem;
 }
-  .icone_whatsapp{
-    margin-top: 10px;
-    margin-left:10px;
-  }
+  
 
   .title{
     font-family: ${fonts.opensans_light};
@@ -66,24 +63,16 @@ const Content = styled.div`
   .icones-empreendimentos{
     display: flex;
     flex-direction: row;
-    align-items: flex-end;
-    justify-items: center;
-
+    justify-content: flex-start;
+    padding-top: 20px;
   }
   .icones{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0em 2em;
-    font-family: ${fonts.opensans_light};
-    font-size: 0.75rem;
-    text-align: center;
-    color: #000000;
-    
-    img{
-      width: 50px;
-      height: 44px;
-    }
+    width: auto;
+  }
+  
+  .icone_whatsapp{
+    width: auto;
+    padding-left: 20px;
   }
  
   

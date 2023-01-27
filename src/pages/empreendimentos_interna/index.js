@@ -1,7 +1,7 @@
 import React, { Fragment, useEffect } from "react";
 import { configureAnchors } from "react-scrollable-anchor";
 
-import {MenuLs, BannerEmpreendimento, Tour, Empreendimento, Plantas, Mapa, FooterLs} from "container";
+import {MenuLs, BannerEmpreendimento, Empreendimento, Plantas, Mapa, FooterLs} from "container";
 import { FlashMessageCookies, ModalPolitica } from 'components';
 
 const EmpreendimentosInterna_Page = () => {
@@ -17,7 +17,6 @@ const EmpreendimentosInterna_Page = () => {
       <BannerEmpreendimento />
       <Empreendimento />
       <Plantas />
-      <Tour />
       <Mapa />
       <FooterLs />
     </Fragment>

@@ -79,15 +79,15 @@ function Plantas(props) {
       </ScrollableAnchor>
       :
       <ScrollableAnchor id="implementos">
-        <Content className="flex row justify-content-center py-4">
+        <Content className="d-flex">
           <Fade left>
             <div className="left-side col-md-12 mt-5">
-              <div className="">
+              <div className="flex">
                 <div className="flex justify-center align-center">
                   <div className="w-full justify-center pt-64">
-                    <div className=" flex flex-row w-auto">
-                      <div className="d-flex py-6">
-                        <div className='' style={{ display: 'flex', alignItems: 'center', flexDirection: 'column' }}>
+                    <div className="flex flex-row w-auto">
+                      <div className="d-flex justify-content-center py-6">
+                        <div className='justify-content-center' style={{ display: 'flex', alignItems: 'center', flexDirection: 'column' }}>
                           <div className="fotos text-center">
                             <div className="btn py-7 px-2" onClick={() => { moveSlide(0) }} >Fotos</div>
                             <div className="btn py-7 px-2" onClick={() => { moveSlide(1) }} >Plantas</div>
@@ -124,9 +124,9 @@ function Plantas(props) {
                       </div>
                     </div>
                   </div>
-                  <div className="d-flex row">
-                    <div className="d-flex consulta">
-                      <div className="image-side shadow btn">
+                  <div className="d-flex row justify-content-center">
+                    <div className="d-flex  consulta">
+                      <div className="image-side shadow btn1">
                         Whatsapp
                         <a target="_blank" href="https://api.whatsapp.com/send?phone=5515997831666&text=Gostaria de falar com um consultor?">
                           <img className="icone_whatsapp" src={icone_whatsapp} alt="Whatsapp" />
