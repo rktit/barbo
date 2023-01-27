@@ -103,9 +103,9 @@ const MenuSite = () => {
 					<div className="espaco d-flex">
 						|
 					</div>
-					<a onClick={() => clickMenu("/barbo/contato")} className={active === "/barbo/contato" ? 'active' : ''}
-						href="/barbo/contato">
-						contato
+					<a onClick={() => clickMenu("/barbo/portal_corretor")} className={active === "/barbo/portal_corretor" ? 'active' : ''}
+						href="/barbo/portal_corretor">
+						portal do corretor
 					</a>
 				</div>
 			</div>
