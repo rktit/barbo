@@ -47,7 +47,7 @@ const Content = styled.div`
 	margin: auto;
   }
   .conteudo {
-  	font-family: ${fonts.opensans_regular};
+  	font-family: ${fonts.opensans_light};
   	font-size: 0.8rem;
   	
   	a {
@@ -79,7 +79,7 @@ const Content = styled.div`
     color: #696969;
     text-align: center;
     font-size: 12px;
-    font-family: ${fonts.opensans_regular};
+    font-family: ${fonts.opensans_light};
   }
 
   @media only screen and (max-width: 600px) {
