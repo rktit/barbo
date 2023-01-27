@@ -41,8 +41,8 @@ const Routes = () => (
             <Route path='/barbo/portal_corretor' component={PortalCorretor_Page} />
             <Route path='/barbo/contato' component={Contato_Page} /> 
              <Route path='/trabalhe-conosco' component={WorkWithUs} /> */}
-           <Route path='/barbo/empreendimentos_interna' component={EmpreendimentosInterna} />
-          {/*   <Route path='/' component={Home_Page} /> */}
+           {/* <Route path='/empreendimentos_interna' component={EmpreendimentosInterna} /> */}
+            <Route path='/' component={Home_Page} />
         </Switch>
     </BrowserRouter>
 )

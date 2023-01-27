@@ -5,39 +5,85 @@ const Content = styled.div`
 img{
     height: 325px;
 }
-
+a {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: transparent;
+    &.active {
+        color: #fc1347;
+    }
+    
+    :hover {
+      transition: 0.1s ease-in-out;
+      color: #fc1347;
+      text-decoration: none;
+    }
+}
 .card{
     width: 25rem;
+    margin: 5px;
+    height: 28rem;
 }
 
 .card-body{
-    color: #20396f;
-    text-align: center;
+    color: #ffffff;
+    position: absolute;
 }
 
 .card-img-top{
-    height: 300px;
+    height: 28rem;
 }
 
+.card-items{
+    padding-bottom: 1rem;
+    font-size: 0.8rem;
+    font-family: ${fonts.opensans_light};
+}
 .card-title{
+    margin-bottom: -0.2rem;
     font-size: 1.3rem;
     font-family: ${fonts.opensans_regular};
 }
 
 .card-text{
-    height:120px;
+    height: 20rem;
     font-family: ${fonts.opensans_light};
 }
-
+.card-mais {
+    right: -12rem;
+}
+.love {
+    width: 2rem;
+    position: absolute;
+    height: 2rem;
+    right: 12px;
+    top: 12px;
+}
+.favoritos {
+    width: 2rem;
+    position: absolute;
+    height: 2rem;
+    right: 12px;
+    bottom: 20px;
+}
+.comente {
+    width: 2rem;
+    position: absolute;
+    height: 2rem;
+    right: 12px;
+    bottom: 20px;
+}
 .btn{
     background-color: #000000;
+    display: table-cell;
     border: none;
     border-radius: 0;
-    font-family: ${fonts.opensans_bold};
+    width: 24rem;
     
 
     &.active {
         background-color: #ff3a66;
+        width: 20rem;
         }
 
     :hover {
@@ -45,6 +91,10 @@ img{
     background-color: #ff3a66;
     text-decoration: none;
     }
+}
+.btn-primary {
+    nt-size: 1.5rem;
+    font-family: ${fonts.opensans_light};
 }
 
 @media only screen and (max-width: 600px) {

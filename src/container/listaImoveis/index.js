@@ -14,6 +14,7 @@ import home2 from "images/home/empreendimento_home2.png";
 
 
 import CardLs from "components/cardLs";
+import Card from "components/card";
 import ScrollableAnchor from "react-scrollable-anchor";
 
 function ListaImoveis() {
@@ -102,15 +103,16 @@ function ListaImoveis() {
                   text="São Paulo | Vila Mariano  
                     Área privativa de 253 m² 
                     2 suítes"/>
-                <CardLs image={home1}
+                <Card image={home1}
                   title="Nome do Empreendimento"
                   text="São Paulo | Vila Mariano  
                     Área privativa de 253 m² 
                     2 suítes"/>
-                <CardLs image={home2} title="Série Plus"
-                  text="São Paulo | Vila Mariano  
-                    Área privativa de 253 m² 
-                    2 suítes"/>
+                <CardLs image={home2} 
+                title="Nome do Empreendimento"
+                text="São Paulo | Vila Mariano  
+                  Área privativa de 253 m² 
+                  2 suítes"/>
               </div>
             </SplideSlide>
             <SplideSlide>
@@ -120,7 +122,7 @@ function ListaImoveis() {
                   text="São Paulo | Vila Mariano  
                     Área privativa de 253 m² 
                     2 suítes"/>
-                <CardLs image={home1}
+                <Card image={home1}
                   title="Nome do Empreendimento"
                   text="São Paulo | Vila Mariano  
                     Área privativa de 253 m² 

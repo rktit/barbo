@@ -5,19 +5,33 @@ const Content = styled.div`
 img{
     height: 325px;
 }
-
+a {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: transparent;
+    &.active {
+        color: #fc1347;
+    }
+    
+    :hover {
+      transition: 0.1s ease-in-out;
+      color: #fc1347;
+      text-decoration: none;
+    }
+}
 .card{
     width: 25rem;
     margin: 5px;
+    height: 28rem;
 }
 
 .card-body{
-    color: #20396f;
-    text-align: left;
+    color: #000000;
+    position: absolute;
 }
 
 .card-img-top{
-    height: 300px;
+    height: 28rem;
 }
 
 .card-items{
@@ -29,11 +43,15 @@ img{
     margin-bottom: -0.2rem;
     font-size: 1.3rem;
     font-family: ${fonts.opensans_regular};
+    text-align: start;
 }
 
 .card-text{
-    height:120px;
+    height: 20rem;
     font-family: ${fonts.opensans_light};
+}
+.card-mais {
+    right: -12rem;
 }
 .love {
     width: 2rem;
