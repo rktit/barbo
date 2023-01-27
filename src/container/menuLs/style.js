@@ -130,7 +130,7 @@ z-index: 1027;
     }
   }
 .container {
-  margin-top: -10px;
+  margin-top: -14px;
 }
   .links-down {
     a {

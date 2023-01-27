@@ -9,7 +9,16 @@ const Content = styled.div`
   padding-top: 32px;
   padding-bottom: 10px;
 
-
+  a {
+	color: ${colors.white};
+	transition: 0.2s ease-in-out;
+	margin-bottom: 8px;
+	:hover {
+		color: ${colors.primary};
+		transition: 0.2s ease-in-out;
+		text-decoration: none;
+	}
+}
   .logo-footer{
 	margin=top: 40px;
 
@@ -33,33 +42,16 @@ const Content = styled.div`
     font-size: 1rem;
     font-family: ${fonts.opensans_bold};
     line-height: 120%;
-    margin-bottom: 24px;
+    margin-bottom: 4px;
 	color: white;
   }
   
-  
-  .line {
-	padding: 20px 15px;
-	border-bottom-style: solid;
-	border-bottom-width: 1px;
-	border-color: rgb(105 105 105);
-	width: 55rem;
-	margin: auto;
-  }
+
   .conteudo {
   	font-family: ${fonts.opensans_light};
   	font-size: 0.8rem;
-  	
-  	a {
-  		color: ${colors.white};
-  		transition: 0.2s ease-in-out;
-  		margin-bottom: 8px;
-  		:hover {
-  			color: ${colors.primary};
-  			transition: 0.2s ease-in-out;
-  			text-decoration: none;
-  		}
-  	}
+    padding-left: 0px;
+  }
   	
   	.icone_contato {
   		height: 18px;
@@ -72,7 +64,7 @@ const Content = styled.div`
   }
   
   .infos {
-    margin-top: 10px !important;
+    margin: 14px 0!important;
   }
 
   .copyright {
