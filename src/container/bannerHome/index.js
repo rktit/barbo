@@ -19,7 +19,7 @@ function Welcome() {
                         Área privativa de 253 m² <br />
                         2 suítes
                     </p>
-                    <a href="/empreendimentos_interna" 
+                    <a href="/barbo/empreendimentos_interna" 
                     className="btn1 shadow mb-4 d-flex align-items-center justify-content-center">
                         Ver mais
                     </a>
