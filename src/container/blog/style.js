@@ -9,25 +9,15 @@ background-color: #eeeeee;
     font-family: ${fonts.opensans_light};
     font-size: 2rem;
     color: #000000;
-    margin-bottom: 30px;
     margin-top: 30px;
 }
 
-.demarcador{
-    height: 40px;
-    width: 40px;
-
-    position: absolute;
-    top: 90px;
-    left: 15%;
-
-    border-bottom-style: solid;
-    border-bottom-color: #20396f;
-    border-bottom-width: 3px;
-    border-right-style: solid;
-    border-right-color: #20396f;
-    border-right-width: 2px;
-
+.texto{
+    font-family: ${fonts.opensans_light};
+    color:#000000;
+    font-size: 1.25rem;
+    padding: 3rem 8rem;
+    text-align: left;
   }
 
 .banner{

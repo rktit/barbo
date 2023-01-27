@@ -12,7 +12,7 @@ import design2 from "images/blog/design2.png";
 import capriche2 from "images/blog/capriche2.png";
 
 
-import Card from "components/card";
+import CardImoveis from "components/cardImoveis";
 import ScrollableAnchor from "react-scrollable-anchor";
 
 function Blog() {
@@ -33,6 +33,16 @@ function Blog() {
     <ScrollableAnchor id="maquinas">
       <Content className="col-12 d-flex flex-column align-items-center p-0">
         <div className="title ">Os melhores toques para o seu novo lar.</div>
+        <div className="texto">
+          Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de
+          impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido
+          pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos.
+          Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração
+          eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60,
+          quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais
+          recentemente quando passou a ser integrado a softwares de editoração eletrônica como
+          Aldus PageMaker.
+        </div>
         {isMobile ?
           <Splide className="splide col-12" options={{
             rewind: true,
@@ -43,37 +53,37 @@ function Blog() {
             arrows: false
           }}>
             <SplideSlide className="slide">
-              <Card image={iluminacao}
+              <CardImoveis image={iluminacao}
                 items="Postado em Dicas - 09/12/2022"
                 title="Iluminação"
                 text="Para dar um toque mais aconchegante e requintado para os seus espaços" />
             </SplideSlide>
             <SplideSlide className="slide">
-              <Card image={design}
+              <CardImoveis image={design}
                 items="Postado em Dicas - 09/12/2022"
                 title="Design Biofilico"
                 text="Leve a natureza de forma consciente para o design do seu lar" />
             </SplideSlide>
             <SplideSlide className="slide">
-              <Card image={capriche}
+              <CardImoveis image={capriche}
                 items="Postado em Dicas - 09/12/2022"
                 title="Capriche nas cores"
                 text="As paredes dos seus cômodos podem te relaxar ou estimular" />
             </SplideSlide>
             <SplideSlide className="slide">
-              <Card image={iluminacao2}
+              <CardImoveis image={iluminacao2}
                 items="Postado em Dicas - 09/12/2022"
                 title="Iluminação"
                 text="Para dar um toque mais aconchegante e requintado para os seus espaços" />
             </SplideSlide>
             <SplideSlide className="slide">
-              <Card image={design2}
+              <CardImoveis image={design2}
                 items="Postado em Dicas - 09/12/2022"
                 title="Design Biofilico"
                 text="Leve a natureza de forma consciente para o design do seu lar" />
             </SplideSlide>
             <SplideSlide className="slide">
-              <Card image={capriche2}
+              <CardImoveis image={capriche2}
                 items="Postado em Dicas - 09/12/2022"
                 title="Capriche nas cores"
                 text="As paredes dos seus cômodos podem te relaxar ou estimular" />
@@ -82,27 +92,27 @@ function Blog() {
 
           :
           <div className="maquinas">
-            <Card image={iluminacao}
+            <CardImoveis image={iluminacao}
               items="Postado em Dicas - 09/12/2022"
               title="Iluminação"
               text="Para dar um toque mais aconchegante e requintado para os seus espaços" />
-            <Card image={design}
+            <CardImoveis image={design}
               items="Postado em Dicas - 09/12/2022"
               title="Design Biofilico"
               text="Leve a natureza de forma consciente para o design do seu lar" />
-            <Card image={capriche}
+            <CardImoveis image={capriche}
               items="Postado em Dicas - 09/12/2022"
               title="Capriche nas cores"
               text="As paredes dos seus cômodos podem te relaxar ou estimular" />
-            <Card image={iluminacao2}
+            <CardImoveis image={iluminacao2}
               items="Postado em Dicas - 09/12/2022"
               title="Iluminação"
               text="Para dar um toque mais aconchegante e requintado para os seus espaços" />
-            <Card image={design2}
+            <CardImoveis image={design2}
               items="Postado em Dicas - 09/12/2022"
               title="Design Biofilico"
               text="Leve a natureza de forma consciente para o design do seu lar" />
-            <Card image={capriche2}
+            <CardImoveis image={capriche2}
               items="Postado em Dicas - 09/12/2022"
               title="Capriche nas cores"
               text="As paredes dos seus cômodos podem te relaxar ou estimular" />
