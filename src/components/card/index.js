@@ -1,54 +1,78 @@
-import ModalMaquinas from 'components/modalMaquinas';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from "react";
 import Content from "./style";
 
-import love from "images/blog/love.png";
-import gostar from "images/blog/gostar.png";
-import comentario from "images/blog/comente.png";
+import { useDispatch } from "react-redux";
+import * as Actions from 'store/actions';
+
+let limit_scroll = 450;
+let limit_scroll_header = 250;
 
 function Card(props) {
+  const dispatch = useDispatch()
 
-  const [modalShow, setModalShow] = useState(false);
-  const [nomeModelo, setNomeModelo] = useState("");
+  const [showMenu, setShowMenu] = useState(false);
+  const [isMobile, setMobile] = useState(false);
+  const [active, setActive] = useState('#');
+  const [scroll, setScroll] = useState(0);
 
-  function abreModal(modelo) {
-    setNomeModelo(modelo);
-    setModalShow(true);
+  useEffect(() => {
+    if (window.innerWidth >= 992) {
+      setShowMenu(true);
+      setMobile(false);
+    } else {
+      setMobile(true);
+      dispatch(Actions.close_modal('black'));
+      limit_scroll = 50;
+    }
+  }, [window.innerWidth]);
+
+  useEffect(() => {
+    window.addEventListener('scroll', listenToScroll);
+    return () => {
+      window.removeEventListener('scroll', listenToScroll);
+    }
+  }, [])
+
+  function listenToScroll() {
+    const winScroll =
+      document.body.scrollTop || document.documentElement.scrollTop
+    // console.log('winScroll', winScroll);
+    setScroll(winScroll);
   }
 
+  const updateMenu = () => {
+    const { innerWidth: width } = window;
+    if (width >= 992) {
+      setShowMenu(true);
+    } else {
+      setShowMenu(!showMenu);
+    }
+  };
+
+  const clickMenu = (link) => {
+    setActive(link);
+    if (isMobile) {
+      setShowMenu(false);
+    }
+  };
 
   return (
     <Content>
-      <div className="card">
-        <img className="love" src={love} alt="Favoritar" />
-        <img src={props.image} className="card-img-top" alt="Imagem maquina" />
-        <div className="card-body col-12">
-          <div className="col-12 card-items">
-            {props.items}
-          </div>
-          <div className="card-title col-12">
+      <div class="card">
+        <img src={props.image} class="card-img-top" alt="Empreendimento" />
+        <div class="card-body col-12">
+          <div class="card-title col-8">
             {props.title}
           </div>
-          <div className="col-12 card-text">
+          <div class="card-text col-8">
             {props.text}
           </div>
-          <div className="row">
-            <div className="icones col-3">
-              <img className="comente" src={comentario} alt="Comentários" />
-            </div>
-            <div className="icones col-3">
-              <img className="favoritos" src={gostar} alt="Favoritos" />
-            </div>
-          </div>
-          <div className="d-flex">
-            <a href="#" className="btn btn-primary" onClick={() => { abreModal(props.title) }}>Ver mais</a>
+          <div className="btn btn-primary">
+            <a onClick={() => clickMenu("/empreendimentos_interna")} className={active === "/empreendimentos_interna" ? 'active ' : ''}
+              href="/empreendimentos_interna">Mais informações...</a>
           </div>
         </div>
       </div>
-      <ModalMaquinas name={nomeModelo}
-        show={modalShow}
-        onHide={() => setModalShow(false)}
-      />
     </Content>
   );
 }

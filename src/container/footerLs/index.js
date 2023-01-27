@@ -10,7 +10,7 @@ import ScrollableAnchor from "react-scrollable-anchor";
 import ico_insta from 'images/icons/icon_instagram.png';
 import ico_face from 'images/icons/icon_facebook.png';
 import ico_youtube from 'images/icons/icon_youtube.png';
-import logo from 'images/logo/logo-ls.png';
+import logo from 'images/logo/Barbo-Logo.png';
 
 let limit_scroll = 450;
 let limit_scroll_header = 250;
@@ -68,9 +68,9 @@ function FooterLs(props) {
 	return (
 		<ScrollableAnchor id="footer">
 			<Content className="row">
-				<div className='box col-10 p-0'>
-					<div className='offset-1 p-0 content'>
-						<div className="row p-0 text-white">
+				<div className='box px-10'>
+					<div className='offset-1 p-2 content'>
+						<div className="row p-4 text-white">
 							<Fade left>
 								<div className="col-3">
 									<div className="logo-footer">
@@ -83,38 +83,34 @@ function FooterLs(props) {
 											Rio Claro | SP | Cep: 13501-100 <br />
 										</span>
 									</div>
-									<div className='texto'>
+									<div className='texto infos'>
 										<a target="_blank" href='https://www.google.com/maps/place/Lass+M%C3%A1quinas+www.lojalass.com.br/@-23.0004794,-47.71865,15z/data=!4m5!3m4!1s0x0:0xd5489ef0fe597e29!8m2!3d-23.0004794!4d-47.71865'>
 											Como chegar
 										</a>
 									</div>
-									<div className='texto pt-3 row infos'>
+									<div className='texto'>
 										<a target="_blank" href="https://api.whatsapp.com/send?phone=5519996965525&text=Gostaria de falar com um consultor?">
 											<strong>Whatsapp</strong>: +55 (19) 9.9696-5525
 										</a>
 									</div>
-									<div className='texto p-0 row infos'>
-										<div className='col-11 p-0'>
-											+55(19) 3597-5552 / 3597-5553
-										</div>
+									<div className='texto'>
+										<strong>Fones</strong>: +55(19) 3597-5552 / 3597-5553
 									</div>
-									<div className='texto col-12 p-0 row infos'>
-										<div className='col-11 p-0'><a
-											href='mailto: contato@barbo.com.br'>contato@barbo.com.br</a>
-										</div>
+									<div className='texto'><a
+										href='mailto: contato@barbo.com.br'>Contato@barbo.Com.Br</a>
 									</div>
 									<div className='d-flex'>
 										<div className='d-flex grid'>
-											<Fade right><div className='conteudo col-2'><a href='https://www.instagram.com/barbo/' target="_blank"><img src={ico_insta} alt='Instagram' className='icone_midia' /></a></div></Fade>
-											<Fade right><div className='conteudo col-2'><a href='https://pt-br.facebook.com/barbo/' target="_blank"><img src={ico_face} alt='Facebook' className='icone_midia' /></a></div></Fade>
-											<Fade right><div className='conteudo col-2'><a href='https://www.youtube.com/channel/UCZBSlIsy4JyqkdrdG8cPRaw' target="_blank"><img src={ico_youtube} alt='YouTube' className='icone_midia' /></a></div></Fade>
+											<Fade right><div className='conteudo col-2'><a href='https://www.instagram.com/barboempreendimentos/' target="_blank"><img src={ico_insta} alt='Instagram' className='icone_midia' /></a></div></Fade>
+											<Fade right><div className='conteudo col-2'><a href='https://pt-br.facebook.com/barboempreendimentos/' target="_blank"><img src={ico_face} alt='Facebook' className='icone_midia' /></a></div></Fade>
+											{/* <Fade right><div className='conteudo col-2'><a href='https://www.youtube.com/channel/UCZBSlIsy4JyqkdrdG8cPRaw' target="_blank"><img src={ico_youtube} alt='YouTube' className='icone_midia' /></a></div></Fade> */}
 										</div>
 									</div>
 								</div>
 							</Fade>
-							<div className='col-2 p-0 info'>
+							<div className='col-2 p-2 info'>
 								<Fade>
-									<div className='titulo'>Quem somos</div>
+									<div className='titulo'><strong>Quem somos</strong></div>
 									<div className='conteudo'>
 										<a onClick={() => clickMenu("/quem_somos")} className={active === "/quem_somos" ? 'active ' : ''}
 											href="/quem_somos">
@@ -123,84 +119,82 @@ function FooterLs(props) {
 									</div>
 								</Fade>
 								<Fade>
-									<div className='titulo'>Cidades</div>
-									<div className='conteudo'>
+									<div className='contexto pt-3 infos'>
+										<a href="#politica-privacidade" onClick={() => dispatch(Actions.toggle_modal('politica'))}>
+											<strong>Política de Privacidade</strong>
+										</a>
+									</div>
+								</Fade>
+								<Fade>
+									<div className='titulo'><strong>Cidades</strong></div>
+									<div className='contexto'>
 										<a onClick={() => clickMenu("/empreendimentos")} href="/empreendimentos" id="btn-trab">Piracicaba</a>
 									</div>
-									<div className='conteudo'>
+									<div className='contexto'>
 										<a onClick={() => clickMenu("/empreendimentos")} href="/empreendimentos" id="btn-trab">Rio Claro</a>
 									</div>
-									<div className='conteudo'>
+									<div className='contexto'>
 										<a onClick={() => clickMenu("/empreendimentos")} href="/empreendimentos" id="btn-trab">Americana</a>
 									</div>
 								</Fade>
 							</div>
-							<div className='col-2 p-0 info'>
+							<div className='col-2 p-2 info'>
 								<Fade>
-									<div className='titulo'>Empreendimentos</div>
-									<div className='conteudo'>
-										<a onClick={() => clickMenu("/trabalhe-conosco")} href="/trabalhe-conosco" id="btn-trab">Lançamentos</a>
+									<div className='titulo'><strong>Empreendimentos</strong></div>
+									<div className='contexto'>
+										<a onClick={() => clickMenu("/trabalhe-conosco")} href="/trabalhe-conosco" id="btn-trab">Loteamento</a>
 									</div>
-									<div className='conteudo'>
-										<a onClick={() => clickMenu("/trabalhe-conosco")} href="/trabalhe-conosco" id="btn-trab">Em Obras</a>
+									<div className='contexto'>
+										<a onClick={() => clickMenu("/trabalhe-conosco")} href="/trabalhe-conosco" id="btn-trab">Residencial</a>
 									</div>
-									<div className='conteudo'>
-										<a onClick={() => clickMenu("/trabalhe-conosco")} href="/trabalhe-conosco" id="btn-trab">Fase Final de Obras</a>
-									</div>
-									<div className='conteudo'>
-										<a onClick={() => clickMenu("/trabalhe-conosco")} href="/trabalhe-conosco" id="btn-trab">Prontos para Morar</a>
-									</div>
-									<div className='conteudo'>
-										<a onClick={() => clickMenu("/trabalhe-conosco")} href="/trabalhe-conosco" id="btn-trab">Breve Lançamentos</a>
-									</div>
-									<div className='conteudo'>
-										<a onClick={() => clickMenu("/trabalhe-conosco")} href="/trabalhe-conosco" id="btn-trab">Outros Lançamentos</a>
+									<div className='contexto'>
+										<a onClick={() => clickMenu("/trabalhe-conosco")} href="/trabalhe-conosco" id="btn-trab">Corporativo</a>
 									</div>
 								</Fade>
 							</div>
-							<div className='col-2 p-0 info'>
+							<div className='col-2 p-2 info'>
 								<Fade>
-									<div className='titulo'>Fale conosco</div>
-									<div className='conteudo'>
+									<div className='titulo'><strong>Fale conosco</strong></div>
+									<div className='contexto'>
 										<a onClick={() => clickMenu("/trabalhe-conosco")} href="/trabalhe-conosco" id="btn-trab">Compramos seu Terreno</a>
 									</div>
-									<div className='conteudo'>
+									<div className='contexto'>
 										<a onClick={() => clickMenu("/trabalhe-conosco")} href="/trabalhe-conosco" id="btn-trab">Sou Vizinho(a) de uma Obra</a>
 									</div>
-									<div className='conteudo'>
+									<div className='contexto'>
 										<a onClick={() => clickMenu("/trabalhe-conosco")} href="/trabalhe-conosco" id="btn-trab">Fornecedor</a>
 									</div>
-									<div className='conteudo'>
+									<div className='contexto'>
 										<a onClick={() => clickMenu("/trabalhe-conosco")} href="/trabalhe-conosco" id="btn-trab">Canal de Denúncias ou Sugestões</a>
 									</div>
-									<div className='conteudo'>
+									<div className='contexto'>
 										<a onClick={() => clickMenu("/trabalhe-conosco")} href="/trabalhe-conosco" id="btn-trab">Outros Assuntos</a>
 									</div>
 								</Fade>
 							</div>
-							<div className='col-2 p-0 info'>
+							<div className='col-2 p-2 info'>
 								<Fade>
-									<div className='titulo'>Central</div>
-									<div className='conteudo'>
+									<div className='titulo'><strong>Central</strong></div>
+									<div className='contexto'>
 										<a onClick={() => clickMenu("/trabalhe-conosco")} href="/trabalhe-conosco" id="btn-trab">Perguntas Frequentes</a>
 									</div>
-									<div className='conteudo'>
+									<div className='contexto'>
 										<a onClick={() => clickMenu("/trabalhe-conosco")} href="/trabalhe-conosco" id="btn-trab">Portal do Corretor</a>
 									</div>
-									<div className='conteudo'>
+									<div className='contexto'>
 										<a onClick={() => clickMenu("/trabalhe-conosco")} href="/trabalhe-conosco" id="btn-trab">Trabalhe Conosnco</a>
 									</div>
-									<div className='conteudo'>
+									<div className='contexto'>
 										<a onClick={() => clickMenu("/trabalhe-conosco")} href="/trabalhe-conosco" id="btn-trab">Portal do Cliente</a>
 									</div>
-									<div className='conteudo'>
+									<div className='contexto'>
 										<a onClick={() => clickMenu("/trabalhe-conosco")} href="/trabalhe-conosco" id="btn-trab">Blog</a>
 									</div>
 								</Fade>
 							</div>
 							<div className="flex line"></div>
 							<div className='col-10 py-4 copyright'>
-								Desenvolvido por ÉPICA CREATIVE
+								Desenvolvido por HUMA CRIATIVO
 							</div>
 						</div>
 					</div>

@@ -13,6 +13,7 @@ import FaleConosco_Page from './pages/fale_conosco'
 import PortalCorretor_Page from './pages/portal_corretor'
 import Contato_Page from './pages/contato'
 import WorkWithUs from './pages/work_with_us'
+import EmpreendimentosInterna from './pages/empreendimentos_interna'
 import Error_Page_404 from './pages/error/404'
 
 // Validation Routes per User
@@ -33,14 +34,15 @@ import Error_Page_404 from './pages/error/404'
 const Routes = () => (
     <BrowserRouter>
         <Switch>
-            {/* <Route path='/barbo/empreendimentos' component={Empreendimentos_Page} /> 
-             <Route path='/barbo/quem_somos' component={QuemSomos} />*/}
-          <Route path='/barbo/blog' component={Blog_Page} />
-             {/* <Route path='/barbo/fale_conosco' component={FaleConosco_Page} />
+            {/* <Route path='/barbo/empreendimentos' component={Empreendimentos_Page} />
+            <Route path='/barbo/quem_somos' component={QuemSomos} />
+            <Route path='/barbo/blog' component={Blog_Page} />
+            <Route path='/barbo/fale_conosco' component={FaleConosco_Page} />
             <Route path='/barbo/portal_corretor' component={PortalCorretor_Page} />
-            <Route path='/barbo/contato' component={Contato_Page} /> */}
-            {/* <Route path='/trabalhe-conosco' component={WorkWithUs} /> 
-            <Route path='/' component={Home_Page} />*/}
+            <Route path='/barbo/contato' component={Contato_Page} />
+            <Route path='/trabalhe-conosco' component={WorkWithUs} />
+            <Route path='/empreendimentos_interna' component={EmpreendimentosInterna} /> */}
+            <Route path='/' component={Home_Page} />
         </Switch>
     </BrowserRouter>
 )

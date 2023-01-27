@@ -5,19 +5,31 @@ import colors from "config/colors";
 const Content = styled.div`
   flex-direction: row;
   justify-content: center;
-  background-color: #ff7313;
+  background-color: #000000;
   padding-top: 32px;
   padding-bottom: 10px;
 
-
+  a {
+	color: ${colors.white};
+	transition: 0.2s ease-in-out;
+	margin-bottom: 8px;
+	:hover {
+		color: ${colors.primary};
+		transition: 0.2s ease-in-out;
+		text-decoration: none;
+	}
   .logo-footer{
-	margin:40px -70px 0px 60px;
+	margin=top: 40px;
 
 	img{
 		width: 180px;
 	}
   }
-
+  .texto{
+    font-family:${fonts.opensans_light};
+    color:#ffffff;
+	text-align: left;
+  }
   .nome-logo{
 	  font-size: 1.2rem;
 	  font-family: ${fonts.opensans_bold};
@@ -26,46 +38,22 @@ const Content = styled.div`
   }
 
   .titulo {
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-family: ${fonts.opensans_bold};
     line-height: 120%;
-    margin-bottom: 24px;
-	color:#ffffff;
+	color: white;
+	padding-bottom: 16px;
   }
   
-  .info {
-	margin-top:24px;
+  .contexto {
+	font-family: ${fonts.opensans_light};
+	font-size: 0.8rem;
+	}
 
-  	::before {
-  		    content: '';
-		    height: 80px;
-		    border-left: 1px solid #24c662;
-		    position: absolute;
-		    margin-left: -8px;
-  	}
-  	.conteudo {
-  		margin-top: 10px;
-  	}
-  }
-  
   .conteudo {
-  	font-family: ${fonts.opensans_regular};
+  	font-family: ${fonts.opensans_light};
   	font-size: 0.8rem;
-  	
-  	span {
-  		color: ${colors.primary};
-  	}
-  	
-  	a {
-  		color: ${colors.white};
-  		transition: 0.2s ease-in-out;
-  		margin-bottom: 8px;
-  		:hover {
-  			color: ${colors.primary};
-  			transition: 0.2s ease-in-out;
-  			text-decoration: none;
-  		}
-  	}
+	}
   	
   	.icone_contato {
   		height: 18px;
@@ -73,7 +61,7 @@ const Content = styled.div`
   	
   	.icone_midia {
       height: 24px;
-      margin-top: 8px;
+      margin: 8px;
     }
   }
   
@@ -82,9 +70,8 @@ const Content = styled.div`
   }
 
   .copyright {
-    color: #ffffff;
-    margin-top: 100px;
-    text-align: left;
+    color: #696969;
+    text-align: center;
     font-size: 12px;
     font-family: ${fonts.opensans_regular};
   }

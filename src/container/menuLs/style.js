@@ -3,10 +3,10 @@ import color from "config/colors";
 import fonts from "config/fonts";
 
 export const Content = styled.nav`
-margin: 0 0 -100px 0 !important;
-z-index: 1027;
+  margin: -12px 0 -100px 0 !important;
+  z-index: 1027;
   transition: 0.2s ease-in-out;
-  
+
   &.bg-active {
   	transition: all 0.2s ease-in-out 0s;
     --tw-gradient-from: rgb(235 235 235 / 0%);
@@ -35,7 +35,6 @@ z-index: 1027;
     #logo {
       width: 130px;
       height: auto;
-      margin-top: -20px;
       transition: 0.2s ease-in-out;
       &.scroll{
       	width: 130px;

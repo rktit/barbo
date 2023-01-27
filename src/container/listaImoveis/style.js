@@ -9,8 +9,7 @@ background-color: #eeeeee;
     font-family: ${fonts.opensans_light};
     font-size: 2rem;
     color: #000000;
-    margin-bottom: 30px;
-    margin-top: 30px;
+    margin-top: 60px;
 }
 
 .demarcador{
@@ -61,7 +60,7 @@ background-color: #eeeeee;
     }
 }
 .splide {
-    padding: 0em 4em 3em 2em;
+    padding: 0em 0em 0em 1em;
 }
 .splide__arrow svg {
     width: 1.5em;
@@ -73,7 +72,7 @@ background-color: #eeeeee;
     display: inline-block;
     width: 20px;
     height: 5px;
-    background: #ccc;
+    background: #fc1347;
     border-radius: 2.5px;
     margin: 3px;
     padding: 0;
@@ -82,6 +81,8 @@ background-color: #eeeeee;
 }
 .splide__pagination__page.is-active {
     background: #000000;
+    width: 5px;
+    height: 5px;
     :hover {
         fill: #fc1347;
     }

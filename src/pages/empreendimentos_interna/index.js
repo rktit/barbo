@@ -4,7 +4,7 @@ import { configureAnchors } from "react-scrollable-anchor";
 import {MenuLs, BannerEmpreendimento, Tour, Empreendimento, Plantas, Mapa, FooterLs} from "container";
 import { FlashMessageCookies, ModalPolitica } from 'components';
 
-const EmpreendimentosInterna_Page = () => {
+const EmpreendimentosInterna = () => {
   // const _translate = useSelector(({translate}) => translate);
 
   configureAnchors({ offset: -60, scrollDuration: 500 });
@@ -24,4 +24,4 @@ const EmpreendimentosInterna_Page = () => {
   );
 };
 
-export default EmpreendimentosInterna_Page;
+export default EmpreendimentosInterna;

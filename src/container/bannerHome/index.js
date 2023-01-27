@@ -1,12 +1,7 @@
 import React from "react";
 import Content from "./style";
 
-import { Button } from "react-bootstrap";
-
-import logo_ls from "images/logo/logo-ls.png";
-import logo_jacto from "images/logo/logo-jacto.png";
-
-function Welcome() {
+function BannerHome() {
 
     return (
         <Content className="col-12 row">
@@ -19,7 +14,7 @@ function Welcome() {
                         Área privativa de 253 m² <br />
                         2 suítes
                     </p>
-                    <a href="/site/jacto" className="btn1 shadow mb-4 d-flex align-items-center justify-content-center">
+                    <a href="/barbo/empreendimentos" className="btn1 shadow mb-4 d-flex align-items-center justify-content-center">
                         Ver mais
                     </a>
                 </div>
@@ -28,4 +23,4 @@ function Welcome() {
     );
 }
 
-export default Welcome;
+export default BannerHome;

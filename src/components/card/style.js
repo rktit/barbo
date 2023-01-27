@@ -8,77 +8,67 @@ img{
 
 .card{
     width: 25rem;
-    margin: 5px;
+    height: 28rem;
+    align-items: center;
 }
 
 .card-body{
-    color: #20396f;
-    text-align: left;
+    color: #000000;
 }
 
 .card-img-top{
-    height: 300px;
+    height: 28rem;
+    position: absolute;
 }
 
-.card-items{
-    padding-bottom: 1rem;
-    font-size: 0.8rem;
-    font-family: ${fonts.opensans_light};
-}
 .card-title{
-    margin-bottom: -0.2rem;
     font-size: 1.3rem;
     font-family: ${fonts.opensans_regular};
+    text-align: start;
 }
 
 .card-text{
-    height:120px;
+    height: 16rem;
     font-family: ${fonts.opensans_light};
+    text-align: start;
 }
-.love {
-    width: 2rem;
-    position: absolute;
-    height: 2rem;
-    right: 12px;
-    top: 12px;
-}
-.favoritos {
-    width: 2rem;
-    position: absolute;
-    height: 2rem;
-    right: 12px;
-    bottom: 20px;
-}
-.comente {
-    width: 2rem;
-    position: absolute;
-    height: 2rem;
-    right: 12px;
-    bottom: 20px;
-}
+
 .btn{
-    background-color: #000000;
-    display: table-cell;
+    padding: 4.5rem 0 0.5rem 4rem;
+    display: flex;
+    flex-direction: row;
+    transition: 0.2s ease-in-out;
+    background-color: transparent;
     border: none;
-    border-radius: 0;
-    width: 24rem;
-    
+    justify-content: flex-end;
 
-    &.active {
-        background-color: #ff3a66;
-        width: 20rem;
-        }
 
-    :hover {
-    transition: 0.1s ease-in-out;
-    background-color: #ff3a66;
-    text-decoration: none;
-    }
+    a {
+      align-content: end;
+      align-items: end;
+      transition: 0.2s ease-in-out;
+      color: #ffffff;
+      font-family: ${fonts.opensans_light};
+      font-size: 15px;
+      display: flex;
+      
+      &.active {
+      	color: #fc1347;
+      }
+      
+      :hover {
+        transition: 0.1s ease-in-out;
+        color: #fc1347;
+        text-decoration: none;
+      }
 }
-.btn-primary {
-    nt-size: 1.5rem;
-    font-family: ${fonts.opensans_light};
+.btn-primary a{
+    color: #000000;
+    font-size: 1rem;
+    font-family: ${fonts.opensans_light};    
+    text-align: end;
 }
+
 
 @media only screen and (max-width: 600px) {
     .card-img-top{
