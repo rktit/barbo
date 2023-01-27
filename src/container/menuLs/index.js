@@ -83,20 +83,20 @@ const MenuSite = () => {
 						</button>
 					</div>
 				</div>
-				<div className={`col-12 col-md-12 col-lg-5 col-xl-5 justify-content-between menu-nav ${showMenu ? "show-menu" : "hide-menu"}`}>
-					<a onClick={() => clickMenu("/barbo/quem_somos")} className={active === "/barbo/quem_somos" ? 'active mr-1' : 'mr-1'}
+				<div className={`col-12 col-md-12 col-lg-12 col-xl-6 justify-content-between menu-nav show-menu ${showMenu ? "show-menu" : "hide-menu"}`}>
+					<a onClick={() => clickMenu("/barbo/quem_somos")} className={active === "/barbo/quem_somos" ? 'active mr-2' : 'mr-2'}
 						href="/barbo/quem_somos">
 						quem somos
 					</a>
-					<a onClick={() => clickMenu("/barbo/empreendimentos")} className={active === "/barbo/empreendimentos" ? 'active ' : ''}
+					<a onClick={() => clickMenu("/barbo/empreendimentos")} className={active === "/barbo/empreendimentos" ? 'active mr-2' : 'mr-2'}
 						href="/barbo/empreendimentos">
 						empreendimentos
 					</a>
-					<a onClick={() => clickMenu("/barbo/blog")} className={active === "/barbo/blog" ? 'active ' : ''}
+					<a onClick={() => clickMenu("/barbo/blog")} className={active === "/barbo/blog" ? 'active mr-2' : 'mr-2'}
 						href="/barbo/blog">
 						blog
 					</a>
-					<a onClick={() => clickMenu("/barbo/fale_conosco")} className={active === "/barbo/fale_conosco" ? 'active ' : ''}
+					<a onClick={() => clickMenu("/barbo/fale_conosco")} className={active === "/barbo/fale_conosco" ? 'active mr-2' : 'mr-2'}
 						href="/barbo/fale_conosco">
 						fale conosco
 					</a>
