@@ -41,7 +41,7 @@ function Card(props) {
             </div>
           </div>
           <div className="d-flex">
-            <a href="#barbo/empreendimentos_interna">Ver mais</a>
+            <a href="/barbo/empreendimentos_interna">Ver mais</a>
           </div>
         </div>
       </div>

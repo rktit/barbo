@@ -26,7 +26,7 @@ function CardLs(props) {
                   {props.text}
                 </div>
                 <div className="col-12 mt-4">
-                  <a href="#" class="btn btn-primary" onClick={() => { abreModal(props.title) }}>Mais informações...</a>
+                <a href="/barbo/empreendimentos_interna" class="btn btn-primary" onClick={() => { abreModal(props.title) }}>Mais informações...</a>
                 </div>
             </div>
         </div>
