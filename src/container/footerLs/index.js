@@ -101,8 +101,8 @@ function FooterLs(props) {
 									</div>
 									<div className='d-flex'>
 										<div className='d-flex grid'>
-											<Fade right><div className='conteudo col-2'><a href='https://www.instagram.com/barboempreendimentos/' target="_blank"><img src={ico_insta} alt='Instagram' className='icone_midia' /></a></div></Fade>
-											<Fade right><div className='conteudo col-2 pl-3'><a href='https://pt-br.facebook.com/barboempreendimentos/' target="_blank"><img src={ico_face} alt='Facebook' className='icone_midia' /></a></div></Fade>
+											<Fade right><div className='conteudo col-2'><a href='https://www.instagram.com/barbo/empreendimentos/' target="_blank"><img src={ico_insta} alt='Instagram' className='icone_midia' /></a></div></Fade>
+											<Fade right><div className='conteudo col-2 pl-3'><a href='https://pt-br.facebook.com/barbo/empreendimentos/' target="_blank"><img src={ico_face} alt='Facebook' className='icone_midia' /></a></div></Fade>
 											{/* <Fade right><div className='conteudo col-2'><a href='https://www.youtube.com/channel/UCZBSlIsy4JyqkdrdG8cPRaw' target="_blank"><img src={ico_youtube} alt='YouTube' className='icone_midia' /></a></div></Fade> */}
 										</div>
 									</div>

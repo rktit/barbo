@@ -4,7 +4,7 @@ import { configureAnchors } from "react-scrollable-anchor";
 import { MenuLs, Banner, Imoveis, FooterLs, ConhecaBarbo } from "container";
 import {ModalPolitica} from 'components';
 
-const Empreendimentos_Page = () => {
+const Empreendimentos = () => {
   // const _translate = useSelector(({translate}) => translate);
 
   configureAnchors({ offset: -60, scrollDuration: 500 });
@@ -22,4 +22,4 @@ const Empreendimentos_Page = () => {
   );
 };
 
-export default Empreendimentos_Page;
+export default Empreendimentos;
