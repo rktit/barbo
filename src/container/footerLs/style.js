@@ -8,6 +8,8 @@ const Content = styled.div`
   background-color: #000000;
   padding-top: 3rem;
   padding-bottom: 10px;
+  margin: 0 -5rem 0px 0!important;
+
   .row {
     margin: 0 -5rem 0px 0!important;
   }
