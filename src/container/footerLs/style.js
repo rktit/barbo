@@ -4,11 +4,13 @@ import colors from "config/colors";
 
 const Content = styled.div`
   flex-direction: row;
-  margin: 0 -5rem 0px 0!important;
   justify-content: center;
   background-color: #000000;
   padding-top: 3rem;
   padding-bottom: 10px;
+  .row {
+    margin: 0 -5rem 0px 0!important;
+  }
 
   a {
 	color: ${colors.white};
