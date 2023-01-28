@@ -32,7 +32,7 @@ background-color: #eeeeee;
     box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
     background-color: transparent;
     line-height: 17px;
-    padding: 10px 0px 10px;
+    padding: 10px;
 }
  .filtro__item {
     width: 14.5rem;
