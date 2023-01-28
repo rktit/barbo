@@ -1,9 +1,9 @@
 import React, { Fragment, useEffect } from "react";
 
-import {MenuLs, BannerPortal, Portal, Contato, Corretor, FooterLs, HeaderLS} from "container";
+import {MenuLs, Contato, Login, FooterLs} from "container";
 import { configureAnchors } from "react-scrollable-anchor";
 
-import {FlashMessageCookies, ModalPolitica} from 'components';
+import {ModalPolitica} from 'components';
 
 const PortalCorretor_Page = () => {
   // const _translate = useSelector(({translate}) => translate);
@@ -15,11 +15,8 @@ const PortalCorretor_Page = () => {
     <Fragment>
       <ModalPolitica />
       <MenuLs/>
-      <BannerPortal />
-      <Contato/>
-      <Portal />
-      <HeaderLS />
-      <Corretor/>
+       <Contato />
+      {/* <Login /> */}
       <FooterLs />
     </Fragment>
   );

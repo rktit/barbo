@@ -5,6 +5,7 @@ import colors from 'config/colors';
 
 const Content = styled.div`
   background-size:100%;
+  padding-top: 4rem;
 
 
   .conteudo {
