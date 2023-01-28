@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/barbo/fale_conosco/static/css/main.555cfbec.chunk.css",
-    "main.js": "/barbo/fale_conosco/static/js/main.55a9344a.chunk.js",
-    "main.js.map": "/barbo/fale_conosco/static/js/main.55a9344a.chunk.js.map",
+    "main.js": "/barbo/fale_conosco/static/js/main.f3e8d513.chunk.js",
+    "main.js.map": "/barbo/fale_conosco/static/js/main.f3e8d513.chunk.js.map",
     "runtime-main.js": "/barbo/fale_conosco/static/js/runtime-main.da2bc277.js",
     "runtime-main.js.map": "/barbo/fale_conosco/static/js/runtime-main.da2bc277.js.map",
     "static/css/2.22ca879e.chunk.css": "/barbo/fale_conosco/static/css/2.22ca879e.chunk.css",
     "static/js/2.3288d56b.chunk.js": "/barbo/fale_conosco/static/js/2.3288d56b.chunk.js",
     "static/js/2.3288d56b.chunk.js.map": "/barbo/fale_conosco/static/js/2.3288d56b.chunk.js.map",
     "index.html": "/barbo/fale_conosco/index.html",
-    "precache-manifest.6fe9863b6a198711055f851381b61537.js": "/barbo/fale_conosco/precache-manifest.6fe9863b6a198711055f851381b61537.js",
+    "precache-manifest.a3dc2281f4d78196f052197d7ce9650e.js": "/barbo/fale_conosco/precache-manifest.a3dc2281f4d78196f052197d7ce9650e.js",
     "service-worker.js": "/barbo/fale_conosco/service-worker.js",
     "static/css/2.22ca879e.chunk.css.map": "/barbo/fale_conosco/static/css/2.22ca879e.chunk.css.map",
     "static/css/main.555cfbec.chunk.css.map": "/barbo/fale_conosco/static/css/main.555cfbec.chunk.css.map",
@@ -136,6 +136,6 @@
     "static/css/2.22ca879e.chunk.css",
     "static/js/2.3288d56b.chunk.js",
     "static/css/main.555cfbec.chunk.css",
-    "static/js/main.55a9344a.chunk.js"
+    "static/js/main.f3e8d513.chunk.js"
   ]
 }

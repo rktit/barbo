@@ -15,6 +15,12 @@ const Content = styled.div`
 
   .welcome{
     margin-top: 30vh;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: ${fonts.opensans_regular};
+    color: #ffffff;
+    width: 32rem;
+    display: inline-block;
   }
   .title{
     font-size: 4rem;
