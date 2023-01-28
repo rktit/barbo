@@ -156,19 +156,19 @@ function Footer(props) {
 								<Fade>
 									<div className='titulo'><strong>Fale conosco</strong></div>
 									<div className='contexto'>
-										<a onClick={() => clickMenu("/barbo/fale-conosco")} href="/barbo/fale-conosco" id="btn-trab">Compramos seu Terreno</a>
+										<a onClick={() => clickMenu("/barbo/fale_conosco")} href="/barbo/fale_conosco" id="btn-trab">Compramos seu Terreno</a>
 									</div>
 									<div className='contexto'>
-										<a onClick={() => clickMenu("/barbo/fale-conosco")} href="/barbo/fale-conosco" id="btn-trab">Sou Vizinho(a) de uma Obra</a>
+										<a onClick={() => clickMenu("/barbo/fale_conosco")} href="/barbo/fale_conosco" id="btn-trab">Sou Vizinho(a) de uma Obra</a>
 									</div>
 									<div className='contexto'>
-										<a onClick={() => clickMenu("/barbo/fale-conosco")} href="/barbo/fale-conosco" id="btn-trab">Fornecedor</a>
+										<a onClick={() => clickMenu("/barbo/fale_conosco")} href="/barbo/fale_conosco" id="btn-trab">Fornecedor</a>
 									</div>
 									<div className='contexto'>
-										<a onClick={() => clickMenu("/barbo/fale-conosco")} href="/barbo/fale-conosco" id="btn-trab">Canal de Denúncias ou Sugestões</a>
+										<a onClick={() => clickMenu("/barbo/fale_conosco")} href="/barbo/fale_conosco" id="btn-trab">Canal de Denúncias ou Sugestões</a>
 									</div>
 									<div className='contexto'>
-										<a onClick={() => clickMenu("/barbo/fale-conosco")} href="/barbo/fale-conosco" id="btn-trab">Outros Assuntos</a>
+										<a onClick={() => clickMenu("/barbo/fale_conosco")} href="/barbo/fale_conosco" id="btn-trab">Outros Assuntos</a>
 									</div>
 								</Fade>
 							</div>
@@ -176,7 +176,7 @@ function Footer(props) {
 								<Fade>
 									<div className='titulo'><strong>Central</strong></div>
 									<div className='contexto'>
-										<a onClick={() => clickMenu("/barbo/fale-conosco")} href="/barbo/fale-conosco" id="btn-trab">Perguntas Frequentes</a>
+										<a onClick={() => clickMenu("/barbo/fale_conosco")} href="/barbo/fale_conosco" id="btn-trab">Perguntas Frequentes</a>
 									</div>
 									<div className='contexto'>
 										<a onClick={() => clickMenu("/barbo/portal_corretor")} href="/barbo/portal_corretor" id="btn-trab">Portal do Corretor</a>
