@@ -7,7 +7,7 @@ export const Content = styled.nav`
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    margin: 0 6rem !important;
+    margin: 3rem 6rem !important;
     z-index: 1027;
     transition: 0.2s ease-in-out;
 
@@ -16,7 +16,9 @@ export const Content = styled.nav`
     background-image: linear-gradient(#726767,#efefef);
 
   }
-  
+  .container {
+    width: 30rem;
+  }
   .menu-scroll {
   	transition: 0.2s ease-in-out;
   	padding: 0.5rem !important;
@@ -58,7 +60,6 @@ export const Content = styled.nav`
     padding: 0.5rem 0 0.5rem 4rem;
     display: flex;
     flex-direction: column;
-    transition: 0.2s ease-in-out;
 
     a {
       align-content: center;
@@ -68,16 +69,30 @@ export const Content = styled.nav`
       font-family: ${fonts.opensans_light};
       font-size: 15px;
       display: flex;
+      justify-content: center;
+      border-width: 1px;
+      border-color: rgb(0 0 0);
+      border-style: solid;
+      height: 3.25rem;
+
       
       &.active {
-        text-decoration-line: none;        
+        text-decoration-line: none;   
+        border-width: 0px;
+        border-color: rgb(0 0 0);
+        border-style: solid;
+
       }
       
       :hover {
         transition: 0.1s ease-in-out;
-        color: #fc1347;
+        text-decoration-color: #000;
         text-decoration-line: underline;
-        text-decoration-color: #fc1347;
+        font-weight: 800;
+        border-width: 1px;
+        border-color: rgb(0 0 0);
+        border-style: solid;
+        background-color: rgb(235 235 235);
       }
     }
     .marca{
@@ -109,7 +124,6 @@ export const Content = styled.nav`
   .menu-nav.show-menu {
     transition: 0.1s ease-in-out;
     opacity: 1;
-    height: 30rem;
   }
   .menu-nav.hide-menu {
     -moz-transition: height 0.1s;
@@ -124,8 +138,8 @@ export const Content = styled.nav`
     border-style: solid;
     border-width: 1px;
     border-color: #fc1347;
-    width: 18rem;
-    margin: 0;
+    width: 23rem;
+    margin: 2rem 0;
     }
   .links-mobile {
     a {

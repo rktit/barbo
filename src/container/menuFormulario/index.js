@@ -8,7 +8,7 @@ import { Formulario } from "container";
 let limit_scroll = 450;
 let limit_scroll_header = 250;
 
-const MenuSite = () => {
+const MenuFormulario = (props) => {
 
 	const dispatch = useDispatch()
 
@@ -57,7 +57,13 @@ const MenuSite = () => {
 			setShowMenu(false);
 		}
 	};
+	const [modalShow, setModalShow] = useState(false);
+	const [nomeModelo, setNomeModelo] = useState("");
 
+	function abreModal(modelo) {
+		setNomeModelo(modelo);
+		setModalShow(true);
+	}
 	// const openContact = () => {
 	// 		window.open("https://calendly.com/liber-comercial/agendar-especialista");
 	// }
@@ -65,52 +71,48 @@ const MenuSite = () => {
 	return (
 		<Content className={`d-flex`}>
 			<div className="container">
-				<div className={`justify-content-between menu-nav ${showMenu ? "show-menu" : "hide-menu"}`}>
-					<a onClick={() => clickMenu("#")} className={active === "#" ? 'active mr-3' : 'mr-3'}
-						href="#">
+				<div className={`menu-nav ${showMenu ? "show-menu" : "hide-menu"}`}>
+					<a onClick={() => { abreModal(props.title) }} className={active === "#" ? 'active mr-3' : 'mr-3'}>
 						Quero Comprar um Imóvel
 					</a>
-					<a onClick={() => clickMenu("#")} className={active === "#" ? 'active ' : ''}
-						href="#">
+					<a onClick={() => { abreModal(props.title) }} className={active === "#" ? 'active mr-3' : 'mr-3'}>
 						Já sou Cliente
 					</a>
-					<a onClick={() => clickMenu("#")} className={active === "#" ? 'active ' : ''}
-						href="#">
+					<a onClick={() => { abreModal(props.title) }} className={active === "#" ? 'active mr-3' : 'mr-3'}>
 						Compramos seu Terreno
 					</a>
-					<a onClick={() => clickMenu("#")} className={active === "#" ? 'active ' : ''}
-						href="#">
+					<a onClick={() => { abreModal(props.title) }} className={active === "#" ? 'active mr-3' : 'mr-3'}>
 						Sou Vizinho(a) de Obra
 					</a>
-					<a onClick={() => clickMenu("#")} className={active === "#" ? 'active' : ''}
-						href="#">
+					<a onClick={() => { abreModal(props.title) }} className={active === "#" ? 'active mr-3' : 'mr-3'}>
 						Fornecedor
 					</a>
-					<a onClick={() => clickMenu("#")} className={active === "#" ? 'active' : ''}
-						href="#">
+					<a onClick={() => { abreModal(props.title) }} className={active === "#" ? 'active mr-3' : 'mr-3'}>
 						Assessoria de Imprensa
 					</a>
-					<a onClick={() => clickMenu("#")} className={active === "#" ? 'active' : ''}
-						href="#">
+					<a onClick={() => { abreModal(props.title) }} className={active === "#" ? 'active mr-3' : 'mr-3'}>
 						Outros Assuntos
 					</a>
 					<div className="flex line"></div>
-					<div className="texto">
-						Dúvidas? <br/>
-						Entre em contato com nossa Central<br/>
-						<strong>de Relacionamentos.</strong><p/>
+					<div className="texto text-center">
+						Dúvidas? <br />
+						Entre em contato com nossa Central<br />
+						<strong>de Relacionamentos.</strong><p />
 					</div>
-
-					<div className="texto">
-						Whatsapp +55 (19) 9.9696-5525<br/>
-						Fones +55 (19) 3597-5552 / 3597-5553<br/>
-						contato@barbo.Com.Br<br/>
+					<div className="texto text-center">
+						Whatsapp +55 (19) 9.9696-5525<br />
+						Fones +55 (19) 3597-5552 / 3597-5553<br />
+						contato@barbo.Com.Br<br />
 					</div>
 				</div>
 			</div>
+			<Formulario name={nomeModelo}
+						show={modalShow}
+						onHide={() => setModalShow(false)}
+					/>
 			<Formulario />
 		</Content>
 	);
 };
 
-export default MenuSite;
+export default MenuFormulario;

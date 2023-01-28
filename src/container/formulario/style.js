@@ -77,7 +77,7 @@ padding: 5rem 0rem 0rem 0rem;
     }
 
     .btnEnviar{
-        background-color: #ff0d29;
+        background-color: #fc1347;
         border: none;
         border-radius: 0;
         font-family:${fonts.opensans_bold};

@@ -2,14 +2,15 @@ import React, { useState } from "react";
 import Content from "./style";
 import ScrollableAnchor from "react-scrollable-anchor";
 
-import { Form, Col, Row, Button } from "react-bootstrap";
+import { Form, Col, Row, Button, Modal } from "react-bootstrap";
 
-import { useDispatch } from "react-redux";
+import {useDispatch, useSelector} from "react-redux";
 import * as Actions from 'store/actions';
 import { Services_Emails } from "service";
 
-function Formulario() {
+function Formulario(props) {
 
+    const _modal = useSelector(({modal}) => modal.formulario);
     const dispatch = useDispatch();
 
     const [fields, setFields] = useState({
@@ -105,6 +106,14 @@ function Formulario() {
     return (
         <ScrollableAnchor id="catalogo">
             <Content className="row">
+            <Modal
+          {...props}
+          size="lg"
+          aria-labelledby="contained-modal-title-vcenter"
+          centered
+        >
+                      <Modal.Body className="p-0">
+
                 <div className="boxCatalogo ">
                     <div className="formCatalogo">
                         <div className="formTitle">Deixe seus dados, e nossa equipe<br />de atendimento entrará em contato:</div>
@@ -140,7 +149,8 @@ function Formulario() {
 
                             <Form.Group className="boxBtn" as={Row}>
                                 <Col md={{ span: 10 }}>
-                                    <Button onClick={handleSubmit} className="btnEnviar" type="submit"><strong>ENVIAR</strong></Button>
+
+                                <Button href="" onClick={(handleSubmit) => dispatch(Actions.toggle_modal('politica'))}className="btnEnviar" type="submit">ENVIAR</Button>
                                 </Col>
                             </Form.Group>
                             <Form.Row>
@@ -154,6 +164,8 @@ function Formulario() {
                         </Form>
                     </div>
                 </div>
+                </Modal.Body>
+        </Modal>
             </Content>
         </ScrollableAnchor>
 
