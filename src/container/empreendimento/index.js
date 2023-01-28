@@ -22,7 +22,7 @@ function Empreendimento(props) {
   }, [window.innerWidth]);
 
   return (
-    <ScrollableAnchor id="assistencia_tecnica">
+    <ScrollableAnchor id="">
       <Content className="col-12 row justify-content-center">
 
         <Fade left>

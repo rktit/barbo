@@ -112,8 +112,8 @@ function Footer(props) {
 								<Fade>
 									<div className='titulo'><strong>Quem somos</strong></div>
 									<div className='conteudo'>
-										<a onClick={() => clickMenu("/quem_somos")} className={active === "/quem_somos" ? 'active ' : ''}
-											href="/quem_somos">
+										<a onClick={() => clickMenu("/barbo/quem_somos")} className={active === "/barbo/quem_somos" ? 'active ' : ''}
+											href="/barbo/quem_somos">
 											Incorporadora
 										</a>
 									</div>
@@ -128,13 +128,13 @@ function Footer(props) {
 								<Fade>
 									<div className='titulo'><strong>Cidades</strong></div>
 									<div className='contexto'>
-										<a onClick={() => clickMenu("/empreendimentos")} href="/empreendimentos" id="btn-trab">Piracicaba</a>
+										<a onClick={() => clickMenu("/barbo/empreendimentos")} href="/barbo/empreendimentos" id="btn-trab">Piracicaba</a>
 									</div>
 									<div className='contexto'>
-										<a onClick={() => clickMenu("/empreendimentos")} href="/empreendimentos" id="btn-trab">Rio Claro</a>
+										<a onClick={() => clickMenu("/barbo/empreendimentos")} href="/barbo/empreendimentos" id="btn-trab">Rio Claro</a>
 									</div>
 									<div className='contexto'>
-										<a onClick={() => clickMenu("/empreendimentos")} href="/empreendimentos" id="btn-trab">Americana</a>
+										<a onClick={() => clickMenu("/barbo/empreendimentos")} href="/barbo/empreendimentos" id="btn-trab">Americana</a>
 									</div>
 								</Fade>
 							</div>
@@ -142,13 +142,13 @@ function Footer(props) {
 								<Fade>
 									<div className='titulo'><strong>Empreendimentos</strong></div>
 									<div className='contexto'>
-										<a onClick={() => clickMenu("/empreendimentos")} href="/empreendimentos" id="btn-trab">Loteamento</a>
+										<a onClick={() => clickMenu("/barbo/empreendimentos")} href="/barbo/empreendimentos" id="btn-trab">Loteamento</a>
 									</div>
 									<div className='contexto'>
-										<a onClick={() => clickMenu("/empreendimentos")} href="/empreendimentos" id="btn-trab">Residencial</a>
+										<a onClick={() => clickMenu("/barbo/empreendimentos")} href="/barbo/empreendimentos" id="btn-trab">Residencial</a>
 									</div>
 									<div className='contexto'>
-										<a onClick={() => clickMenu("/empreendimentos")} href="/empreendimentos" id="btn-trab">Corporativo</a>
+										<a onClick={() => clickMenu("/barbo/empreendimentos")} href="/barbo/empreendimentos" id="btn-trab">Corporativo</a>
 									</div>
 								</Fade>
 							</div>
@@ -156,19 +156,19 @@ function Footer(props) {
 								<Fade>
 									<div className='titulo'><strong>Fale conosco</strong></div>
 									<div className='contexto'>
-										<a onClick={() => clickMenu("/fale-conosco")} href="/fale-conosco" id="btn-trab">Compramos seu Terreno</a>
+										<a onClick={() => clickMenu("/barbo/fale-conosco")} href="/barbo/fale-conosco" id="btn-trab">Compramos seu Terreno</a>
 									</div>
 									<div className='contexto'>
-										<a onClick={() => clickMenu("/fale-conosco")} href="/fale-conosco" id="btn-trab">Sou Vizinho(a) de uma Obra</a>
+										<a onClick={() => clickMenu("/barbo/fale-conosco")} href="/barbo/fale-conosco" id="btn-trab">Sou Vizinho(a) de uma Obra</a>
 									</div>
 									<div className='contexto'>
-										<a onClick={() => clickMenu("/fale-conosco")} href="/fale-conosco" id="btn-trab">Fornecedor</a>
+										<a onClick={() => clickMenu("/barbo/fale-conosco")} href="/barbo/fale-conosco" id="btn-trab">Fornecedor</a>
 									</div>
 									<div className='contexto'>
-										<a onClick={() => clickMenu("/fale-conosco")} href="/fale-conosco" id="btn-trab">Canal de Denúncias ou Sugestões</a>
+										<a onClick={() => clickMenu("/barbo/fale-conosco")} href="/barbo/fale-conosco" id="btn-trab">Canal de Denúncias ou Sugestões</a>
 									</div>
 									<div className='contexto'>
-										<a onClick={() => clickMenu("/fale-conosco")} href="/fale-conosco" id="btn-trab">Outros Assuntos</a>
+										<a onClick={() => clickMenu("/barbo/fale-conosco")} href="/barbo/fale-conosco" id="btn-trab">Outros Assuntos</a>
 									</div>
 								</Fade>
 							</div>
@@ -176,19 +176,19 @@ function Footer(props) {
 								<Fade>
 									<div className='titulo'><strong>Central</strong></div>
 									<div className='contexto'>
-										<a onClick={() => clickMenu("/fale-conosco")} href="/fale-conosco" id="btn-trab">Perguntas Frequentes</a>
+										<a onClick={() => clickMenu("/barbo/fale-conosco")} href="/barbo/fale-conosco" id="btn-trab">Perguntas Frequentes</a>
 									</div>
 									<div className='contexto'>
-										<a onClick={() => clickMenu("/portal_corretor")} href="/portal_corretor" id="btn-trab">Portal do Corretor</a>
+										<a onClick={() => clickMenu("/barbo/portal_corretor")} href="/barbo/portal_corretor" id="btn-trab">Portal do Corretor</a>
 									</div>
 									<div className='contexto'>
-										<a onClick={() => clickMenu("/trabalhe-conosco")} href="/trabalhe-conosco" id="btn-trab">Trabalhe Conosnco</a>
+										<a onClick={() => clickMenu("/barbo/trabalhe-conosco")} href="/barbo/trabalhe-conosco" id="btn-trab">Trabalhe Conosnco</a>
 									</div>
 									<div className='contexto'>
-										<a onClick={() => clickMenu("/trabalhe-conosco")} href="/trabalhe-conosco" id="btn-trab">Portal do Cliente</a>
+										<a onClick={() => clickMenu("/barbo/trabalhe-conosco")} href="/barbo/trabalhe-conosco" id="btn-trab">Portal do Cliente</a>
 									</div>
 									<div className='contexto'>
-										<a onClick={() => clickMenu("/blog")} href="/blog" id="btn-trab">Blog</a>
+										<a onClick={() => clickMenu("/barbo/blog")} href="/barbo/blog" id="btn-trab">Blog</a>
 									</div>
 								</Fade>
 							</div>

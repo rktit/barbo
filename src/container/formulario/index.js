@@ -104,7 +104,7 @@ function Formulario(props) {
 
 
     return (
-        <ScrollableAnchor id="catalogo">
+        <ScrollableAnchor id="">
             <Content className="row">
             <Modal
           {...props}

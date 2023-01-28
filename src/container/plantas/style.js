@@ -130,6 +130,7 @@ const Content = styled.div`
     align-items: center;
     width: 65rem;    
     justify-content: center;
+    margin-bottom: 4px;
   }
   .marca{
     width: 65rem;

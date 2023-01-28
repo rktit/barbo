@@ -22,7 +22,7 @@ function Mapa(props) {
   }, [window.innerWidth]);
 
   return (
-    <ScrollableAnchor id="assistencia_tecnica">
+    <ScrollableAnchor id="">
       <Content className="w-full row justify-content-center">
 
         <Fade left>

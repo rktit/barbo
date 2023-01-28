@@ -32,7 +32,7 @@ function ListaImoveis() {
 
 
   return (
-    <ScrollableAnchor id="maquinas">
+    <ScrollableAnchor id="">
       <Content className="col-12 d-flex flex-column align-items-center p-0">
         <div className="title ">Os melhores imóveis estão aqui</div>
         {isMobile ?

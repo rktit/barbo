@@ -30,7 +30,7 @@ function Blog() {
 
 
   return (
-    <ScrollableAnchor id="maquinas">
+    <ScrollableAnchor id="blog">
       <Content className="col-12 d-flex flex-column align-items-center p-0">
         <div className="title ">Os melhores toques para o seu novo lar.</div>
         <div className="texto">

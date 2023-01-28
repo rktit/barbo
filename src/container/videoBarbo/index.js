@@ -22,7 +22,7 @@ function CarouselTratores(props) {
   }, [window.innerWidth]);
 
   return (
-    <ScrollableAnchor id="implementos">
+    <ScrollableAnchor id="">
       <Fade top>
         <Content className="d-flex col-12 row">
           <div className="title col-12">
