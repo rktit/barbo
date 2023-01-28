@@ -16,7 +16,7 @@ function CardImoveis(props) {
   return (
     <Content>
       <div className="card">
-      <div className="love" alt="Favoritar">Pronto para morar</div> 
+        <div className="love" alt="Favoritar">Pronto para morar</div>
         <img src={props.image} className="card-img-top" alt="Imagem maquina" />
         <div className="card-body col-12">
           <div className="card-title col-12">
