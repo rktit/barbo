@@ -14,7 +14,6 @@ import home2 from "images/home/empreendimento_home2.png";
 
 
 import CardLs from "components/cardLs";
-import Card from "components/card";
 import ScrollableAnchor from "react-scrollable-anchor";
 
 function ListaImoveis() {
@@ -32,7 +31,7 @@ function ListaImoveis() {
 
 
   return (
-    <ScrollableAnchor id="">
+    <ScrollableAnchor id="maquinas">
       <Content className="col-12 d-flex flex-column align-items-center p-0">
         <div className="title ">Os melhores imóveis estão aqui</div>
         {isMobile ?
@@ -46,45 +45,45 @@ function ListaImoveis() {
           }}>
             <SplideSlide className="slide">
               <CardLs image={home}
-                title="Nome do Empreendimento"
-                text="São Paulo | Vila Mariano  
-                      Área privativa de 253 m² 
-                      2 suítes"/>
+                title="Front Lake"
+                text="Rio Claro | Vila Operária
+                Área privativa de 94 m²
+                3 Dormitórios (1 suíte)"/>
             </SplideSlide>
             <SplideSlide className="slide">
               <CardLs image={home1}
-                title="Nome do Empreendimento"
-                text="São Paulo | Vila Mariano  
-                      Área privativa de 253 m² 
-                      2 suítes"/>
+                title="Infinity"
+                text="Rio Claro | Cidade Jardim
+                Área privativa de 151 m²
+                4 Suítes (1 master)"/>
             </SplideSlide>
             <SplideSlide className="slide">
               <CardLs image={home1}
-                title="Nome do Empreendimento"
-                text="São Paulo | Vila Mariano  
-                      Área privativa de 253 m² 
-                      2 suítes"/>
+                title="Quinta do Vale"
+                text="Barra Bonita | Portal São José da Barra
+                Com lotes de 200m² a 400m²"/>
             </SplideSlide>
             <SplideSlide className="slide">
               <CardLs image={home1}
-                title="Nome do Empreendimento"
-                text="São Paulo | Vila Mariano  
-                      Área privativa de 253 m² 
-                      2 suítes"/>
+                title="Office Tower"
+                text="Rio Claro | Jardim Claret
+                Salas - 42,06 m² | 43,66 m² | 49,94 m²
+                5 Elevadores (3 panorâmicos)"/>
             </SplideSlide>
             <SplideSlide className="slide">
               <CardLs image={home1}
-                title="Nome do Empreendimento"
-                text="São Paulo | Vila Mariano  
-                     Área privativa de 253 m² 
-                     2 suítes"/>
+                title="Las Rocas"
+                text="Piracicaba | Piracicamirim
+                Área privativa de 55 m²
+                2 Dormitórios"/>
             </SplideSlide>
             <SplideSlide className="slide">
               <CardLs image={home1}
-                title="Nome do Empreendimento"
-                text="São Paulo | Vila Mariano  
-                     Área privativa de 253 m² 
-                     2 suítes"/>
+                title="Higienópolis"
+                text="Piracicaba | Higienópolis
+                Área privativa de 88 m²
+                3 Dormitórios (1 suíte)
+                "/>
             </SplideSlide>
           </Splide>
 
@@ -103,16 +102,15 @@ function ListaImoveis() {
                   text="São Paulo | Vila Mariano  
                     Área privativa de 253 m² 
                     2 suítes"/>
-                <Card image={home1}
+                <CardLs image={home1}
                   title="Nome do Empreendimento"
                   text="São Paulo | Vila Mariano  
                     Área privativa de 253 m² 
                     2 suítes"/>
-                <CardLs image={home2} 
-                title="Nome do Empreendimento"
-                text="São Paulo | Vila Mariano  
-                  Área privativa de 253 m² 
-                  2 suítes"/>
+                <CardLs image={home2} title="Série Plus"
+                  text="São Paulo | Vila Mariano  
+                    Área privativa de 253 m² 
+                    2 suítes"/>
               </div>
             </SplideSlide>
             <SplideSlide>
@@ -122,7 +120,7 @@ function ListaImoveis() {
                   text="São Paulo | Vila Mariano  
                     Área privativa de 253 m² 
                     2 suítes"/>
-                <Card image={home1}
+                <CardLs image={home1}
                   title="Nome do Empreendimento"
                   text="São Paulo | Vila Mariano  
                     Área privativa de 253 m² 

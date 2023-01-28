@@ -121,7 +121,7 @@ const Content = styled.div`
     background: #000000;
     color: #ffffff;
     align-items: center;
-    width: 65rem; 
+    max-width: 1000px;
     justify-content: center;
   }
   .consulta{

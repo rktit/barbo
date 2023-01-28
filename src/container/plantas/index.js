@@ -6,11 +6,11 @@ import Fade from "react-reveal/Fade";
 import sala from 'images/empreendimento/sala.png';
 import casale from 'images/statics/modalImplementos/casale.png';
 import herder from 'images/statics/modalImplementos/Herder.png';
+
 import icone_whatsapp from "images/empreendimento/whatsapp.png";
 
-import { Splide, SplideSlide } from '@splidejs/react-splide'
-import '@splidejs/splide/dist/css/themes/splide-sea-green.min.css'
-import { getAllByTestId } from '@testing-library/react'
+import { Splide, SplideSlide } from '@splidejs/react-splide';
+import '@splidejs/splide/dist/css/themes/splide-sea-green.min.css';
 
 function Plantas(props) {
   const [indexSlide, setIndexSlide] = useState(0);

@@ -22,7 +22,7 @@ function CardImoveis(props) {
           <div className="card-title col-12">
             {props.title}
           </div>
-          <div className="col-7 card-text">
+          <div className="col-8 card-text">
             {props.text}
           </div>
           <div className="d-flex btn justify-content-center">

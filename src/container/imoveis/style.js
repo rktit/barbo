@@ -80,9 +80,6 @@ background-color: #eeeeee;
 }
 
 .maquinas{
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
-
     margin-bottom: 50px;
 }
 
@@ -124,7 +121,27 @@ background-color: #eeeeee;
     text-align: end;
     padding-right:10px;
 }
-
+.splide__arrow svg {
+    width: 1.5em;
+    height: 1.5em;
+    fill: #000000;
+    transition: fill .2s linear;
+}
+.splide__pagination__page {
+    display: inline-block;
+    width: 20px;
+    height: 5px;
+    background: #fc1347;
+    border-radius: 2.5px;
+    margin: 3px;
+    padding: 0;
+    transition: all .2s linear;
+    border: none;
+}
+.splide__pagination__page.is-active {
+    background: #000000;
+    width: 5px;
+}
 @media only screen and (max-width: 600px) {
 
     padding-right: 0px !important;

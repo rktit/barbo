@@ -37,7 +37,7 @@ a {
 }
 
 .card-text{
-    height: 6rem;
+    height: 7rem;
     font-family: ${fonts.opensans_light};
 }
 .love {
