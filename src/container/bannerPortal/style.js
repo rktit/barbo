@@ -1,61 +1,81 @@
 import styled from "styled-components";
 import fonts from "config/fonts";
 
-import banner from "images/banner/Banner_Terrazul.png";
-import bannerMobile from "images/banner/Mobile__Terrazul.png";
+import background from "images/login/img.png";
 
 const Content = styled.div`
+  flex-direction: row;
+  padding: 0 !important;
+  background: url(${background}) no-repeat top center;
+  background-size:cover;
+  height: 36rem;
+  justify-content: center;
+  align-items: center;
 
-    /* background: url(${banner}) no-repeat bottom center; */
+  font-family: ${fonts.raleway_bold};
+  text-align: center;
 
-    /* display:flex;
-    justify-content: center;
-    align-items: center; */
+  .title{
+    font-size: 4rem;
+    font-family: ${fonts.opensans_regular};
+    color: #ffffff;
+    text-align: left;
+  }
+  .title1{
+    font-size: 2.5rem;
+    font-family: ${fonts.opensans_regular};
+    color: #ffffff;
+    text-align: left;
+  }
+  .text{
+    font-size: 1.5rem;
+    font-family: ${fonts.opensans_light};
+    color: #ffffff;
+    text-align: left;
+  }
+.
+  .logo{
+    width: 170px;
+  }
+ 
+  .btn1{
+    background-color: #000000;
+    font-family: ${fonts.opensans_light};
+    font-size: 2rem;
+    color: #ffffff;
+    border-radius: 5px;
+    height: 70px;
 
-    height: auto;
-    width: 100%;
-    background-size:100%;
-    .banner{
-        width:100%;
-        height:auto;
-        background-repeat: no-repeat;
-        // padding-top: 80px;
+    &.active {
+      background-color: #405c9a;
     }
 
-    .text{
-        font-size:1.5rem;
-        color: #20396f;
-        font-family: ${fonts.opensans_bold};
-        font-weight: bold;
-        margin-right: 57%;
+    :hover {
+      transition: 0.1s ease-in-out;
+      background-color: #405c9a;
+      text-decoration: none;
     }
 
-    img{
-        width: 180px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    margin-bottom: 300px;
+    display: flex;
+    align-items: center;
+
+    .title {
+      margin-top: 32px;
+      font-size: 1.4rem;
+      font-family: ${fonts.raleway_black};
+      color: #ffffff;
+      text-align: center;
     }
 
     .logo{
-        width: 200px;
-        height: auto;
+      padding: 10px;
     }
 
-
-    @media only screen and (max-width: 600px) {
-        .text{
-            margin-right: 0;
-            text-align:center;
-            font-size: 1.2rem;
-            margin-top: -310px;
-        }
-        img{
-            width: 180px;
-        }
-        .banner{
-            padding: 115px 0 0px 0;
-
-            
-        }
-    }
+  }
 `;
 
 export default Content;

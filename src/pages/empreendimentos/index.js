@@ -1,7 +1,7 @@
 import React, { Fragment, useEffect } from "react";
 import { configureAnchors } from "react-scrollable-anchor";
 
-import { MenuLs, Banner, Imoveis, FooterLs, ConhecaBarbo } from "container";
+import { Menu, Banner, Imoveis, Footer, ConhecaBarbo } from "container";
 import {ModalPolitica} from 'components';
 
 const Empreendimentos = () => {
@@ -13,11 +13,11 @@ const Empreendimentos = () => {
   return (
     <Fragment>
       <ModalPolitica />
-      <MenuLs/>
+      <Menu/>
       <Banner />
       <Imoveis />
       <ConhecaBarbo />
-      <FooterLs />
+      <Footer />
     </Fragment>
   );
 };

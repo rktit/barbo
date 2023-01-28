@@ -1,6 +1,6 @@
 import React, { Fragment, useEffect } from "react";
 
-import { MenuLs, FooterLs, BannerWorkWithUs, DescriptionWorkWithUs, FormWorkWithUs, Social} from "container";
+import { Menu, Footer, BannerWorkWithUs, DescriptionWorkWithUs, FormWorkWithUs, Social} from "container";
 
 import { configureAnchors } from "react-scrollable-anchor";
 
@@ -14,13 +14,13 @@ const WorkWithUs_Page = () => {
 
   return (
     <Fragment>
-      <MenuLs/>
+      <Menu/>
       <Alerts />
       <BannerWorkWithUs />
       <DescriptionWorkWithUs />
       <FormWorkWithUs />
       {/* <Social /> */}
-      <FooterLs />
+      <Footer />
     </Fragment>
   );
 };

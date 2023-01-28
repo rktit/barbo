@@ -70,7 +70,7 @@ const MenuFormulario = (props) => {
 
 	return (
 		<Content className={`d-flex`}>
-			<div className="container">
+			<div className="container ">
 				<div className={`menu-nav ${showMenu ? "show-menu" : "hide-menu"}`}>
 					<a onClick={() => { abreModal(props.title) }} className={active === "#" ? 'active mr-3' : 'mr-3'}>
 						Quero Comprar um Imóvel

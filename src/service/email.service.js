@@ -9,7 +9,7 @@ export const sendTrabalhe = async (data, file = false) => {
 				}
 		}
 		await axios
-				.post(`https://emails.rktstation.com.br/api/terrazul-trabalhe-conosco`, data, config)
+				.post(`https://emails.rktstation.com.br/api/barbo-trabalhe-conosco`, data, config)
 				.then((res) => {
 						console.log("sendEmail result", res.data);
 						result = {data: res.data, error: false};
@@ -30,7 +30,7 @@ export const sendCatalogo = async (data, file = false) => {
 			}
 	}
 	await axios
-			.post(`https://emails.rktstation.com.br/api/terrazul-catalogo`, data, config)
+			.post(`https://emails.rktstation.com.br/api/barbo-catalogo`, data, config)
 			.then((res) => {
 					console.log("sendCatalogo result", res.data);
 					result = {data: res.data, error: false};
@@ -51,7 +51,7 @@ export const sendNewsletter = async (data, file = false) => {
 			}
 	}
 	await axios
-			.post(`https://emails.rktstation.com.br/api/terrazul-newsletter`, data, config)
+			.post(`https://emails.rktstation.com.br/api/barbo-newsletter`, data, config)
 			.then((res) => {
 					console.log("sendNewsletter result", res.data);
 					result = {data: res.data, error: false};
@@ -72,7 +72,7 @@ export const sendOrcamento = async (data, file = false) => {
 			}
 	}
 	await axios
-			.post(`https://emails.rktstation.com.br/api/terrazul-orcamento`, data, config)
+			.post(`https://emails.rktstation.com.br/api/barbo-orcamento`, data, config)
 			.then((res) => {
 					console.log("sendOrcamento result", res.data);
 					result = {data: res.data, error: false};

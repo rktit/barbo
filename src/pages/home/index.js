@@ -4,7 +4,7 @@ import {BannerHome, Welcome} from "container";
 import { configureAnchors } from "react-scrollable-anchor";
 
 import {FlashMessageCookies, ModalPolitica} from 'components';
-import {MenuLs, ListaImoveis, VideoBarbo, FooterLs} from "container";
+import {Menu, ListaImoveis, VideoBarbo, Footer} from "container";
 
 const Home_Page = () => {
   // const _translate = useSelector(({translate}) => translate);
@@ -16,11 +16,11 @@ const Home_Page = () => {
     <Fragment>
       <ModalPolitica />
       <FlashMessageCookies/>
-      <MenuLs/>
+      <Menu/>
       <BannerHome />
       <ListaImoveis />
       <VideoBarbo/>
-      <FooterLs />
+      <Footer />
     </Fragment>
   );
 };

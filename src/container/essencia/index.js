@@ -16,7 +16,7 @@ function Essencia() {
     }, [window.innerWidth]);
 
     return (
-        <ScrollableAnchor id="terrazul">
+        <ScrollableAnchor id="">
             {isMobile ? '' :
                 <Content>
                     <div className="title justify-content-center">Nossa essência</div>

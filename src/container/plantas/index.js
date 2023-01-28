@@ -128,7 +128,7 @@ function Plantas(props) {
                     <div className="d-flex  consulta">
                       <div className="image-side shadow btn1">
                         Whatsapp
-                        <a target="_blank" href="https://api.whatsapp.com/send?phone=5515997831666&text=Gostaria de falar com um consultor?">
+                        <a target="_blank" href="https://api.whatsapp.com/send?phone=5519996965525&text=Gostaria de falar com um consultor?">
                           <img className="icone_whatsapp" src={icone_whatsapp} alt="Whatsapp" />
                         </a>
                       </div>

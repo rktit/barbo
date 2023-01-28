@@ -70,18 +70,19 @@ export const Content = styled.nav`
       font-size: 15px;
       display: flex;
       justify-content: center;
-      border-width: 1px;
+      border-bottom-width: 1px;
       border-color: rgb(0 0 0);
-      border-style: solid;
+      background-color: rgb(249 246 246);
       height: 3.25rem;
-
       
       &.active {
-        text-decoration-line: none;   
-        border-width: 0px;
         border-color: rgb(0 0 0);
         border-style: solid;
-
+        border-top-width: 0px;
+        border-bottom-width: 1px;
+        border-right-width: 0px;
+        border-left-width: 0px;
+        margin: 5px 0px;
       }
       
       :hover {
@@ -89,10 +90,6 @@ export const Content = styled.nav`
         text-decoration-color: #000;
         text-decoration-line: underline;
         font-weight: 800;
-        border-width: 1px;
-        border-color: rgb(0 0 0);
-        border-style: solid;
-        background-color: rgb(235 235 235);
       }
     }
     .marca{

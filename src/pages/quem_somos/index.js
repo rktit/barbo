@@ -1,6 +1,6 @@
 import React, { Fragment, useEffect } from "react";
 
-import {MenuLs, QuemSomos, Descricao, Essencia, ConhecaBarbo, FooterLs, HeaderLS} from "container";
+import {Menu, QuemSomos, Descricao, Essencia, ConhecaBarbo, Footer} from "container";
 import { configureAnchors } from "react-scrollable-anchor";
 
 import {ModalPolitica} from 'components';
@@ -14,13 +14,12 @@ const QuemSomos_Page = () => {
   return (
     <Fragment>
       <ModalPolitica />
-      <MenuLs/>
+      <Menu/>
       <QuemSomos />
       <Essencia/>
-      <HeaderLS />
       <ConhecaBarbo/>
       <Descricao />
-      <FooterLs />
+      <Footer />
     </Fragment>
   );
 };

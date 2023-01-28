@@ -165,7 +165,7 @@ function FormWorkWithUs() {
                                     className="textCheck mt-2"
                                     type="checkbox"
                                     onClick={() => handleCheck()}
-                                    label="Ao enviar o meu currículo na Terrazul Tratores, manifesto o meu consentimento livre, informado e inequívoco para que meus dados pessoais sejam tratados pela empresa com a finalidade de análise e, se for o caso, seleção em eventual processo de contratação para compor seu quadro de empregados, bem como o compartilhamento dos dados pessoais constantes no currículo com empresas do mesmo grupo econômico da Terrazul Tratores.
+                                    label="Ao enviar o meu currículo na Barbo Empreendimentos, manifesto o meu consentimento livre, informado e inequívoco para que meus dados pessoais sejam tratados pela empresa com a finalidade de análise e, se for o caso, seleção em eventual processo de contratação para compor seu quadro de empregados, bem como o compartilhamento dos dados pessoais constantes no currículo com empresas do mesmo grupo econômico da Barbo Empreendimentos.
                                     Autorizo ainda a empresa a armazenar o meu currículo em seu banco de dados pelo prazo de 01 (um ano). Após este período, todos os dados serão automaticamente eliminados de forma segura pela empresa, ressalvadas as hipóteses em que, por obrigação legal ou regulatória, seja obrigada a mantê-los." 
                                 />
                             </Form.Group >

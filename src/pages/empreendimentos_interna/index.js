@@ -1,10 +1,10 @@
 import React, { Fragment, useEffect } from "react";
 import { configureAnchors } from "react-scrollable-anchor";
 
-import {MenuLs, BannerEmpreendimento, Empreendimento, Plantas, Mapa, FooterLs} from "container";
+import {Menu, BannerEmpreendimento, Empreendimento, Plantas, Mapa, Footer} from "container";
 import { FlashMessageCookies, ModalPolitica } from 'components';
 
-const EmpreendimentosInterna_Page = () => {
+const EmpreendimentosInterna = () => {
   // const _translate = useSelector(({translate}) => translate);
 
   configureAnchors({ offset: -60, scrollDuration: 500 });
@@ -13,14 +13,14 @@ const EmpreendimentosInterna_Page = () => {
   return (
     <Fragment>
       <ModalPolitica />
-      <MenuLs />
+      <Menu />
       <BannerEmpreendimento />
       <Empreendimento />
       <Plantas />
       <Mapa />
-      <FooterLs />
+      <Footer />
     </Fragment>
   );
 };
 
-export default EmpreendimentosInterna_Page;
+export default EmpreendimentosInterna;

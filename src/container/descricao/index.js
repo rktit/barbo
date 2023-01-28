@@ -25,7 +25,7 @@ function Descricao() {
     }, [window.innerWidth]);
 
 return (
-    <ScrollableAnchor id="terrazul">
+    <ScrollableAnchor id="">
         <Content>
             { isMobile ?  
                 <Splide className=" col-12" options={{

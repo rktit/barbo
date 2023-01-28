@@ -1,50 +1,32 @@
-import Badges from './badges';
-import PosVenda from './posVenda';
-import Pecas from './pecas';
-import Footer from './footer';
-import ListaMaquinas from './lista-maquinas';
-import Header from './header';
-import Newsletter from './newsletter';
-import Consorcio from './consorcio';
-import Banner from './banner';
-
-
+import Menu from './menu';
 import BannerHome from './bannerHome';
 import ListaImoveis from './listaImoveis';
 import VideoBarbo from './videoBarbo';
-import Essencia from './essencia';
-import ConhecaBarbo from './conhecaBarbo';
+import Footer from './footer';
+
 import QuemSomos from './quemSomos';
+import Essencia from './essencia';
 import Descricao from './descricao';
+
+import Banner from './banner';
+import Imoveis from './imoveis';
+import ConhecaBarbo from './conhecaBarbo';
+
+import BannerEmpreendimento from './bannerEmpreendimento';
+import Empreendimento from './empreendimento';
+import Plantas from './plantas';
+import Mapa from './mapa';
+
 import BannerBlog from './bannerBlog';
 import Blog from './blog';
-import Imoveis from './imoveis';
-import Contato from './contato';
-import Empreendimento from './empreendimento';
-import BannerPortal from './bannerPortal';
+
 import BannerContato from './bannerContato';
-import Tour from './tour';
-import BannerEmpreendimento from './bannerEmpreendimento';
-import ListaContato from './listaContato';
-import Portal from './portal';
-import Mapa from './mapa';
-import Corretor from './corretor';
-import Formulario from './formulario';
-import Plantas from './plantas';
 import MenuFormulario from './menuFormulario';
+import Formulario from './formulario';
+import Newsletter from './newsletter';
 
-
-
-
-import MenuLs from './menuLs';
-// import BadgesLs from './badgesLs';
-import HeaderLS from './headerLS';
-// import FormCatalogoLs from './formCatalogoLs';
-// import PosVendaLs from './posVendaLs';
+import BannerPortal from './bannerPortal';
 import Login from './login';
-import FooterLs from './footerLs';
-import Parceiros from './parceiros';
-
 
 import BannerWorkWithUs from './bannerWorkWithUs';
 import DescriptionWorkWithUs from './descriptionWorkWithUs';
@@ -52,52 +34,47 @@ import FormWorkWithUs from './formWorkWithUs';
 
 export {
 
-    //Jacto
-    Badges,
-    PosVenda,
-    Pecas,
-    Footer,
-    ListaMaquinas,
-    Header,
-    Newsletter,
-    Consorcio,
-    Banner,
-    
-    
+    // Home 
+    Menu,
     BannerHome,
-    Formulario,
-    Corretor,
-    Mapa,
     ListaImoveis,
     VideoBarbo,
-    Essencia,
-    ConhecaBarbo,
+    Footer,
+    
+    //Quem Somos
     QuemSomos,
+    Essencia,
     Descricao,
+    
+
+    // Empreendimentos 
+    Banner,
+    Imoveis,
+    ConhecaBarbo,
+    
+    // Empreendimentos Interna 
+    BannerEmpreendimento,
+    Empreendimento,
+    Plantas,
+    Mapa,
+
+    // Blog 
     BannerBlog,
     Blog,
-    Imoveis,
-    Contato,
-    Empreendimento,
-    BannerPortal,
+    
+    // Fale Conosco 
     BannerContato,
-    Tour,
-    BannerEmpreendimento,
-    ListaContato,
-    Portal,
-    Plantas,
-    MenuFormulario
-,
-    //LS Tractor
+    MenuFormulario,
+    Formulario,
+    Newsletter,
+
+    // Portal Corretor 
+    BannerPortal,
+    Login,
+
+    
+    
     BannerWorkWithUs,
     DescriptionWorkWithUs,
     FormWorkWithUs,
-    MenuLs,
-    // BadgesLs,
-    HeaderLS,
-    // FormCatalogoLs,
-    // PosVendaLs,
-    Login,
-    FooterLs,
-    Parceiros
 }

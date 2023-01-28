@@ -13,7 +13,7 @@ function BannerWorkWithUs() {
         <ScrollableAnchor id="trabalhe-conosco">
             <Content className="contentItens col-12 p-0">
                 <div className="col-md-8 textos">
-                    <div>Somos a Terrazul!</div>
+                    <div>Somos a Barbo Empreendimentos!</div>
                     <div><strong>Vamos levar o AGRO <br />ainda mais adiante?</strong></div>
                 </div>            
             </Content>

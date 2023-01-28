@@ -35,7 +35,7 @@ export default function FlashMessageCookies() {
 						<Icon.InfoCircle color='#FFFFFF' size={36} className='mr-3 d-none d-md-block'/>
 				</div>
 				<div>
-						A <strong>Terrazul</strong> utiliza cookies e guarda estatísticas de visitas para melhorar sua
+						A <strong>Barbo Empreendimentos</strong> utiliza cookies e guarda estatísticas de visitas para melhorar sua
 						experiência de navegação, de acordo com a nossa <a href="#politica-privacidade" onClick={() => dispatch(Actions.toggle_modal('politica'))}>Política de Privacidade</a>,
 						e ao continuar
 						navegando, você concorda com estas condições.
