@@ -1,10 +1,16 @@
 import styled from "styled-components";
 import fonts from "config/fonts";
+import lupa from "images/empreendimento/lupa.png";
 
 
 const Content = styled.div`
 
 background-color: #eeeeee;
+.box {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+}
 .title{
     font-family: ${fonts.opensans_light};
     font-size: 2rem;
@@ -13,23 +19,35 @@ background-color: #eeeeee;
     margin-top: 30px;
 }
 
-.demarcador{
-    height: 40px;
-    width: 40px;
-
-    position: absolute;
-    top: 90px;
-    left: 15%;
-
-    border-bottom-style: solid;
-    border-bottom-color: #20396f;
-    border-bottom-width: 3px;
-    border-right-style: solid;
-    border-right-color: #20396f;
-    border-right-width: 2px;
-
-  }
-
+.filtro__select {
+    width: 14rem;
+    font-size: 14px;
+    color: #000;
+    font-family: ${fonts.opensans_light};
+    font-weight: 500;
+    border-radius: 0;
+    border-width: 1px;
+    border-color: rgb(0 0 0);
+    border-style: solid;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+    background-color: transparent;
+    line-height: 17px;
+    padding: 10px 0px 10px;
+}
+ .filtro__item {
+    width: 14.5rem;
+    padding: 0 0;
+}
+.btn_lupa {
+    background: url(${lupa}) no-repeat center;
+    height: 2.75rem;
+    padding: 1rem 1rem;
+    border-radius: 0;
+    border-width: 1px;
+}
+.filtro__button {
+    width: 2.75rem;
+}
 .banner{
     // height: 1100px;
     // width: 100vw;

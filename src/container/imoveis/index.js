@@ -10,7 +10,9 @@ import home2 from "images/home/empreendimento_home2.png";
 import home3 from "images/home/empreendimento_home3.png";
 import home4 from "images/home/empreendimento_home4.png";
 import home5 from "images/home/empreendimento_home5.png";
+import lupa from "images/empreendimento/lupa.png";
 
+import ModalImplementos from "components/modalImplementos";
 
 import CardImoveis from "components/cardImoveis";
 import ScrollableAnchor from "react-scrollable-anchor";
@@ -32,7 +34,34 @@ function Imoveis() {
   return (
     <ScrollableAnchor id="maquinas">
       <Content className="col-12 d-flex flex-column align-items-center p-0">
-        <div className="title ">Os melhores toques para o seu novo lar.</div>
+        <div className="title ">Encontre seu imóvel</div>
+        <div className="flex box">
+
+          <form className="d-none d-lg-block form-search-filters" name="form-search-filters"
+            id="form-search-filters" method="get" action="https://www.rocketit.com.br/barbo/imoveis/" autocomplete="off">
+            <div className="d-flex justify-content-between">
+              <div className="filtro__item">
+                <label for="form-search-filter-city" className="filtro__label form-label"></label>
+                <select id="form-search-filter-city" name="cidade" className="filtro__select form-select form-search-filter-city">
+                  <option value="">Cidade</option>
+                  <option value="piracicaba" data-phases="pronto-para-morar,final-de-obras,em-obras">Piracicaba</option>
+                  <option value="americana" data-phases="pronto-para-morar">Americana</option>
+                  <option value="ipeuna" data-phases="pronto-para-morar">Rio Claro</option>
+                </select>
+              </div>
+              <div className="filtro__item">
+                <label for="form-search-filter-phase" className="filtro__label form-label"></label>
+                <select name="fase" id="form-search-filter-phase" className="filtro__select form-select form-search-filter-phase">
+                  <option value="">Tipos</option>
+                  <option value="loteamento" data-phases="pronto-para-morar,final-de-obras,em-obras">Loteamento</option>
+                  <option value="residencial" data-phases="pronto-para-morar">Residencial</option>
+                  <option value="corporativo" data-phases="pronto-para-morar">Corporativo</option>
+                </select>
+              </div>
+              <button type="submit" class="filtro__button btn_lupa"></button>
+            </div>
+          </form>
+        </div>
         {isMobile ?
           <Splide className="splide col-12" options={{
             rewind: true,
@@ -44,43 +73,43 @@ function Imoveis() {
           }}>
             <SplideSlide className="slide">
               <CardImoveis image={home}
-                  title="Nome do Empreendimento"
-                  text="São Paulo | Vila Mariano  
+                title="Nome do Empreendimento"
+                text="São Paulo | Vila Mariano  
                     Área privativa de 253 m² 
                     2 suítes"/>
             </SplideSlide>
             <SplideSlide className="slide">
               <CardImoveis image={home1}
-                  title="Nome do Empreendimento"
-                  text="São Paulo | Vila Mariano  
+                title="Nome do Empreendimento"
+                text="São Paulo | Vila Mariano  
                     Área privativa de 253 m² 
                     2 suítes"/>
             </SplideSlide>
             <SplideSlide className="slide">
               <CardImoveis image={home2}
-                  title="Nome do Empreendimento"
-                  text="São Paulo | Vila Mariano  
+                title="Nome do Empreendimento"
+                text="São Paulo | Vila Mariano  
                     Área privativa de 253 m² 
                     2 suítes"/>
             </SplideSlide>
             <SplideSlide className="slide">
               <CardImoveis image={home3}
-                  title="Nome do Empreendimento"
-                  text="São Paulo | Vila Mariano  
+                title="Nome do Empreendimento"
+                text="São Paulo | Vila Mariano  
                     Área privativa de 253 m² 
                     2 suítes"/>
             </SplideSlide>
             <SplideSlide className="slide">
               <CardImoveis image={home4}
-                  title="Nome do Empreendimento"
-                  text="São Paulo | Vila Mariano  
+                title="Nome do Empreendimento"
+                text="São Paulo | Vila Mariano  
                     Área privativa de 253 m² 
                     2 suítes"/>
             </SplideSlide>
             <SplideSlide className="slide">
               <CardImoveis image={home5}
-                  title="Nome do Empreendimento"
-                  text="São Paulo | Vila Mariano  
+                title="Nome do Empreendimento"
+                text="São Paulo | Vila Mariano  
                     Área privativa de 253 m² 
                     2 suítes"/>
             </SplideSlide>
@@ -89,33 +118,33 @@ function Imoveis() {
           :
           <div className="maquinas">
             <CardImoveis image={home}
-                  title="Nome do Empreendimento"
-                  text="São Paulo | Vila Mariano  
+              title="Nome do Empreendimento"
+              text="São Paulo | Vila Mariano  
                     Área privativa de 253 m² 
                     2 suítes"/>
             <CardImoveis image={home1}
-                  title="Nome do Empreendimento"
-                  text="São Paulo | Vila Mariano  
+              title="Nome do Empreendimento"
+              text="São Paulo | Vila Mariano  
                     Área privativa de 253 m² 
                     2 suítes"/>
             <CardImoveis image={home2}
-                  title="Nome do Empreendimento"
-                  text="São Paulo | Vila Mariano  
+              title="Nome do Empreendimento"
+              text="São Paulo | Vila Mariano  
                     Área privativa de 253 m² 
                     2 suítes"/>
             <CardImoveis image={home3}
-                  title="Nome do Empreendimento"
-                  text="São Paulo | Vila Mariano  
+              title="Nome do Empreendimento"
+              text="São Paulo | Vila Mariano  
                     Área privativa de 253 m² 
                     2 suítes"/>
             <CardImoveis image={home4}
-                  title="Nome do Empreendimento"
-                  text="São Paulo | Vila Mariano  
+              title="Nome do Empreendimento"
+              text="São Paulo | Vila Mariano  
                     Área privativa de 253 m² 
                     2 suítes"/>
             <CardImoveis image={home5}
-                  title="Nome do Empreendimento"
-                  text="São Paulo | Vila Mariano  
+              title="Nome do Empreendimento"
+              text="São Paulo | Vila Mariano  
                     Área privativa de 253 m² 
                     2 suítes"/>
           </div>
