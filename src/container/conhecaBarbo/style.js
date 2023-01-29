@@ -20,10 +20,17 @@ padding: 20px !important;
       // text-align: end;
    }
   .content {
-    margin-left: 3%;
+    margin-left: 0;
+    width: -webkit-fill-available;
   }
 
   @media only screen and (max-width: 600px) {
+   padding: 30px 0px !important;
+  
+   .content {
+   width: -webkit-fill-available;
+   }
+
      .title{
         justify-content: center;
         font-size: 1.3rem;

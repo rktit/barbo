@@ -10,9 +10,7 @@ import home2 from "images/home/empreendimento_home2.png";
 import home3 from "images/home/empreendimento_home3.png";
 import home4 from "images/home/empreendimento_home4.png";
 import home5 from "images/home/empreendimento_home5.png";
-import lupa from "images/empreendimento/lupa.png";
 
-import ModalImplementos from "components/modalImplementos";
 
 import CardImoveis from "components/cardImoveis";
 import ScrollableAnchor from "react-scrollable-anchor";
@@ -36,7 +34,6 @@ function Imoveis() {
       <Content className="col-12 d-flex flex-column align-items-center p-0">
         <div className="title ">Encontre seu imóvel</div>
         <div className="flex box">
-
           <form className="d-none d-lg-block form-search-filters" name="form-search-filters"
             id="form-search-filters" method="get" action="https://www.rocketit.com.br/barbo/imoveis/" autocomplete="off">
             <div className="d-flex justify-content-between">
@@ -65,11 +62,11 @@ function Imoveis() {
         {isMobile ?
           <Splide className="splide col-12" options={{
             rewind: true,
-            width: "100%",
+            width: "20rem",
             gap: '2rem',
             perPage: 1,
-            pagination: true,
-            arrows: false
+            pagination: false,
+            arrows: true,
           }}>
             <SplideSlide className="slide">
               <CardImoveis image={home}
@@ -129,7 +126,7 @@ function Imoveis() {
           </Splide>
 
           :
-          <Splide className="col-88" options={{
+          <Splide className="col-8" options={{
             rewind: true,
             width: "100%",
             gap: '1.5rem',

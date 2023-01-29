@@ -144,15 +144,20 @@ z-index: 1027;
 
 
   @media only screen and (max-width: 992px) {
+    
     .menu-nav {
-      padding: 0.5rem 0 0.5rem 0.05rem;
+      padding: 0rem 0 0.5rem 0.05rem;
       display: flex;
       flex-direction: column;
       a {
-        padding: 0.5rem 0 0.5rem 0.2rem;
+        padding: 0rem 0 0.5rem 0.2rem;
       }
     }
-    
+    .menu-nav a {
+      color: #ffffff;
+      display: flex;
+      justify-content: flex-end;      
+  }
       .menu-scroll {
 		    transition: 0.2s ease-in-out;
 		    padding: .5rem !important;
@@ -162,5 +167,11 @@ z-index: 1027;
 		    transition: 0.2s ease-in-out;
 		    padding: .5rem !important;
 		  }
+      .container {
+        margin-top: -5px;
+      }
+      .espaco {
+        justify-content: flex-end;      
+      }
   }
 `;

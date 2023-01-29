@@ -6,34 +6,18 @@ const Content = styled.div`
   flex-direction: row;
   justify-content: center;
   background-color: #000000;
-  padding-top: 3rem;
+  padding-top: 32px;
   padding-bottom: 10px;
-  margin: 0 0rem 0px 0!important;
 
 
-
-  a {
-	color: ${colors.white};
-	transition: 0.2s ease-in-out;
-	margin-bottom: 8px;
-	:hover {
-		color: ${colors.primary};
-		transition: 0.2s ease-in-out;
-		text-decoration: none;
-	}
-}
   .logo-footer{
-	margin=top: 40px;
+	margin:40px -70px 0px 20px;
 
 	img{
 		width: 180px;
 	}
   }
-  .texto{
-    font-family:${fonts.opensans_light};
-    color:#ffffff;
-	text-align: left;
-  }
+
   .nome-logo{
 	  font-size: 1.2rem;
 	  font-family: ${fonts.opensans_bold};
@@ -45,41 +29,68 @@ const Content = styled.div`
     font-size: 1rem;
     font-family: ${fonts.opensans_bold};
     line-height: 120%;
-    margin-bottom: 4px;
+    margin-bottom: 24px;
 	color: white;
   }
   
-
-  .conteudo {
-  	font-family: ${fonts.opensans_light};
-  	font-size: 0.8rem;
-    padding-left: 0px;
+  .info {
+	margin-top:24px;
+  
   }
+  
+  .conteudo {
+  	font-family: ${fonts.opensans_regular};
+  	font-size: 0.8rem;
+  	
+  	span {
+  		color: ${colors.primary};
+  	}
+  	
+  	a {
+  		color: ${colors.white};
+  		transition: 0.2s ease-in-out;
+  		margin-bottom: 8px;
+  		:hover {
+  			color: ${colors.primary};
+  			transition: 0.2s ease-in-out;
+  			text-decoration: none;
+  		}
+  	}
   	
   	.icone_contato {
   		height: 18px;
   	}
   	
   	.icone_midia {
-      height: 24px;
-      margin-top: 8px;
+      height: 2rem;
+      width: 4rem;
+      margin-top: -16px;
+      margin-left: -3rem;
+      flex-wrap: wrap;
+      padding-right: 2.5rem;
     }
-  }
   
   .infos {
-    margin: 14px 0!important;
+    margin-top: 10px !important;
   }
+.line{
 
+}
   .copyright {
-    color: #696969;
+    color: #ffffff;
+    margin-top: 100px;
     text-align: center;
     font-size: 12px;
-    font-family: ${fonts.opensans_light};
+    font-family: ${fonts.opensans_regular};
   }
 
   @media only screen and (max-width: 600px) {
-    .logo {
-    	max-width: 200px;
+    .logo-footer {
+      margin: 40px -70px 0px 10px;
+      .logo {
+        
+        max-width: 200px;
+      }
     }
     
     .info {
@@ -102,6 +113,19 @@ const Content = styled.div`
 	.copyright{
 		margin-top: 50px;
 	}
+  .logo-footer {
+    margin: 40px -70px 0px 10px;
+  }
+   .icone_midia {
+    height: 2rem;
+    width: 4rem;
+    margin-top: -16px;
+    margin-left: -3rem;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-right: 20px;
+}
   }
 `;
 
