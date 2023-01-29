@@ -14,6 +14,7 @@ a {
 .card{
     width: 25rem;
     margin: 5px;
+    height: 28rem;
 }
 
 .card-body{

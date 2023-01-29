@@ -2,6 +2,8 @@ import styled from "styled-components";
 import fonts from "config/fonts";
 
 import background from "images/home/banner_home.png";
+import backgroundMobile from "images/home/mobile_banner_home.png";
+
 
 const Content = styled.div`
   flex-direction: row;
@@ -101,18 +103,36 @@ const Content = styled.div`
   }
 }
   @media only screen and (max-width: 600px) {
-    margin-bottom: 300px;
+    background: url(${backgroundMobile}) no-repeat top center;
+    background-size:cover;
+    height: 40rem;
     display: flex;
     align-items: center;
 
+    .box-texto {
+      margin-top: 10rem;
+      margin-left: -5rem;
+      padding-left: 2rem;
+      transform: rotate(-108deg);
+      width: max-content;
+    }
     .title {
       margin-top: 32px;
-      font-size: 1.4rem;
+      font-size: 2rem;
       font-family: ${fonts.raleway_black};
       color: #ffffff;
-      text-align: center;
+      text-align: start;
     }
-
+ .welcome{
+    height: 32rem;
+    max-width: max-content;
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 2px;
+    margin: 3rem 0px 0 7rem;
+    padding: 70px 0 0 60px;
+    transform: rotate(108deg);
+  }
     .logo{
       padding: 10px;
     }

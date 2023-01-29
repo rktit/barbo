@@ -1,22 +1,35 @@
-import React, { Fragment, useEffect } from "react";
-
-import {Menu, BannerBlog,Blog,  Footer} from "container";
+import React, { Fragment, useEffect, useState } from "react";
 import { configureAnchors } from "react-scrollable-anchor";
 
-import {FlashMessageCookies, ModalPolitica} from 'components';
+import { FlashMessageCookies, ModalPolitica } from 'components';
+import { Menu, BannerBlog, Blog, ConhecaBarbo, Footer } from "container";
+import { getAllPosts } from "service/state.posts";
+
 
 const Blog_Page = () => {
-  // const _translate = useSelector(({translate}) => translate);
-
   configureAnchors({ offset: -60, scrollDuration: 500 });
-  useEffect(() => {}, []);
+
+  const [loading, setLoading] = useState(true);
+  const [posts, setPosts] = useState([]);
+
+  useEffect(() => {
+    loadRegisters();
+  }, []);
+
+  const loadRegisters = async () => {
+    setLoading(true);
+    const result = await getAllPosts();
+    setPosts(result.data);
+    setLoading(false);
+  };
 
   return (
     <Fragment>
       <ModalPolitica />
-      <Menu/>
+      <Menu />
       <BannerBlog />
-      <Blog />
+      <Blog posts={posts} loading={loading} />
+      <ConhecaBarbo />
       <Footer />
     </Fragment>
   );

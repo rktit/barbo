@@ -52,37 +52,27 @@ function Blog() {
             pagination: true,
             arrows: false
           }}>
-            <SplideSlide className="slide">
+            <SplideSlide className="slide col">
               <CardBlog image={iluminacao}
                 items="Postado em Dicas - 09/12/2022"
                 title="Iluminação"
                 text="Para dar um toque mais aconchegante e requintado para os seus espaços" />
-            </SplideSlide>
-            <SplideSlide className="slide">
               <CardBlog image={design}
                 items="Postado em Dicas - 09/12/2022"
                 title="Design Biofilico"
                 text="Leve a natureza de forma consciente para o design do seu lar" />
-            </SplideSlide>
-            <SplideSlide className="slide">
               <CardBlog image={capriche}
                 items="Postado em Dicas - 09/12/2022"
                 title="Capriche nas cores"
                 text="As paredes dos seus cômodos podem te relaxar ou estimular" />
-            </SplideSlide>
-            <SplideSlide className="slide">
               <CardBlog image={iluminacao2}
                 items="Postado em Dicas - 09/12/2022"
                 title="Iluminação"
                 text="Para dar um toque mais aconchegante e requintado para os seus espaços" />
-            </SplideSlide>
-            <SplideSlide className="slide">
               <CardBlog image={design2}
                 items="Postado em Dicas - 09/12/2022"
                 title="Design Biofilico"
                 text="Leve a natureza de forma consciente para o design do seu lar" />
-            </SplideSlide>
-            <SplideSlide className="slide">
               <CardBlog image={capriche2}
                 items="Postado em Dicas - 09/12/2022"
                 title="Capriche nas cores"

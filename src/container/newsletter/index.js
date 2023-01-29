@@ -10,7 +10,7 @@ import * as Actions from 'store/actions';
 
 
 
-function NewsLetter() {
+function NewsLetterLs() {
 
     const dispatch = useDispatch();
     const [fields, setFields] = useState({ input_newsletter: '' });
@@ -54,35 +54,33 @@ function NewsLetter() {
         <ScrollableAnchor id="newsletter">
             <Content className="row">
                 <Fade right>
-                    <div className='conteudo col-12 offset-md-0 p-0 row'>
-                        <div className="text col-12 offset-md-1">
+                    <div className='conteudo col-12 col-md-6 offset-md-0 p-0 '>
+                        <div className="texto col-12 col-d-2 d-flex">
                             newsletter
+                            <div className="title col-12 col-d-6 d-flex">
+                                Cadastre-se e fique pro dentro <br />
+                                das novidades da Barbo
+                            </div>
                         </div>
-                        <div className="title">
-                            Cadastre-se e fique pro dentro <br />
-                            das novidades da Barbo
-                        </div>
-                        <div className="col-6">
-                            <form onSubmit={handleSubmit}>
-                                <div className="d-flex col">
-                                    <div className="boxNome d-flex row">
-                                        <input type='nome' name="input_newsletter" className="input-newsletter col-11"
-                                            placeholder="Nome" onChange={e => handleChange(e)}
-                                            value={fields.input_newsletter} />
-                                    </div>
-                                    <div className="boxEmail d-flex row">
-                                        <input type='email' name="input_newsletter" className="input-newsletter col-11"
-                                            placeholder="E-mail" onChange={e => handleChange(e)}
-                                            value={fields.input_newsletter} />
-                                    </div>
+                    </div>
+                    <div className="col-12 col-md-6 d-flex">
+                        <form onSubmit={handleSubmit}>
+                            <div className="boxNome col-12 d-flex">
+                                <input type='nome' name="input_newsletter" className="input-newsletter col-8 col-md-10 col-sm-11"
+                                    placeholder="Nome" onChange={e => handleChange(e)}
+                                    value={fields.input_newsletter} />
+                                <div className="boxEmail col-12 d-flex">
+                                    <input type='email' name="input_newsletter" className="input-newsletter col-8 col-md-10 col-sm-11"
+                                        placeholder="E-mail" onChange={e => handleChange(e)}
+                                        value={fields.input_newsletter} />
                                 </div>
-                                <div className="boxCadastrar d-flex">
-                                    <a href="#newsletter" className='buttom' onClick={handleSubmit}>
-                                        Enviar
-                                    </a>
-                                </div>
-                            </form>
-                        </div>
+                            </div>
+                            <div className="boxCadastrar col-12 d-flex">
+                                <a href="#newsletter" className='buttom' onClick={handleSubmit}>
+                                    Enviar
+                                </a>
+                            </div>
+                        </form>
                     </div>
                 </Fade>
             </Content>
@@ -90,4 +88,4 @@ function NewsLetter() {
     );
 }
 
-export default NewsLetter;
+export default NewsLetterLs;

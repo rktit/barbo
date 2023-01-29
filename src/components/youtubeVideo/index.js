@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import YouTube from 'react-youtube';
 
-import "./styles.css"
+import Content from "./style";
 
 function YoutubeVideo (props) {
   
@@ -33,12 +33,15 @@ function YoutubeVideo (props) {
   const videoId = props.videoId;
 
   return(
-      <div className={`content col-12 ${props.className}`}>
+    <Content className="col-12 row">
+    <div className={`content col-12 ${props.className}`}>
         <YouTube videoId={videoId} opts={opts}/>
         {/* <div className="texts">
           <strong>{props.title}</strong><br />
         </div> */}
       </div>
+      </Content>
+
   );
 
 }

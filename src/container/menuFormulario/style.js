@@ -158,6 +158,8 @@ export const Content = styled.nav`
 
 
   @media only screen and (max-width: 992px) {
+    height: 40rem;
+
     .menu-nav {
       padding: 0.5rem 0 0.5rem 0.05rem;
       display: flex;

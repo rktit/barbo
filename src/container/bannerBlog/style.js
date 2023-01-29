@@ -2,6 +2,8 @@ import styled from "styled-components";
 import fonts from "config/fonts";
 
 import background from "images/blog/banner_blog.png";
+import backgroundMobile from "images/blog/banner_mobile_blog.png";
+
 
 const Content = styled.div`
   flex-direction: row;
@@ -66,22 +68,25 @@ const Content = styled.div`
   }
 
   @media only screen and (max-width: 600px) {
-    margin-bottom: 300px;
-    display: flex;
+    background: url(${backgroundMobile}) no-repeat top center;
+    background-size:cover;
     align-items: center;
 
     .title {
-      margin-top: 32px;
-      font-size: 1.4rem;
-      font-family: ${fonts.raleway_black};
-      color: #ffffff;
+      margin-top: 20px;
+      font-size: 1.5rem;
+      width: 20rem;
       text-align: center;
     }
 
     .logo{
       padding: 10px;
     }
-
+    .welcome {
+      margin-top: 4vh;
+      font-size: 2rem;
+      width: 21rem;
+    }
   }
 `;
 

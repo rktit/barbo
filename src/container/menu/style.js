@@ -168,7 +168,7 @@ z-index: 1027;
 		    padding: .5rem !important;
 		  }
       .container {
-        margin-top: -5px;
+        margin-top: 10px;
       }
       .espaco {
         justify-content: flex-end;      

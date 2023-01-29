@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/barbo/empreendimentos/static/css/main.f8808d5b.chunk.css",
-    "main.js": "/barbo/empreendimentos/static/js/main.cd72c2cb.chunk.js",
-    "main.js.map": "/barbo/empreendimentos/static/js/main.cd72c2cb.chunk.js.map",
+    "main.js": "/barbo/empreendimentos/static/js/main.56cafb91.chunk.js",
+    "main.js.map": "/barbo/empreendimentos/static/js/main.56cafb91.chunk.js.map",
     "runtime-main.js": "/barbo/empreendimentos/static/js/runtime-main.20f7e5e9.js",
     "runtime-main.js.map": "/barbo/empreendimentos/static/js/runtime-main.20f7e5e9.js.map",
     "static/css/2.22ca879e.chunk.css": "/barbo/empreendimentos/static/css/2.22ca879e.chunk.css",
-    "static/js/2.53a30a82.chunk.js": "/barbo/empreendimentos/static/js/2.53a30a82.chunk.js",
-    "static/js/2.53a30a82.chunk.js.map": "/barbo/empreendimentos/static/js/2.53a30a82.chunk.js.map",
+    "static/js/2.2601912c.chunk.js": "/barbo/empreendimentos/static/js/2.2601912c.chunk.js",
+    "static/js/2.2601912c.chunk.js.map": "/barbo/empreendimentos/static/js/2.2601912c.chunk.js.map",
     "index.html": "/barbo/empreendimentos/index.html",
-    "precache-manifest.a606939c08287b4d33d690d0c47d02f1.js": "/barbo/empreendimentos/precache-manifest.a606939c08287b4d33d690d0c47d02f1.js",
+    "precache-manifest.af001ecd111b943732a623be90b8dc10.js": "/barbo/empreendimentos/precache-manifest.af001ecd111b943732a623be90b8dc10.js",
     "service-worker.js": "/barbo/empreendimentos/service-worker.js",
     "static/css/2.22ca879e.chunk.css.map": "/barbo/empreendimentos/static/css/2.22ca879e.chunk.css.map",
     "static/css/main.f8808d5b.chunk.css.map": "/barbo/empreendimentos/static/css/main.f8808d5b.chunk.css.map",
-    "static/js/2.53a30a82.chunk.js.LICENSE.txt": "/barbo/empreendimentos/static/js/2.53a30a82.chunk.js.LICENSE.txt",
+    "static/js/2.2601912c.chunk.js.LICENSE.txt": "/barbo/empreendimentos/static/js/2.2601912c.chunk.js.LICENSE.txt",
     "static/media/styles.css": "/barbo/empreendimentos/static/media/SF-Pro-Display-Ultralight.1610ab29.ttf",
     "static/media/BackgroundBanner.jpg": "/barbo/empreendimentos/static/media/BackgroundBanner.34314fa4.jpg",
     "static/media/BannerTrabalheConosco.jpg": "/barbo/empreendimentos/static/media/BannerTrabalheConosco.ad68e257.jpg",
@@ -104,8 +104,8 @@
   "entrypoints": [
     "static/js/runtime-main.20f7e5e9.js",
     "static/css/2.22ca879e.chunk.css",
-    "static/js/2.53a30a82.chunk.js",
+    "static/js/2.2601912c.chunk.js",
     "static/css/main.f8808d5b.chunk.css",
-    "static/js/main.cd72c2cb.chunk.js"
+    "static/js/main.56cafb91.chunk.js"
   ]
 }

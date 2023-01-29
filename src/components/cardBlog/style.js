@@ -12,7 +12,7 @@ img{
 }
 
 .card-body{
-    color: #20396f;
+    color: #000000;
     text-align: left;
 }
 
@@ -76,11 +76,39 @@ img{
     }
 }
 .btn-primary {
-    nt-size: 1.5rem;
+    font-size: 1.5rem;
     font-family: ${fonts.opensans_light};
 }
+.btn1{
+    background-color: #000000;
+    font-family: OpenSans-Light;
+    font-size: 1.75rem;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 4px;
+    height: 50px;
+    width: 100%;
+    justify-content: center;
 
-@media only screen and (max-width: 600px) {
+    &.active {
+      background-color: #000000;
+    }
+
+    :hover {
+      transition: 0.1s ease-in-out;
+      background-color: #000000;
+      text-decoration: none;
+      text-align: center;
+    }
+    a {
+        color: #ffffff;
+        text-decoration: none;
+        background-color: transparent;
+        text-align: center;
+    }
+
+  }
+  @media only screen and (max-width: 600px) {
     .card-img-top{
         width: 100%;
     }
@@ -92,9 +120,28 @@ img{
         width: 100%;
         height: 100%;
     }
+    .card-body{
+        color: #000000;
+        text-align: left;
+        padding: 1.25rem 16px;
+    }
+    
+    .card-img-top{
+        height: 300px;
+    }
+    
+    .card-items{
+        padding: 0 0 20px 0;
+        font-size: 0.8rem;
+        font-family: ${fonts.opensans_light};
+    }
+    .card-title{
+        padding: 0;
+        font-size: 1.5rem;
+        font-family: ${fonts.opensans_regular};
+    }
     .card-text{
-        height:100%;
-        display: contents;
+        padding: 0;
     }
     .btn{
         

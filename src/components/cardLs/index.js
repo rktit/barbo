@@ -2,8 +2,6 @@ import ModalMaquinas from 'components/modalMaquinas';
 import React, { useState } from 'react';
 import Content from "./style";
 
-import gostar from "images/blog/gostar.png";
-import comentario from "images/blog/comente.png";
 
 function CardLs(props) {
 
@@ -20,7 +18,7 @@ function CardLs(props) {
     <Content>
       <div className="card">
         <img src={props.image} className="card-img-top" alt="Imagem maquina" />
-        <div className="card-body col-10">
+        <div className="card-body col-12">
           <div className="col-12 card-items">
             {props.items}
           </div>

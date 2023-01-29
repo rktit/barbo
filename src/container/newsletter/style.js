@@ -2,54 +2,65 @@ import styled from 'styled-components';
 import font from 'config/fonts';
 import colors from 'config/colors';
 
-import background from 'images/background/newsletter.jpg';
-
 const Content = styled.div`
   background-color: #000000;
-  background-size:100%;
-  margin: 2rem 0px !important;
-  padding: 4rem 0rem 4rem 4rem;
-  min-height: 14rem;
-  max-height: 14rem;
-  
-  .row {
-	justify-content: center;
+  background-size: 100%;
+  padding: 50px !important;
+  margin: 50px 0!important;
+
+
+  .conteudo {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    justify-content: center;
   }
- 
-  .text {
-  	color: #ff0d29;
-  }
-  .boxNome {
-	width: 20rem;
- }
- .boxEmail {
-	width: 20rem;
- }
- .boxCadastrar {
-    padding: 7px 25px;
- }
   .title {
+	margin-top:-10px;
   	color: #ffffff;
   	font-family: ${font.opensans_regular};
   	font-size: 2rem;
 	justify-content: flex-end;
-  	strong {
-  		font-family: ${font.opensans_bold};
-  	}
   }
-  
+  .texto {
+	margin-top:-10px;
+	color: #fc1347;
+	font-family: ${font.opensans_light};
+	font-size: 1rem;
+	justify-content: flex-end;
+
+	margin-left: 6rem;
+  }
+  .boxNome{
+	margin-top: 0px;
+	align-items: center;
+	flex-direction: inherit;
+    width: 24rem;
+    padding: 0 0 12px 60px;
+}
+.boxEmail{
+	margin-left: -30px;
+	align-items: center;
+	flex-direction: column;
+	width: 20rem;
+	margin-top: 0px;
+}
+.boxCadastrar{
+	margin-top: 0px;
+	align-items: center;
+	flex-direction: column;
+	margin-left: 29px;
+
+}
   .input-newsletter {
-			border: ${colors.white};
-			border-radius: 0.125rem;
-			border-width: 1px;
-			border-style: solid;
-			background-color: transparent;
+			border: none;
+			background-color: ${colors.white};
 			color: ${colors.gray_text};
-			font-family: ${font.opensans_light};
-			padding: 10px 20px;
+			font-family: ${font.opensans_regular};
+			padding: 5px 25px;
 			z-index: 2;
 			::-webkit-input-placeholder {
-		    color: ${colors.white};
+		    color: ${colors.secondary};
 		  }
   }
   
@@ -57,17 +68,19 @@ const Content = styled.div`
   		
   		z-index: 0;
 		  display: block;
-		  padding: 10px 16rem;
+		  padding: 15px 25px;
 		  color: ${colors.white};
-		  background-color: #ff0d29;
+		  background-color: #fc1347;
 		  font-size: 1rem;
-		  font-family: ${font.opensans_light};
+		  font-family: ${font.opensans_bold};
 		  transition: 0.2s ease-in-out;
 		  text-decoration: none;
 		  text-transform: uppercase;
+		  text-align: center;
 		  line-height: 100%;
-		  max-height: 64px;
-  
+		  max-height: 60px;
+		  width: 33rem;
+
 		  :hover {
 		    transition: 0.2s ease-in-out;
 		    background-color: ${colors.primary_dark};
@@ -79,23 +92,34 @@ const Content = styled.div`
   }
 
   @media only screen and (max-width: 600px) {
-
-	margin: -55px 0 !important;
-	min-height: 360px;
-	max-height: 360px;
+	margin: 50px 0 !important;
+	min-height: 320px;
+	max-height: 320px;
 
 	.conteudo{
 		display: flex;
-		flex-direction: row;
+		flex-direction: column;
+	}
+
+
+	.boxNome{
+		margin-top: -50px;
+    	align-items: center;
 	}
 	.boxEmail{
 		margin-top: -50px;
     	align-items: center;
 	}
+	.boxCadastrar{
+		margin-top: -50px;
+    	align-items: center;
+	}
+
 	.title{
-		display:flex;
+		display: flex;
+		flex-direction: column;		
 		justify-content: center;
-		margin-top:5px;
+		margin-top:20px;
 		text-align: center;
 		font-size: 1.5rem;
 
@@ -109,9 +133,9 @@ const Content = styled.div`
 		}
 	}
 	.buttom {
-		margin-left: 10px;
 		text-align:center;
 		padding: 20px 7px;
+		margin-left: 10px;
 	}
   }
 `;

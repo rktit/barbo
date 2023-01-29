@@ -36,7 +36,6 @@ const Content = styled.div`
     padding-bottom: 1rem; 
 }
  .boxCadastrar {
-	width: 30rem;
 	display: flex!important;
     justify-content: center;
     align-items: center;
@@ -99,20 +98,28 @@ const Content = styled.div`
 
   @media only screen and (max-width: 600px) {
 
-	margin: -50px 0 !important;
+	margin: 0px 0 !important;
 	min-height: 320px;
 	max-height: 320px;
 
 	.conteudo{
 		display: flex;
-		flex-direction: row;
+		flex-direction: column;
+		width: 24rem;
+		height: 24rem;
 	}
 
-	.boxEmail{
-		margin-top: -50px;
-    	align-items: center;
+	.boxEmail {
+		width: 22rem;
+		padding: 1rem 0rem 0rem 0rem;
 	}
 
+	.logo {
+		padding: 3rem 0 0 0;
+	}
+	.logoLogin {
+		padding-top: 0px;
+	}
 	.title{
 		display:flex;
 		justify-content: center;
@@ -130,9 +137,10 @@ const Content = styled.div`
 		}
 	}
 	.buttom {
-		text-align:center;
-		padding: 20px 7px;
-		margin-left: 10px;
+		text-align: center;
+		padding: 20px 0px;
+		margin: 1rem 0 4rem 0px;
+		width: 20rem;
 	}
   }
 `;

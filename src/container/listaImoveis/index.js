@@ -12,7 +12,7 @@ import home2 from "images/home/empreendimento_home2.png";
 // import home4 from "images/home/empreendimento_home4.png";
 // import home5 from "images/home/empreendimento_home5.png";
 
-
+import Card from "components/card";
 import CardLs from "components/cardLs";
 import ScrollableAnchor from "react-scrollable-anchor";
 
@@ -31,7 +31,7 @@ function ListaImoveis() {
 
 
   return (
-    <ScrollableAnchor id="maquinas">
+    <ScrollableAnchor id="imoveis">
       <Content className="col-12 d-flex flex-column align-items-center p-0">
         <div className="title ">Os melhores imóveis estão aqui</div>
         {isMobile ?
@@ -43,42 +43,34 @@ function ListaImoveis() {
             pagination: true,
             arrows: false
           }}>
-            <SplideSlide className="slide">
+            <SplideSlide className="slide col">
               <CardLs image={home}
                 title="Front Lake"
                 text="Rio Claro | Vila Operária
                 Área privativa de 94 m²
                 3 Dormitórios (1 suíte)"/>
-            </SplideSlide>
-            <SplideSlide className="slide">
-              <CardLs image={home1}
+              <Card image={home1}
                 title="Infinity"
                 text="Rio Claro | Cidade Jardim
                 Área privativa de 151 m²
                 4 Suítes (1 master)"/>
-            </SplideSlide>
-            <SplideSlide className="slide">
-              <CardLs image={home1}
+              <CardLs image={home2}
                 title="Quinta do Vale"
                 text="Barra Bonita | Portal São José da Barra
                 Com lotes de 200m² a 400m²"/>
             </SplideSlide>
             <SplideSlide className="slide">
-              <CardLs image={home1}
+              <CardLs image={home}
                 title="Office Tower"
                 text="Rio Claro | Jardim Claret
                 Salas - 42,06 m² | 43,66 m² | 49,94 m²
                 5 Elevadores (3 panorâmicos)"/>
-            </SplideSlide>
-            <SplideSlide className="slide">
-              <CardLs image={home1}
+              <Card image={home1}
                 title="Las Rocas"
                 text="Piracicaba | Piracicamirim
                 Área privativa de 55 m²
                 2 Dormitórios"/>
-            </SplideSlide>
-            <SplideSlide className="slide">
-              <CardLs image={home1}
+              <CardLs image={home2}
                 title="Higienópolis"
                 text="Piracicaba | Higienópolis
                 Área privativa de 88 m²
@@ -96,13 +88,13 @@ function ListaImoveis() {
             pagination: true
           }}>
             <SplideSlide>
-              <div className="maquinas">
+              <div className="maquinas row">
                 <CardLs image={home}
                   title="Nome do Empreendimento"
                   text="São Paulo | Vila Mariano  
                     Área privativa de 253 m² 
                     2 suítes"/>
-                <CardLs image={home1}
+                <Card image={home1}
                   title="Nome do Empreendimento"
                   text="São Paulo | Vila Mariano  
                     Área privativa de 253 m² 
@@ -120,7 +112,7 @@ function ListaImoveis() {
                   text="São Paulo | Vila Mariano  
                     Área privativa de 253 m² 
                     2 suítes"/>
-                <CardLs image={home1}
+                <Card image={home1}
                   title="Nome do Empreendimento"
                   text="São Paulo | Vila Mariano  
                     Área privativa de 253 m² 

@@ -85,13 +85,6 @@ const Content = styled.div`
   }
 
   @media only screen and (max-width: 600px) {
-    .logo-footer {
-      margin: 40px -70px 0px 10px;
-      .logo {
-        
-        max-width: 200px;
-      }
-    }
     
     .info {
     	margin-top: 50px;
@@ -101,7 +94,8 @@ const Content = styled.div`
 		    width: 150px;
 		    border-top: 1px solid #24c662;
 		    position: absolute;
-		    margin-top: -10px;
+        margin: 0 0 0 20px;
+
   		}
     }
 

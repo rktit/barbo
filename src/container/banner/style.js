@@ -2,6 +2,8 @@ import styled from "styled-components";
 import fonts from "config/fonts";
 
 import background from "images/empreendimento/bannerPredio.png";
+import backgroundMobile from "images/empreendimento/mobile_bannerPredio.png";
+
 
 const Content = styled.div`
   flex-direction: row;
@@ -60,6 +62,7 @@ const Content = styled.div`
   }
 
   @media only screen and (max-width: 600px) {
+    background: url(${backgroundMobile}) no-repeat top center;
     margin-bottom: 300px;
     display: flex;
     align-items: center;

@@ -1,6 +1,6 @@
 import React, { Fragment, useEffect } from "react";
 
-import {Menu, BannerPortal, Login, Footer} from "container";
+import {Menu, BannerPortal, Login} from "container";
 import { configureAnchors } from "react-scrollable-anchor";
 
 import {ModalPolitica} from 'components';
@@ -17,7 +17,6 @@ const PortalCorretor_Page = () => {
       <Menu/>
        <BannerPortal />
       {/* <Login /> */}
-      <Footer />
     </Fragment>
   );
 };

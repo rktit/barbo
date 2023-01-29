@@ -96,16 +96,38 @@ background-color: #eeeeee;
     text-align: end;
     padding-right:10px;
 }
-
+.splide__arrow svg {
+    width: 1.5em;
+    height: 1.5em;
+    fill: #000000;
+    transition: fill .2s linear;
+}
+.splide__pagination__page {
+    display: inline-block;
+    width: 20px;
+    height: 5px;
+    background: #fc1347;
+    border-radius: 2.5px;
+    margin: 3px;
+    padding: 0;
+    transition: all .2s linear;
+    border: none;
+}
+.splide__pagination__page.is-active {
+    background: #000000;
+    width: 5px;
+}
 @media only screen and (max-width: 600px) {
 
     padding-right: 0px !important;
     padding-left: 0px !important;
 
     .title{
-        margin-top: -70px;
+        margin-top: 0px;
         font-size: 1.5rem;
-
+        text-align: center;
+        width: 22rem;
+        padding-top: 2rem;
     }
 
     .splide{
@@ -113,21 +135,16 @@ background-color: #eeeeee;
     }
 
     .slide{
-        margin-top: -40px;
         display: flex;
         justify-content: center;
         width: 100%;
+        flex-wrap: wrap;
     }
 
-    .textos{
+    .texto{
         text-align: center;
-        top: 5px;
-        font-size: 0.7rem;
-        right:22%;
-
-        p{ 
-            border-left-width: 0px;
-        }
+        font-size: 1rem;
+        padding: 40px 30px;
     }
 
 }

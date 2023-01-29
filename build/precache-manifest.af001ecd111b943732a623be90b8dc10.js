@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ae46a06c334333bf2df73ce3751166e8",
+    "revision": "f5251d4dbd0eb0416d9c8e69aefd70b4",
     "url": "/barbo/empreendimentos/index.html"
   },
   {
-    "revision": "468c572610e6dbfec612",
+    "revision": "ac85f9d78cd75c431cb1",
     "url": "/barbo/empreendimentos/static/css/2.22ca879e.chunk.css"
   },
   {
-    "revision": "a770d6e9280009bdecd8",
+    "revision": "595e6e8b75242a631164",
     "url": "/barbo/empreendimentos/static/css/main.f8808d5b.chunk.css"
   },
   {
-    "revision": "468c572610e6dbfec612",
-    "url": "/barbo/empreendimentos/static/js/2.53a30a82.chunk.js"
+    "revision": "ac85f9d78cd75c431cb1",
+    "url": "/barbo/empreendimentos/static/js/2.2601912c.chunk.js"
   },
   {
     "revision": "86736ced4962a0c2432d327a183b6939",
-    "url": "/barbo/empreendimentos/static/js/2.53a30a82.chunk.js.LICENSE.txt"
+    "url": "/barbo/empreendimentos/static/js/2.2601912c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a770d6e9280009bdecd8",
-    "url": "/barbo/empreendimentos/static/js/main.cd72c2cb.chunk.js"
+    "revision": "595e6e8b75242a631164",
+    "url": "/barbo/empreendimentos/static/js/main.56cafb91.chunk.js"
   },
   {
     "revision": "744cb4390f11ae8a26bf",

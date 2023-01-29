@@ -27,7 +27,7 @@ function CardBlog(props) {
           <div className="col-12 card-text">
             {props.text}
           </div>
-          <div className="d-flex">
+          <div className="btn1 d-flex col-12">
             <a href="/barbo/blog_interna">Ver mais</a>
           </div>
         </div>

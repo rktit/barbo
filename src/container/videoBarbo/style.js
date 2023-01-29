@@ -20,15 +20,7 @@ padding: 20px !important;
       // text-align: end;
    }
   .content {
-    margin-left: 3%;
-  }
-
-  @media only screen and (max-width: 600px) {
-     .title{
-        justify-content: center;
-        font-size: 1.3rem;
-        // text-align: end;
-     }
+    margin-left: 0;
   }
 `;
 

@@ -60,6 +60,27 @@ const Content = styled.div`
   .content-separator {
     margin-left: 0;
   }
+  .splide__arrow svg {
+    width: 1.5em;
+    height: 1.5em;
+    fill: #000000;
+    transition: fill .2s linear;
+}
+.splide__pagination__page {
+    display: inline-block;
+    width: 20px;
+    height: 5px;
+    background: #fc1347;
+    border-radius: 2.5px;
+    margin: 3px;
+    padding: 0;
+    transition: all .2s linear;
+    border: none;
+}
+.splide__pagination__page.is-active {
+    background: #000000;
+    width: 5px;
+}
   @media only screen and (max-width: 600px) {
      .mobile{
        display: block;
@@ -80,6 +101,9 @@ const Content = styled.div`
      .imagem{
        margin-top:20px;
      }
+     .content {
+      margin-left: 0;
+    }
   }
 `;
 

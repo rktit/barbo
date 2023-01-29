@@ -2,6 +2,9 @@ import styled from "styled-components";
 import fonts from "config/fonts";
 
 import background from "images/contato/img.png";
+import backgroundMobile from "images/contato/img_mobile.png";
+
+
 
 const Content = styled.div`
   flex-direction: row;
@@ -60,7 +63,9 @@ const Content = styled.div`
   }
 
   @media only screen and (max-width: 600px) {
-    margin-bottom: 300px;
+    background: url(${backgroundMobile}) no-repeat top center;
+    height: 40rem;
+    margin-left: -20rem;
     display: flex;
     align-items: center;
 

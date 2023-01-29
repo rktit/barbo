@@ -105,6 +105,13 @@ a {
         width: 100%;
         // height: auto;
     }
+    .card-body{
+        padding: 1rem 100px 0 25px;
+    }
+    .card-title {
+        margin-bottom: 1rem;
+        padding-left: 0;
+    }
     .card{
         width: 100%;
         height: 100%;
@@ -112,6 +119,10 @@ a {
     .card-text{
         height:100%;
         display: contents;
+    }
+    .card-mais {
+        bottom: -14rem;
+        right: -10rem;
     }
     .btn{
         
