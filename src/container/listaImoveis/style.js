@@ -21,9 +21,7 @@ const Content = styled.div`
     margin: -10px 0 10px -40px;
   }
 
-  img{
-    width: 170px;
-  }
+  
   .mobile{
     display: none;
     padding-top: 24px;

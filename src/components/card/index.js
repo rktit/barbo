@@ -20,7 +20,7 @@ function Card(props) {
     <Content>
       <div className="card">
         <img src={props.image} className="card-img-top" alt="Imagem maquina" />
-        <div className="card-body col-10">
+        <div className="card-body col-12">
           <div className="col-12 card-items">
             {props.items}
           </div>
@@ -38,7 +38,7 @@ function Card(props) {
               <img className="favoritos" src={gostar} alt="Favoritos" />
             </div>
           </div> */}
-          <div className="card-mais d-flex col-12">
+          <div className="card-mais d-flex">
             <a href="/barbo/empreendimentos_interna">Mais informações...</a>
           </div>
         </div>

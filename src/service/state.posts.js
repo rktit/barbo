@@ -3,7 +3,7 @@ import axios from "axios";
 export const getAllPosts = async () => {
   let result = [];
   await axios
-    .get(`https://rocketit.com.br/barbo/wp-json/wp/v2/posts?categories=1&per_page=99`)
+    .get(`http://localhost:21038/api/enterprise/getall`)
     .then((res) => {
       console.log("getAllPosts result", res.data);
       result = { data: [...res.data], error: false };
