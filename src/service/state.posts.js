@@ -1,15 +1,15 @@
 import axios from "axios";
 
-export const getAllPosts = async () => {
+export const getAllEntreprises = async () => {
   let result = [];
   await axios
     .get(`http://localhost:21038/api/enterprise/getall`)
     .then((res) => {
-      console.log("getAllPosts result", res.data);
-      result = { data: [...res.data], error: false };
+      console.log("getAllEntreprises result", res);
+      result = { ...res.data, error: false };
     })
     .catch((error) => {
-      console.log("getAllPosts catch", error);
+      console.log("getAllEntreprises catch", error);
       result = { error: true };
     });
   return result;

@@ -52,27 +52,6 @@ a {
 .card-mais {
     right: -12rem;
 }
-.love {
-    width: 2rem;
-    position: absolute;
-    height: 2rem;
-    right: 12px;
-    top: 12px;
-}
-.favoritos {
-    width: 2rem;
-    position: absolute;
-    height: 2rem;
-    right: 12px;
-    bottom: 20px;
-}
-.comente {
-    width: 2rem;
-    position: absolute;
-    height: 2rem;
-    right: 12px;
-    bottom: 20px;
-}
 .btn{
     background-color: #000000;
     display: table-cell;

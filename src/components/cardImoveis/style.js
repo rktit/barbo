@@ -13,8 +13,8 @@ a {
 }
 .card{
     width: 25rem;
-    margin: 5px;
-    height: 28rem;
+    margin: 0 10px;
+    height: 36rem;
 }
 
 .card-body{

@@ -6,22 +6,10 @@ const Content = styled.div`
   // flex-direction: row;
   // justify-content: center;
   margin-top: 40px !important;
-  
-  .demarcador{
-    height: 40px;
-    width: 40px;
+.splide {
+  display: inline-grid;
 
-    border-bottom-style: solid;
-    border-bottom-color: #20396f;
-    border-bottom-width: 3px;
-    border-right-style: solid;
-    border-right-color: #20396f;
-    border-right-width: 2px;
-
-    margin: -10px 0 10px -40px;
-  }
-
-  
+}
   .mobile{
     display: none;
     padding-top: 24px;
@@ -35,7 +23,6 @@ const Content = styled.div`
   .imagem{
     height:130px;
     display:flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 45px;

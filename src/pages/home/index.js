@@ -13,16 +13,6 @@ const Home_Page = () => {
     const [loading, setLoading] = useState(true);
     const [posts, setPosts] = useState([]);
   
-    useEffect(() => {
-      loadRegisters();
-    }, []);
-  
-    const loadRegisters = async () => {
-      setLoading(true);
-      const result = await getAllPosts();
-      setPosts(result.data);
-      setLoading(false);
-    };
 
   return (
     <Fragment>

@@ -1,136 +1,128 @@
-import React, { useEffect, useState } from 'react'
-import ScrollableAnchor from 'react-scrollable-anchor'
-import axios from 'axios'
-import '@splidejs/splide/dist/css/themes/splide-skyblue.min.css'
-import { Splide, SplideSlide } from '@splidejs/react-splide'
+import React, { useState, useEffect } from "react";
+import Content from "./style";
+import { getAllEntreprises, getPostById } from '../../service/state.posts'
 
-import { Fade } from 'react-reveal'
-import ContentLoader from 'react-content-loader'
+import { Splide, SplideSlide } from '@splidejs/react-splide';
+import '@splidejs/splide/dist/css/themes/splide-sea-green.min.css';
 
-import { getAllPosts } from '../../service/state.posts'
 
-const ImageArticle = ({ id }) => {
+import home from "images/home/empreendimento_home.png";
+import home1 from "images/home/empreendimento_home1.png";
+import home2 from "images/home/empreendimento_home2.png";
+// import home3 from "images/home/empreendimento_home3.png";
+// import home4 from "images/home/empreendimento_home4.png";
+// import home5 from "images/home/empreendimento_home5.png";
 
-  const [loading, setLoading] = useState(true)
-  const [image, setImage] = useState('')
- const posts = getAllPosts()
-  useEffect(() => {
-    console.log('ImageArticle', id)
-    getImage()
-  }, [])
+import Card from "components/card";
+import CardLs from "components/cardLs";
+import ScrollableAnchor from "react-scrollable-anchor";
 
-  const getImage = async () => {
-    let img = await getAllPosts(id)
-    if (!img.error) {
-      setImage(img.source_url)
-      setLoading(false)
+
+
+function ListaImoveis() {
+  const [enterprises, setEnterprises] = useState(null);
+
+  async function Enterprise() {
+    const result = await getAllEntreprises()
+    console.log("result", result)
+    if (!result.error) {
+      setEnterprises(result.data)
     }
   }
 
-  return !loading ? (
-    <img
-      src={image}
-      alt="Tecnologia disruptiva"
-      className="flex-initial rounded-xl md:rounded-3xl shadow-xl mb-6 mt-10 w-full h-80"
-    />
-  ) : (<ContentLoader
-    speed={2}
-    width={400}
-    height={300}
-    viewBox="0 0 400 300"
-    backgroundColor="#f3f3f3"
-    foregroundColor="#ecebeb"
-  >
-    <rect x="0" y="0" rx="8" ry="8" width="400" height="300" />
-  </ContentLoader>)
-}
 
-const Article = ({ data }) => {
-  console.log('Article', data)
-  return (
-    <Fade>
-      <div className="p-6">
-        <ImageArticle id={data.featured_media} />
-        <span className="uppercase">Artigo</span>
-        <br />
-        <div className="family-bold">{data.title.rendered}</div>
-        <br />
-        <a
-          href={`/site/artigo?id=${data.id}#${data.slug}`}
-          className="transition duration-500 ease-in-out bg-yellow2 transform w-full py-2 px-3 mt-5 family-bold font-small uppercase w-12 text-black tracking-widest	"
-        >
-          Acesse
-        </a>
-      </div>
-    </Fade>
-  );
-}
-
-function ListaImoveis_Page({ posts = [], loading = false }) {
-  const [isMobile, setMobile] = useState(false);
   useEffect(() => {
+    Enterprise()
+  }, [])
+  const [isMobile, setMobile] = useState(false);
+
+  useEffect(() => {
+
     if (window.innerWidth >= 992) {
       setMobile(false);
     } else {
       setMobile(true);
     }
   }, [window.innerWidth]);
+
+
   return (
-    <ScrollableAnchor id="artigo">
-      <div className="flex px-6 py-10 items-center font-black">
-        {!loading ? (
-          <nav>
-            {isMobile ? (
-              <div className="flex flex-col items-center font-black -ml-6">
-              {/* <div className="family-bold text-2xl 2xl:text-3xl tracking-wider font-black">
-                Veja mais
-                </div> */}
-                <Splide
-              className="w-screen px-10"
+    <ScrollableAnchor id="imoveis">
+      <Content className="col-12 d-flex flex-column align-items-center p-0">
+        <div className="title ">Os melhores imóveis estão aqui</div>
+        {isMobile ?
+          <Splide className="splide col-12" options={{
+            rewind: true,
+            width: "100%",
+            gap: '2rem',
+            perPage: 1,
+            pagination: true,
+            arrows: false
+          }}>
+            <SplideSlide className="slide col">
+              <CardLs image={home}
+                title="Front Lake"
+                text="Rio Claro | Vila Operária
+                Área privativa de 94 m²
+                3 Dormitórios (1 suíte)"/>
+              <Card image={home1}
+                title="Infinity"
+                text="Rio Claro | Cidade Jardim
+                Área privativa de 151 m²
+                4 Suítes (1 master)"/>
+              <CardLs image={home2}
+                title="Quinta do Vale"
+                text="Barra Bonita | Portal São José da Barra
+                Com lotes de 200m² a 400m²"/>
+              <CardLs image={home}
+                title="Office Tower"
+                text="Rio Claro | Jardim Claret
+                Salas - 42,06 m² | 43,66 m² | 49,94 m²
+                5 Elevadores (3 panorâmicos)"/>
+              <Card image={home1}
+                title="Las Rocas"
+                text="Piracicaba | Piracicamirim
+                Área privativa de 55 m²
+                2 Dormitórios"/>
+              <CardLs image={home2}
+                title="Higienópolis"
+                text="Piracicaba | Higienópolis
+                Área privativa de 88 m²
+                3 Dormitórios (1 suíte)
+                "/>
+            </SplideSlide>
+          </Splide>
+
+          : enterprises !== null ?
+            <Splide className="splide col-12"
               options={{
                 rewind: true,
-                perPage: 1,
-                width: '100vw',
-                gap: '0rem',
-                padding: '0rem',
-                pagination: false,
-              }}
-            >
-              {posts.map((post) => (
-                <SplideSlide className="min-h-36">
-                  <Article data={post} />
-                </SplideSlide>
-              ))}
-            </Splide>
-            </div>
+                width: "100%",
+                gap: '1.5rem',
+                perPage: 3,
+                pagination: true
+              }}>
+              <SplideSlide>
+                {enterprises.map((post, index) => {
+                  console.log("POST::: ", post);
+                  return <CardLs image={home2}
+                    key={index}
+                    title={post.name_resume}
+                    text={post.resume} />
+                })}
+                <CardLs image={home}
+                  title="Nome do Empreendimento"
+                  text="São Paulo | Vila Mariano  
+                Área privativa de 253 m² 
+                2 suítes"/>
 
-            ) : (
-              <article>
-                <div className="flex grid grid-cols-3">
-                  {posts.length > 0
-                    ? posts.map((post) => <Article data={post} />)
-                    : 'Não tem posts'}
-                </div>
-              </article>
-            )}
-          </nav>
-        ) : (
-          <div>
-            <ContentLoader
-              width={450}
-              height={400}
-              viewBox="0 0 450 400"
-              backgroundColor="#f0f0f0"
-              foregroundColor="#dedede"
-            >
-              <rect x="43" y="304" rx="4" ry="4" width="271" height="9" />
-              <rect x="44" y="323" rx="3" ry="3" width="119" height="6" />
-              <rect x="42" y="77" rx="10" ry="10" width="388" height="217" />
-            </ContentLoader>
-          </div>
-        )}
-      </div>
-    </ScrollableAnchor>
-  )
+              </SplideSlide>
+            </Splide>
+            : "Nâo há resultados!"
+        }
+      </Content>
+    </ScrollableAnchor >
+  );
 }
-export default ListaImoveis_Page
+
+export default ListaImoveis;

@@ -11,7 +11,7 @@ const Content = styled.div`
 
 
   .logo-footer{
-	margin:40px -70px 0px 20px;
+	margin: 20px -70px 0px -10px;
 
 	img{
 		width: 180px;
@@ -29,8 +29,7 @@ const Content = styled.div`
     font-size: 1rem;
     font-family: ${fonts.opensans_bold};
     line-height: 120%;
-    margin-bottom: 24px;
-	color: white;
+  	color: white;
   }
   
   .info {
@@ -62,7 +61,7 @@ const Content = styled.div`
   	}
   	
   	.icone_midia {
-      height: 2rem;
+      height: 1.5rem;
       width: 4rem;
       margin-top: -16px;
       margin-left: -3rem;
