@@ -1,15 +1,15 @@
 import axios from "axios";
 
-export const getAllEntreprises = async () => {
+export const getAllEnterprises = async () => {
   let result = [];
   await axios
     .get(`http://localhost:21038/api/enterprise/getall`)
     .then((res) => {
-      console.log("getAllEntreprises result", res);
+      console.log("getAllEnterprises result", res);
       result = { ...res.data, error: false };
     })
     .catch((error) => {
-      console.log("getAllEntreprises catch", error);
+      console.log("getAllEnterprises catch", error);
       result = { error: true };
     });
   return result;
@@ -49,7 +49,7 @@ export const getPostById = async (id) => {
 export const getImgPost = async (id) => {
   let result = [];
   await axios
-    .get('http://localhost:21038/api/enterprise/getall' + id)
+    .get('http://localhost:21038/api/upload/image/0/1?type=0&id=1' + id)
     .then((res) => {
       console.log("getImgPost result", res.data);
       result = { ...res.data, error: false };

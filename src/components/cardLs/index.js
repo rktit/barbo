@@ -17,7 +17,7 @@ function CardLs(props) {
   return (
     <Content>
       <div className="card">
-        <img src={props.image} className="card-img-top" alt="Imagem maquina" />
+        <img src={props.image} className="card-img-top" />
         <div className="card-body col-10">
           <div className="col-12 card-items">
             {props.items}

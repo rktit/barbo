@@ -16,12 +16,11 @@ const Content = styled.div`
 	img{
 		width: 180px;
 	}
-  }
+}
 
   .nome-logo{
 	  font-size: 1.2rem;
 	  font-family: ${fonts.opensans_bold};
-
 	  margin-top:10px;
   }
 
@@ -32,9 +31,27 @@ const Content = styled.div`
   	color: white;
   }
   
+  .chegar {
+    font-size: 1rem;
+    font-family: ${fonts.opensans_bold};
+    line-height: 120%;
+  	color: white;
+    &.active {
+      color: #fc1347;
+      text-decoration: none;
+      text-decoration-line: none;
+    }
+    
+    :hover {
+      transition: 0.1s ease-in-out;
+      color: #fc1347;
+      text-decoration: none;
+      text-decoration-line: none;
+    }
+  }
+
   .info {
 	margin-top:24px;
-  
   }
   
   .conteudo {

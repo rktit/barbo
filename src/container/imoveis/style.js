@@ -79,9 +79,11 @@ background-color: #eeeeee;
     }
 }
 
-.maquinas{
-    margin-bottom: 50px;
-}
+.slide{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    margin-bottom: 50px;}
 
 
 .infos{

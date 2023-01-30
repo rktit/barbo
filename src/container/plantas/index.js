@@ -2,20 +2,39 @@ import React, { useEffect, useRef, useState } from 'react'
 import ScrollableAnchor from 'react-scrollable-anchor'
 import Content from "./style";
 import Fade from "react-reveal/Fade";
+import { Splide, SplideSlide } from '@splidejs/react-splide';
+import '@splidejs/splide/dist/css/themes/splide-sea-green.min.css';
+import { getImgPost, getPostById } from '../../service/state.posts'
 
+import home2 from 'images/empreendimento/sala.png';
 import sala from 'images/empreendimento/sala.png';
 import casale from 'images/statics/modalImplementos/casale.png';
 import herder from 'images/statics/modalImplementos/Herder.png';
 
+import Fotos from "components/fotos";
+import Planta from "components/planta";
+import VistaAerea from "components/vista_aerea";
+
 import icone_whatsapp from "images/empreendimento/whatsapp.png";
 
-import { Splide, SplideSlide } from '@splidejs/react-splide';
-import '@splidejs/splide/dist/css/themes/splide-sea-green.min.css';
 
-function Plantas(props) {
-  const [indexSlide, setIndexSlide] = useState(0);
+function Plantas() {
+  const [empreendimento, setEmpreendimento] = useState(null);
+  async function Empreendimento() {
+    const result = await getImgPost()
+    console.log("result", result)
+    if (!result.error) {
+      setEmpreendimento(result.data)
+    }
+  }
+
+
+  useEffect(() => {
+    Empreendimento()
+  }, [])
+  const [isMobile, setMobile] = useState(false);
+
   const ref = useRef();
-  const [isMobile, setMobile] = useState(false)
   useEffect(() => {
     if (window.innerWidth >= 768) {
       setMobile(false)
@@ -89,39 +108,53 @@ function Plantas(props) {
                       <div className="d-flex justify-content-center py-6">
                         <div className='justify-content-center' style={{ display: 'flex', alignItems: 'center', flexDirection: 'column' }}>
                           <div className="fotos text-center">
-                            <div className="btn py-7 px-2" onClick={() => { moveSlide(0) }} >Fotos</div>
-                            <div className="btn py-7 px-2" onClick={() => { moveSlide(1) }} >Plantas</div>
-                            <div className="btn py-7 px-2" onClick={() => { moveSlide(2) }} >Vista Aérea</div>
+                            <div className="btn py-7 px-2" onClick={() => { moveSlide(Planta) }} >Fotos</div>
+                            <div className="btn py-7 px-2" onClick={() => { moveSlide(Fotos) }} >Plantas</div>
+                            <div className="btn py-7 px-2" onClick={() => { moveSlide(VistaAerea) }} >Vista Aérea</div>
                           </div>
                         </div>
                       </div>
-
+                      : empreendimento !== null ?
                       <div className="flex w-auto pt-16">
                         <div className="listaMarcas content-center">
-                          <Splide
+                          <Splide className="splide-badges"
                             ref={ref}
-                            className="splide-badges"
                             options={{
                               rewind: true,
                               width: '100%',
                               gap: '0rem',
                               perPage: 1,
                               pagination: true,
-                              arrows: !isMobile,
+                              arrows: !isMobile
                             }}
                           >
                             <SplideSlide className="slide">
-                              <img src={sala} className="marca" />
+                              {empreendimento.map((post, index) => {
+                                console.log("POST::: ", post);
+                                return <Planta image={home2}
+                                  key={index} />
+                              })}
                             </SplideSlide>
+
                             <SplideSlide className="slide">
-                              <img src={casale} className="marca" />
+                              {empreendimento.map((post, index) => {
+                                console.log("POST::: ", post);
+                                return <Fotos image={home2}
+                                  key={index} />
+                              })}
                             </SplideSlide>
+
                             <SplideSlide className="slide">
-                              <img src={herder} className="marca" />
+                              {empreendimento.map((post, index) => {
+                                console.log("POST::: ", post);
+                                return <VistaAerea image={home2}
+                                  key={index} />
+                              })}
                             </SplideSlide>
                           </Splide>
                         </div>
                       </div>
+                      : "Não há resultados!"
                     </div>
                   </div>
                   <div className="d-flex row justify-content-center">

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Content from "./style";
-import { getAllEntreprises, getPostById } from '../../service/state.posts'
+import { getAllEnterprises, getPostById } from '../../service/state.posts'
 
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/splide/dist/css/themes/splide-sea-green.min.css';
@@ -20,7 +20,7 @@ function Imoveis() {
   const [enterprises, setEnterprises] = useState(null);
 
   async function Enterprise() {
-    const result = await getAllEntreprises()
+    const result = await getAllEnterprises()
     console.log("result", result)
     if (!result.error) {
       setEnterprises(result.data)
@@ -140,7 +140,7 @@ function Imoveis() {
           </Splide>
 
           : enterprises !== null ?
-            <Splide className="col-8 slide"
+            <Splide className="col-12 slide"
               options={{
                 rewind: true,
                 width: "100%",
@@ -156,14 +156,9 @@ function Imoveis() {
                     title={post.name_resume}
                     text={post.resume} />
                 })}
-                <CardImoveis image={home}
-                  title="Nome do Empreendimento"
-                  text="São Paulo | Vila Mariano  
-                        Área privativa de 253 m² 
-                        2 suítes"/>
               </SplideSlide>
             </Splide>
-            : "Nâo há resultados!"
+            : "Não há resultados!"
         }
       </Content>
     </ScrollableAnchor >

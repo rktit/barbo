@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Content from "./style";
-import { getAllEntreprises, getPostById } from '../../service/state.posts'
+import { getAllEnterprises, getPostById } from '../../service/state.posts'
 
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/splide/dist/css/themes/splide-sea-green.min.css';
@@ -23,7 +23,7 @@ function ListaImoveis() {
   const [enterprises, setEnterprises] = useState(null);
 
   async function Enterprise() {
-    const result = await getAllEntreprises()
+    const result = await getAllEnterprises()
     console.log("result", result)
     if (!result.error) {
       setEnterprises(result.data)
@@ -105,6 +105,10 @@ function ListaImoveis() {
               <SplideSlide>
                 {enterprises.map((post, index) => {
                   console.log("POST::: ", post);
+
+
+                  //  0a8b41db8e193716baf153a0d07f77e1.jpg
+                  // return <CardLs image={".../uploads/"+post.images[0].link}
                   return <CardLs image={home2}
                     key={index}
                     title={post.name_resume}
@@ -118,7 +122,7 @@ function ListaImoveis() {
 
               </SplideSlide>
             </Splide>
-            : "Nâo há resultados!"
+            : "Não há resultados!"
         }
       </Content>
     </ScrollableAnchor >

@@ -9,7 +9,7 @@ const Content = styled.div`
   padding: 0 !important;
   background: url(${background}) no-repeat top center;
   background-size:cover;
-  height: 100vh;
+  height: 101vh;
   justify-content: center;
   align-items: center;
 

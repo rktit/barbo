@@ -85,9 +85,9 @@ function Footer(props) {
 											</div>
 										</Fade>
 										<Fade>
-											<div className='col-12 col-md-6 p-0 info'>
+											<div className='col-12 col-md-6 p-0'>
 												<a target="_blank" href='https://www.google.com/maps/place/Barbo+Empreendimentos/@-22.425263,-47.5618185,17z/data=!3m1!4b1!4m6!3m5!1s0x94c7dba75cdfb1ff:0x1aa0d91b03209f5f!8m2!3d-22.425268!4d-47.5596298!16s%2Fg%2F11j21cf130'>
-													<div className='titulo'>Como chegar</div>
+													<div className='chegar py-5'>Como chegar</div>
 												</a>
 											</div>
 										</Fade>
@@ -108,7 +108,7 @@ function Footer(props) {
 										<Fade>
 											<div className='conteudo col-12 p-0'>
 												<div className='col-11 p-0 text-left'><a
-													href='mailto: contato@barbo.com.br'>contato@barbo.com.br</a>
+													href='mailto: contato@barbo.com.br'>Contato@barbo.Com.Br</a>
 												</div>
 											</div>
 										</Fade>
@@ -141,8 +141,8 @@ function Footer(props) {
 									<div className='titulo'>Quem somos</div>
 									<Fade>
 										<div className='conteudo'>
-											<a onClick={() => clickMenu("ls#pos_vendas")} className={active === "ls#pos_vendas" ? 'active ' : ''}
-												href="ls#pos_vendas">
+											<a onClick={() => clickMenu("barbo/quem_somos")} className={active === "barbo/quem_somos" ? 'active ' : ''}
+												href="barbo/quem_somos">
 												Incorporadora
 											</a>
 										</div>
@@ -160,24 +160,24 @@ function Footer(props) {
 									<div className='titulo'>Cidades</div>
 									<Fade>
 										<div className='conteudo'>
-											<a onClick={() => clickMenu("ls#pos_vendas")} className={active === "ls#pos_vendas" ? 'active ' : ''}
-												href="ls#pos_vendas">
+											<a onClick={() => clickMenu("barbo/empreendimentos_interna")} className={active === "barbo/empreendimentos_interna" ? 'active ' : ''}
+												href="barbo/empreendimentos_interna">
 												Piracicaba
 											</a>
 										</div>
 									</Fade>
 									<Fade>
 										<div className='conteudo'>
-											<a onClick={() => clickMenu("ls#pos_vendas")} className={active === "ls#pos_vendas" ? 'active ' : ''}
-												href="ls#pos_vendas">
+											<a onClick={() => clickMenu("barbo/empreendimentos_interna")} className={active === "barbo/empreendimentos_interna" ? 'active ' : ''}
+												href="barbo/empreendimentos_interna">
 												Rio Claro
 											</a>
 										</div>
 									</Fade>
 									<Fade>
 										<div className='conteudo'>
-											<a onClick={() => clickMenu("ls#pos_vendas")} className={active === "ls#pos_vendas" ? 'active ' : ''}
-												href="ls#pos_vendas">
+											<a onClick={() => clickMenu("barbo/empreendimentos_interna")} className={active === "barbo/empreendimentos_interna" ? 'active ' : ''}
+												href="barbo/empreendimentos_interna">
 												Americana
 											</a>
 										</div>
@@ -189,22 +189,22 @@ function Footer(props) {
 								<div className='titulo'>Empreendimentos</div>
 								<Fade>
 									<	div className='conteudo'>
-										<a onClick={() => clickMenu("ls#pos_vendas")} className={active === "ls#pos_vendas" ? 'active ' : ''}
-											href="ls#pos_vendas">
+										<a onClick={() => clickMenu("barbo/empreendimentos")} className={active === "barbo/empreendimentos" ? 'active ' : ''}
+											href="barbo/empreendimentos">
 											Loteamento
 										</a>
 									</div>
 								</Fade>
 								<Fade>
 									<div className='conteudo'>
-										<a onClick={() => clickMenu("/barbo/fale_conosco")} href="/barbo/fale_conosco" id="btn-trab">
+										<a onClick={() => clickMenu("/barbo/empreendimentos")} href="/barbo/empreendimentos" id="btn-trab">
 											Residencial
 										</a>
 									</div>
 								</Fade>
 								<Fade>
 									<div className='conteudo'>
-										<a onClick={() => clickMenu("/barbo/fale_conosco")} href="/barbo/fale_conosco" id="btn-trab">
+										<a onClick={() => clickMenu("/barbo/empreendimentos")} href="/barbo/empreendimentos" id="btn-trab">
 											Corporativo
 										</a>
 									</div>
