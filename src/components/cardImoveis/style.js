@@ -15,6 +15,7 @@ a {
     width: 25rem;
     margin: 0 10px;
     height: 36rem;
+    align-items: center;
 }
 
 .card-body{
