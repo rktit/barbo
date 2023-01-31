@@ -7,11 +7,12 @@ const Content = styled.div`
   background-size: 100%;
   padding: 50px !important;
   margin: 50px 0!important;
-
+  display: flex;
+  justify-content: center;
 
   .conteudo {
 	display: flex;
-	flex-direction: column;
+	flex-direction: wrap;
 	align-items: center;
     justify-content: center;
   }
@@ -20,37 +21,27 @@ const Content = styled.div`
   	color: #ffffff;
   	font-family: ${font.opensans_regular};
   	font-size: 2rem;
-	justify-content: flex-end;
   }
   .texto {
 	margin-top:-10px;
 	color: #fc1347;
 	font-family: ${font.opensans_light};
 	font-size: 1rem;
-	justify-content: flex-end;
-
-	margin-left: 6rem;
   }
   .boxNome{
 	margin-top: 0px;
 	align-items: center;
 	flex-direction: inherit;
-    width: 24rem;
-    padding: 0 0 12px 60px;
+	margin: 0 2rem;
 }
 .boxEmail{
-	margin-left: -30px;
 	align-items: center;
 	flex-direction: column;
-	width: 20rem;
-	margin-top: 0px;
 }
 .boxCadastrar{
-	margin-top: 0px;
+    margin-top: 6px;
 	align-items: center;
 	flex-direction: column;
-	margin-left: 29px;
-
 }
   .input-newsletter {
 			border: none;
@@ -58,6 +49,7 @@ const Content = styled.div`
 			color: ${colors.gray_text};
 			font-family: ${font.opensans_regular};
 			padding: 5px 25px;
+			margin: auto;
 			z-index: 2;
 			::-webkit-input-placeholder {
 		    color: ${colors.secondary};
@@ -65,7 +57,6 @@ const Content = styled.div`
   }
   
   .buttom {
-  		
   		z-index: 0;
 		  display: block;
 		  padding: 15px 25px;
@@ -79,7 +70,8 @@ const Content = styled.div`
 		  text-align: center;
 		  line-height: 100%;
 		  max-height: 60px;
-		  width: 33rem;
+		  width: 31.5rem;
+		  margin-left: -16px;
 
 		  :hover {
 		    transition: 0.2s ease-in-out;
@@ -93,25 +85,37 @@ const Content = styled.div`
 
   @media only screen and (max-width: 600px) {
 	margin: 50px 0 !important;
-	min-height: 320px;
-	max-height: 320px;
+	min-height: 24rem;
+	max-height: 20rem;
 
 	.conteudo{
 		display: flex;
 		flex-direction: column;
 	}
 
-
 	.boxNome{
-		margin-top: -50px;
+		margin-top: 0px
     	align-items: center;
+		display: flex!important;
+    	flex-direction: column;
+    	align-content: center;
+    	align-items: center;
+		margin: 1.5rem 0px 0px 0px;
 	}
 	.boxEmail{
-		margin-top: -50px;
+		margin-top: 0px;
+    	align-items: center;
+		display: flex!important;
+    	flex-direction: column;
+    	align-content: center;
     	align-items: center;
 	}
 	.boxCadastrar{
-		margin-top: -50px;
+		margin-top: 0px;
+    	align-items: center;
+		display: flex!important;
+    	flex-direction: column;
+    	align-content: center;
     	align-items: center;
 	}
 
@@ -119,23 +123,29 @@ const Content = styled.div`
 		display: flex;
 		flex-direction: column;		
 		justify-content: center;
-		margin-top:20px;
+		margin-top:0px;
 		text-align: center;
 		font-size: 1.5rem;
-
+		padding: 0 3rem;
 		height: 100px;
 	}
+	.texto {
+		display: flex;
+		flex-direction: column;	
+	  }
 	.input-newsletter{
-		padding: 15px 7px;
+		padding: 4px 2rem;
+		margin: 3px 0;
 
 		input{
-			width: 150px;
+			width: 10rem;
 		}
 	}
 	.buttom {
-		text-align:center;
-		padding: 20px 7px;
-		margin-left: 10px;
+		text-align: center;
+	    padding: 7px 0px;
+	    margin-left: 0px;
+		width: 190px;
 	}
   }
 `;

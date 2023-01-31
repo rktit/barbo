@@ -17,11 +17,10 @@ function Essencia() {
 
     return (
         <ScrollableAnchor id="">
-            {isMobile ? '' :
                 <Content>
                     <div className="title justify-content-center">Nossa essência</div>
                     <div className="topo row d-flex justify-content-center offset-sm-1">
-                        <div className="textos col-6 justify-content-center mt-2">
+                        <div className="textos col-10 col-d-6 justify-content-center mt-2">
                             <div className="text">
                                 Somos movidos por <strong>planejar sonhos</strong> e <strong>transformar vidas.</strong> São <br />
                                 <strong>mais de 5.000 lares e empresas impactadas com a nossa entrega.</strong> <br />
@@ -37,8 +36,9 @@ function Essencia() {
 
                             </div>
                         </div>
+                        <div className="textos col-10 col-d-6 justify-content-center mt-2">
 
-                        <div className="text">
+                        <div className="text pb-3">
                             Fomos uma das primeiras incorporadoras do estado e hoje <br />
                             estamos sediados em Rio Claro|SP com atuação em diversas <br />
                             cidades do interior paulista.
@@ -53,10 +53,11 @@ function Essencia() {
                             por isso, temos orgulho de participar de <strong>momentos</strong> <br />
                             <strong>inesquecíveis</strong> da sua vida!
                         </div>
+                        </div>
+
                     </div>
 
                 </Content>
-            }
         </ScrollableAnchor>
     );
 }

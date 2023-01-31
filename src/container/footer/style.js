@@ -123,19 +123,16 @@ const Content = styled.div`
 	.copyright{
 		margin-top: 50px;
 	}
-  .logo-footer {
-    margin: 40px -70px 0px 10px;
-  }
-   .icone_midia {
-    height: 2rem;
-    width: 4rem;
-    margin-top: -16px;
-    margin-left: -3rem;
-    -webkit-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    padding-right: 20px;
+ .logo-footer {
+    margin: 5px;
 }
+   .icone_midia {
+      height: 2rem;
+      width: 3rem;
+      margin-top: -16px;
+      margin-left: -2rem;
+      flex-wrap: wrap;
+      padding-right: 0;
   }
 `;
 

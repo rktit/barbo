@@ -29,11 +29,11 @@ return (
         <Content>
             { isMobile ?  
                 <Splide className=" col-12" options={{
-                    rewind: true,
+                    rewind: false,
                     width: "100%",
                     gap: '1.5rem',
                     perPage: 1,
-                    pagination: false
+                    pagination: true
                 }}>
                     <SplideSlide >
                         <div className="icones">

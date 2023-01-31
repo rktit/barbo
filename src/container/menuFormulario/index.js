@@ -72,25 +72,25 @@ const MenuFormulario = (props) => {
 		<Content className={`d-flex`}>
 			<div className="container ">
 				<div className={`menu-nav ${showMenu ? "show-menu" : "show-menu"}`}>
-					<a onClick={() => { abreModal(props.title) }} className={active === "#" ? 'active mr-3' : 'mr-3'}>
+					<a onClick={() => { abreModal(props.title) }} className={active === "#" ? 'active mr-0' : 'mr-3'}>
 						Quero Comprar um Imóvel
 					</a>
-					<a onClick={() => { abreModal(props.title) }} className={active === "#" ? 'active mr-3' : 'mr-3'}>
+					<a onClick={() => { abreModal(props.title) }} className={active === "#" ? 'active mr-0' : 'mr-3'}>
 						Já sou Cliente
 					</a>
-					<a onClick={() => { abreModal(props.title) }} className={active === "#" ? 'active mr-3' : 'mr-3'}>
+					<a onClick={() => { abreModal(props.title) }} className={active === "#" ? 'active mr-0' : 'mr-3'}>
 						Compramos seu Terreno
 					</a>
-					<a onClick={() => { abreModal(props.title) }} className={active === "#" ? 'active mr-3' : 'mr-3'}>
+					<a onClick={() => { abreModal(props.title) }} className={active === "#" ? 'active mr-0' : 'mr-3'}>
 						Sou Vizinho(a) de Obra
 					</a>
-					<a onClick={() => { abreModal(props.title) }} className={active === "#" ? 'active mr-3' : 'mr-3'}>
+					<a onClick={() => { abreModal(props.title) }} className={active === "#" ? 'active mr-0' : 'mr-3'}>
 						Fornecedor
 					</a>
-					<a onClick={() => { abreModal(props.title) }} className={active === "#" ? 'active mr-3' : 'mr-3'}>
+					<a onClick={() => { abreModal(props.title) }} className={active === "#" ? 'active mr-0' : 'mr-3'}>
 						Assessoria de Imprensa
 					</a>
-					<a onClick={() => { abreModal(props.title) }} className={active === "#" ? 'active mr-3' : 'mr-3'}>
+					<a onClick={() => { abreModal(props.title) }} className={active === "#" ? 'active mr-0' : 'mr-3'}>
 						Outros Assuntos
 					</a>
 					<div className="flex line"></div>

@@ -53,8 +53,8 @@ function NewsLetterLs() {
     return (
         <ScrollableAnchor id="newsletter">
             <Content className="row">
-                <Fade right>
-                    <div className='conteudo col-12 col-md-6 offset-md-0 p-0 '>
+                <Fade right> 
+                    <div className='conteudo col-12 col-md-4 offset-md-0 p-0 '>
                         <div className="texto col-12 col-d-2 d-flex">
                             newsletter
                             <div className="title col-12 col-d-6 d-flex">
@@ -63,19 +63,19 @@ function NewsLetterLs() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-12 col-md-6 d-flex">
+                    <div className="col-12 col-md-5 d-flex flex-wrap">
                         <form onSubmit={handleSubmit}>
-                            <div className="boxNome col-12 d-flex">
-                                <input type='nome' name="input_newsletter" className="input-newsletter col-8 col-md-10 col-sm-11"
+                            <div className="boxNome col-12 col-d-12 d-flex">
+                                <input type='nome' name="input_newsletter" className="input-newsletter"
                                     placeholder="Nome" onChange={e => handleChange(e)}
                                     value={fields.input_newsletter} />
-                                <div className="boxEmail col-12 d-flex">
-                                    <input type='email' name="input_newsletter" className="input-newsletter col-8 col-md-10 col-sm-11"
+                                <div className="boxEmail col-12 col-d-6 d-flex">
+                                    <input type='email' name="input_newsletter" className="input-newsletter"
                                         placeholder="E-mail" onChange={e => handleChange(e)}
                                         value={fields.input_newsletter} />
                                 </div>
                             </div>
-                            <div className="boxCadastrar col-12 d-flex">
+                            <div className="boxCadastrar col-12 col-d-6 d-flex">
                                 <a href="#newsletter" className='buttom' onClick={handleSubmit}>
                                     Enviar
                                 </a>

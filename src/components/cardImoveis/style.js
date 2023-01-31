@@ -13,13 +13,14 @@ a {
 }
 .card{
     width: 25rem;
-    margin: 0 10px;
+    margin: 0 0 0 4rem;
     height: 36rem;
 }
 
 .card-body{
     color: #20396f;
     text-align: left;
+    display: inline-table;
 }
 
 .card-img-top{
@@ -39,6 +40,7 @@ a {
 
 .card-text{
     height: 7rem;
+    width: 15rem;
     font-family: ${fonts.opensans_light};
 }
 .love {
@@ -74,7 +76,8 @@ a {
 
 @media only screen and (max-width: 600px) {
     .card-img-top{
-        width: 100%;
+        width: 16rem;
+        height: 26rem;
     }
     img{
         width: 100%;

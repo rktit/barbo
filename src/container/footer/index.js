@@ -72,7 +72,7 @@ function Footer(props) {
 					<div className='col-12 offset-1 p-0 content'>
 						<div className="col-12 row p-0 text-white">
 							<Fade left>
-								<div className="logo-footer col-12 col-md-4 p-0">
+								<div className="logo-footer col-10 col-md-4 p-0">
 									<a href='#sobre'><img src={logo} className="logo" /></a>
 									<div className='col-12 p-0 info'>
 										<div className='titulo'>Barbo Rio Claro Empreendiemtnos Ltda</div>
@@ -278,9 +278,13 @@ function Footer(props) {
 								</Fade>
 							</div>
 						</div>
-						<div className='col-12 p-0 line copyright'>
+						<div className='col-12 p-0 line'>
+						<div className='col-12 p-0 copyright'>
+
 							Desenvolvido por Huma Creativa
 						</div>
+						</div>
+
 					</div>
 				</div>
 			</Content>

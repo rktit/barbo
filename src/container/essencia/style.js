@@ -192,7 +192,10 @@ const Content = styled.div`
       justify-content: center;
       align-items: center;
     }
-
+    .title{
+      padding: 3rem 0rem;
+    }
+  
     .orcamento{
       width: 100%;
       margin-top: 0px;
@@ -225,6 +228,7 @@ const Content = styled.div`
   .infoCotacao{
     font-size:1rem;
   }
+  
 `;
 
 export default Content;

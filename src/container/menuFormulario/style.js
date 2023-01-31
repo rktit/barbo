@@ -17,7 +17,7 @@ export const Content = styled.nav`
 
   }
   .container {
-    width: 30rem;
+    width: 40rem;
   }
   .menu-scroll {
   	transition: 0.2s ease-in-out;
@@ -57,7 +57,6 @@ export const Content = styled.nav`
     }
   }
   .menu-nav {
-    padding: 0.5rem 0 0.5rem 4rem;
     display: flex;
     flex-direction: column;
 
@@ -88,8 +87,9 @@ export const Content = styled.nav`
       :hover {
         transition: 0.1s ease-in-out;
         text-decoration-color: #000;
-        text-decoration-line: underline;
+        text-decoration-line: none;
         font-weight: 800;
+        background-color: rgb(241 236 236);
       }
     }
     .marca{
@@ -135,7 +135,7 @@ export const Content = styled.nav`
     border-style: solid;
     border-width: 1px;
     border-color: #fc1347;
-    width: 23rem;
+    width: 37rem;
     margin: 2rem 0;
     }
   .links-mobile {
@@ -160,6 +160,10 @@ export const Content = styled.nav`
   @media only screen and (max-width: 992px) {
     height: 40rem;
 
+
+    .container {
+      width: 18rem;
+    }
     .menu-nav {
       padding: 0.5rem 0 0.5rem 0.05rem;
       display: flex;
@@ -168,7 +172,9 @@ export const Content = styled.nav`
         padding: 0.5rem 0 0.5rem 0.2rem;
       }
     }
-    
+    .line {
+      width: 16rem;
+    }
       .menu-scroll {
 		    transition: 0.2s ease-in-out;
 		    padding: .5rem !important;

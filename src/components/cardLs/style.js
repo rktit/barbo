@@ -2,6 +2,7 @@ import styled from "styled-components";
 import fonts from "config/fonts";
 
 const Content = styled.div`
+margin-right: 0px
 img{
     height: 325px;
 }
@@ -21,11 +22,13 @@ a {
 }
 .card{
     width: 25rem;
-    margin: 5px;
-    height: 28rem;
+    margin: 0 0 0 4rem;
+    height: 36rem;
 }
 
 .card-body{
+    text-align: left;
+    display: inline-table;
     color: #ffffff;
     position: absolute;
 }
@@ -80,16 +83,13 @@ a {
     .card-img-top{
         width: 100%;
     }
+    .card-img-top{
+        width: 16rem;
+        height: 26rem;
+    }
     img{
         width: 100%;
         // height: auto;
-    }
-    .card-body{
-        padding: 1rem 100px 0 25px;
-    }
-    .card-title {
-        margin-bottom: 1rem;
-        padding-left: 0;
     }
     .card{
         width: 100%;
@@ -98,10 +98,6 @@ a {
     .card-text{
         height:100%;
         display: contents;
-    }
-    .card-mais {
-        bottom: -14rem;
-        right: -10rem;
     }
     .btn{
         

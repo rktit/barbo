@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import Content from "./style";
-import { getAllEnterprises, getPostById } from '../../service/state.posts'
 
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/splide/dist/css/themes/splide-sea-green.min.css';
@@ -17,24 +16,11 @@ import CardImoveis from "components/cardImoveis";
 import ScrollableAnchor from "react-scrollable-anchor";
 
 function Imoveis() {
-  const [enterprises, setEnterprises] = useState(null);
 
-  async function Enterprise() {
-    const result = await getAllEnterprises()
-    console.log("result", result)
-    if (!result.error) {
-      setEnterprises(result.data)
-    }
-  }
-
-
-  useEffect(() => {
-    Enterprise()
-  }, [])
   const [isMobile, setMobile] = useState(false);
+  const [img, setImagem] = useState(null);
 
   useEffect(() => {
-
     if (window.innerWidth >= 992) {
       setMobile(false);
     } else {
@@ -76,7 +62,7 @@ function Imoveis() {
         {isMobile ?
           <Splide className="splide col-12" options={{
             rewind: true,
-            width: "20rem",
+            width: "auto",
             gap: '2rem',
             perPage: 1,
             pagination: false,
@@ -139,26 +125,71 @@ function Imoveis() {
             </SplideSlide>
           </Splide>
 
-          : enterprises !== null ?
-            <Splide className="col-12 slide"
-              options={{
-                rewind: true,
-                width: "100%",
-                gap: '1.5rem',
-                perPage: 3,
-                pagination: true
-              }}>
-              <SplideSlide>
-                {enterprises.map((post, index) => {
-                  console.log("POST::: ", post);
-                  return <CardImoveis image={home2}
-                    key={index}
-                    title={post.name_resume}
-                    text={post.resume} />
-                })}
-              </SplideSlide>
-            </Splide>
-            : "Não há resultados!"
+          :
+          <Splide className="col-8" options={{
+            rewind: true,
+            width: "100%",
+            gap: '1.5rem',
+            perPage: 3,
+            pagination: true
+          }}>
+            <SplideSlide className="slide">
+              <CardImoveis image={home}
+                title="Front Lake"
+                text="Rio Claro | Vila Operária
+                Área privativa de 94 m²
+                3 Dormitórios (1 suíte)"/>
+            </SplideSlide>
+            <SplideSlide className="slide">
+              <CardImoveis image={home1}
+                title="Infinity"
+                text="Rio Claro | Cidade Jardim
+                Área privativa de 151 m²
+                4 Suítes (1 master)"/>
+            </SplideSlide>
+            <SplideSlide className="slide">
+              <CardImoveis image={home2}
+                title="Quinta do Vale"
+                text="Barra Bonita | Portal São José da Barra
+                Com lotes de 200m² a 400m²"/>
+            </SplideSlide>
+            <SplideSlide className="slide">
+              <CardImoveis image={home3}
+                title="Office Tower"
+                text="Rio Claro | Jardim Claret
+                 Salas - 42,06 m² | 43,66 m² | 49,94 m²
+                 5 Elevadores (3 panorâmicos)"/>
+            </SplideSlide>
+            <SplideSlide className="slide">
+              <CardImoveis image={home4}
+                title="Las Rocas"
+                text="Piracicaba | Piracicamirim
+                 Área privativa de 55 m²
+                 2 Dormitórios"/>
+            </SplideSlide>
+            <SplideSlide className="slide">
+              <CardImoveis image={home5}
+                title="Higienópolis"
+                text="Piracicaba | Higienópolis
+                  Área privativa de 88 m²
+                  3 Dormitórios (1 suíte)"/>
+            </SplideSlide>
+            <SplideSlide className="slide">
+              <CardImoveis image={home}
+                title="Villa Real"
+                text="Americana | Jardim Bela Vista
+                  Área privativa de 58 m²
+                  2 Dormitórios "/>
+            </SplideSlide>
+            <SplideSlide className="slide">
+              <CardImoveis image={home1}
+                title="Morada do Porto"
+                text="Americana | Terramérica
+                  Área privativa de 53m² e 68 m²
+                  2 ou 3 Dormitórios (1 Suíte)"/>
+            </SplideSlide>
+          </Splide>
+
         }
       </Content>
     </ScrollableAnchor >

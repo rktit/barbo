@@ -178,13 +178,32 @@ padding-top: 80px;
     align-items: center;
   }
 
-  
+  .splide__arrow svg {
+    width: 1.5em;
+    height: 1.5em;
+    fill: #000000;
+    transition: fill .2s linear;
+}
+.splide__pagination__page {
+    display: inline-block;
+    width: 20px;
+    height: 5px;
+    background: #fc1347;
+    border-radius: 2.5px;
+    margin: 3px;
+    padding: 0;
+    transition: all .2s linear;
+    border: none;
+}
 
-
+.splide__pagination__page.is-active {
+  background: #000000;
+  width: 5px;
+}
   @media only screen and (max-width: 600px) {
     padding: 0px;
     .content {
-      margin-bottom: 32px;
+      margin: -1rem 0 2rem 0;
     }
     .topo{
       justify-content: center;
@@ -223,6 +242,12 @@ padding-top: 80px;
   .infoCotacao{
     font-size:1rem;
   }
+  .splide__arrow svg {
+    width: 1.5em;
+    height: 1.5em;
+    fill: transparent;
+    transition: fill .2s linear;
+}
 `;
 
 export default Content;
