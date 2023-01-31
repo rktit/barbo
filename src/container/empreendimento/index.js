@@ -27,8 +27,8 @@ function Empreendimento(props) {
     <ScrollableAnchor id="">
       <Content className="col-12">
         <Fade left>
-          <div className="mt-0 mt-d-5">
-            <div className="flex m-0 m-d-4 col-9 col-d-12 p-4 p-d-0">
+          <div className="left-side mt-0 mt-d-5">
+          <div className="flex m-0 m-d-4 col-12 col-d-12 p-4 p-d-0">
               <span className="title">Nome do Empreendimento</span><p />
               <span className="texto">
                 Somos movidos por <strong>planejar sonhos</strong> e <strong>transformar vidas.</strong> São <br />
@@ -43,7 +43,7 @@ function Empreendimento(props) {
                 construir uma sociedade ainda melhor.
               </span>
             </div>
-            { isMobile ?
+            {isMobile ?
               <Splide className=" col-12" options={{
                 rewind: false,
                 width: "100%",
@@ -52,33 +52,34 @@ function Empreendimento(props) {
                 pagination: true
               }}>
                 <SplideSlide >
-                  <div className="icones">
-                    <img className="" src={shower} alt="garantia" />
-                    Apartamentos com<br /> 2 ou 3 suítes
-                  </div>
+                <div className="icones">
+                  <img className="" src={shower} alt="garantia" />
+                  Apartamentos com<br /> 2 ou 3 suítes
+                </div>
                 </SplideSlide>
                 <SplideSlide>
-                  <div className="icones">
-                    <img className="" src={area} alt="assistencia" />
-                    94 e 134m² de <br />área privativa
-                  </div>
+                <div className="icones">
+                  <img className="" src={area} alt="assistencia" />
+                  94 e 134m² de <br />área privativa
+                </div>
                 </SplideSlide>
                 <SplideSlide>
-                  <div className="icones">
-                    <img className="" src={doubleBed} alt="serviço" />
-                    Apartamentos de <br />2 ou 3 dormitórios
-                  </div>
+                <div className="icones">
+                  <img className="" src={doubleBed} alt="serviço" />
+                  Apartamentos de <br />2 ou 3 dormitórios
+                </div>
                 </SplideSlide>
                 <SplideSlide>
-                  <div className="icones pr-2">
-                    <img className="" src={garage} alt="serviço" />
-                    Com 2 ou 3 vagas <br />na garagem
-                  </div>
+                <div className="icones pr-2">
+                  <img className="" src={garage} alt="serviço" />
+                  Com 2 ou 3 vagas <br />na garagem
+                </div>
                 </SplideSlide>
               </Splide>
 
               :
               <div className="icones-empreendimentos my-5">
+
                 <div className="icones">
                   <img className="" src={shower} alt="garantia" />
                   Apartamentos com<br /> 2 ou 3 suítes

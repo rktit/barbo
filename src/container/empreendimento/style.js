@@ -4,6 +4,7 @@ import fonts from "config/fonts";
 
 import imgConsorcio from "images/empreendimento_interna/nome_empreendimento.png";
 
+
 const Content = styled.div`
   flex-direction: row;
   justify-content: center;
@@ -12,14 +13,17 @@ const Content = styled.div`
   .image-side{
     background: url(${imgConsorcio}) no-repeat center center;
     background-size: cover;
+    padding-bottom: 24rem;
+    height: 12rem;
+}
   }
 
   .imgConsorcio{
     width:100%;
     height:auto;
 
-    min-width: 620px;
-    min-height: 600px;
+    min-width: auto;
+    min-height: auto;
   }
 
   .left-side{
@@ -110,6 +114,8 @@ const Content = styled.div`
   
 
   @media only screen and (max-width: 600px) {
+    flex-direction: column;
+
     .splideLoc{
       display: flex;
       justify-content: center;
@@ -201,6 +207,7 @@ const Content = styled.div`
     fill: transparent;
     transition: fill .2s linear;
 }
+  }
 `;
 
 export default Content;
