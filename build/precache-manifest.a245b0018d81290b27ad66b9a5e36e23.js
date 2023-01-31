@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a438c852f2e51e4441c5f1df7ca68e46",
+    "revision": "6bf88e545dd7010013e5f4307fcdd877",
     "url": "/barbo/quem_somos/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/barbo/quem_somos/static/css/2.22ca879e.chunk.css"
   },
   {
-    "revision": "e0f4e752d815a8c33905",
+    "revision": "e4f8def593af9bc7921f",
     "url": "/barbo/quem_somos/static/css/main.cf390945.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/barbo/quem_somos/static/js/2.8669f0bf.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e0f4e752d815a8c33905",
-    "url": "/barbo/quem_somos/static/js/main.02f5fa24.chunk.js"
+    "revision": "e4f8def593af9bc7921f",
+    "url": "/barbo/quem_somos/static/js/main.24cbe570.chunk.js"
   },
   {
     "revision": "25a3ffb6ee69e238ca1a",

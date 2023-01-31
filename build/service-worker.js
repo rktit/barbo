@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/barbo/quem_somos/precache-manifest.6df95efb3e2d831aad0069b3f81eeaf1.js"
+  "/barbo/quem_somos/precache-manifest.a245b0018d81290b27ad66b9a5e36e23.js"
 );
 
 self.addEventListener('message', (event) => {

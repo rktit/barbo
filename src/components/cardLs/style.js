@@ -22,8 +22,9 @@ a {
 }
 .card{
     width: 25rem;
-    margin: 0 0 0 4rem;
-    height: 36rem;
+    margin: 0 0 0 0;
+    height: 28rem;
+    padding: 0 10px 0 10px;
 }
 
 .card-body{
@@ -84,8 +85,8 @@ a {
         width: 100%;
     }
     .card-img-top{
-        width: 16rem;
-        height: 26rem;
+        width: 20rem;
+    height: 30rem;
     }
     img{
         width: 100%;
@@ -94,10 +95,16 @@ a {
     .card{
         width: 100%;
         height: 100%;
+        padding: 0 1rem 0 1.5rem;
+
     }
     .card-text{
         height:100%;
         display: contents;
+    }
+    .card-mais{
+        right: -4rem;
+        bottom: -12rem;
     }
     .btn{
         

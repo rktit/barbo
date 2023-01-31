@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/barbo/quem_somos/static/css/main.cf390945.chunk.css",
-    "main.js": "/barbo/quem_somos/static/js/main.02f5fa24.chunk.js",
-    "main.js.map": "/barbo/quem_somos/static/js/main.02f5fa24.chunk.js.map",
+    "main.js": "/barbo/quem_somos/static/js/main.24cbe570.chunk.js",
+    "main.js.map": "/barbo/quem_somos/static/js/main.24cbe570.chunk.js.map",
     "runtime-main.js": "/barbo/quem_somos/static/js/runtime-main.7093199e.js",
     "runtime-main.js.map": "/barbo/quem_somos/static/js/runtime-main.7093199e.js.map",
     "static/css/2.22ca879e.chunk.css": "/barbo/quem_somos/static/css/2.22ca879e.chunk.css",
     "static/js/2.8669f0bf.chunk.js": "/barbo/quem_somos/static/js/2.8669f0bf.chunk.js",
     "static/js/2.8669f0bf.chunk.js.map": "/barbo/quem_somos/static/js/2.8669f0bf.chunk.js.map",
     "index.html": "/barbo/quem_somos/index.html",
-    "precache-manifest.6df95efb3e2d831aad0069b3f81eeaf1.js": "/barbo/quem_somos/precache-manifest.6df95efb3e2d831aad0069b3f81eeaf1.js",
+    "precache-manifest.a245b0018d81290b27ad66b9a5e36e23.js": "/barbo/quem_somos/precache-manifest.a245b0018d81290b27ad66b9a5e36e23.js",
     "service-worker.js": "/barbo/quem_somos/service-worker.js",
     "static/css/2.22ca879e.chunk.css.map": "/barbo/quem_somos/static/css/2.22ca879e.chunk.css.map",
     "static/css/main.cf390945.chunk.css.map": "/barbo/quem_somos/static/css/main.cf390945.chunk.css.map",
@@ -111,6 +111,6 @@
     "static/css/2.22ca879e.chunk.css",
     "static/js/2.8669f0bf.chunk.js",
     "static/css/main.cf390945.chunk.css",
-    "static/js/main.02f5fa24.chunk.js"
+    "static/js/main.24cbe570.chunk.js"
   ]
 }
