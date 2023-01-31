@@ -39,9 +39,8 @@ const Content = styled.div`
             width: 180px;
         }
         .banner{
-            padding: 115px 0 0px 0;
-
-            
+            height: 24rem;
+            background-repeat: no-repeat;
         }
     }
 `;

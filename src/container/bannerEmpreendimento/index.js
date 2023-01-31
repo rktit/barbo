@@ -8,9 +8,9 @@ import banner1 from "images/empreendimento_interna/cozinha.png";
 import banner2 from "images/empreendimento_interna/predio.png";
 import banner3 from "images/empreendimento_interna/sala.png";
 
-import banner1Mobile from "images/empreendimento_interna/cozinha.png";
-import banner2Mobile from "images/empreendimento_interna/predio.png";
-import banner3Mobile from "images/empreendimento_interna/sala.png";
+import banner1Mobile from "images/empreendimento_interna/nome_empreendimento.png";
+import banner2Mobile from "images/empreendimento_interna/nome_empreendimento.png";
+import banner3Mobile from "images/empreendimento_interna/nome_empreendimento.png";
 
 function Banner() {
     const [isMobile, setIsMobile] = useState(false);

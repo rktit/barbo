@@ -12,9 +12,7 @@ a {
     background-color: transparent;
 }
 .card{
-    width: 25rem;
-    margin: 0 10px;
-    height: 36rem;
+    width: 65rem;
 }
 
 .card-body{

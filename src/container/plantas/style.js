@@ -121,7 +121,7 @@ const Content = styled.div`
     background: #000000;
     color: #ffffff;
     align-items: center;
-    max-width: 1000px;
+    width: 65rem; 
     justify-content: center;
   }
   .consulta{
@@ -167,11 +167,32 @@ const Content = styled.div`
     flex-direction: column;
     padding: 0px;
     .image-side{
-      padding: 110px 0 !important;
+      padding: 0px!important;
     }
-
+    .fotos{
+      background: #000000;
+      color: #ffffff;
+      align-items: center;
+      width: 24rem; 
+      justify-content: center;
+    }
+    .consulta{
+      background: #000000;
+      color: #ffffff;
+      align-items: center;
+      width: 24rem;    
+      justify-content: center;
+      margin-bottom: 4px;
+      flex-direction: column-reverse;
+      font-size: 1.25rem;
+      padding-top: 0.5rem;
+    }
+    .image-side{
+      width: 15rem;
+      padding: 0px;
+    }
     .left-side{
-      padding: 0 30px;
+      padding: 0 0px;
     }
 
     .slide{

@@ -3,6 +3,7 @@ import fonts from "config/fonts";
 
 
 import mapa from "images/empreendimento/mapa.png";
+import mapaMobile from "images/empreendimento/mapa_mobile.png";
 
 const Content = styled.div`
   flex-direction: row;
@@ -86,9 +87,26 @@ const Content = styled.div`
     .icones{
       font-size: 0.9rem;
     }
-
     .image-side{
-      padding: 250px 0 !important;
+      background: url(${mapaMobile}) no-repeat center center;
+      background-size: auto;
+      width:100%;
+      height:auto;
+  
+      min-width: 0rem;
+      min-height: 0rem;
+      margin-right: 0rem;
+    }
+    .icones-empreendimentos{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      padding-top: 20px;
+    }
+    .left-side {
+      padding-right: 0rem;
+      margin-left: -3rem;
+      padding-top: 2rem;
     }
   }
 `;

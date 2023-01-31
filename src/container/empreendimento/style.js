@@ -110,19 +110,97 @@ const Content = styled.div`
   
 
   @media only screen and (max-width: 600px) {
-    flex-direction: column;
-    padding: 0;
-    .title{
-      font-size: 1.5rem;
+    .splideLoc{
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
-    .icones{
-      font-size: 0.9rem;
+  
+    .splide__arrow svg {
+      width: 1.5em;
+      height: 1.5em;
+      fill: #000000;
+      transition: fill .2s linear;
+  }
+  .splide__pagination__page {
+      display: inline-block;
+      width: 20px;
+      height: 5px;
+      background: #fc1347;
+      border-radius: 2.5px;
+      margin: 3px;
+      padding: 0;
+      transition: all .2s linear;
+      border: none;
+  }
+  
+  .splide__pagination__page.is-active {
+    background: #000000;
+    width: 5px;
+  }
+    padding: 0px;
+    .content {
+      margin: -1rem 0 2rem 0;
+    }
+    .topo{
+      justify-content: center;
+      align-items: center;
     }
 
-    .image-side{
-      padding: 250px 0 !important;
+    .orcamento{
+      width: 100%;
+      margin-top: 0px;
+      margin-left: 15px;
+      .form{
+        margin-top: 15px;
+      }
+
+      // input{
+      //   width: 120%;
+      // }
     }
+    .icones{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0em 2em;
+      font-family: ${fonts.opensans_light};
+      font-size: 1.2rem;
+      text-align: center;
+      color: #000000;
+      
+      img{
+        width: 5rem;
+        heigth: auto;
+        padding-bottom: 6px;
+      }
+    }
+    .boxTitle{
+      font-size: 1.6rem;
+      margin-left: 0px;
+      line-height: 1.8rem;
+      strong{
+        font-size: 2.3rem;
+  
+      }
   }
+  
+  .btn{
+    font-size: 0.7rem;
+  }
+  .icone_whatsapp{
+    width:35px;
+    height:35px;
+  }
+  .infoCotacao{
+    font-size:1rem;
+  }
+  .splide__arrow svg {
+    width: 1.5em;
+    height: 1.5em;
+    fill: transparent;
+    transition: fill .2s linear;
+}
 `;
 
 export default Content;
