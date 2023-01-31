@@ -20,8 +20,8 @@ const Content = styled.div`
 	margin-top:-10px;
   	color: #ffffff;
   	font-family: ${font.opensans_regular};
-  	font-size: 2rem;
-  }
+    font-size: 1.55rem;
+	}
   .texto {
 	margin-top:-10px;
 	color: #fc1347;
@@ -48,7 +48,7 @@ const Content = styled.div`
 			background-color: ${colors.white};
 			color: ${colors.gray_text};
 			font-family: ${font.opensans_regular};
-			padding: 5px 25px;
+			padding: 5px 29px;
 			margin: auto;
 			z-index: 2;
 			::-webkit-input-placeholder {
@@ -70,7 +70,7 @@ const Content = styled.div`
 		  text-align: center;
 		  line-height: 100%;
 		  max-height: 60px;
-		  width: 31.5rem;
+		  width: 32rem;
 		  margin-left: -16px;
 
 		  :hover {
