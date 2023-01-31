@@ -13,14 +13,16 @@ a {
 }
 .card{
     width: 25rem;
-    margin: 0 0 0 4rem;
-    height: 36rem;
+    margin: 0 0 0 0;
+    height: 28rem;
+    padding: 0 10px 0 10px;
 }
 
 .card-body{
     color: #20396f;
     text-align: left;
-    display: inline-table;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .card-img-top{

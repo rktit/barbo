@@ -1,6 +1,6 @@
 import React, { Fragment, useEffect } from "react";
 
-import {Menu, BannerBlog,Blog, ConhecaBarbo, Footer} from "container";
+import {Menu, BannerBlog,Blog, Footer} from "container";
 import { configureAnchors } from "react-scrollable-anchor";
 
 import {FlashMessageCookies, ModalPolitica} from 'components';
@@ -17,7 +17,6 @@ const Blog_Page = () => {
       <Menu/>
       <BannerBlog />
       <Blog />
-      <ConhecaBarbo />
       <Footer />
     </Fragment>
   );

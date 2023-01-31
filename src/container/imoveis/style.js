@@ -18,7 +18,11 @@ background-color: #eeeeee;
     margin-bottom: 30px;
     margin-top: 30px;
 }
-
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 .filtro__select {
     width: 14rem;
     font-size: 14px;
@@ -145,12 +149,15 @@ background-color: #eeeeee;
     width: 5px;
 }
 @media only screen and (max-width: 600px) {
-    .box {
-        height: 10rem;
-        width: 20rem;
-        display: flex;
-        justify-content: center;
-    }
+    display: flex!important;
+        flex-direction: column;
+
+        .box {
+            height: 10rem;
+            width: 20rem;
+            display: flex;
+            justify-content: center;
+        }
     .filtro__select {
         width: 14rem;
         font-size: 14px;
@@ -166,9 +173,9 @@ background-color: #eeeeee;
         line-height: 17px;
         padding: 20px;
     }
-     .filtro__item {
-        width: 14.5rem;
-        padding: 0 0;
+    .filtro__item {
+        width: fit-content;
+        padding: 4px 0px;
     }
     .btn_lupa {
         background: url(${lupa}) no-repeat center;
@@ -178,38 +185,42 @@ background-color: #eeeeee;
         border-width: 1px;
     }
     .filtro__button {
-        width: 2.75rem;
+        width: 14rem;
     }
     padding-right: 0px !important;
     padding-left: 0px !important;
 
     .title{
-        font-size: 1.5rem;
+        margin: 30px 0 30px 28px;
 
     }
 
     .splide__arrow svg {
-    width: 1.5em;
-    height: 1.5em;
-    fill: #000000;
-    transition: fill .2s linear;
-}
-.splide__pagination__page {
-    display: inline-block;
-    width: 20px;
-    height: 5px;
-    background: #fc1347;
-    border-radius: 2.5px;
-    margin: 3px;
-    padding: 0;
-    transition: all .2s linear;
-    border: none;
-}
-.splide__pagination__page.is-active {
-    background: #000000;
-    width: 5px;
-}
-
+        width: 1.5em;
+        height: 1.5em;
+        fill: #000000;
+        transition: fill .2s linear;
+    }
+    .splide__pagination__page {
+        display: inline-block;
+        width: 20px;
+        height: 5px;
+        background: #fc1347;
+        border-radius: 2.5px;
+        margin: 3px;
+        padding: 0;
+        transition: all .2s linear;
+        border: none;
+    }
+    .splide__pagination__page.is-active {
+        background: #000000;
+        width: 5px;
+    }
+    .slide.is-active{
+        display: contents;
+        min-width: auto;
+        margin-bottom: 50px;
+    }
     .textos{
         text-align: center;
         top: 5px;
@@ -220,7 +231,17 @@ background-color: #eeeeee;
             border-left-width: 0px;
         }
     }
-
+    .btn {
+        background-color: #000000;
+        display: table-cell;
+        border: none;
+        border-radius: 0;
+        width: 0;
+        font-size: 2rem;
+        height: fit-content;
+        padding: 1rem 0px 1rem 7rem;
+        color: #ffffff;
+    }
 }
 
 `;
