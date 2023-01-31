@@ -57,7 +57,8 @@ a {
     display: table-cell;
     border: none;
     border-radius: 0;
-    width: 22rem;    justify-content: center;
+    width: 22rem;    
+    justify-content: center;
 
     
 
@@ -81,7 +82,7 @@ a {
 
 @media only screen and (max-width: 600px) {
     .card-img-top{
-        width: 16rem;
+        width: 23rem;
         height: 26rem;
     }
     img{
@@ -96,9 +97,18 @@ a {
         height:100%;
         display: contents;
     }
-    .btn{
+    .btn{  
+        justify-content: inherit;
+        height: fit-content;
+        padding: 1rem 0px 1rem 7rem;
         
-    }
+    
+        &.active {
+            background-color: #ff3a66;
+            width: 20rem;
+            justify-content: center;
+    
+            }
 }
 
 `;
