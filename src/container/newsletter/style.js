@@ -91,6 +91,7 @@ const Content = styled.div`
 	.conteudo{
 		display: flex;
 		flex-direction: column;
+		margin-bottom: 26px;
 	}
 
 	.boxNome{
@@ -100,7 +101,7 @@ const Content = styled.div`
     	flex-direction: column;
     	align-content: center;
     	align-items: center;
-		margin: 1.5rem 0px 0px 0px;
+		margin: 0px;
 	}
 	.boxEmail{
 		margin-top: 0px;
@@ -143,9 +144,11 @@ const Content = styled.div`
 	}
 	.buttom {
 		text-align: center;
-	    padding: 7px 0px;
-	    margin-left: 0px;
-		width: 190px;
+ 		padding: 10px 0px;
+ 		margin-left: -6.5rem;
+ 		margin-top: 3px;
+ 		width: 16rem;
+}
 	}
   }
 `;

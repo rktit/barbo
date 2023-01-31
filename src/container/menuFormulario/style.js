@@ -135,7 +135,7 @@ export const Content = styled.nav`
     border-style: solid;
     border-width: 1px;
     border-color: #fc1347;
-    width: 37rem;
+    width: 38rem;
     margin: 2rem 0;
     }
   .links-mobile {
