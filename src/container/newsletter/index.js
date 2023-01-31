@@ -65,11 +65,11 @@ function NewsLetterLs() {
                     </div>
                     <div className="col-12 col-md-5 d-flex flex-wrap">
                         <form onSubmit={handleSubmit}>
-                            <div className="boxNome col-12 col-d-12 d-flex">
+                            <div className="boxNome col-8 col-d-12 d-flex">
                                 <input type='nome' name="input_newsletter" className="input-newsletter"
                                     placeholder="Nome" onChange={e => handleChange(e)}
                                     value={fields.input_newsletter} />
-                                <div className="boxEmail col-12 col-d-6 d-flex">
+                                <div className="boxEmail col-9 col-d-6 d-flex">
                                     <input type='email' name="input_newsletter" className="input-newsletter"
                                         placeholder="E-mail" onChange={e => handleChange(e)}
                                         value={fields.input_newsletter} />
