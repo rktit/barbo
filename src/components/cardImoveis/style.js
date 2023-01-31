@@ -13,9 +13,9 @@ a {
 }
 .card{
     width: 25rem;
-    margin: 0 0 0 0;
-    height: 28rem;
-    padding: 0 10px 0 10px;
+    margin: 0px;
+    height: 36rem;
+    padding: 0px 0;
 }
 
 .card-body{
@@ -57,12 +57,15 @@ a {
     display: table-cell;
     border: none;
     border-radius: 0;
-    width: 22rem;
+    width: 22rem;    justify-content: center;
+
     
 
     &.active {
         background-color: #ff3a66;
         width: 20rem;
+        justify-content: center;
+
         }
 
     :hover {
