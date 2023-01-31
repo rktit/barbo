@@ -36,7 +36,7 @@ function Essencia() {
 
                             </div>
                         </div>
-                        <div className="textos col-10 col-d-10 col-lg-4 justify-content-center mt-2">
+                        <div className="textos col-10 col-d-10 col-lg-5 justify-content-center mt-2">
 
                         <div className="text pb-3">
                             Fomos uma das primeiras incorporadoras do estado e hoje <br />
