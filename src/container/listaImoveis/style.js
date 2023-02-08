@@ -9,7 +9,6 @@ background-color: #eeeeee;
     font-family: ${fonts.comfortaa};
     font-size: 2rem;
     color: #000000;
-    margin-bottom: 30px;
     margin-top: 30px;
 }
 

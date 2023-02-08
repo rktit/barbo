@@ -68,7 +68,7 @@ function Footer(props) {
 	return (
 		<ScrollableAnchor id="contatos">
 			<Content className="row">
-				<div className='box col-12 p-0'>
+				<div className='box col-12'>
 					<div className='col-12 p-0 content'>
 						<div className="col-12 row p-0 text-white">
 							<Fade left>
@@ -278,13 +278,11 @@ function Footer(props) {
 								</Fade>
 							</div>
 						</div>
-						<div className='col-12 p-0 line'>
-						<div className='col-12 p-0 copyright'>
-
-							Desenvolvido por Huma Creativa
-						</div>
-						</div>
-
+					</div>
+				</div>
+				<div className='d-flex line'>
+					<div className='col-12 p-0 copyright'>
+						Desenvolvido por Huma Creativa
 					</div>
 				</div>
 			</Content>

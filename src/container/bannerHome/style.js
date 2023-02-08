@@ -21,7 +21,7 @@ const Content = styled.div`
     border-style: solid;
     border-color: #ffffff;
     border-width: 2px;
-    margin: 3rem 0 0px 12rem;
+    margin: 4rem 0 0px 12rem;
     transform: rotate(108deg);
   }
   .box-texto {

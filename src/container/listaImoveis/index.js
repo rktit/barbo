@@ -91,7 +91,7 @@ function ListaImoveis() {
             pagination: true
           }}>
             <SplideSlide>
-              <div className="row">
+              <div className="row slide">
                 <CardLs image={higienopolis}
                   title=""
                   text=""/>
@@ -104,7 +104,7 @@ function ListaImoveis() {
               </div>
             </SplideSlide>
             <SplideSlide>
-              <div className="row">
+              <div className="row slide">
                 <CardLs image={villareal}
                   title=""
                   text=""/>
@@ -117,7 +117,7 @@ function ListaImoveis() {
               </div>
             </SplideSlide>
             <SplideSlide>
-              <div className="row">
+              <div className="row slide">
                 <CardLs image={moradadoporto}
                   title=""
                   text=""/>

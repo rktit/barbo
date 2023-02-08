@@ -9,7 +9,11 @@ const Content = styled.div`
   padding-top: 32px;
   padding-bottom: 10px;
 
-
+.box {
+  display: flex;
+    padding: 0rem 0rem 0rem 6rem;
+    // margin-right: -5rem;
+}
   .logo-footer{
 	margin: 20px -70px 0px -10px;
 
@@ -29,6 +33,7 @@ const Content = styled.div`
     font-family: ${fonts.comfortaa};
     line-height: 120%;
   	color: white;
+    font-weight: 900;
   }
   
   .chegar {
@@ -89,11 +94,16 @@ const Content = styled.div`
   .infos {
     margin-top: 10px !important;
   }
-.line{
-
-}
+  .line {
+    padding: 20px 15px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color: rgb(255 255 255);
+    width: 55rem;
+    margin: auto;
+  }
   .copyright {
-    color: #ffffff;
+    color: ${colors.white};
     margin-top: 100px;
     text-align: center;
     font-size: 12px;

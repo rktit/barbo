@@ -21,10 +21,10 @@ a {
     }
 }
 .card{
-    width: 25rem;
-    margin: 0 0 0 0;
+    width: 24rem;
+    margin: 0 4px 0 4px;
     height: 28rem;
-    padding: 0 10px 0 10px;
+    padding: 0 0px 0 0px;
 }
 
 .card-body{
@@ -35,7 +35,7 @@ a {
 }
 
 .card-img-top{
-    height: 28rem;
+    height: 100%;
 }
 
 .card-items{
