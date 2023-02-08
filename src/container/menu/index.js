@@ -83,7 +83,7 @@ const MenuSite = () => {
 						</button>
 					</div>
 				</div>
-				<div className={`col-12 col-md-12 col-lg-12 col-xl-6 justify-content-between menu-nav show-menu ${showMenu ? "show-menu" : "hide-menu"}`}>
+				<div className={`col-12 col-md-12 col-lg-12 col-xl-8 justify-content-between menu-nav show-menu ${showMenu ? "show-menu" : "hide-menu"}`}>
 					<a onClick={() => clickMenu("/barbo/quem_somos")} className={active === "/barbo/quem_somos" ? 'active mr-2' : 'mr-2'}
 						href="/barbo/quem_somos">
 						quem somos

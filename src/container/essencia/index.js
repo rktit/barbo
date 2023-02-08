@@ -47,7 +47,7 @@ function Essencia() {
                             entregar produtos com <strong>qualidade de vida, bem-estar</strong> e <br />
                             <strong>inovação</strong> para cada cliente. São <strong>empreendimentos projetados</strong> <br />
                             para terem diferenciais e a melhor qualidade para o que<br />
-                            importa...VOCÊ!
+                            importa... VOCÊ!
                             <p />
                             Aqui na Barbo, trabalhamos com <strong>ética</strong> e <strong>responsabilidade,</strong> e <br />
                             por isso, temos orgulho de participar de <strong>momentos</strong> <br />

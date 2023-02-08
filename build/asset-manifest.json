@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/barbo/static/css/main.90cf6d38.chunk.css",
-    "main.js": "/barbo/static/js/main.2560297d.chunk.js",
-    "main.js.map": "/barbo/static/js/main.2560297d.chunk.js.map",
+    "main.js": "/barbo/static/js/main.09f492bd.chunk.js",
+    "main.js.map": "/barbo/static/js/main.09f492bd.chunk.js.map",
     "runtime-main.js": "/barbo/static/js/runtime-main.57fcf9a9.js",
     "runtime-main.js.map": "/barbo/static/js/runtime-main.57fcf9a9.js.map",
     "static/css/2.22ca879e.chunk.css": "/barbo/static/css/2.22ca879e.chunk.css",
-    "static/js/2.8d34e7ae.chunk.js": "/barbo/static/js/2.8d34e7ae.chunk.js",
-    "static/js/2.8d34e7ae.chunk.js.map": "/barbo/static/js/2.8d34e7ae.chunk.js.map",
+    "static/js/2.786c5dd7.chunk.js": "/barbo/static/js/2.786c5dd7.chunk.js",
+    "static/js/2.786c5dd7.chunk.js.map": "/barbo/static/js/2.786c5dd7.chunk.js.map",
     "index.html": "/barbo/index.html",
-    "precache-manifest.621dae32214f3c075d292ea6b6e16fc7.js": "/barbo/precache-manifest.621dae32214f3c075d292ea6b6e16fc7.js",
+    "precache-manifest.c812618ad12dd4bdfc2fd96c1505b2fe.js": "/barbo/precache-manifest.c812618ad12dd4bdfc2fd96c1505b2fe.js",
     "service-worker.js": "/barbo/service-worker.js",
     "static/css/2.22ca879e.chunk.css.map": "/barbo/static/css/2.22ca879e.chunk.css.map",
     "static/css/main.90cf6d38.chunk.css.map": "/barbo/static/css/main.90cf6d38.chunk.css.map",
-    "static/js/2.8d34e7ae.chunk.js.LICENSE.txt": "/barbo/static/js/2.8d34e7ae.chunk.js.LICENSE.txt",
+    "static/js/2.786c5dd7.chunk.js.LICENSE.txt": "/barbo/static/js/2.786c5dd7.chunk.js.LICENSE.txt",
     "static/media/styles.css": "/barbo/static/media/SF-Pro-Display-Ultralight.1610ab29.ttf",
     "static/media/BackgroundBanner.jpg": "/barbo/static/media/BackgroundBanner.34314fa4.jpg",
     "static/media/BannerTrabalheConosco.jpg": "/barbo/static/media/BannerTrabalheConosco.ad68e257.jpg",
@@ -27,6 +27,7 @@
     "static/media/capriche.png": "/barbo/static/media/capriche.07b516b6.png",
     "static/media/capriche2.png": "/barbo/static/media/capriche2.947a288b.png",
     "static/media/casale.png": "/barbo/static/media/casale.346cd3b5.png",
+    "static/media/conhecaBarbo.png": "/barbo/static/media/conhecaBarbo.64a4f9a3.png",
     "static/media/cozinha.png": "/barbo/static/media/cozinha.fcf54b56.png",
     "static/media/design.png": "/barbo/static/media/design.033b49c3.png",
     "static/media/design2.png": "/barbo/static/media/design2.37eb8179.png",
@@ -53,8 +54,8 @@
   "entrypoints": [
     "static/js/runtime-main.57fcf9a9.js",
     "static/css/2.22ca879e.chunk.css",
-    "static/js/2.8d34e7ae.chunk.js",
+    "static/js/2.786c5dd7.chunk.js",
     "static/css/main.90cf6d38.chunk.css",
-    "static/js/main.2560297d.chunk.js"
+    "static/js/main.09f492bd.chunk.js"
   ]
 }
