@@ -7,7 +7,7 @@ img{
     height: 325px;
 }
 a {
-    color: #ffffff;
+    color: #000000;
     text-decoration: none;
     background-color: transparent;
     &.active {
@@ -41,20 +41,23 @@ a {
 .card-items{
     padding-bottom: 1rem;
     font-size: 0.8rem;
-    font-family: ${fonts.opensans_light};
 }
 .card-title{
     margin-bottom: -0.2rem;
     font-size: 1.3rem;
-    font-family: ${fonts.opensans_regular};
 }
 
 .card-text{
-    height: 20rem;
-    font-family: ${fonts.opensans_light};
+    height: 23rem;
 }
 .card-mais {
-    right: -12rem;
+    right: -7rem;
+    font-family: ${fonts.comfortaa};
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.card-mais strong{
+    font-weight: 900;
 }
 .btn{
     background-color: #000000;
@@ -77,7 +80,7 @@ a {
 }
 .btn-primary {
     nt-size: 1.5rem;
-    font-family: ${fonts.opensans_light};
+    font-family: ${fonts.comfortaa};
 }
 
 @media only screen and (max-width: 600px) {

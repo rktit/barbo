@@ -1,4 +1,3 @@
-import ModalMaquinas from 'components/modalMaquinas';
 import React, { useState } from 'react';
 import Content from "./style";
 

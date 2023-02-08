@@ -15,10 +15,10 @@ const Content = styled.div`
   
   span{
     padding-botton:30px;
-    font-family: ${fonts.opensans_regular}
+    font-family: ${fonts.comfortaa}
   }
   strong{
-    font-family: ${fonts.raleway_bold}
+    font-family: ${fonts.comfortaa}
   }
 
   @media only screen and (max-width: 600px) {
@@ -27,7 +27,7 @@ const Content = styled.div`
     .title {
       margin-top: 32px;
       font-size: 1.4rem;
-      font-family: ${fonts.raleway_extrabold};
+      font-family: ${fonts.comfortaa};
       color: #ffffff;
       text-align: center;
     }

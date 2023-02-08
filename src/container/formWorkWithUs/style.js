@@ -10,13 +10,13 @@ const Content = styled.div`
   padding: 2% 0 !important;
  
   .textos{
-    font-family: ${fonts.opensans_regular};
+    font-family: ${fonts.comfortaa};
   }
 
   .btnEnviar{
     background-color:#20396f !important;
     border-color: #20396f !important;
-    font-family: ${fonts.opensans_bold};
+    font-family: ${fonts.comfortaa};
   }
   
   .boxBotao{
@@ -52,7 +52,7 @@ const Content = styled.div`
   }
   span{
     padding-botton:30px;
-    font-family: ${fonts.opensans_semibold}
+    font-family: ${fonts.comfortaa}
   }
   c
 
@@ -62,7 +62,7 @@ const Content = styled.div`
     .title {
       margin-top: 32px;
       font-size: 1.4rem;
-      font-family: ${fonts.opensans_extraBold};
+      font-family: ${fonts.comfortaa};
       color: #ffffff;
       text-align: center;
     }

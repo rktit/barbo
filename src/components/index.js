@@ -4,9 +4,6 @@ import YoutubeVideo from './youtubeVideo'
 import FlashMessageCookies from './flashmessage_cookies';
 import ModalPage from './modal';
 import ModalPolitica from './politica-privacidade';
-import ModalMaquinas from './modalMaquinas';
-import ModalTratores from './modalTratores';
-import ModalImplementos from './modalImplementos';
 import Alerts from './alerts';
 
 
@@ -17,8 +14,5 @@ export {
   FlashMessageCookies,
   ModalPage,
   ModalPolitica,
-  ModalMaquinas,
-  ModalTratores,
-  ModalImplementos,
   Alerts
 };

@@ -16,19 +16,19 @@ const Content = styled.div`
   }
 
   .title1{
-    font-family: ${fonts.opensans_bold};
+    font-family: ${fonts.comfortaa};
     font-size: 2rem;
     margin-right: 5px;
     color: #20396f;
   }
 
   .texto{
-    font-family: ${fonts.opensans_regular};
+    font-family: ${fonts.comfortaa};
     text-size: 0.8rem;
     color: #20396f;
   }
   .btn1{
-    font-family: ${fonts.opensans_bold};
+    font-family: ${fonts.comfortaa};
     color: #000000;
     font-size: 1.2rem;
     text-aling: center;
@@ -46,7 +46,7 @@ const Content = styled.div`
       }
   }
   .btn{
-    font-family: ${fonts.opensans_bold};
+    font-family: ${fonts.comfortaa};
     color: #000000;
     font-size: 1.2rem;
     text-aling: center;
@@ -66,7 +66,7 @@ const Content = styled.div`
       }
   }
   .image-side{
-    font-family: ${fonts.opensans_bold};
+    font-family: ${fonts.comfortaa};
     color: #000000;
     font-size: 1.2rem;
     background-color: #ffffff;
@@ -79,7 +79,7 @@ const Content = styled.div`
   }
   .icones{
     margin-bottom: 20px;
-    font-family: ${fonts.opensans_bold};
+    font-family: ${fonts.comfortaa};
     color: #20396f;
 
     img{
@@ -157,7 +157,7 @@ const Content = styled.div`
     font-size: 2em;
   }
   .planta-attention strong{
-    font-family: "Montserrat-Bold" !important;
+    font-family: ${fonts.comfortaa};
   }
   .planta-attention {
     font-size: 1.4em;

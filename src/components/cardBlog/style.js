@@ -23,17 +23,17 @@ img{
 .card-items{
     padding-bottom: 1rem;
     font-size: 0.8rem;
-    font-family: ${fonts.opensans_light};
+    font-family: ${fonts.comfortaa};
 }
 .card-title{
     margin-bottom: -0.2rem;
     font-size: 1.3rem;
-    font-family: ${fonts.opensans_regular};
+    font-family: ${fonts.comfortaa};
 }
 
 .card-text{
     height:120px;
-    font-family: ${fonts.opensans_light};
+    font-family: ${fonts.comfortaa};
 }
 .love {
     width: 2rem;
@@ -77,11 +77,11 @@ img{
 }
 .btn-primary {
     font-size: 1.5rem;
-    font-family: ${fonts.opensans_light};
+    font-family: ${fonts.comfortaa};
 }
 .btn1{
     background-color: #000000;
-    font-family: OpenSans-Light;
+    font-family: ${fonts.comfortaa};
     font-size: 1.75rem;
     text-align: center;
     color: #ffffff;
@@ -133,12 +133,12 @@ img{
     .card-items{
         padding: 0 0 20px 0;
         font-size: 0.8rem;
-        font-family: ${fonts.opensans_light};
+        font-family: ${fonts.comfortaa};
     }
     .card-title{
         padding: 0;
         font-size: 1.5rem;
-        font-family: ${fonts.opensans_regular};
+        font-family: ${fonts.comfortaa};
     }
     .card-text{
         padding: 0;

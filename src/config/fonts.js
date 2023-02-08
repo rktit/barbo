@@ -46,6 +46,7 @@ const font = {
   raleway_semiBold: "Raleway-SemiBold",
   abys_regular: "Abys-Regular",
   futura_bold: "Futura-Bold",
+  comfortaa: "Comfortaa-VariableFont_wght",
 };
 
 export default font;

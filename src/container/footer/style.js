@@ -20,20 +20,20 @@ const Content = styled.div`
 
   .nome-logo{
 	  font-size: 1.2rem;
-	  font-family: ${fonts.opensans_bold};
+	  font-family: ${fonts.comfortaa};
 	  margin-top:10px;
   }
 
   .titulo {
     font-size: 1rem;
-    font-family: ${fonts.opensans_bold};
+    font-family: ${fonts.comfortaa};
     line-height: 120%;
   	color: white;
   }
   
   .chegar {
     font-size: 1rem;
-    font-family: ${fonts.opensans_bold};
+    font-family: ${fonts.comfortaa};
     line-height: 120%;
   	color: white;
     &.active {
@@ -55,7 +55,7 @@ const Content = styled.div`
   }
   
   .conteudo {
-  	font-family: ${fonts.opensans_regular};
+  	font-family: ${fonts.comfortaa};
   	font-size: 0.8rem;
   	
   	span {
@@ -97,7 +97,7 @@ const Content = styled.div`
     margin-top: 100px;
     text-align: center;
     font-size: 12px;
-    font-family: ${fonts.opensans_regular};
+    font-family: ${fonts.comfortaa};
   }
 
   @media only screen and (max-width: 600px) {

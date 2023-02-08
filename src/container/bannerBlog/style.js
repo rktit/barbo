@@ -12,33 +12,33 @@ const Content = styled.div`
   background-size:cover;
   height: 36rem;
 
-  font-family: ${fonts.raleway_bold};
+  font-family: ${fonts.comfortaa};
   text-align: center;
 
   .welcome{
     margin-top: 30vh;
     text-align: center;
     font-size: 2.5rem;
-    font-family: ${fonts.opensans_regular};
+    font-family: ${fonts.comfortaa};
     color: #ffffff;
     width: 32rem;
     display: inline-block;
   }
   .title{
     font-size: 4rem;
-    font-family: ${fonts.opensans_regular};
+    font-family: ${fonts.comfortaa};
     color: #ffffff;
     text-align: left;
   }
   .title1{
     font-size: 2.5rem;
-    font-family: ${fonts.opensans_regular};
+    font-family: ${fonts.comfortaa};
     color: #ffffff;
     text-align: left;
   }
   .text{
     font-size: 1.5rem;
-    font-family: ${fonts.opensans_light};
+    font-family: ${fonts.comfortaa};
     color: #ffffff;
     text-align: left;
   }
@@ -49,7 +49,7 @@ const Content = styled.div`
  
   .btn1{
     background-color: #000000;
-    font-family: ${fonts.opensans_light};
+    font-family: ${fonts.comfortaa};
     font-size: 2rem;
     color: #ffffff;
     border-radius: 5px;

@@ -52,23 +52,23 @@ const Content = styled.div`
   }
 
   .title{
-    font-family: ${fonts.opensans_light};
+    font-family: ${fonts.comfortaa};
     font-size: 1.5rem;
     color: #000000;
   }
 
 
   .texto{
-    font-family:${fonts.opensans_light};
+    font-family:${fonts.comfortaa};
     text-size: 0.5rem;
     color:#000000;
     strong {
-      font-family: ${fonts.opensans_bold};
+      font-family: ${fonts.comfortaa};
     }
   }
 
   .btn{
-    font-family: ${fonts.opensans_bold};
+    font-family: ${fonts.comfortaa};
     color: white;
     font-size: 1.2rem;
     text-aling: center;
@@ -99,7 +99,7 @@ const Content = styled.div`
     flex-direction: column;
     align-items: center;
     margin: 0em 2em;
-    font-family: ${fonts.opensans_light};
+    font-family: ${fonts.comfortaa};
     font-size: 0.75rem;
     text-align: center;
     color: #000000;
@@ -170,7 +170,7 @@ const Content = styled.div`
       flex-direction: column;
       align-items: center;
       margin: 0em 2em;
-      font-family: ${fonts.opensans_light};
+      font-family: ${fonts.comfortaa};
       font-size: 1.2rem;
       text-align: center;
       color: #000000;

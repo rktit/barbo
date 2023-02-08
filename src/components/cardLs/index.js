@@ -1,4 +1,3 @@
-import ModalMaquinas from 'components/modalMaquinas';
 import React, { useState } from 'react';
 import Content from "./style";
 
@@ -29,7 +28,7 @@ function CardLs(props) {
             {props.text}
           </div>
           <div className="card-mais d-flex col-12">
-            <a href="/barbo/empreendimentos_interna">Mais informações...</a>
+            <a href="/barbo/empreendimentos_interna">Mais informações <strong>>></strong></a>
           </div>
         </div>
       </div>

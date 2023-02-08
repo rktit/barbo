@@ -69,7 +69,7 @@ function Footer(props) {
 		<ScrollableAnchor id="contatos">
 			<Content className="row">
 				<div className='box col-12 p-0'>
-					<div className='col-12 offset-1 p-0 content'>
+					<div className='col-12 p-0 content'>
 						<div className="col-12 row p-0 text-white">
 							<Fade left>
 								<div className="logo-footer col-10 col-md-4 p-0">

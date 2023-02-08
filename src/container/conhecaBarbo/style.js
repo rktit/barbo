@@ -8,7 +8,7 @@ margin-left: 0px;
 
 .title {
   font-size: 2rem;
-  font-family: ${fonts.opensans_light};
+  font-family: ${fonts.comfortaa};
   color: #000000;
   text-align: center;
   padding-bottom: 1rem;

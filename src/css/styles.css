@@ -198,6 +198,11 @@ body {
   src: local("Futura-Bold"),
     url(./fonts/Futura-Bold.ttf) format("truetype");
 }
+@font-face {
+  font-family: "Comfortaa-VariableFont_wght";
+  src: local("Comfortaa-VariableFont_wght"),
+    url(./fonts/Comfortaa-VariableFont_wght.ttf) format("truetype");
+}
 .row {
   margin: 0 !important;
 }

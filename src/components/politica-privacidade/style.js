@@ -3,12 +3,12 @@ import font from "config/fonts";
 import colors from "config/colors";
 
 const Content = styled.div`
-  font-family: ${font.opensans_regular};
+  font-family: ${font.comfortaa};
   font-size: 12px;
   
     button {
     background-color: ${colors.gray};
-    font-family: ${font.raleway_bold};
+    font-family: ${font.comfortaa};
     text-transform: uppercase;
     color: ${colors.black};
     border-radius: 8px;
@@ -20,7 +20,7 @@ const Content = styled.div`
 `
 
 const Title = styled.div`
-  font-family: ${font.raleway_bold};
+  font-family: ${font.comfortaa};
   font-size: 18px;
 `
 

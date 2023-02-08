@@ -19,13 +19,13 @@ const Content = styled.div`
   .title {
 	margin-top:-10px;
   	color: #ffffff;
-  	font-family: ${font.opensans_regular};
+  	font-family: ${font.comfortaa};
     font-size: 1.55rem;
 	}
   .texto {
 	margin-top:-10px;
 	color: #fc1347;
-	font-family: ${font.opensans_light};
+	font-family: ${font.comfortaa};
 	font-size: 1rem;
   }
   .boxNome{
@@ -47,7 +47,7 @@ const Content = styled.div`
 			border: none;
 			background-color: ${colors.white};
 			color: ${colors.gray_text};
-			font-family: ${font.opensans_regular};
+			font-family: ${font.comfortaa};
 			padding: 5px 29px;
 			margin: auto;
 			z-index: 2;
@@ -63,7 +63,7 @@ const Content = styled.div`
 		  color: ${colors.white};
 		  background-color: #fc1347;
 		  font-size: 1rem;
-		  font-family: ${font.opensans_bold};
+		  font-family: ${font.comfortaa};
 		  transition: 0.2s ease-in-out;
 		  text-decoration: none;
 		  text-transform: uppercase;

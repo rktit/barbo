@@ -5,12 +5,10 @@ import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/splide/dist/css/themes/splide-sea-green.min.css';
 
 
-import home from "images/home/empreendimento_home.png";
-import home1 from "images/home/empreendimento_home1.png";
-import home2 from "images/home/empreendimento_home2.png";
-import home3 from "images/home/empreendimento_home3.png";
-import home4 from "images/home/empreendimento_home4.png";
-import home5 from "images/home/empreendimento_home5.png";
+import higienopolis from "images/home/higienopolis.png";
+import lasrocas from "images/home/lasrocas.png";
+import moradadoporto from "images/home/moradadoporto.png";
+import villareal from "images/home/villareal.png";
 
 
 import CardLs from "components/cardLs";
@@ -44,59 +42,44 @@ function ListaImoveis() {
             arrows: true,
           }}>
             <SplideSlide className="slide">
-              <CardLs image={home}
-                title="Front Lake"
-                text="Rio Claro | Vila Operária
-                Área privativa de 94 m²
-                3 Dormitórios (1 suíte)"/>
+              <CardLs image={higienopolis}
+                title=""
+                text=""/>
             </SplideSlide>
             <SplideSlide className="slide">
-              <CardLs image={home1}
-                title="Infinity"
-                text="Rio Claro | Cidade Jardim
-                Área privativa de 151 m²
-                4 Suítes (1 master)"/>
+              <CardLs image={lasrocas}
+                title=""
+                text=""/>
             </SplideSlide>
             <SplideSlide className="slide">
-              <CardLs image={home2}
-                title="Quinta do Vale"
-                text="Barra Bonita | Portal São José da Barra
-                Com lotes de 200m² a 400m²"/>
+              <CardLs image={moradadoporto}
+                title=""
+                text=""/>
             </SplideSlide>
             <SplideSlide className="slide">
-              <CardLs image={home3}
-                title="Office Tower"
-                text="Rio Claro | Jardim Claret
-                Salas - 42,06 m² | 43,66 m² | 49,94 m²
-                5 Elevadores (3 panorâmicos)"/>
+              <CardLs image={villareal}
+                title=""
+                text=""/>
             </SplideSlide>
             <SplideSlide className="slide">
-              <CardLs image={home4}
-                title="Las Rocas"
-                text="Piracicaba | Piracicamirim
-                Área privativa de 55 m²
-                2 Dormitórios"/>
+              <CardLs image={higienopolis}
+                title=""
+                text=""/>
             </SplideSlide>
             <SplideSlide className="slide">
-              <CardLs image={home5}
-                title="Higienópolis"
-                text="Piracicaba | Higienópolis
-                Área privativa de 88 m²
-                3 Dormitórios (1 suíte)"/>
+              <CardLs image={lasrocas}
+                title=""
+                text=""/>
             </SplideSlide>
             <SplideSlide className="slide">
-              <CardLs image={home5}
-                title="Villa Real"
-                text="Americana | Jardim Bela Vista
-                Área privativa de 58 m²
-                2 Dormitórios "/>
+              <CardLs image={moradadoporto}
+                title=""
+                text=""/>
             </SplideSlide>
             <SplideSlide className="slide">
-              <CardLs image={home5}
-                title="Morada do Porto"
-                text="Americana | Terramérica
-                Área privativa de 53m² e 68 m²
-                2 ou 3 Dormitórios (1 Suíte)"/>
+              <CardLs image={villareal}
+                title=""
+                text=""/>
             </SplideSlide>
           </Splide>
           :
@@ -109,58 +92,41 @@ function ListaImoveis() {
           }}>
             <SplideSlide>
               <div className="row">
-                <CardLs image={home}
-                  title="Front Lake"
-                  text="Rio Claro | Vila Operária
-                  Área privativa de 94 m²
-                  3 Dormitórios (1 suíte)"/>
-                <CardLs image={home1}
-                  title="Infinity"
-                  text="Rio Claro | Cidade Jardim
-                 Área privativa de 151 m²
-                 4 Suítes (1 master)"/>
-                <CardLs image={home2}
-                  title="Quinta do Vale"
-                  text="Barra Bonita | Portal São José da Barra
-                 Com lotes de 200m² a 400m²"/>
+                <CardLs image={higienopolis}
+                  title=""
+                  text=""/>
+                <CardLs image={lasrocas}
+                  title=""
+                  text=""/>
+                <CardLs image={moradadoporto}
+                  title=""
+                  text=""/>
               </div>
             </SplideSlide>
             <SplideSlide>
               <div className="row">
-                <CardLs image={home}
-                  title="Office Tower"
-                  text="Rio Claro | Jardim Claret
-                   Salas - 42,06 m² | 43,66 m² | 49,94 m²
-                   5 Elevadores (3 panorâmicos)"/>
-                <CardLs image={home1}
-                  title="Las Rocas"
-                  text="Piracicaba | Piracicamirim
-                    Área privativa de 55 m²
-                    2 Dormitórios"/>
-                <CardLs image={home2}
-                  title="Higienópolis"
-                  text="Piracicaba | Higienópolis
-                    Área privativa de 88 m²
-                    3 Dormitórios (1 suíte)"/>
+                <CardLs image={villareal}
+                  title=""
+                  text=""/>
+                <CardLs image={higienopolis}
+                  title=""
+                  text=""/>
+                <CardLs image={lasrocas}
+                  title=""
+                  text=""/>
               </div>
             </SplideSlide>
             <SplideSlide>
               <div className="row">
-                <CardLs image={home}
-                  title="Villa Real"
-                  text="Americana | Jardim Bela Vista
-                     Área privativa de 58 m²
-                     2 Dormitórios "/>
-                <CardLs image={home1}
-                  title="Las Rocas"
-                  text="Piracicaba | Piracicamirim
-                    Área privativa de 55 m²
-                    2 Dormitórios"/>
-                <CardLs image={home2}
-                  title="Morada do Porto"
-                  text="Americana | Terramérica
-                   Área privativa de 53m² e 68 m²
-                   2 ou 3 Dormitórios (1 Suíte)"/>
+                <CardLs image={moradadoporto}
+                  title=""
+                  text=""/>
+                <CardLs image={villareal}
+                  title=""
+                  text=""/>
+                <CardLs image={higienopolis}
+                  title=""
+                  text=""/>
               </div>
             </SplideSlide>
           </Splide>

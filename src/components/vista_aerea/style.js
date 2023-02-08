@@ -7,7 +7,7 @@ img{
 }
 a {
     color: #ffffff;
-    font-family: ${fonts.opensans_light};
+    font-family: ${fonts.comfortaa};
     text-decoration: none;
     background-color: transparent;
 }
@@ -27,17 +27,17 @@ a {
 .card-items{
     padding-bottom: 1rem;
     font-size: 0.8rem;
-    font-family: ${fonts.opensans_light};
+    font-family: ${fonts.comfortaa};
 }
 .card-title{
     margin-bottom: 2rem;
     font-size: 1.3rem;
-    font-family: ${fonts.opensans_regular};
+    font-family: ${fonts.comfortaa};
 }
 
 .card-text{
     height: 7rem;
-    font-family: ${fonts.opensans_light};
+    font-family: ${fonts.comfortaa};
 }
 .love {
     color: white;
@@ -67,7 +67,7 @@ a {
 }
 .btn-primary {
     nt-size: 1.5rem;
-    font-family: ${fonts.opensans_light};
+    font-family: ${fonts.comfortaa};
 }
 
 @media only screen and (max-width: 600px) {

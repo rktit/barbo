@@ -29,20 +29,20 @@ const Content = styled.div`
   
 
   .title{
-    font-family: ${fonts.opensans_light};
+    font-family: ${fonts.comfortaa};
     font-size: 2rem;
     color: #000000;
   }
 
 
   .texto{
-    font-family:${fonts.opensans_light};
+    font-family:${fonts.comfortaa};
     text-size: 0.5rem;
     color:#000000;
   }
 
   .btn{
-    font-family: ${fonts.opensans_bold};
+    font-family: ${fonts.comfortaa};
     color: white;
     font-size: 1.2rem;
     text-aling: center;

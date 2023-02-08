@@ -48,7 +48,7 @@ export const Content = styled.nav`
     span{
       color: #fff;
       font-size: 1.4rem;
-      font-family: ${fonts.opensans_bold};
+      font-family: ${fonts.comfortaa};
       margin-left: 20px;
       margin-top: 20px;
     }
@@ -65,7 +65,7 @@ export const Content = styled.nav`
       align-items: center;
       transition: 0.2s ease-in-out;
       color: #000000;
-      font-family: ${fonts.opensans_light};
+      font-family: ${fonts.comfortaa};
       font-size: 15px;
       display: flex;
       justify-content: center;
@@ -95,7 +95,7 @@ export const Content = styled.nav`
     .marca{
       color: #8b515a;
       font-size: 1.4rem;
-      font-family: ${fonts.opensans_bold};
+      font-family: ${fonts.comfortaa};
     }
   }
 
@@ -109,7 +109,7 @@ export const Content = styled.nav`
     background: transparent;
     margin-top: -5px;
     color: ${color.grayMedium};
-    font-family: ${fonts.opensans_black};
+    font-family: ${fonts.comfortaa};
     outline: none;
 
     img {

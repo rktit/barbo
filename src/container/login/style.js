@@ -49,9 +49,9 @@ const Content = styled.div`
   	color: #000000;
     padding-top: 30px;
 
-  	font-family: ${font.opensans_regular};
+  	font-family: ${font.comfortaa};
   	strong {
-  		font-family: ${font.opensans_bold};
+  		font-family: ${font.comfortaa};
   	}
   }
   
@@ -62,7 +62,7 @@ const Content = styled.div`
 			border-style: solid;
 			background-color: transparent;
 			color: ${colors.gray_text};
-			font-family: ${font.opensans_light};
+			font-family: ${font.comfortaa};
 			padding: 10px 20px;
 			z-index: 2;
 			::-webkit-input-placeholder {
@@ -78,7 +78,7 @@ const Content = styled.div`
 		  color: ${colors.white};
 		  background-color: #ff0d29;
 		  font-size: 1rem;
-		  font-family: ${font.opensans_light};
+		  font-family: ${font.comfortaa};
 		  transition: 0.2s ease-in-out;
 		  text-decoration: none;
 		  text-transform: uppercase;

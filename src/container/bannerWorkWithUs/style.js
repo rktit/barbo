@@ -27,17 +27,17 @@ export const Content = styled.div`
     color:#000000;
     font-size: 2rem;
     z-index: 1;
-    font-family: ${fonts.opensans_regular};
+    font-family: ${fonts.comfortaa};
     margin-top: 130px;
     margin-bottom: 130px;
   }
   
   span{
     padding-bottom:30px;
-    font-family: ${fonts.raleway_regular}
+    font-family: ${fonts.comfortaa}
   }
   strong{
-    font-family: ${fonts.raleway_bold}
+    font-family: ${fonts.comfortaa}
   }
   
 
@@ -45,7 +45,7 @@ export const Content = styled.div`
   	margin-top: 20px !important;
   
   	span {
-  		font-family: ${fonts.raleway_bold};
+  		font-family: ${fonts.comfortaa};
   		font-size: 0.7rem;
   	}
   }

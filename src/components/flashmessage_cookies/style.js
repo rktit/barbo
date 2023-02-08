@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import font from "config/fonts";
+import fonts from "config/fonts";
 import colors from "config/colors";
 
 const Content = styled.div`
@@ -13,18 +13,18 @@ const Content = styled.div`
   transform: translate(-50%, -10%);
   display: flex;
   color: ${colors.white};
-  font-family: ${font.raleway_regular};
+  font-family: ${fonts.comfortaa};
   font-size: 12px;
   
   a {
   	text-decoration: underline;
-  	font-family: ${font.raleway_bold};
+  	font-family: ${fonts.comfortaa};
   	color: ${colors.white};
   }
   
   button {
     background-color: ${colors.primary};
-    font-family: ${font.raleway_bold};
+    font-family: ${fonts.comfortaa};
     text-transform: uppercase;
     color: ${colors.white};
     border-radius: 8px;
