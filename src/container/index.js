@@ -19,6 +19,7 @@ import Mapa from './mapa';
 
 import BannerBlog from './bannerBlog';
 import Blog from './blog';
+import Artigo from './artigo';
 
 import BannerContato from './bannerContato';
 import MenuFormulario from './menuFormulario';
@@ -61,6 +62,7 @@ export {
     // Blog 
     BannerBlog,
     Blog,
+    Artigo,
     
     // Fale Conosco 
     BannerContato,
