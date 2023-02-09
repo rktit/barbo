@@ -23,7 +23,7 @@ function Mapa(props) {
 
   return (
     <ScrollableAnchor id="">
-      <Content className="w-full row justify-content-center">
+      <Content className="w-full row justify-content-end">
 
         <Fade left>
           <div className="left-side">

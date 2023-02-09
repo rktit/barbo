@@ -2,7 +2,7 @@ import styled from "styled-components";
 import fonts from "config/fonts";
 
 
-import imgConsorcio from "images/empreendimento_interna/nome_empreendimento.png";
+import empreendimento from "images/empreendimento/banner/Infinity.jpg";
 
 
 const Content = styled.div`
@@ -11,11 +11,13 @@ const Content = styled.div`
   background-color: #eeeeee;
   
   .image-side{
-    background: url(${imgConsorcio}) no-repeat center center;
+    background: url(${empreendimento}) no-repeat center center;
     background-size: cover;
     padding-bottom: 24rem;
-    height: 12rem;
-}
+    height: 450px;
+    width: 450px!important;
+    margin-right: 15px;
+
   }
 
   .imgConsorcio{
@@ -63,12 +65,12 @@ const Content = styled.div`
     text-size: 0.5rem;
     color:#000000;
     strong {
-      font-family: ${fonts.comfortaa};
+      font-family: ${fonts.opensans_bold};
     }
   }
 
   .btn{
-    font-family: ${fonts.comfortaa};
+    font-family: ${fonts.opensans_bold};
     color: white;
     font-size: 1.2rem;
     text-aling: center;

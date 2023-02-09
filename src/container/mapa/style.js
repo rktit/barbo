@@ -15,12 +15,11 @@ const Content = styled.div`
   .image-side{
     background: url(${mapa}) no-repeat center center;
     background-size: cover;
-    width:100%;
+    width: 50%;
     height:auto;
 
     min-width: 50rem;
     min-height: 20rem;
-    margin-right: -20rem;
   }
 .left-side {
   padding-right: 4rem;

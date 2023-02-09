@@ -3,9 +3,9 @@ import ScrollableAnchor from 'react-scrollable-anchor'
 import Content from "./style";
 import Fade from "react-reveal/Fade";
 
-import sala from 'images/empreendimento/sala.png';
-import casale from 'images/statics/modalImplementos/casale.png';
-import herder from 'images/statics/modalImplementos/Herder.png';
+import sala from 'images/empreendimento/Decorado/Infinity_Rio_Claro_Barbo_14.jpg';
+import casale from 'images/empreendimento/Plantas/01_Planta_Humanizada_Tipo.jpg';
+import herder from 'images/empreendimento/VistaAerea/Infinity_Rio_Claro_Barbo_aerea.jpg';
 import Fotos from "components/fotos";
 import Planta from "components/planta";
 import VistaAerea from "components/vista_aerea";
