@@ -10,7 +10,7 @@ const Content = styled.div`
   padding: 0 !important;
   background: url(${background}) no-repeat top center;
   background-size:cover;
-  height: 21rem;
+  height: 32rem;
 
   font-family: ${fonts.comfortaa};
   text-align: center;

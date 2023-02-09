@@ -5,85 +5,121 @@ const Content = styled.div`
 img{
     height: 325px;
 }
-a {
-    color: #ffffff;
-    font-family: ${fonts.comfortaa};
-    text-decoration: none;
-    background-color: transparent;
-}
+
 .card{
     width: 25rem;
-    margin: 0px;
-    height: 36rem;
-    padding: 0px 0;
+    margin: 5px;
 }
 
 .card-body{
-    color: #20396f;
+    color: #000000;
     text-align: left;
-    display: flex;
-    flex-wrap: wrap;
 }
 
 .card-img-top{
-    height: 20rem;
+    height: 300px;
 }
 
 .card-items{
-    padding-bottom: 1rem;
-    font-size: 0.8rem;
-    font-family: ${fonts.comfortaa};
+    padding-bottom: 2rem;
+    font-size: 1.5rem;
+    font-family: ${fonts.opensans_regular};
 }
 .card-title{
-    margin-bottom: 2rem;
-    font-size: 1.3rem;
-    font-family: ${fonts.comfortaa};
+    margin-bottom: -0.2rem;
+    font-size: 1rem;
+    font-family: ${fonts.opensans_regular};
 }
 
 .card-text{
-    height: 7rem;
-    width: 15rem;
-    font-family: ${fonts.comfortaa};
+    font-size: 1rem;
+    font-family: OpenSans-Regular;
 }
 .love {
-    color: white;
-    width: 15rem;
+    width: 10rem;
     position: absolute;
-    padding: 20px 30px;
+    height: 2rem;
+    left: 2rem;
+    top: 6px;
+    color: #ffffff;
 }
-
+.favoritos {
+    width: 2rem;
+    position: absolute;
+    height: 2rem;
+    right: 12px;
+    bottom: 20px;
+}
+.comente {
+    width: 2rem;
+    position: absolute;
+    height: 2rem;
+    right: 12px;
+    bottom: 20px;
+}
 .btn{
     background-color: #000000;
     display: table-cell;
     border: none;
     border-radius: 0;
-    width: 22rem;    
-    justify-content: center;
-
+    width: 24rem;
+    margin-top: 1.5rem;
+    justify-content: space-evenly;
     
 
     &.active {
         background-color: #ff3a66;
         width: 20rem;
-        justify-content: center;
-
         }
 
     :hover {
     transition: 0.1s ease-in-out;
-    background-color: #8f8888;
+    background-color: #ff3a66;
     text-decoration: none;
+    }
+     a {
+        color: #ffffff;
+        font-size: 1.5rem;
+        text-decoration: none;
+        background-color: transparent;
     }
 }
 .btn-primary {
-    nt-size: 1.5rem;
-    font-family: ${fonts.comfortaa};
+    font-size: 1.5rem;
+    font-family: ${fonts.opensans_regular};
 }
+.btn1{
+    background-color: #000000;
+    font-family: ${fonts.opensans_regular};
+    font-size: 1.75rem;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 4px;
+    height: 50px;
+    width: 100%;
+    justify-content: center;
 
-@media only screen and (max-width: 600px) {
+    &.active {
+      background-color: #000000;
+    }
+
+    :hover {
+      transition: 0.1s ease-in-out;
+      background-color: #000000;
+      text-decoration: none;
+      text-align: center;
+    }
+    a {
+        color: #ffffff;
+        text-decoration: none;
+        background-color: transparent;
+        text-align: center;
+    }
+
+  }
+  @media only screen and (max-width: 600px) {
     .card-img-top{
-        width: 23rem;
-        height: 26rem;
+        width: 100%;
     }
     img{
         width: 100%;
@@ -93,22 +129,32 @@ a {
         width: 100%;
         height: 100%;
     }
-    .card-text{
-        height:100%;
-        display: contents;
+    .card-body{
+        color: #000000;
+        text-align: left;
+        padding: 1.25rem 16px;
     }
-    .btn{  
-        justify-content: inherit;
-        height: fit-content;
-        padding: 1rem 0px 1rem 7rem;
+    
+    .card-img-top{
+        height: 300px;
+    }
+    
+    .card-items{
+        padding: 0 0 20px 0;
+        font-size: 0.8rem;
+        font-family: ${fonts.opensans_regular};
+    }
+    .card-title{
+        padding: 0;
+        font-size: 1.5rem;
+        font-family: ${fonts.opensans_regular};
+    }
+    .card-text{
+        padding: 0;
+    }
+    .btn{
         
-    
-        &.active {
-            background-color: #ff3a66;
-            width: 20rem;
-            justify-content: center;
-    
-            }
+    }
 }
 
 `;

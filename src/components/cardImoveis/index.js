@@ -17,16 +17,22 @@ function CardImoveis(props) {
     <Content>
       <div className="card col-12 d-flex">
         <div className="love" alt="Favoritar">Pronto para morar</div>
-        <img src={props.image} className="card-img-top"/>
-        <div className="card-body col-12">
-          <div className="card-title col-12">
+        <img src={props.image} className="card-img-top" />
+        <div className="card-body">
+          <div className="card-items">
+            {props.items}
+          </div>
+          <div className="card-title">
             {props.title}
           </div>
-          <div className="col-12 card-text">
+          <div className="card-text">
             {props.text}
           </div>
+          <div className="card-text">
+            {props.text1}
+          </div>
           <div className="d-flex btn col-12">
-            <a href="/barbo/empreendimentos_interna">Ver mais</a>
+            <a href="/barbo/empreendimentos_interna">Ver Mais</a>
           </div>
         </div>
       </div>
