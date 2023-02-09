@@ -13,7 +13,7 @@ const Content = styled.div`
     .text{
         font-size:1.5rem;
         color: #20396f;
-        font-family: ${fonts.comfortaa};
+        font-family: ${fonts.opensans_bold};
         font-weight: bold;
         margin-right: 57%;
     }
