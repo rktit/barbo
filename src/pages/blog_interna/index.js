@@ -1,6 +1,6 @@
 import React, { Fragment, useEffect } from "react";
 
-import {Menu, BannerEmpreendimento, Artigo, Footer} from "container";
+import {Menu, BannerArtigo, Artigo, Footer} from "container";
 import { configureAnchors } from "react-scrollable-anchor";
 
 import {ModalPolitica} from 'components';
@@ -15,7 +15,7 @@ const Blog_Interna = () => {
     <Fragment>
       <ModalPolitica />
       <Menu />
-      <BannerEmpreendimento />
+      <BannerArtigo />
       <Artigo />
       <Footer />
     </Fragment>

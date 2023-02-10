@@ -18,6 +18,7 @@ import Plantas from './plantas';
 import Mapa from './mapa';
 
 import BannerBlog from './bannerBlog';
+import BannerArtigo from './bannerArtigo';
 import Blog from './blog';
 import Artigo from './artigo';
 
@@ -60,6 +61,7 @@ export {
     Mapa,
 
     // Blog 
+    BannerArtigo,
     BannerBlog,
     Blog,
     Artigo,

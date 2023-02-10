@@ -2,7 +2,7 @@ import styled from "styled-components";
 import fonts from "config/fonts";
 
 
-import empreendimento from "images/empreendimento/banner/Infinity.jpg";
+import empreendimento from "images/blog_interna/declarar_imovel.jpeg";
 
 
 const Content = styled.div`
@@ -10,14 +10,27 @@ const Content = styled.div`
   justify-content: center;
   background-color: #eeeeee;
   
+  a {
+    color: #007bff;
+    font-family: ${fonts.opensans_semibold};
+    text-decoration: underline;
+    background-color: transparent;
+    &.active {
+      background-color: #000000;
+    }
+    :hover {
+      transition: 0.1s ease-in-out;
+      font-weight: 900;
+      text-decoration: none;
+      }
+}
   .image-side{
     background: url(${empreendimento}) no-repeat center center;
     background-size: cover;
     padding-bottom: 24rem;
     height: 450px;
     width: 450px!important;
-    margin-right: 15px;
-
+    margin: 8rem 0 0 6px;
   }
 
   .imgConsorcio{
@@ -54,14 +67,14 @@ const Content = styled.div`
   }
 
   .title{
-    font-family: ${fonts.comfortaa};
+    font-family: ${fonts.opensans_semibold};
     font-size: 1.5rem;
     color: #000000;
   }
 
 
   .texto{
-    font-family:${fonts.comfortaa};
+    font-family:${fonts.opensans_light};
     text-size: 0.5rem;
     color:#000000;
     strong {
@@ -101,7 +114,7 @@ const Content = styled.div`
     flex-direction: column;
     align-items: center;
     margin: 0em 2em;
-    font-family: ${fonts.comfortaa};
+    font-family: ${fonts.opensans_light};
     font-size: 0.75rem;
     text-align: center;
     color: #000000;
@@ -172,7 +185,7 @@ const Content = styled.div`
       flex-direction: column;
       align-items: center;
       margin: 0em 2em;
-      font-family: ${fonts.comfortaa};
+      font-family: ${fonts.opensans_light};
       font-size: 1.2rem;
       text-align: center;
       color: #000000;
