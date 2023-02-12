@@ -44,15 +44,16 @@ import Error_Page_404 from './pages/error/404'
 const Routes = () => (
     <BrowserRouter>
         <Switch>
-            {/* <Route path='/barbo/fale_conosco' component={FaleConosco_Page} />
-            <Route path='/barbo/portal_corretor' component={PortalCorretor_Page} />
+             <Route path='/barbo/fale_conosco' component={FaleConosco_Page} />
+           {/* <Route path='/barbo/portal_corretor' component={PortalCorretor_Page} />
+           
             <Route path='/barbo/blog_interna' component={Blog_Interna} />
            <Route path='/barbo/blog' component={Blog_Page} />
             <Route path='/barbo/declarar_imposto' component={DeclararImposto} />
            <Route path='/barbo/beneficios_plantas' component={BeneficiosPlantas} />*/}
-         <Route path='/barbo/iluminacao' component={BlogIluminacao} />
+        {/* <Route path='/barbo/iluminacao' component={BlogIluminacao} />
 
-             {/* <Route path='/barbo/front_lake' component={FrontLake} />
+              <Route path='/barbo/front_lake' component={FrontLake} />
             <Route path='/barbo/higienopolis' component={Higienopolis} />*/}
            {/* <Route path='/barbo/infinity' component={Infinity} />
             <Route path='/barbo/las_rocas' component={LasRocas} />
@@ -60,8 +61,8 @@ const Routes = () => (
             <Route path='/barbo/office_tower' component={OfficeTower} />
             <Route path='/barbo/quinta_vale' component={QuintaVale} />
              <Route path='/barbo/villa_real' component={VillaReal} /> 
+             <Route path='/barbo/empreendimentos' component={Empreendimentos_Page} />
 
-            <Route path='/barbo/empreendimentos' component={Empreendimentos_Page} />
             <Route path='/barbo/quem_somos' component={QuemSomos_Page} />  
               <Route path='/' component={Home_Page} />*/}
 
