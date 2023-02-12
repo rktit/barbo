@@ -14,14 +14,28 @@ import quintadovale from "images/empreendimento/quintadovale.png"
 import villareal from "images/empreendimento/villareal.png"
 
 
-import CardImoveis from "components/cardImoveis";
+import CardFront from "components/cardFront";
+import CardHigienopolis from "components/cardHigienopolis";
+import CardInfinity from "components/cardInfinity";
+import CardLasrocas from "components/cardLasrocas";
+import CardMorada from "components/cardMorada";
+import CardOffice from "components/cardOffice";
+import CardQuinta from "components/cardQuinta";
+import CardVilla from "components/cardVilla";
+
 import ScrollableAnchor from "react-scrollable-anchor";
 
 function Imoveis() {
 
+  const [showMenu, setShowMenu] = useState(false);
   const [isMobile, setMobile] = useState(false);
-  const [img, setImagem] = useState(null);
-
+  const [active, setActive] = useState('#');
+  const clickMenu = (link) => {
+    setActive(link);
+    if (isMobile) {
+      setShowMenu(false);
+    }
+  };
   useEffect(() => {
     if (window.innerWidth >= 992) {
       setMobile(false);
@@ -29,7 +43,6 @@ function Imoveis() {
       setMobile(true);
     }
   }, [window.innerWidth]);
-
 
   return (
     <ScrollableAnchor id="blog">
@@ -95,47 +108,48 @@ function Imoveis() {
             arrows: false
           }}>
             <SplideSlide className="slide col">
-              <CardImoveis image={front_lake}
+              <CardFront image={front_lake}
                 items="Front Lake"
                 title="Rio Claro | Vila Operária"
                 text="Área privativa de 94 m²"
-                text1="3 Dormitórios (1 suíte)" />
-              <CardImoveis image={higienopolis}
+                text1="3 Dormitórios (1 suíte)"
+                onClick={"barbo/front_lake"} />
+              <CardHigienopolis image={higienopolis}
                 items="Higienópolis"
                 title="Piracicaba | Higienópolis"
                 text="Área privativa de 88 m²"
                 text1="3 Dormitórios (1 suíte)
               " />
-              <CardImoveis image={infinity}
+              <CardInfinity image={infinity}
                 items="Infinity"
                 title="Rio Claro | Cidade Jardim"
                 text="Área privativa de 151 m²"
                 text1="4 Suítes (1 master)
               " />
-              <CardImoveis image={lasRocas}
+              <CardLasrocas image={lasRocas}
                 items="Las Rocas"
                 title="Piracicaba | Piracicamirim"
                 text="Área privativa de 55 m²"
                 text1="2 Dormitórios
               " />
-              <CardImoveis image={moradadoporto}
+              <CardMorada image={moradadoporto}
                 items="Morada do Porto"
                 title="Americana | Terramérica"
                 text="Área privativa de 53m² e 68 m²"
                 text1="2 ou 3 Dormitórios (1 Suíte)
               " />
-              <CardImoveis image={officetower}
+              <CardOffice image={officetower}
                 items="Office Tower"
                 title="Rio Claro | Jardim Claret"
                 text="Salas - 42,06 m² | 43,66 m² | 49,94 m²"
                 text1="5 Elevadores (3 panorâmicos)
               " />
-              <CardImoveis image={quintadovale}
+              <CardQuinta image={quintadovale}
                 items="Quinta do Vale"
                 title="Barra Bonita | Portal São José da Barra"
                 text="Com lotes de 200m² a 400m²"
                 text1="" />
-              <CardImoveis image={villareal}
+              <CardVilla image={villareal}
                 items="Villa Real"
                 title="Americana | Jardim Bela Vista"
                 text="2 Dormitórios" />
@@ -143,47 +157,48 @@ function Imoveis() {
           </Splide>
           :
           <div className="maquinas">
-            <CardImoveis image={front_lake}
+            <CardFront image={front_lake}
               items="Front Lake"
               title="Rio Claro | Vila Operária"
               text="Área privativa de 94 m²"
-              text1="3 Dormitórios (1 suíte)" />
-            <CardImoveis image={higienopolis}
+              text1="3 Dormitórios (1 suíte)"
+              onClick={() => clickMenu("barbo/front_lake")} />
+            <CardHigienopolis image={higienopolis}
               items="Higienópolis"
               title="Piracicaba | Higienópolis"
               text="Área privativa de 88 m²"
               text1="3 Dormitórios (1 suíte)
               " />
-            <CardImoveis image={infinity}
+            <CardInfinity image={infinity}
               items="Infinity"
               title="Rio Claro | Cidade Jardim"
               text="Área privativa de 151 m²"
               text1="4 Suítes (1 master)
               " />
-            <CardImoveis image={lasRocas}
+            <CardLasrocas image={lasRocas}
               items="Las Rocas"
               title="Piracicaba | Piracicamirim"
               text="Área privativa de 55 m²"
               text1="2 Dormitórios
               " />
-            <CardImoveis image={moradadoporto}
+            <CardMorada image={moradadoporto}
               items="Morada do Porto"
               title="Americana | Terramérica"
               text="Área privativa de 53m² e 68 m²"
               text1="2 ou 3 Dormitórios (1 Suíte)
               " />
-            <CardImoveis image={officetower}
+            <CardOffice image={officetower}
               items="Office Tower"
               title="Rio Claro | Jardim Claret"
               text="Salas - 42,06 m² | 43,66 m² | 49,94 m²"
               text1="5 Elevadores (3 panorâmicos)
               " />
-            <CardImoveis image={quintadovale}
+            <CardQuinta image={quintadovale}
               items="Quinta do Vale"
               title="Barra Bonita | Portal São José da Barra"
               text="Com lotes de 200m² a 400m²"
               text1="" />
-            <CardImoveis image={villareal}
+            <CardVilla image={villareal}
               items="Villa Real"
               title="Americana | Jardim Bela Vista"
               text="2 Dormitórios" />

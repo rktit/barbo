@@ -11,7 +11,11 @@ import moradadoporto from "images/home/moradadoporto.png";
 import villareal from "images/home/villareal.png";
 
 
-import CardLs from "components/cardLs";
+import CardHIG from "components/cardHig";
+import CardLR from "components/cardLR";
+import CardMP from "components/cardMP";
+import CardVR from "components/cardVR";
+
 import ScrollableAnchor from "react-scrollable-anchor";
 
 function ListaImoveis() {
@@ -42,42 +46,42 @@ function ListaImoveis() {
             arrows: true,
           }}>
             <SplideSlide className="slide">
-              <CardLs image={higienopolis}
+              <CardHIG image={higienopolis}
                 title=""
                 text=""/>
             </SplideSlide>
             <SplideSlide className="slide">
-              <CardLs image={lasrocas}
+              <CardLR image={lasrocas}
                 title=""
                 text=""/>
             </SplideSlide>
             <SplideSlide className="slide">
-              <CardLs image={moradadoporto}
+              <CardMP image={moradadoporto}
                 title=""
                 text=""/>
             </SplideSlide>
             <SplideSlide className="slide">
-              <CardLs image={villareal}
+              <CardVR image={villareal}
                 title=""
                 text=""/>
             </SplideSlide>
             <SplideSlide className="slide">
-              <CardLs image={higienopolis}
+              <CardHIG image={higienopolis}
                 title=""
                 text=""/>
             </SplideSlide>
             <SplideSlide className="slide">
-              <CardLs image={lasrocas}
+              <CardLR image={lasrocas}
                 title=""
                 text=""/>
             </SplideSlide>
             <SplideSlide className="slide">
-              <CardLs image={moradadoporto}
+              <CardMP image={moradadoporto}
                 title=""
                 text=""/>
             </SplideSlide>
             <SplideSlide className="slide">
-              <CardLs image={villareal}
+              <CardVR image={villareal}
                 title=""
                 text=""/>
             </SplideSlide>
@@ -92,39 +96,39 @@ function ListaImoveis() {
           }}>
             <SplideSlide>
               <div className="row slide">
-                <CardLs image={higienopolis}
+                <CardHIG image={higienopolis}
                   title=""
                   text=""/>
-                <CardLs image={lasrocas}
+                <CardLR image={lasrocas}
                   title=""
                   text=""/>
-                <CardLs image={moradadoporto}
-                  title=""
-                  text=""/>
-              </div>
-            </SplideSlide>
-            <SplideSlide>
-              <div className="row slide">
-                <CardLs image={villareal}
-                  title=""
-                  text=""/>
-                <CardLs image={higienopolis}
-                  title=""
-                  text=""/>
-                <CardLs image={lasrocas}
+                <CardMP image={moradadoporto}
                   title=""
                   text=""/>
               </div>
             </SplideSlide>
             <SplideSlide>
               <div className="row slide">
-                <CardLs image={moradadoporto}
+                <CardVR image={villareal}
                   title=""
                   text=""/>
-                <CardLs image={villareal}
+                <CardHIG image={higienopolis}
                   title=""
                   text=""/>
-                <CardLs image={higienopolis}
+                <CardLR image={lasrocas}
+                  title=""
+                  text=""/>
+              </div>
+            </SplideSlide>
+            <SplideSlide>
+              <div className="row slide">
+                <CardMP image={moradadoporto}
+                  title=""
+                  text=""/>
+                <CardVR image={villareal}
+                  title=""
+                  text=""/>
+                <CardHIG image={higienopolis}
                   title=""
                   text=""/>
               </div>

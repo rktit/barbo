@@ -20,9 +20,16 @@ a {
     color: #20396f;
     text-align: left;
 }
-
+ .listaMarcas{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: space-around;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
 .card-img-top{
     height: 20rem;
+    width: 100%;
 }
 
 .card-items{
@@ -70,7 +77,27 @@ a {
     nt-size: 1.5rem;
     font-family: ${fonts.comfortaa};
 }
-
+.splide__arrow svg {
+    width: 1.5em;
+    height: 1.5em;
+    fill: #000000;
+    transition: fill .2s linear;
+}
+.splide__pagination__page {
+    display: inline-block;
+    width: 20px;
+    height: 5px;
+    background: #fc1347;
+    border-radius: 2.5px;
+    margin: 3px;
+    padding: 0;
+    transition: all .2s linear;
+    border: none;
+}
+.splide__pagination__page.is-active {
+    background: #000000;
+    width: 5px;
+}
 @media only screen and (max-width: 600px) {
     .card-img-top{
         width: 100%;

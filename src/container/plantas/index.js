@@ -3,17 +3,14 @@ import ScrollableAnchor from 'react-scrollable-anchor'
 import Content from "./style";
 import Fade from "react-reveal/Fade";
 
-import sala from 'images/empreendimento/Decorado/Infinity_Rio_Claro_Barbo_14.jpg';
-import casale from 'images/empreendimento/Plantas/01_Planta_Humanizada_Tipo.jpg';
-import herder from 'images/empreendimento/VistaAerea/Infinity_Rio_Claro_Barbo_aerea.jpg';
-import Fotos from "components/fotos";
-import Planta from "components/planta";
-import VistaAerea from "components/vista_aerea";
-
-import { Splide, SplideSlide } from '@splidejs/react-splide';
+import sala from 'images/empreendimento/Decorado/Infinity_Rio_Claro_Barbo_10.jpg';
+import humanizada from 'images/empreendimento/Plantas/03_Planta_Humanizada_Implantação_Geral.jpg';
+import aerea from 'images/empreendimento/VistaAerea/Infinity_Rio_Claro_Barbo_aerea_1.jpg';
 import icone_whatsapp from "images/empreendimento/whatsapp.png";
 
-import '@splidejs/splide/dist/css/themes/splide-sea-green.min.css';
+import { Splide, SplideSlide } from '@splidejs/react-splide'
+import '@splidejs/splide/dist/css/themes/splide-sea-green.min.css'
+import { getAllByTestId } from '@testing-library/react'
 
 function Plantas(props) {
   const [indexSlide, setIndexSlide] = useState(0);
@@ -32,8 +29,8 @@ function Plantas(props) {
   }
   const arrayFotos = [
     { planta: sala, button: 'Apto 69m²' },
-    { planta: casale, button: 'Apto 82m²' },
-    { planta: herder, button: 'Duplex 115m²' },
+    { planta: humanizada, button: 'Apto 82m²' },
+    { planta: aerea, button: 'Duplex 115m²' },
   ]
   const renderImg = (el) => {
     return (
@@ -52,7 +49,7 @@ function Plantas(props) {
 
   return (
     isMobile ?
-      <ScrollableAnchor id="">
+      <ScrollableAnchor id="plantas">
         <Content className="row justify-content-center">
           <Fade left>
             <div className="left-side col-md-5 mt-5">
@@ -81,16 +78,16 @@ function Plantas(props) {
         </Content>
       </ScrollableAnchor>
       :
-      <ScrollableAnchor id="">
-        <Content className="d-flex">
+      <ScrollableAnchor id="plantas">
+        <Content className="flex row justify-content-center py-4">
           <Fade left>
             <div className="left-side col-md-12 mt-5">
-              <div className="flex">
+              <div className="">
                 <div className="flex justify-center align-center">
                   <div className="w-full justify-center pt-64">
-                    <div className="flex flex-row w-auto">
-                      <div className="d-flex justify-content-center py-6">
-                        <div className='justify-content-center' style={{ display: 'flex', alignItems: 'center', flexDirection: 'column' }}>
+                    <div className=" flex flex-row w-auto">
+                      <div className="d-flex py-6">
+                        <div className='' style={{ display: 'flex', alignItems: 'center', flexDirection: 'column' }}>
                           <div className="fotos text-center">
                             <div className="btn py-7 px-2" onClick={() => { moveSlide(0) }} >Fotos</div>
                             <div className="btn py-7 px-2" onClick={() => { moveSlide(1) }} >Plantas</div>
@@ -114,28 +111,24 @@ function Plantas(props) {
                             }}
                           >
                             <SplideSlide className="slide">
-                            <Planta image={sala} />
+                              <img src={sala} className="marca" />
                             </SplideSlide>
-                            
-
                             <SplideSlide className="slide">
-                            <Fotos image={casale} />
+                              <img src={humanizada} className="marca" />
                             </SplideSlide>
-
-
                             <SplideSlide className="slide">
-                            <VistaAerea image={herder} />
+                              <img src={aerea} className="marca" />
                             </SplideSlide>
                           </Splide>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div className="d-flex row justify-content-center">
-                    <div className="d-flex  consulta">
-                      <div className="image-side shadow btn1">
+                  <div className="d-flex row">
+                    <div className="d-flex consulta">
+                      <div className="image-side shadow btn">
                         Whatsapp
-                        <a target="_blank" href="https://api.whatsapp.com/send?phone=5519996965525&text=Gostaria de falar com um consultor?">
+                        <a target="_blank" href="https://api.whatsapp.com/send?phone=5515997831666&text=Gostaria de falar com um consultor?">
                           <img className="icone_whatsapp" src={icone_whatsapp} alt="Whatsapp" />
                         </a>
                       </div>

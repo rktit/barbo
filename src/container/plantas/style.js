@@ -10,43 +10,26 @@ const Content = styled.div`
   background-color: #eeeeee;
   
    .icone_whatsapp{
-    width: 60%;
-    height: auto;
-    padding-left: 10px;
+    width: 30px;
+    height: 30px;
+    padding-right: 4px;
   }
 
   .title1{
-    font-family: ${fonts.comfortaa};
+    font-family: ${fonts.opensans_bold};
     font-size: 2rem;
     margin-right: 5px;
     color: #20396f;
   }
 
   .texto{
-    font-family: ${fonts.comfortaa};
+    font-family: ${fonts.opensans_regular};
     text-size: 0.8rem;
     color: #20396f;
   }
-  .btn1{
-    font-family: ${fonts.comfortaa};
-    color: #000000;
-    font-size: 1.2rem;
-    text-aling: center;
-    background-color: #ffffff;
-    margin: 10px;
-    width: 200px;
-
-    &.active {
-      background-color: #ff3a66;
-      }
-
-      :hover {
-        background-color: #00000075;
-        color: #ffffff;
-      }
-  }
+  
   .btn{
-    font-family: ${fonts.comfortaa};
+    font-family: ${fonts.opensans_bold};
     color: #000000;
     font-size: 1.2rem;
     text-aling: center;
@@ -66,24 +49,21 @@ const Content = styled.div`
       }
   }
   .image-side{
-    font-family: ${fonts.comfortaa};
+    font-family: ${fonts.opensans_bold};
     color: #000000;
     font-size: 1.2rem;
+    text-aling: center;
     background-color: #ffffff;
     margin: 10px;
-    padding: 4px;
-    width: 200px;  
-    display: flex;
-    justify-content: center;
-    align-items: center;  
+    width: 200px;    
   }
   .icones{
     margin-bottom: 20px;
-    font-family: ${fonts.comfortaa};
+    font-family: ${fonts.opensans_bold};
     color: #20396f;
 
     img{
-      width: auto;
+      width: 40px;
       heigth: auto;
       margin-left: 10px;
     }
@@ -121,20 +101,22 @@ const Content = styled.div`
     background: #000000;
     color: #ffffff;
     align-items: center;
-    width: 65rem; 
+    width: 65rem;
+    margin-left: 9rem; 
     justify-content: center;
   }
   .consulta{
     background: #000000;
     color: #ffffff;
     align-items: center;
-    width: 65rem;    
+    width: 65rem;
+    margin-left: 9rem;    
     justify-content: center;
-    margin-bottom: 4px;
   }
   .marca{
     width: 65rem;
     height: 30rem;
+    position: relative;
 
     a{
       display: flex;
@@ -157,7 +139,7 @@ const Content = styled.div`
     font-size: 2em;
   }
   .planta-attention strong{
-    font-family: ${fonts.comfortaa};
+    font-family: "Montserrat-Bold" !important;
   }
   .planta-attention {
     font-size: 1.4em;
@@ -167,32 +149,11 @@ const Content = styled.div`
     flex-direction: column;
     padding: 0px;
     .image-side{
-      padding: 0px!important;
+      padding: 110px 0 !important;
     }
-    .fotos{
-      background: #000000;
-      color: #ffffff;
-      align-items: center;
-      width: 24rem; 
-      justify-content: center;
-    }
-    .consulta{
-      background: #000000;
-      color: #ffffff;
-      align-items: center;
-      width: 24rem;    
-      justify-content: center;
-      margin-bottom: 4px;
-      flex-direction: column-reverse;
-      font-size: 1.25rem;
-      padding-top: 0.5rem;
-    }
-    .image-side{
-      width: 15rem;
-      padding: 0px;
-    }
+
     .left-side{
-      padding: 0 0px;
+      padding: 0 30px;
     }
 
     .slide{
