@@ -45,10 +45,10 @@ const Routes = () => (
             <Route path='/barbo/portal_corretor' component={PortalCorretor_Page} />
             <Route path='/barbo/blog_interna' component={Blog_Interna} />
            <Route path='/barbo/blog' component={Blog_Page} />*/}
-            {/* <Route path='/barbo/front_lake' component={FrontLake} />
-            <Route path='/barbo/higienopolis' component={Higienopolis} />*/}
-            <Route path='/barbo/infinity' component={Infinity} />
-           {/* <Route path='/barbo/las_rocas' component={LasRocas} />
+            {/* <Route path='/barbo/front_lake' component={FrontLake} />*/}
+            <Route path='/barbo/higienopolis' component={Higienopolis} />
+           {/* <Route path='/barbo/infinity' component={Infinity} />
+            <Route path='/barbo/las_rocas' component={LasRocas} />
             <Route path='/barbo/morada_porto' component={MoradaPorto} />
             <Route path='/barbo/office_tower' component={OfficeTower} />
             <Route path='/barbo/quinta_vale' component={QuintaVale} />
