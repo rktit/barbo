@@ -7,8 +7,8 @@ img{
 }
 
 .card{
-    width: 25rem;
-    margin: 5px;
+    width: 22rem;
+    margin-right: 5px;
 }
 
 .card-body{

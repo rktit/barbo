@@ -17,6 +17,9 @@ import QuintaVale from './pages/quinta_vale'
 import VillaReal from './pages/villa_real'
 import QuemSomos_Page from './pages/quem_somos'
 import Blog_Page from './pages/blog'
+import DeclararImposto from './pages/declarar_imposto'
+import BeneficiosPlantas from './pages/beneficios_plantas'
+import BlogIluminacao from './pages/iluminacao'
 import FaleConosco_Page from './pages/fale_conosco'
 import PortalCorretor_Page from './pages/portal_corretor'
 import Blog_Interna from './pages/blog_interna'
@@ -43,9 +46,13 @@ const Routes = () => (
         <Switch>
             {/* <Route path='/barbo/fale_conosco' component={FaleConosco_Page} />
             <Route path='/barbo/portal_corretor' component={PortalCorretor_Page} />
-            <Route path='/barbo/blog_interna' component={Blog_Interna} />
-           <Route path='/barbo/blog' component={Blog_Page} />*/}
-            {/* <Route path='/barbo/front_lake' component={FrontLake} />
+            <Route path='/barbo/blog_interna' component={Blog_Interna} />*/}
+           <Route path='/barbo/blog' component={Blog_Page} />
+          {/*  <Route path='/barbo/declarar_imposto' component={DeclararImposto} />
+           <Route path='/barbo/beneficios_plantas' component={BeneficiosPlantas} />
+           <Route path='/barbo/iluminacao' component={BlogIluminacao} />
+
+            <Route path='/barbo/front_lake' component={FrontLake} />
             <Route path='/barbo/higienopolis' component={Higienopolis} />*/}
            {/* <Route path='/barbo/infinity' component={Infinity} />
             <Route path='/barbo/las_rocas' component={LasRocas} />
@@ -55,8 +62,8 @@ const Routes = () => (
              <Route path='/barbo/villa_real' component={VillaReal} /> 
 
             <Route path='/barbo/empreendimentos' component={Empreendimentos_Page} />
-            <Route path='/barbo/quem_somos' component={QuemSomos_Page} />  */}
-              <Route path='/' component={Home_Page} />
+            <Route path='/barbo/quem_somos' component={QuemSomos_Page} />  
+              <Route path='/' component={Home_Page} />*/}
 
           {/* <Route path='/trabalhe-conosco' component={WorkWithUs} />   */}
         </Switch>

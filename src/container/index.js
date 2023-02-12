@@ -54,6 +54,17 @@ import BannerArtigo from './bannerArtigo';
 import Blog from './blog';
 import Artigo from './artigo';
 
+import BannerIluminacao from './banner_iluminacao';
+import ArtigoIluminacao from './artigo_iluminacao';
+
+import BannerImposto from './banner_imposto';
+import ArtigoImposto from './artigo_imposto';
+
+import ArtigoBeneficios from './artigo_beneficios';
+import BannerBeneficios from './banner_beneficios';
+
+
+
 import BannerContato from './bannerContato';
 import MenuFormulario from './menuFormulario';
 import Formulario from './formulario';
@@ -141,6 +152,17 @@ export {
     BannerBlog,
     Blog,
     Artigo,
+
+    // Blog - Iluminação
+    BannerIluminacao,
+    ArtigoIluminacao,
+    // Blog - Imposto
+    BannerImposto,
+    ArtigoImposto,
+    // Blog - Benefícios
+    BannerBeneficios,
+    ArtigoBeneficios,
+
 
     // Fale Conosco 
     BannerContato,

@@ -82,7 +82,7 @@ background-color: #eeeeee;
 }
 // .maquinas{
 //     display:grid;
-//     grid-template-columns: 1fr 1fr 1fr;
+//     grid-template-columns: 0fr 1fr 1fr;
 //     margin: 50px 40px;
 // }
 

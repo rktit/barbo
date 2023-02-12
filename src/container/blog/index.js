@@ -4,15 +4,13 @@ import Content from "./style";
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/splide/dist/css/themes/splide-sea-green.min.css';
 
-import iluminacao from "images/blog/iluminacao.png";
-import design from "images/blog/design.png";
-import capriche from "images/blog/capriche.png";
-import iluminacao2 from "images/blog/iluminacao2.png";
-import design2 from "images/blog/design2.png";
-import capriche2 from "images/blog/capriche2.png";
+import iluminacao from "images/blog/iluminacao/iluminacao_casa.jpeg";
+import imposto from "images/blog/declarar/declarar_imovel.jpeg";
+import plantas from "images/blog/beneficios/beneficios_planta.jpeg";
 
-
-import CardBlog from "components/cardBlog";
+import CardIluminacao from "components/cardBlog_iluminacao";
+import CardBeneficios from "components/cardBlog_beneficios";
+import CardImposto from "components/cardBlog_imposto";
 import ScrollableAnchor from "react-scrollable-anchor";
 
 function Blog() {
@@ -32,7 +30,7 @@ function Blog() {
   return (
     <ScrollableAnchor id="blog">
       <Content className="col-12 d-flex flex-column align-items-center p-0">
-        <div className="title ">Os melhores toques para o seu novo lar.</div>
+        <div className="title py-5">Os melhores toques para o seu novo lar.</div>
         
         {isMobile ?
           <Splide className="splide col-12" options={{
@@ -44,59 +42,59 @@ function Blog() {
             arrows: false
           }}>
             <SplideSlide className="slide col">
-              <CardBlog image={iluminacao}
+              <CardIluminacao image={iluminacao}
                 items="Postado em Dicas - 09/12/2022"
                 title="Iluminação"
                 text="Para dar um toque mais aconchegante e requintado para os seus espaços" />
-              <CardBlog image={design}
+              <CardImposto image={imposto}
                 items="Postado em Dicas - 09/12/2022"
-                title="Design Biofilico"
+                title="Declarar Imposto"
+                text="Declarar imóvel financiado no imposto de renda" />
+              <CardBeneficios image={plantas}
+                items="Postado em Dicas - 09/12/2022"
+                title="Benefícios das Plantas"
                 text="Leve a natureza de forma consciente para o design do seu lar" />
-              <CardBlog image={capriche}
-                items="Postado em Dicas - 09/12/2022"
-                title="Capriche nas cores"
-                text="As paredes dos seus cômodos podem te relaxar ou estimular" />
-              <CardBlog image={iluminacao2}
+              {/* <CardBlog image={iluminacao2}
                 items="Postado em Dicas - 09/12/2022"
                 title="Iluminação"
                 text="Para dar um toque mais aconchegante e requintado para os seus espaços" />
               <CardBlog image={design2}
                 items="Postado em Dicas - 09/12/2022"
-                title="Design Biofilico"
+                title="Benefícios das Plantas"
                 text="Leve a natureza de forma consciente para o design do seu lar" />
-              <CardBlog image={capriche2}
+              <CardBlog image={imposto2}
                 items="Postado em Dicas - 09/12/2022"
-                title="Capriche nas cores"
-                text="As paredes dos seus cômodos podem te relaxar ou estimular" />
+                title="imposto nas cores"
+                text="As paredes dos seus cômodos podem te relaxar ou estimular" /> */}
             </SplideSlide>
           </Splide>
 
           :
           <div className="maquinas">
-            <CardBlog image={iluminacao}
-              items="Postado em Dicas - 09/12/2022"
-              title="Iluminação"
-              text="Para dar um toque mais aconchegante e requintado para os seus espaços" />
-            <CardBlog image={design}
-              items="Postado em Dicas - 09/12/2022"
-              title="Design Biofilico"
-              text="Leve a natureza de forma consciente para o design do seu lar" />
-            <CardBlog image={capriche}
-              items="Postado em Dicas - 09/12/2022"
-              title="Capriche nas cores"
-              text="As paredes dos seus cômodos podem te relaxar ou estimular" />
-            <CardBlog image={iluminacao2}
+           <CardIluminacao image={iluminacao}
+                items="Postado em Dicas - 09/12/2022"
+                title="Iluminação"
+                text="Para dar um toque mais aconchegante e requintado para os seus espaços" />
+              <CardImposto image={imposto}
+                items="Postado em Dicas - 09/12/2022"
+                title="Declarar Imposto"
+                text="Declarar imóvel financiado no imposto de renda" />
+              <CardBeneficios image={plantas}
+                items="Postado em Dicas - 09/12/2022"
+                title="Benefícios das Plantas"
+                text="Leve a natureza de forma consciente para o design do seu lar" />
+            {/* <CardBlog image={iluminacao2}
               items="Postado em Dicas - 09/12/2022"
               title="Iluminação"
               text="Para dar um toque mais aconchegante e requintado para os seus espaços" />
             <CardBlog image={design2}
               items="Postado em Dicas - 09/12/2022"
-              title="Design Biofilico"
+              title="Benefícios das Plantas"
               text="Leve a natureza de forma consciente para o design do seu lar" />
-            <CardBlog image={capriche2}
+            <CardBlog image={imposto2}
               items="Postado em Dicas - 09/12/2022"
-              title="Capriche nas cores"
-              text="As paredes dos seus cômodos podem te relaxar ou estimular" />
+              title="imposto nas cores"
+              text="As paredes dos seus cômodos podem te relaxar ou estimular" /> */}
           </div>
         }
       </Content>
