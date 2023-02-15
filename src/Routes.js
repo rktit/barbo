@@ -49,10 +49,10 @@ const Routes = () => (
             <Route path='/barbo/portal_corretor' component={PortalCorretor_Page} />*/}
 
             {/* <Route path='/barbo/blog_interna' component={Blog_Interna} /> 
-             <Route path='/barbo/blog' component={Blog_Page} />
-            <Route path='/barbo/declarar_imposto' component={DeclararImposto} />*/}
-            <Route path='/barbo/beneficios_plantas' component={BeneficiosPlantas} />
-            {/* <Route path='/barbo/iluminacao' component={BlogIluminacao} />
+             <Route path='/barbo/blog' component={Blog_Page} />*/}
+            <Route path='/barbo/declarar_imposto' component={DeclararImposto} />
+            {/* <Route path='/barbo/beneficios_plantas' component={BeneficiosPlantas} />
+            <Route path='/barbo/iluminacao' component={BlogIluminacao} />
 
            <Route path='/barbo/front_lake' component={FrontLake} />
             <Route path='/barbo/higienopolis' component={Higienopolis} />
