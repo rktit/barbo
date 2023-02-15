@@ -38,24 +38,22 @@ function ListaImoveis() {
         <div className="title ">Os melhores imóveis estão aqui</div>
         {isMobile ?
           <Splide className="splide col-12" options={{
-            rewind: true,
+            rewind: false,
             width: "auto",
             gap: '2rem',
             perPage: 1,
             pagination: false,
-            arrows: true,
+            arrows: false,
           }}>
             <SplideSlide className="slide">
               <CardHIG image={higienopolis}
                 title=""
                 text=""/>
-            </SplideSlide>
-            <SplideSlide className="slide">
+            
               <CardLR image={lasrocas}
                 title=""
                 text=""/>
-            </SplideSlide>
-            <SplideSlide className="slide">
+            
               <CardMP image={moradadoporto}
                 title=""
                 text=""/>
@@ -64,13 +62,11 @@ function ListaImoveis() {
               <CardVR image={villareal}
                 title=""
                 text=""/>
-            </SplideSlide>
-            <SplideSlide className="slide">
+           
               <CardHIG image={higienopolis}
                 title=""
                 text=""/>
-            </SplideSlide>
-            <SplideSlide className="slide">
+         
               <CardLR image={lasrocas}
                 title=""
                 text=""/>
@@ -79,8 +75,7 @@ function ListaImoveis() {
               <CardMP image={moradadoporto}
                 title=""
                 text=""/>
-            </SplideSlide>
-            <SplideSlide className="slide">
+           
               <CardVR image={villareal}
                 title=""
                 text=""/>

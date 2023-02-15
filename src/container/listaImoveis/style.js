@@ -168,15 +168,15 @@ background-color: #eeeeee;
     padding-right: 0px !important;
     padding-left: 0px !important;
 
-    .title{
-        font-size: 1.5rem;
-
+    .title {
+        font-size: 2rem;
+        text-align: center;
     }
 
     .splide__arrow svg {
     width: 1.5em;
     height: 1.5em;
-    fill: #000000;
+    fill: transparent;
     transition: fill .2s linear;
 }
 .splide__pagination__page {

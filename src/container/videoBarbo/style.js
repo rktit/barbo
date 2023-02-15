@@ -16,12 +16,13 @@ padding: 20px !important;
 @media only screen and (max-width: 600px) {
    .title{
       justify-content: center;
-      font-size: 1.3rem;
+      font-size: 1.75rem;
       // text-align: end;
    }
   .content {
     margin-left: 0;
   }
+  
 `;
 
 export default Content;

@@ -156,7 +156,12 @@ background-color: #eeeeee;
 @media only screen and (max-width: 600px) {
     display: flex!important;
         flex-direction: column;
-
+.maquinas {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
         .box {
             height: 10rem;
             width: 20rem;
@@ -182,6 +187,7 @@ background-color: #eeeeee;
         width: fit-content;
         padding: 4px 0px;
     }
+    
     .btn_lupa {
         background: url(${lupa}) no-repeat center;
         height: 2.75rem;

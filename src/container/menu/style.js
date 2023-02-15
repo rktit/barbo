@@ -144,7 +144,9 @@ z-index: 1027;
 
 
   @media only screen and (max-width: 992px) {
-    
+    margin: 0 0 -10rem 0 !important;
+    z-index: 1027;
+
     .menu-nav {
       padding: 0rem 0 0.5rem 0.05rem;
       display: flex;
@@ -154,6 +156,7 @@ z-index: 1027;
       }
     }
     .menu-nav a {
+      padding: 0rem 1rem 0.5rem 0.05rem;
       color: #ffffff;
       display: flex;
       justify-content: flex-end;      
@@ -165,13 +168,16 @@ z-index: 1027;
 		  
 		  .menu-top {
 		    transition: 0.2s ease-in-out;
-		    padding: .5rem !important;
+        padding: 1.5rem 1.5rem 2.5rem 1.5rem !important;
 		  }
       .container {
         margin-top: 10px;
       }
       .espaco {
-        justify-content: flex-end;      
+        justify-content: flex-end; 
+        margin-top: -1rem;  
+        color: transparent;
+   
       }
   }
 `;

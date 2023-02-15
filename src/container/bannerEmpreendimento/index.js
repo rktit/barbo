@@ -12,7 +12,7 @@ import banner1Mobile from "images/empreendimento_interna/nome_empreendimento.png
 import banner2Mobile from "images/empreendimento_interna/nome_empreendimento.png";
 import banner3Mobile from "images/empreendimento_interna/nome_empreendimento.png";
 
-function Banner() {
+function BannerEmpreendimento() {
     const [isMobile, setIsMobile] = useState(false);
     useEffect(() => {
         setIsMobile(window.innerWidth < 768);
@@ -62,4 +62,4 @@ function Banner() {
     );
 }
 
-export default Banner;
+export default BannerEmpreendimento;

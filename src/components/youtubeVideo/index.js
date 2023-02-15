@@ -3,6 +3,8 @@ import YouTube from 'react-youtube';
 
 import Content from "./style";
 import conhecaBarbo from "images/home/conhecaBarbo.png";
+import conhecaBarboMobile from "images/home/conhecaBarboMobile.png";
+
 
 function YoutubeVideo(props) {
 
@@ -35,15 +37,27 @@ function YoutubeVideo(props) {
 
   return (
     <Content className="col-12 row">
-      <div className={`content col-12 ${props.className}`}>
-        {/* <YouTube videoId={videoId} opts={opts}/> */}
-        <div className="flex">
-          <img className="image" src={conhecaBarbo} />
-        </div>
-        {/* <div className="texts">
+      {isMobile ?
+        <div className={`content col-12 ${props.className}`}>
+          {/* <YouTube videoId={videoId} opts={opts}/> */}
+          <div className="flex">
+            <img className="image" src={conhecaBarboMobile} />
+          </div>
+          {/* <div className="texts">
           <strong>{props.title}</strong><br />
         </div> */}
-      </div>
+        </div>
+        :
+        <div className={`content col-12 ${props.className}`}>
+          {/* <YouTube videoId={videoId} opts={opts}/> */}
+          <div className="flex">
+            <img className="image" src={conhecaBarbo} />
+          </div>
+          {/* <div className="texts">
+          <strong>{props.title}</strong><br />
+        </div> */}
+        </div>
+      }
     </Content>
 
   );

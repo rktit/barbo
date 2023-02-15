@@ -12,8 +12,9 @@ margin-left: 0px;
 @media only screen and (max-width: 600px) {
     padding: 20px 0px !important;
     .image {
-      width: 100%;
-      height: 20rem;
+      width: 121%;
+    height: 15rem;
+    margin-left: -2rem;
     }
 
   .content {

@@ -88,8 +88,8 @@ a {
         width: 100%;
     }
     .card-img-top{
-        width: 20rem;
-    height: 30rem;
+        width: 23rem;
+        height: 34rem;
     }
     img{
         width: 100%;
@@ -98,7 +98,8 @@ a {
     .card{
         width: 100%;
         height: 100%;
-        padding: 0 1rem 0 1.5rem;
+        padding: 0 1rem 0 1.5rem;    padding: 0 0rem 0 0rem;
+        margin: 0.5rem 0px;
 
     }
     .card-text{
@@ -106,8 +107,8 @@ a {
         display: contents;
     }
     .card-mais{
-        right: -4rem;
-        bottom: -12rem;
+        right: -5rem;
+        bottom: -29rem;
     }
     .btn{
         

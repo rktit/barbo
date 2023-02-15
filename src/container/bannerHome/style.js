@@ -110,8 +110,8 @@ const Content = styled.div`
     align-items: center;
 
     .box-texto {
-      margin-top: 10rem;
-      margin-left: -5rem;
+      margin-top: 5rem;
+      margin-left: -2rem;
       padding-left: 2rem;
       transform: rotate(-108deg);
       width: max-content;
@@ -124,13 +124,13 @@ const Content = styled.div`
       text-align: start;
     }
  .welcome{
-    height: 32rem;
+    height: 26rem;
     max-width: max-content;
     border-style: solid;
     border-color: #ffffff;
     border-width: 2px;
-    margin: 3rem 0px 0 7rem;
-    padding: 70px 0 0 60px;
+    margin: 0rem 0px 0 0rem;
+    padding: 0px 0 0 0px;
     transform: rotate(108deg);
   }
     .logo{

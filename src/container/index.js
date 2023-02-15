@@ -45,6 +45,8 @@ import BannerVilla from './banner_villa';
 import EmpreendimentoVilla from './empreendimento_villa';
 import MapaVilla from './mapaVilla';
 
+import BannerEmpreendimento from './bannerEmpreendimento';
+import Empreendimento from './empreendimento';
 import Plantas from './plantas';
 import Mapa from './mapa';
 
@@ -96,6 +98,10 @@ export {
     Banner,
     Imoveis,
     ConhecaBarbo,
+
+    BannerEmpreendimento,
+    Empreendimento,
+    Mapa,
 
     // Front Lake 
     BannerFront,

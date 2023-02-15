@@ -112,6 +112,12 @@ const Content = styled.div`
 
   @media only screen and (max-width: 600px) {
     
+    .box {
+      display: flex;
+        padding: 0rem 0rem 0rem 2rem;
+        // margin-right: -5rem;
+    }
+
     .info {
     	margin-top: 50px;
     	::before {
@@ -137,12 +143,11 @@ const Content = styled.div`
     margin: 5px;
 }
    .icone_midia {
-      height: 2rem;
-      width: 3rem;
-      margin-top: -16px;
-      margin-left: -2rem;
-      flex-wrap: wrap;
-      padding-right: 0;
+    height: 3rem;
+    width: 4rem;
+    margin-top: -16px;
+    margin-left: -3rem;
+    padding-right: 2rem;
   }
 `;
 

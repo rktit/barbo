@@ -105,8 +105,17 @@ const Content = styled.div`
 	.conteudo{
 		display: flex;
 		flex-direction: column;
-		width: 24rem;
+		width: 20rem;
 		height: 24rem;
+		margin-left: -3.5rem;
+		&.active {
+			width: 20rem;
+			}
+	
+		:hover {
+		transition: 0.1s ease-in-out;
+		text-decoration: none;
+		}
 	}
 
 	.boxEmail {
@@ -116,6 +125,7 @@ const Content = styled.div`
 
 	.logo {
 		padding: 3rem 0 0 0;
+		width: 16rem;
 	}
 	.logoLogin {
 		padding-top: 0px;
@@ -131,6 +141,7 @@ const Content = styled.div`
 	}
 	.input-newsletter{
 		padding: 15px 7px;
+		width: 18rem;
 
 		input{
 			width: 150px;
@@ -140,7 +151,7 @@ const Content = styled.div`
 		text-align: center;
 		padding: 20px 0px;
 		margin: 1rem 0 4rem 0px;
-		width: 20rem;
+		width: 18rem;
 	}
   }
 `;

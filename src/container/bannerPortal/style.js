@@ -60,8 +60,8 @@ const Content = styled.div`
   }
 
   @media only screen and (max-width: 600px) {
-    background: url(${backgroundMobile}) no-repeat top center;
-    height: 100vh;
+    background: url(${backgroundMobile}) no-repeat center;
+    height: 105vh;
 
     margin-bottom: 300px;
     display: flex;
