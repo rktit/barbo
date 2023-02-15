@@ -66,8 +66,8 @@ const Routes = () => (
             {/* <Route path='/barbo/empreendimentos_interna' component={EmpreendimentosInterna} /> */}
 
 
-            {/* <Route path='/barbo/quem_somos' component={QuemSomos_Page} /> */}
-            <Route path='/' component={Home_Page} />
+            <Route path='/barbo/quem_somos' component={QuemSomos_Page} />
+            {/* <Route path='/' component={Home_Page} /> */}
 
             {/* <Route path='/trabalhe-conosco' component={WorkWithUs} />   */}
         </Switch>
