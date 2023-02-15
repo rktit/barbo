@@ -15,7 +15,7 @@ function CardHIG(props) {
 
   return (
     <Content>
-      <div className="card">
+      <button className="card" onClick={() => { window.location.href='https://rocketit.com.br/higienopolis/'}} >
         <img src={props.image} className="card-img-top" />
         <div className="card-body col-10">
           <div className="col-12 card-items">
@@ -28,10 +28,10 @@ function CardHIG(props) {
             {props.text}
           </div>
           <div className="card-mais d-flex col-12">
-            <a href="/barbo/higienopolis">Mais informações <strong>>></strong></a>
+            <a href="https://rocketit.com.br/higienopolis/">Mais informações <strong>>></strong></a>
           </div>
         </div>
-      </div>
+      </button>
     </Content>
   );
 }

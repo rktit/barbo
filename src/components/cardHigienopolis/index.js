@@ -32,7 +32,7 @@ function CardHigienopolis(props) {
             {props.text1}
           </div>
           <div className="d-flex btn col-12">
-            <a href="/barbo/higienopolis">Ver Mais</a>
+            <a href="https://rocketit.com.br/higienopolis/">Ver Mais</a>
           </div>
         </div>
       </div>

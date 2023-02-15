@@ -108,7 +108,7 @@ function Footer(props) {
 										<Fade>
 											<div className='conteudo col-12 p-0'>
 												<div className='col-11 p-0 text-left'><a
-													href='mailto: contato@barbo.com.br'>Contato@barbo.Com.Br</a>
+													href='mailto: contato@barbo.com.br'>contato@barbo.com.br</a>
 												</div>
 											</div>
 										</Fade>
@@ -179,6 +179,14 @@ function Footer(props) {
 											<a onClick={() => clickMenu("barbo/empreendimentos_interna")} className={active === "barbo/empreendimentos_interna" ? 'active ' : ''}
 												href="barbo/empreendimentos_interna">
 												Americana
+											</a>
+										</div>
+									</Fade>
+									<Fade>
+										<div className='conteudo'>
+											<a onClick={() => clickMenu("barbo/empreendimentos_interna")} className={active === "barbo/empreendimentos_interna" ? 'active ' : ''}
+												href="barbo/empreendimentos_interna">
+												Barra Bonita
 											</a>
 										</div>
 									</Fade>
@@ -282,7 +290,7 @@ function Footer(props) {
 				</div>
 				<div className='d-flex line'>
 					<div className='col-12 p-0 copyright'>
-						Desenvolvido por Huma Creativa
+						Desenvolvido por Huma Criativo
 					</div>
 				</div>
 			</Content>

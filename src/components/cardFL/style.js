@@ -55,6 +55,8 @@ a {
     font-family: ${fonts.comfortaa};
     font-size: 1.2rem;
     font-weight: 400;
+    background-color: white;
+    width: 15rem;
 }
 .card-mais strong{
     font-weight: 900;

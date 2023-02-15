@@ -60,6 +60,8 @@ function Imoveis() {
                     <option value="piracicaba" data-phases="pronto-para-morar,final-de-obras,em-obras">Piracicaba</option>
                     <option value="americana" data-phases="pronto-para-morar">Americana</option>
                     <option value="ipeuna" data-phases="pronto-para-morar">Rio Claro</option>
+                    <option value="iperioclarouna" data-phases="pronto-para-morar">Rio Claro</option>
+                    <option value="barrabonita" data-phases="pronto-para-morar">Barra Bonita</option>
                   </select>
                 </div>
                 <div className="filtro__item">
@@ -81,7 +83,8 @@ function Imoveis() {
                     <option value="">Cidade</option>
                     <option value="piracicaba" data-phases="pronto-para-morar,final-de-obras,em-obras">Piracicaba</option>
                     <option value="americana" data-phases="pronto-para-morar">Americana</option>
-                    <option value="ipeuna" data-phases="pronto-para-morar">Rio Claro</option>
+                    <option value="iperioclarouna" data-phases="pronto-para-morar">Rio Claro</option>
+                    <option value="barrabonita" data-phases="pronto-para-morar">Barra Bonita</option>
                   </select>
                 </div>
                 <div className="filtro__item">

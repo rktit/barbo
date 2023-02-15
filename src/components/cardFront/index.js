@@ -32,7 +32,7 @@ function CardFront(props) {
             {props.text1}
           </div>
           <div className="d-flex btn col-12">
-            <a href="/barbo/front_lake">Ver Mais</a>
+            <a href="https://rocketit.com.br/frontlake/">Ver Mais</a>
           </div>
         </div>
       </div>
