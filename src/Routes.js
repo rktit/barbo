@@ -62,14 +62,14 @@ const Routes = () => (
              <Route path='/barbo/office_tower' component={OfficeTower} />
            <Route path='/barbo/quinta_vale' component={QuintaVale} />
              <Route path='/barbo/villa_real' component={VillaReal} /> */}
-           <Route path='/barbo/empreendimentos' component={Empreendimentos_Page} />
-            {/* <Route path='/barbo/empreendimentos_interna' component={EmpreendimentosInterna} /> 
+           {/* <Route path='/barbo/empreendimentos' component={Empreendimentos_Page} />
+            <Route path='/barbo/empreendimentos_interna' component={EmpreendimentosInterna} /> 
 
 
            <Route path='/barbo/quem_somos' component={QuemSomos_Page} /> */}
-             {/* <Route path='/' component={Home_Page} />
+             <Route path='/' component={Home_Page} />
 
-            <Route path='/trabalhe-conosco' component={WorkWithUs} />   */}
+            {/* <Route path='/trabalhe-conosco' component={WorkWithUs} />   */}
         </Switch>
     </BrowserRouter>
 )
