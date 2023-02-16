@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "973762a5e45b99570c755213a33863f8",
+    "revision": "16b142029b64eb45ea50fb33345b13be",
     "url": "/barbo/index.html"
   },
   {
-    "revision": "fee757e020fa3b6b1072",
+    "revision": "79c199971eed5ad8d0ae",
     "url": "/barbo/static/css/2.22ca879e.chunk.css"
   },
   {
-    "revision": "02e34166d09d228c145c",
+    "revision": "f83858379bf398fa3304",
     "url": "/barbo/static/css/main.90cf6d38.chunk.css"
   },
   {
-    "revision": "fee757e020fa3b6b1072",
-    "url": "/barbo/static/js/2.3d5c95f5.chunk.js"
+    "revision": "79c199971eed5ad8d0ae",
+    "url": "/barbo/static/js/2.69b7a3a4.chunk.js"
   },
   {
     "revision": "95e46c9808ea5dc4cb02c356c9f7fa8c",
-    "url": "/barbo/static/js/2.3d5c95f5.chunk.js.LICENSE.txt"
+    "url": "/barbo/static/js/2.69b7a3a4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "02e34166d09d228c145c",
-    "url": "/barbo/static/js/main.9f5b0630.chunk.js"
+    "revision": "f83858379bf398fa3304",
+    "url": "/barbo/static/js/main.a926b19a.chunk.js"
   },
   {
     "revision": "c4c96cc070edc597d6d6",
@@ -300,10 +300,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/barbo/static/media/conhecaBarboMobile.1dee26db.png"
   },
   {
-    "revision": "fcf54b5676fae371a474562883aa5c86",
-    "url": "/barbo/static/media/cozinha.fcf54b56.png"
-  },
-  {
     "revision": "030abc0016f265f4a49521bff46585e1",
     "url": "/barbo/static/media/declarar_imovel.030abc00.jpeg"
   },
@@ -388,24 +384,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/barbo/static/media/moradadoporto.f9083db3.png"
   },
   {
-    "revision": "06b28cfe29e295a161b247f240ad9950",
-    "url": "/barbo/static/media/nome_empreendimento.06b28cfe.png"
-  },
-  {
     "revision": "bbfa068629507523237c68dc5cb5d4cf",
     "url": "/barbo/static/media/officetower.bbfa0686.png"
   },
   {
-    "revision": "5c4150037c5cb51be24ce893f23a9222",
-    "url": "/barbo/static/media/predio.5c415003.png"
-  },
-  {
     "revision": "e96a56921b06b6f2883dadcb0c1c950e",
     "url": "/barbo/static/media/quintadovale.e96a5692.png"
-  },
-  {
-    "revision": "b2fb0f6cc4434458cf55f4187024b165",
-    "url": "/barbo/static/media/sala.b2fb0f6c.png"
   },
   {
     "revision": "e2ba868cf2cf17f883e5cf1213a46783",

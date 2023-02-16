@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/barbo/static/css/main.90cf6d38.chunk.css",
-    "main.js": "/barbo/static/js/main.9f5b0630.chunk.js",
-    "main.js.map": "/barbo/static/js/main.9f5b0630.chunk.js.map",
+    "main.js": "/barbo/static/js/main.a926b19a.chunk.js",
+    "main.js.map": "/barbo/static/js/main.a926b19a.chunk.js.map",
     "runtime-main.js": "/barbo/static/js/runtime-main.57fcf9a9.js",
     "runtime-main.js.map": "/barbo/static/js/runtime-main.57fcf9a9.js.map",
     "static/css/2.22ca879e.chunk.css": "/barbo/static/css/2.22ca879e.chunk.css",
-    "static/js/2.3d5c95f5.chunk.js": "/barbo/static/js/2.3d5c95f5.chunk.js",
-    "static/js/2.3d5c95f5.chunk.js.map": "/barbo/static/js/2.3d5c95f5.chunk.js.map",
+    "static/js/2.69b7a3a4.chunk.js": "/barbo/static/js/2.69b7a3a4.chunk.js",
+    "static/js/2.69b7a3a4.chunk.js.map": "/barbo/static/js/2.69b7a3a4.chunk.js.map",
     "index.html": "/barbo/index.html",
-    "precache-manifest.afb55ece3b610f84cdad8000f59a4214.js": "/barbo/precache-manifest.afb55ece3b610f84cdad8000f59a4214.js",
+    "precache-manifest.ce308d11759ef379c316e0d2c036bed5.js": "/barbo/precache-manifest.ce308d11759ef379c316e0d2c036bed5.js",
     "service-worker.js": "/barbo/service-worker.js",
     "static/css/2.22ca879e.chunk.css.map": "/barbo/static/css/2.22ca879e.chunk.css.map",
     "static/css/main.90cf6d38.chunk.css.map": "/barbo/static/css/main.90cf6d38.chunk.css.map",
-    "static/js/2.3d5c95f5.chunk.js.LICENSE.txt": "/barbo/static/js/2.3d5c95f5.chunk.js.LICENSE.txt",
+    "static/js/2.69b7a3a4.chunk.js.LICENSE.txt": "/barbo/static/js/2.69b7a3a4.chunk.js.LICENSE.txt",
     "static/media/03_Planta_Humanizada_Implantação_Geral.jpg": "/barbo/static/media/03_Planta_Humanizada_Implantação_Geral.bca1e4ea.jpg",
     "static/media/styles.css": "/barbo/static/media/SF-Pro-Display-Ultralight.1610ab29.ttf",
     "static/media/BackgroundBanner.jpg": "/barbo/static/media/BackgroundBanner.34314fa4.jpg",
@@ -42,7 +42,6 @@
     "static/media/bkg-orcamento.png": "/barbo/static/media/bkg-orcamento.d8f67f70.png",
     "static/media/conhecaBarbo.png": "/barbo/static/media/conhecaBarbo.64a4f9a3.png",
     "static/media/conhecaBarboMobile.png": "/barbo/static/media/conhecaBarboMobile.1dee26db.png",
-    "static/media/cozinha.png": "/barbo/static/media/cozinha.fcf54b56.png",
     "static/media/declarar_imovel.jpeg": "/barbo/static/media/declarar_imovel.030abc00.jpeg",
     "static/media/front_lake.png": "/barbo/static/media/front_lake.bbdc6baa.png",
     "static/media/higienopolis.png": "/barbo/static/media/higienopolis.f3c90d17.png",
@@ -62,18 +61,15 @@
     "static/media/mobile_bannerPredio.png": "/barbo/static/media/mobile_bannerPredio.2609083d.png",
     "static/media/mobile_banner_home.png": "/barbo/static/media/mobile_banner_home.f8fd44be.png",
     "static/media/moradadoporto.png": "/barbo/static/media/moradadoporto.f9083db3.png",
-    "static/media/nome_empreendimento.png": "/barbo/static/media/nome_empreendimento.06b28cfe.png",
     "static/media/officetower.png": "/barbo/static/media/officetower.bbfa0686.png",
-    "static/media/predio.png": "/barbo/static/media/predio.5c415003.png",
     "static/media/quintadovale.png": "/barbo/static/media/quintadovale.e96a5692.png",
-    "static/media/sala.png": "/barbo/static/media/sala.b2fb0f6c.png",
     "static/media/villareal.png": "/barbo/static/media/villareal.e7dae2f3.png"
   },
   "entrypoints": [
     "static/js/runtime-main.57fcf9a9.js",
     "static/css/2.22ca879e.chunk.css",
-    "static/js/2.3d5c95f5.chunk.js",
+    "static/js/2.69b7a3a4.chunk.js",
     "static/css/main.90cf6d38.chunk.css",
-    "static/js/main.9f5b0630.chunk.js"
+    "static/js/main.a926b19a.chunk.js"
   ]
 }
