@@ -156,7 +156,7 @@ function Footer(props) {
 									</Fade>
 								</div>
 
-								<div className='col-12 col-md-4 p-0 info'>
+								<div className='col-12 col-md-6 p-0 info'>
 									<div className='titulo'>Cidades</div>
 									<Fade>
 										<div className='conteudo'>
