@@ -30,8 +30,9 @@ a {
 .card-body{
     text-align: left;
     display: inline-table;
-    color: #ffffff;
+    color: #000000;
     position: absolute;
+    padding: 0rem;
 }
 
 .card-img-top{
@@ -51,22 +52,24 @@ a {
     height: 23rem;
 }
 .card-mais {
-    right: -7rem;
+    right: 0rem;
     font-family: ${fonts.comfortaa};
     font-size: 1.2rem;
     font-weight: 400;
     background-color: white;
-    width: 15rem;
+    width: 24em;
 }
 .card-mais strong{
     font-weight: 900;
 }
 .btn{
-    background-color: #000000;
+    background-color: #ffffff;
     display: table-cell;
     border: none;
     border-radius: 0;
-    width: 24rem;
+    width: 25.8rem;
+    margin-top: 0.5rem;
+    justify-content: space-evenly;
     
 
     &.active {
@@ -78,6 +81,12 @@ a {
     transition: 0.1s ease-in-out;
     background-color: #ff3a66;
     text-decoration: none;
+    }
+     a {
+        color: #000000;
+        font-size: 1.5rem;
+        text-decoration: none;
+        background-color: transparent;
     }
 }
 .btn-primary {
@@ -100,9 +109,8 @@ a {
     .card{
         width: 100%;
         height: 100%;
-        padding: 0 1rem 0 1.5rem;    padding: 0 0rem 0 0rem;
+        padding: 0 0rem 0 0rem;
         margin: 0.5rem 0px;
-
     }
     .card-text{
         height:100%;
@@ -113,8 +121,41 @@ a {
         bottom: -29rem;
     }
     .btn{
+        background-color: #ffffff;
+        display: table-cell;
+        border: none;
+        border-radius: 0;
+        width: 24rem;
         
+    
+        &.active {
+            background-color: #ff3a66;
+            width: 20rem;
+            }
+    
+        :hover {
+        transition: 0.1s ease-in-out;
+        background-color: #ff3a66;
+        text-decoration: none;
+        }
     }
+
+    a {
+        color: #ffffff;
+        text-decoration: none;
+        background-color: transparent;
+        &.active {
+            color: #fc1347;
+        }
+        
+        :hover {
+          transition: 0.1s ease-in-out;
+          color: #fc1347;
+          text-decoration: none;
+        }
+    }
+
+
 }
 
 `;
