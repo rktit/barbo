@@ -4,13 +4,25 @@ import Content from "./style";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 
-import banner1 from "images/empreendimento_interna/cozinha.png";
-import banner2 from "images/empreendimento_interna/predio.png";
-import banner3 from "images/empreendimento_interna/sala.png";
+// import banner1 from "images/empreendimento_interna/cozinha.png";
+// import banner2 from "images/empreendimento_interna/predio.png";
+// import banner3 from "images/empreendimento_interna/sala.png";
 
-import banner1Mobile from "images/empreendimento_interna/nome_empreendimento.png";
-import banner2Mobile from "images/empreendimento_interna/nome_empreendimento.png";
-import banner3Mobile from "images/empreendimento_interna/nome_empreendimento.png";
+// import banner1Mobile from "images/empreendimento_interna/nome_empreendimento.png";
+// import banner2Mobile from "images/empreendimento_interna/nome_empreendimento.png";
+// import banner3Mobile from "images/empreendimento_interna/nome_empreendimento.png";
+
+
+
+import banner1 from "images/banner/banner_frontlake_barbo.png";
+import banner2 from "images/banner/banner_infinity_barbo.png";
+import banner3 from "images/banner/banner_officetower_barbo.png";
+import banner4 from "images/banner/banner_quintadovale_barbo.png";
+
+import banner1Mobile from "images/banner/banner_frontlake_barbo.png";
+import banner2Mobile from "images/banner/banner_infinity_barbo.png";
+import banner3Mobile from "images/banner/banner_officetower_barbo.png";
+import banner4Mobile from "images/banner/banner_quintadovale_barbo.png";
 
 function BannerEmpreendimento() {
     const [isMobile, setIsMobile] = useState(false);
@@ -37,6 +49,9 @@ function BannerEmpreendimento() {
                     <div className="banner">
                         <img src={banner3Mobile} />
                     </div>
+                    <div className="banner">
+                        <img src={banner4Mobile} />
+                    </div>
                 </Carousel>
                 :
                 <Carousel
@@ -54,6 +69,9 @@ function BannerEmpreendimento() {
                     </div>
                     <div className="banner">
                         <img src={banner3} height={650}/>
+                    </div>
+                    <div className="banner">
+                        <img src={banner4} height={650}/>
                     </div>
                 </Carousel>
             }

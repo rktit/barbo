@@ -1,6 +1,6 @@
 import React, { Fragment, useEffect, useState } from "react";
 
-import {BannerHome, Welcome} from "container";
+import {BannerEmpreendimento, Welcome} from "container";
 import { configureAnchors } from "react-scrollable-anchor";
 
 import {FlashMessageCookies, ModalPolitica} from 'components';
@@ -19,7 +19,7 @@ const Home_Page = () => {
       <ModalPolitica />
       <FlashMessageCookies/>
       <Menu/>
-      <BannerHome />
+      <BannerEmpreendimento />
       <ListaImoveis posts={posts} loading={loading}/>
       <VideoBarbo/>
       <Footer />
