@@ -64,7 +64,7 @@ export const Content = styled.nav`
       align-content: center;
       align-items: center;
       transition: 0.2s ease-in-out;
-      color: #000000;
+      color: #252525;
       font-family: ${fonts.comfortaa};
       font-size: 15px;
       display: flex;
@@ -134,13 +134,13 @@ export const Content = styled.nav`
   .line {
     border-style: solid;
     border-width: 1px;
-    border-color: #fc1347;
+    border-color: #e73538;
     width: 38rem;
     margin: 2rem 0;
     }
   .links-mobile {
     a {
-      border: 1px solid #fc1347;
+      border: 1px solid #e73538;
       border-radius: 24px;
       font-size: 0.8rem;
     }

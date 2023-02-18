@@ -73,9 +73,9 @@ function Footer(props) {
 						<div className="col-12 row p-0 text-white">
 							<Fade left>
 								<div className="logo-footer col-10 col-md-4 p-0">
-									<a href='#sobre'><img src={logo} className="logo" /></a>
+									<a href="/barbo"><img src={logo} className="logo" /></a>
 									<div className='col-12 p-0 info'>
-										<div className='titulo'>Barbo Rio Claro Empreendiemtnos Ltda</div>
+										<div className='titulo'>Barbo Rio Claro Empreendimentos Ltda</div>
 										<Fade>
 											<div className='conteudo col-12 p-0 row infos'>
 												<div className='col-11 p-0 text-left'>
@@ -87,7 +87,7 @@ function Footer(props) {
 										<Fade>
 											<div className='col-12 col-md-6 p-0'>
 												<a target="_blank" href='https://www.google.com/maps/place/Barbo+Empreendimentos/@-22.425263,-47.5618185,17z/data=!3m1!4b1!4m6!3m5!1s0x94c7dba75cdfb1ff:0x1aa0d91b03209f5f!8m2!3d-22.425268!4d-47.5596298!16s%2Fg%2F11j21cf130'>
-													<div className='chegar py-5'>Como chegar</div>
+													<div className='chegar pb-5'>Como chegar</div>
 												</a>
 											</div>
 										</Fade>

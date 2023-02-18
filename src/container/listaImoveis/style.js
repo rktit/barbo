@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import fonts from "config/fonts";
+import lupa from "images/empreendimento/lupa.png";
 
 
 const Content = styled.div`
@@ -7,9 +8,10 @@ const Content = styled.div`
 background-color: #eeeeee;
 .title{
     font-family: ${fonts.comfortaa};
-    font-size: 2rem;
-    color: #000000;
-    margin-top: 30px;
+    font-size: 1.5rem;
+    color: #252525;
+    margin-top: 6rem;
+    padding-bottom: 1rem;
 }
 
 .demarcador{
@@ -50,7 +52,7 @@ background-color: #eeeeee;
         
         border-left-style: solid;
         border-left-width: 2px;
-        border-left-color: #fc1347;
+        border-left-color: #e73538;
         padding-left: 25px;
         margin-left:-25px
     }
@@ -62,14 +64,14 @@ background-color: #eeeeee;
 .splide__arrow svg {
     width: 1.5em;
     height: 1.5em;
-    fill: #000000;
+    fill: #252525;
     transition: fill .2s linear;
 }
 .splide__pagination__page {
     display: inline-block;
     width: 20px;
     height: 5px;
-    background: #fc1347;
+    background: #e73538;
     border-radius: 2.5px;
     margin: 3px;
     padding: 0;
@@ -77,7 +79,7 @@ background-color: #eeeeee;
     border: none;
 }
 .splide__pagination__page.is-active {
-    background: #000000;
+    background: #252525;
     width: 5px;
 }
 // .maquinas{
@@ -128,7 +130,42 @@ background-color: #eeeeee;
     text-align: end;
     padding-right:10px;
 }
-
+.filtro__select {
+    width: 14rem;
+    font-size: 14px;
+    color: #000;
+    font-family: ${fonts.comfortaa};
+    font-weight: 500;
+    border-radius: 3px;
+    border-width: 1px;
+    border-color: rgb(0 0 0);
+    border-style: solid;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+    background-color: transparent;
+    line-height: 17px;
+    padding: 13px;
+}
+ .filtro__item {
+    width: 14.5rem;
+    padding: 0 0;
+}
+.btn_lupa {
+    background: url(${lupa}) no-repeat left;
+    font-family: ${fonts.comfortaa};
+    height: 2.75rem;
+    background-color: #E73538;
+    border-color: white;
+    color: white;    width: 14rem;
+    padding: 1rem 8rem 1rem 6rem;
+    border-radius: 3px;
+    border-width: 1px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.filtro__button {
+    width: 2.75rem;
+}
 @media only screen and (max-width: 600px) {
 
     .box {
@@ -183,7 +220,7 @@ background-color: #eeeeee;
     display: inline-block;
     width: 20px;
     height: 5px;
-    background: #fc1347;
+    background: #e73538;
     border-radius: 2.5px;
     margin: 3px;
     padding: 0;
@@ -191,7 +228,7 @@ background-color: #eeeeee;
     border: none;
 }
 .splide__pagination__page.is-active {
-    background: #000000;
+    background: #252525;
     width: 5px;
 }
 

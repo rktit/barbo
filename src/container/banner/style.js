@@ -6,18 +6,25 @@ import backgroundMobile from "images/empreendimento/mobile_bannerPredio.png";
 
 
 const Content = styled.div`
-  flex-direction: row;
-  padding: 0 !important;
-  background: url(${background}) no-repeat top center;
-  background-size:cover;
-  height: 32rem;
+flex-direction: row;
+padding: 0 !important;
+background: url(${background}) no-repeat top center;
+background-size:cover;
+height: auto;
+width: 100%
 
-  font-family: ${fonts.comfortaa};
+font-family: ${fonts.comfortaa};
+text-align: center;
+
+.welcome{
+  margin-top: 32rem;
   text-align: center;
+  font-size: 2.5rem;
+  font-family: ${fonts.comfortaa};
+  color: #ffffff;
+  display: inline-block;
+}
 
-  .welcome{
-    margin-top: 30vh;
-  }
   .title{
     font-size: 4rem;
     font-family: ${fonts.comfortaa};
@@ -42,7 +49,7 @@ const Content = styled.div`
   }
  
   .btn1{
-    background-color: #000000;
+    background-color: #252525;
     font-family: ${fonts.comfortaa};
     font-size: 2rem;
     color: #ffffff;

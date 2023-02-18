@@ -47,7 +47,7 @@ function Imoveis() {
   return (
     <ScrollableAnchor id="blog">
       <Content className="col-12 d-flex flex-column align-items-center p-0">
-        <div className="title ">Encontre seu imóvel</div>
+      <div className="title ">Encontre um imóvel Barbo perto de você!</div>
         <div className="flex box">
           <form className="d-block d-lg-block form-search-filters" name="form-search-filters"
             id="form-search-filters" method="get" action="https://www.rocketit.com.br/barbo/imoveis/" autocomplete="off">
@@ -73,7 +73,7 @@ function Imoveis() {
                     <option value="corporativo" data-phases="pronto-para-morar">Corporativo</option>
                   </select>
                 </div>
-                <button type="submit" class="filtro__button btn_lupa"></button>
+                <button type="submit" class="filtro__button btn_lupa">Pesquisar</button>
               </div>
               :
               <div className="d-flex justify-content-between">
@@ -96,7 +96,7 @@ function Imoveis() {
                     <option value="corporativo" data-phases="pronto-para-morar">Corporativo</option>
                   </select>
                 </div>
-                <button type="submit" class="filtro__button btn_lupa"></button>
+                <button type="submit" class="filtro__button btn_lupa">Pesquisar</button>
               </div>
             }
           </form>

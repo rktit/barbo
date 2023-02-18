@@ -28,7 +28,7 @@ function CardVR(props) {
             {props.text}
           </div>
           <div className="btn d-flex col-12">
-            <a href="/barbo/villa_real">Mais informações <strong>>></strong></a>
+            <a href="/barbo/villa_real">Mais informações</a>
           </div>
         </div>
       </div>

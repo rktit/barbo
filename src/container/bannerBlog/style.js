@@ -10,18 +10,18 @@ const Content = styled.div`
   padding: 0 !important;
   background: url(${background}) no-repeat top center;
   background-size:cover;
-  height: 36rem;
-
+  height: auto;
+  width: 100%
+  
   font-family: ${fonts.comfortaa};
   text-align: center;
 
   .welcome{
-    margin-top: 30vh;
+    margin-top: 32rem;
     text-align: center;
     font-size: 2.5rem;
     font-family: ${fonts.comfortaa};
     color: #ffffff;
-    width: 32rem;
     display: inline-block;
   }
   .title{
@@ -48,7 +48,7 @@ const Content = styled.div`
   }
  
   .btn1{
-    background-color: #000000;
+    background-color: #252525;
     font-family: ${fonts.comfortaa};
     font-size: 2rem;
     color: #ffffff;

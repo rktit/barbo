@@ -28,7 +28,7 @@ function CardOT(props) {
             {props.text}
           </div>
           <div className="btn d-flex col-12">
-            <a href="/barbo/office_tower">Mais informações <strong>>></strong></a>
+            <a href="/barbo/office_tower">Mais informações</a>
           </div>
         </div>
       </div>

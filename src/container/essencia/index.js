@@ -22,16 +22,16 @@ function Essencia() {
                     <div className="topo row d-flex justify-content-center offset-sm-1">
                         <div className="textos col-10 col-d-5 col-lg-5 justify-content-center mt-2">
                             <div className="text">
-                                Somos movidos por <strong>planejar sonhos</strong> e <strong>transformar vidas.</strong> São <br />
-                                <strong>mais de 5.000 lares e empresas impactadas com a nossa entrega.</strong> <br />
-                                O <strong>relacionamento</strong> e <strong>transparência</strong> são parte do que chamamos <br />
-                                de comprometimento com o cliente. Missão essa que <strong></strong>motiva e <br />
-                                <strong>impulsiona</strong> toda a nossa equipe a buscar por inovações e as <br />
+                                Somos movidos por <strong>planejar sonhos</strong> e <strong>transformar vidas.</strong> 
+                                São <strong>mais de 5.000 lares e empresas impactadas com a nossa entrega.</strong> 
+                                O <strong>relacionamento</strong> e <strong>transparência</strong> são parte do que chamamos 
+                                de comprometimento com o cliente. Missão essa que <strong></strong>motiva e 
+                                <strong>impulsiona</strong> toda a nossa equipe a buscar por inovações e as 
                                 melhores formas de construir sonhos que se tornarão realidade.
                                 <p />
-                                Com <strong>mais de 10 anos de mercado,</strong> estamos criando narrativas e <br />
-                                dando continuidade a tantas outras. Histórias e pessoas que <br />
-                                acreditam em nosso trabalho e confiam que juntos podemos <br />
+                                Com <strong>mais de 10 anos de mercado,</strong> estamos criando narrativas e 
+                                dando continuidade a tantas outras. Histórias e pessoas que 
+                                acreditam em nosso trabalho e confiam que juntos podemos 
                                 construir uma sociedade ainda melhor.
 
                             </div>
@@ -39,18 +39,18 @@ function Essencia() {
                         <div className="textos col-10 col-d-10 col-lg-5 justify-content-center mt-2">
 
                         <div className="text pb-3">
-                            Fomos uma das primeiras incorporadoras do estado e hoje <br />
-                            estamos sediados em Rio Claro|SP com atuação em diversas <br />
+                            Fomos uma das primeiras incorporadoras do estado e hoje 
+                            estamos sediados em Rio Claro|SP com atuação em diversas 
                             cidades do interior paulista.
                             <p />
-                            Está na nossa essência construir além de lares! Dedicamos para <br />
-                            entregar produtos com <strong>qualidade de vida, bem-estar</strong> e <br />
-                            <strong>inovação</strong> para cada cliente. São <strong>empreendimentos projetados</strong> <br />
-                            para terem diferenciais e a melhor qualidade para o que<br />
+                            Está na nossa essência construir além de lares! Dedicamos para 
+                            entregar produtos com <strong>qualidade de vida, bem-estar</strong> e 
+                            <strong>inovação</strong> para cada cliente. São <strong>empreendimentos projetados</strong> 
+                            para terem diferenciais e a melhor qualidade para o que
                             importa... VOCÊ!
                             <p />
-                            Aqui na Barbo, trabalhamos com <strong>ética</strong> e <strong>responsabilidade,</strong> e <br />
-                            por isso, temos orgulho de participar de <strong>momentos</strong> <br />
+                            Aqui na Barbo, trabalhamos com <strong>ética</strong> e <strong>responsabilidade,</strong> e 
+                            por isso, temos orgulho de participar de <strong>momentos</strong> 
                             <strong>inesquecíveis</strong> da sua vida!
                         </div>
                         </div>

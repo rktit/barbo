@@ -10,10 +10,7 @@ function BannerBlog() {
 
     return (
         <Content className="col-12 row">
-            <div className="col-12">
                 <div className="welcome">
-                {/* Declarar imóvel financiado no imposto de renda */}
-                </div>
             </div>
         </Content>
     );

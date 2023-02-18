@@ -55,7 +55,7 @@ const Content = styled.div`
   }
  
   .btn1{
-    background-color: #000000;
+    background-color: #252525;
     font-family: ${fonts.comfortaa};
     font-size: 1.75rem;
     color: #ffffff;

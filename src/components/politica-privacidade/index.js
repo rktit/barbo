@@ -28,7 +28,7 @@ export default function ModalPolitica() {
 												<Title className='row col-12 p-0 flex justify-content-between'>
 														<div className='title'>POLÍTICA DE PRIVACIDADE BARBO EMPREENDIMENTOS</div>
 														<div><a href={"#"} onClick={() => dispatch(Actions.close_modal('politica'))}
-														        className='text-center'><Icon.XCircle color='#000000' size={18}/></a></div>
+														        className='text-center'><Icon.XCircle color='#252525' size={18}/></a></div>
 												</Title>
 										</Modal.Title>
 								</Modal.Header>

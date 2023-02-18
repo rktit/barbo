@@ -30,14 +30,14 @@ const Content = styled.div`
   .title{
     font-family: ${fonts.comfortaa};
     font-size: 2rem;
-    color: #000000;
+    color: #252525;
   }
 
 
   .texto{
     font-family:${fonts.comfortaa};
     text-size: 0.5rem;
-    color:#000000;
+    color:#252525;
   }
 
   .btn{
@@ -45,18 +45,18 @@ const Content = styled.div`
     color: white;
     font-size: 1.2rem;
     text-aling: center;
-    background-color:#fc1347;
+    background-color:#e73538;
     margin-top:10px;
     width:200px;
     border-radius: 0;
 
     &.active {
-      background-color: #000000;
+      background-color: #252525;
       }
 
       :hover {
       transition: 0.1s ease-in-out;
-      background-color: #000000;
+      background-color: #252525;
       text-decoration: none;
       }
   }

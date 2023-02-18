@@ -35,8 +35,60 @@ function ListaImoveis() {
   return (
     <ScrollableAnchor id="">
       <Content className="col-12 d-flex flex-column align-items-center p-0">
-        <div className="title ">Os melhores imóveis estão aqui</div>
-        {isMobile ?
+      <div className="title ">Encontre um imóvel Barbo perto de você!</div>
+        <div className="flex box">
+          <form className="d-block d-lg-block form-search-filters" name="form-search-filters"
+            id="form-search-filters" method="get" action="https://www.rocketit.com.br/barbo/imoveis/" autocomplete="off">
+            {isMobile ?
+              <div className="d-flex flex-column align-items-center">
+                <div className="filtro__item">
+                  <label for="form-search-filter-city" className="filtro__label form-label"></label>
+                  <select id="form-search-filter-city" name="cidade" className="filtro__select form-select form-search-filter-city">
+                    <option value="">Cidade</option>
+                    <option value="piracicaba" data-phases="pronto-para-morar,final-de-obras,em-obras">Piracicaba</option>
+                    <option value="americana" data-phases="pronto-para-morar">Americana</option>
+                    <option value="ipeuna" data-phases="pronto-para-morar">Rio Claro</option>
+                    <option value="iperioclarouna" data-phases="pronto-para-morar">Rio Claro</option>
+                    <option value="barrabonita" data-phases="pronto-para-morar">Barra Bonita</option>
+                  </select>
+                </div>
+                <div className="filtro__item">
+                  <label for="form-search-filter-phase" className="filtro__label form-label"></label>
+                  <select name="fase" id="form-search-filter-phase" className="filtro__select form-select form-search-filter-phase">
+                    <option value="">Tipos</option>
+                    <option value="loteamento" data-phases="pronto-para-morar,final-de-obras,em-obras">Loteamento</option>
+                    <option value="residencial" data-phases="pronto-para-morar">Residencial</option>
+                    <option value="corporativo" data-phases="pronto-para-morar">Corporativo</option>
+                  </select>
+                </div>
+                <button type="submit" class="filtro__button btn_lupa">Pesquisar</button>
+              </div>
+              :
+              <div className="d-flex justify-content-between">
+                <div className="filtro__item">
+                  <label for="form-search-filter-city" className="filtro__label form-label"></label>
+                  <select id="form-search-filter-city" name="cidade" className="filtro__select form-select form-search-filter-city">
+                    <option value="">Cidade</option>
+                    <option value="piracicaba" data-phases="pronto-para-morar,final-de-obras,em-obras">Piracicaba</option>
+                    <option value="americana" data-phases="pronto-para-morar">Americana</option>
+                    <option value="iperioclarouna" data-phases="pronto-para-morar">Rio Claro</option>
+                    <option value="barrabonita" data-phases="pronto-para-morar">Barra Bonita</option>
+                  </select>
+                </div>
+                <div className="filtro__item">
+                  <label for="form-search-filter-phase" className="filtro__label form-label"></label>
+                  <select name="fase" id="form-search-filter-phase" className="filtro__select form-select form-search-filter-phase">
+                    <option value="">Tipos</option>
+                    <option value="loteamento" data-phases="pronto-para-morar,final-de-obras,em-obras">Loteamento</option>
+                    <option value="residencial" data-phases="pronto-para-morar">Residencial</option>
+                    <option value="corporativo" data-phases="pronto-para-morar">Corporativo</option>
+                  </select>
+                </div>
+                <button type="submit" class="filtro__button btn_lupa">Pesquisar</button>
+              </div>
+            }
+          </form>
+        </div>        {isMobile ?
           <Splide className="splide col-12" options={{
             rewind: false,
             width: "auto",

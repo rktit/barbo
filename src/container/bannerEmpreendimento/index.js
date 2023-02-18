@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import Content from "./style";
 
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from 'react-responsive-carousel';
+import { Splide, SplideSlide } from '@splidejs/react-splide';
+import '@splidejs/splide/dist/css/themes/splide-sea-green.min.css';
 
 // import banner1 from "images/empreendimento_interna/cozinha.png";
 // import banner2 from "images/empreendimento_interna/predio.png";
@@ -23,6 +23,7 @@ import banner1Mobile from "images/banner/banner_frontlake_barbo.png";
 import banner2Mobile from "images/banner/banner_infinity_barbo.png";
 import banner3Mobile from "images/banner/banner_officetower_barbo.png";
 import banner4Mobile from "images/banner/banner_quintadovale_barbo.png";
+import { loadOptions } from "@babel/core";
 
 function BannerEmpreendimento() {
     const [isMobile, setIsMobile] = useState(false);
@@ -33,47 +34,67 @@ function BannerEmpreendimento() {
     return (
         <Content>
             {isMobile ?
-                <Carousel
-                    autoPlay
-                    infiniteLoop
-                    showThumbs={false}
-                    showArrows={false}
-                    showStatus={false}
-                >
-                    <div className="banner">
-                        <img src={banner1Mobile} />
-                    </div>
-                    <div className="banner">
-                        <img src={banner2Mobile} />
-                    </div>
-                    <div className="banner">
-                        <img src={banner3Mobile} />
-                    </div>
-                    <div className="banner">
-                        <img src={banner4Mobile} />
-                    </div>
-                </Carousel>
+                <Splide className="splide col-12" options={{
+                    rewind: false,
+                    width: "auto",
+                    gap: '2rem',
+                    perPage: 1,
+                    pagination: false,
+                    arrows: false,
+                }}>
+                    <SplideSlide className="slide">
+                        <div className="banner">
+                            <a href="https://rocketit.com.br/frontlake/"><img src={banner1Mobile} /></a>
+                        </div>
+                        <div className="banner">
+                            <a href="/barbo/infinity"><img src={banner2Mobile} /></a>
+                        </div>
+                        <div className="banner">
+                            <a href="/barbo/office_tower"><img src={banner3Mobile} /></a>
+                        </div>
+                        <div className="banner">
+                            <a href="/barbo/quinta_vale"><img src={banner4Mobile} /></a>
+                        </div>
+                    </SplideSlide>
+                </Splide>
                 :
-                <Carousel
-                    autoPlay
-                    infiniteLoop
-                    showThumbs={false}
-                    showArrows={true}
-                    showStatus={false}
-                >
-                    <div className="banner">
-                        <img src={banner1} height={650} />
-                    </div>
-                    <div className="banner">
-                        <img src={banner2} height={650} />
-                    </div>
-                    <div className="banner">
-                        <img src={banner3} height={650}/>
-                    </div>
-                    <div className="banner">
-                        <img src={banner4} height={650}/>
-                    </div>
-                </Carousel>
+                <Splide className="" options={{
+                    rewind: false,
+                    autoplay: "auto",
+                    width: "100%",
+                    gap: '1.5rem',
+                    perPage: 1,
+                    pagination: true
+                }}>
+                    <SplideSlide>
+                        <div className="row slide">
+                            <div className="banner">
+                                <a href="https://rocketit.com.br/frontlake/"><img src={banner1} /></a>
+                            </div>
+                        </div>
+                    </SplideSlide>
+                    <SplideSlide>
+                        <div className="row slide">
+                            <div className="banner">
+                                <a href="/barbo/infinity"><img src={banner2} /></a>
+                            </div>
+                        </div>
+                    </SplideSlide>
+                    <SplideSlide>
+                        <div className="row slide">
+                            <div className="banner">
+                                <a href="/barbo/office_tower"><img src={banner3} /></a>
+                            </div>
+                        </div>
+                    </SplideSlide>
+                    <SplideSlide>
+                        <div className="row slide">
+                            <div className="banner">
+                                <a href="/barbo/quinta_vale"><img src={banner4} /></a>
+                            </div>
+                        </div>
+                    </SplideSlide>
+                </Splide>
             }
         </Content>
 

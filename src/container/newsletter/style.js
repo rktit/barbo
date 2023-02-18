@@ -3,7 +3,7 @@ import font from 'config/fonts';
 import colors from 'config/colors';
 
 const Content = styled.div`
-  background-color: #000000;
+  background-color: #252525;
   background-size: 100%;
   padding: 50px !important;
   margin: 50px 0!important;
@@ -24,7 +24,7 @@ const Content = styled.div`
 	}
   .texto {
 	margin-top:-10px;
-	color: #fc1347;
+	color: #e73538;
 	font-family: ${font.comfortaa};
 	font-size: 1rem;
   }
@@ -61,7 +61,7 @@ const Content = styled.div`
 		  display: block;
 		  padding: 15px 25px;
 		  color: ${colors.white};
-		  background-color: #fc1347;
+		  background-color: #e73538;
 		  font-size: 1rem;
 		  font-family: ${font.comfortaa};
 		  transition: 0.2s ease-in-out;

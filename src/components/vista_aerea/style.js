@@ -47,7 +47,7 @@ a {
 }
 
 .btn{
-    background-color: #000000;
+    background-color: #252525;
     display: table-cell;
     border: none;
     border-radius: 0;
@@ -72,14 +72,14 @@ a {
  .splide__arrow svg {
     width: 1.5em;
     height: 1.5em;
-    fill: #000000;
+    fill: #252525;
     transition: fill .2s linear;
 }
 .splide__pagination__page {
     display: inline-block;
     width: 20px;
     height: 5px;
-    background: #fc1347;
+    background: #e73538;
     border-radius: 2.5px;
     margin: 3px;
     padding: 0;
@@ -87,7 +87,7 @@ a {
     border: none;
 }
 .splide__pagination__page.is-active {
-    background: #000000;
+    background: #252525;
     width: 5px;
 }
 @media only screen and (max-width: 600px) {

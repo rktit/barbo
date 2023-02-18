@@ -8,13 +8,13 @@ background-color: #eeeeee;
 .title{
     font-family: ${fonts.comfortaa};
     font-size: 2rem;
-    color: #000000;
+    color: #252525;
     margin-top: 30px;
 }
 
 .texto{
     font-family: ${fonts.comfortaa};
-    color:#000000;
+    color:#252525;
     font-size: 1.25rem;
     padding: 3rem 8rem;
     text-align: left;
@@ -41,7 +41,7 @@ background-color: #eeeeee;
         
         border-left-style: solid;
         border-left-width: 2px;
-        border-left-color: #fc1347;
+        border-left-color: #e73538;
         padding-left: 25px;
         margin-left:-25px
     }
@@ -99,14 +99,14 @@ background-color: #eeeeee;
 .splide__arrow svg {
     width: 1.5em;
     height: 1.5em;
-    fill: #000000;
+    fill: #252525;
     transition: fill .2s linear;
 }
 .splide__pagination__page {
     display: inline-block;
     width: 20px;
     height: 5px;
-    background: #fc1347;
+    background: #e73538;
     border-radius: 2.5px;
     margin: 3px;
     padding: 0;
@@ -114,7 +114,7 @@ background-color: #eeeeee;
     border: none;
 }
 .splide__pagination__page.is-active {
-    background: #000000;
+    background: #252525;
     width: 5px;
 }
 @media only screen and (max-width: 600px) {

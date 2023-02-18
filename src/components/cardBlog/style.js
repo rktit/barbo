@@ -12,7 +12,7 @@ img{
 }
 
 .card-body{
-    color: #000000;
+    color: #252525;
     text-align: left;
 }
 
@@ -57,7 +57,7 @@ img{
     bottom: 20px;
 }
 .btn{
-    background-color: #000000;
+    background-color: #252525;
     display: table-cell;
     border: none;
     border-radius: 0;
@@ -80,7 +80,7 @@ img{
     font-family: ${fonts.comfortaa};
 }
 .btn1{
-    background-color: #000000;
+    background-color: #252525;
     font-family: ${fonts.comfortaa};
     font-size: 1.75rem;
     text-align: center;
@@ -91,12 +91,12 @@ img{
     justify-content: center;
 
     &.active {
-      background-color: #000000;
+      background-color: #252525;
     }
 
     :hover {
       transition: 0.1s ease-in-out;
-      background-color: #000000;
+      background-color: #252525;
       text-decoration: none;
       text-align: center;
     }
@@ -121,7 +121,7 @@ img{
         height: 100%;
     }
     .card-body{
-        color: #000000;
+        color: #252525;
         text-align: left;
         padding: 1.25rem 16px;
     }

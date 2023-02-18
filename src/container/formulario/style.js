@@ -39,29 +39,29 @@ padding: 5rem 0rem 0rem 0rem;
 
     .formTitle{
         text-align: center;
-        color: #000000;
+        color: #252525;
         font-size: 1.7rem;
-        font-family:${fonts.opensans_light};
+        font-family:${fonts.comfortaa};
 
         strong{
             font-size: 2rem;
-            font-family:${fonts.opensans_bold};
+            font-family:${fonts.comfortaa};
         }
     }
 
     input{
         background-color:transparent;
-        color: #000000;
-        border: 1px solid #000000;
+        color: #252525;
+        border: 1px solid #252525;
         border-radius: 0px;
 
         ::-webkit-input-placeholder {
-            color: #000000;
+            color: #252525;
         }
         
             &.active {
             background-color: transparent;
-            color: #000000;
+            color: #252525;
             }
     
             :hover {
@@ -72,25 +72,25 @@ padding: 5rem 0rem 0rem 0rem;
             
             :focus{
                 background-color: transparent;
-                color: #000000;
+                color: #252525;
             }
     }
 
     .btnEnviar{
-        background-color: #fc1347;
+        background-color: #e73538;
         border: none;
         border-radius: 0;
-        font-family:${fonts.opensans_bold};
+        font-family:${fonts.comfortaa};
         font-size: 1.2rem;
         padding: 0.5rem 12rem;
         
         &.active {
-        background-color: #000000;
+        background-color: #252525;
         }
 
         :hover {
         transition: 0.1s ease-in-out;
-        background-color: #000000;
+        background-color: #252525;
         text-decoration: none;
         }
     }

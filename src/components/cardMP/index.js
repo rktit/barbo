@@ -28,7 +28,7 @@ function CardMP(props) {
             {props.text}
           </div>
           <div className="btn d-flex col-12">
-            <a href="/barbo/morada_porto">Mais informações <strong>>></strong></a>
+            <a href="/barbo/morada_porto">Mais informações</a>
           </div>
         </div>
       </div>

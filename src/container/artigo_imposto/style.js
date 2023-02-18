@@ -23,11 +23,11 @@ const Content = styled.div`
 }
   a {
     color: #007bff;
-    font-family: ${fonts.opensans_semibold};
+    font-family: ${fonts.comfortaa};
     text-decoration: underline;
     background-color: transparent;
     &.active {
-      background-color: #000000;
+      background-color: #252525;
     }
     :hover {
       transition: 0.1s ease-in-out;
@@ -78,38 +78,38 @@ const Content = styled.div`
   }
 
   .title{
-    font-family: ${fonts.opensans_semibold};
+    font-family: ${fonts.comfortaa};
     font-size: 1.5rem;
-    color: #000000;
+    color: #252525;
   }
 
 
   .texto{
-    font-family:${fonts.opensans_light};
+    font-family:${fonts.comfortaa};
     text-size: 0.5rem;
-    color:#000000;
+    color:#252525;
     strong {
-      font-family: ${fonts.opensans_bold};
+      font-family: ${fonts.comfortaa};
     }
   }
 
   .btn{
-    font-family: ${fonts.opensans_bold};
+    font-family: ${fonts.comfortaa};
     color: white;
     font-size: 1.2rem;
     text-aling: center;
-    background-color:#fc1347;
+    background-color:#e73538;
     margin-top:10px;
     width:200px;
     border-radius: 0;
 
     &.active {
-      background-color: #000000;
+      background-color: #252525;
       }
 
       :hover {
       transition: 0.1s ease-in-out;
-      background-color: #000000;
+      background-color: #252525;
       text-decoration: none;
       }
   }
@@ -125,10 +125,10 @@ const Content = styled.div`
     flex-direction: column;
     align-items: center;
     margin: 0em 2em;
-    font-family: ${fonts.opensans_light};
+    font-family: ${fonts.comfortaa};
     font-size: 0.75rem;
     text-align: center;
-    color: #000000;
+    color: #252525;
     
     img{
       width: 40px;
@@ -151,14 +151,14 @@ const Content = styled.div`
     .splide__arrow svg {
       width: 1.5em;
       height: 1.5em;
-      fill: #000000;
+      fill: #252525;
       transition: fill .2s linear;
   }
   .splide__pagination__page {
       display: inline-block;
       width: 20px;
       height: 5px;
-      background: #fc1347;
+      background: #e73538;
       border-radius: 2.5px;
       margin: 3px;
       padding: 0;
@@ -167,7 +167,7 @@ const Content = styled.div`
   }
   
   .splide__pagination__page.is-active {
-    background: #000000;
+    background: #252525;
     width: 5px;
   }
     padding: 0px;
@@ -196,10 +196,10 @@ const Content = styled.div`
       flex-direction: column;
       align-items: center;
       margin: 0em 2em;
-      font-family: ${fonts.opensans_light};
+      font-family: ${fonts.comfortaa};
       font-size: 1.2rem;
       text-align: center;
-      color: #000000;
+      color: #252525;
       
       img{
         width: 5rem;

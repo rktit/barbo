@@ -10,12 +10,12 @@ a {
     text-decoration: none;
     background-color: transparent;
     &.active {
-        color: #fc1347;
+        color: #e73538;
     }
     
     :hover {
       transition: 0.1s ease-in-out;
-      color: #fc1347;
+      color: #e73538;
       text-decoration: none;
     }
 }
@@ -26,7 +26,7 @@ a {
 }
 
 .card-body{
-    color: #000000;
+    color: #252525;
     position: absolute;
 }
 
@@ -54,7 +54,7 @@ a {
 }
 
 .btn{
-    background-color: #000000;
+    background-color: #252525;
     display: table-cell;
     border: none;
     border-radius: 0;

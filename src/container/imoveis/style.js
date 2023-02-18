@@ -17,9 +17,9 @@ background-color: #eeeeee;
     justify-content: center;
 }
 .title{
-    font-family: ${fonts.opensans_light};
-    font-size: 2rem;
-    color: #000000;
+    font-family: ${fonts.comfortaa};
+    font-size: 1.5rem;
+    color: #252525;
     margin-bottom: 30px;
     margin-top: 30px;
 }
@@ -32,7 +32,7 @@ background-color: #eeeeee;
     width: 14rem;
     font-size: 14px;
     color: #000;
-    font-family: ${fonts.opensans_light};
+    font-family: ${fonts.comfortaa};
     font-weight: 500;
     border-radius: 0;
     border-width: 1px;
@@ -41,18 +41,26 @@ background-color: #eeeeee;
     box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
     background-color: transparent;
     line-height: 17px;
-    padding: 10px;
+    padding: 10px;    
+    padding: 12px;
 }
  .filtro__item {
     width: 14.5rem;
     padding: 0 0;
 }
 .btn_lupa {
-    background: url(${lupa}) no-repeat center;
+    background: url(${lupa}) no-repeat left;
+    font-family: ${fonts.comfortaa};
     height: 2.75rem;
-    padding: 1rem 1rem;
-    border-radius: 0;
+    background-color: #E73538;
+    border-color: white;
+    color: white;    width: 14rem;
+    padding: 1rem 8rem 1rem 6rem;
+    border-radius: 3px;
     border-width: 1px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 .filtro__button {
     width: 2.75rem;
@@ -66,7 +74,7 @@ background-color: #eeeeee;
 }
 
 .textos{
-    font-family: ${fonts.opensans_light};
+    font-family: ${fonts.comfortaa};
     position: absolute;
     right:10%;
     top:80px;
@@ -78,13 +86,13 @@ background-color: #eeeeee;
         
         border-left-style: solid;
         border-left-width: 2px;
-        border-left-color: #fc1347;
+        border-left-color: #e73538;
         padding-left: 25px;
         margin-left:-25px
     }
 
     strong{
-        font-family: ${fonts.opensans_bold};
+        font-family: ${fonts.comfortaa};
     }
 }
 
@@ -102,14 +110,14 @@ background-color: #eeeeee;
 
 .right-side{
     background-color:#ff0d29;
-    font-family: ${fonts.raleway_semiBold};
+    font-family: ${fonts.comfortaa};
     width:200px;
     padding-left: 10px;
     padding-bottom: 10px;
 }
 
 .title-info{
-    font-family: ${fonts.raleway_bold} !important;
+    font-family: ${fonts.comfortaa} !important;
     font-size: 2rem;
     height:200px;
     padding-top:90px;
@@ -117,7 +125,7 @@ background-color: #eeeeee;
 
 .left-side{
     background-color:#e5142c;
-    font-family: ${fonts.raleway_medium};
+    font-family: ${fonts.comfortaa};
     width: 250px;
     padding-left: 10px;
     padding-bottom: 10px;
@@ -135,14 +143,14 @@ background-color: #eeeeee;
 .splide__arrow svg {
     width: 1.5em;
     height: 1.5em;
-    fill: #000000;
+    fill: #252525;
     transition: fill .2s linear;
 }
 .splide__pagination__page {
     display: inline-block;
     width: 20px;
     height: 5px;
-    background: #fc1347;
+    background: #e73538;
     border-radius: 2.5px;
     margin: 3px;
     padding: 0;
@@ -150,7 +158,7 @@ background-color: #eeeeee;
     border: none;
 }
 .splide__pagination__page.is-active {
-    background: #000000;
+    background: #252525;
     width: 5px;
 }
 @media only screen and (max-width: 600px) {
@@ -172,7 +180,7 @@ background-color: #eeeeee;
         width: 14rem;
         font-size: 14px;
         color: #000;
-        font-family: ${fonts.opensans_light};
+        font-family: ${fonts.comfortaa};
         font-weight: 500;
         border-radius: 0;
         border-width: 1px;
@@ -209,14 +217,14 @@ background-color: #eeeeee;
     .splide__arrow svg {
         width: 1.5em;
         height: 1.5em;
-        fill: #000000;
+        fill: #252525;
         transition: fill .2s linear;
     }
     .splide__pagination__page {
         display: inline-block;
         width: 20px;
         height: 5px;
-        background: #fc1347;
+        background: #e73538;
         border-radius: 2.5px;
         margin: 3px;
         padding: 0;
@@ -224,7 +232,7 @@ background-color: #eeeeee;
         border: none;
     }
     .splide__pagination__page.is-active {
-        background: #000000;
+        background: #252525;
         width: 5px;
     }
     .slide.is-active{
@@ -243,7 +251,7 @@ background-color: #eeeeee;
         }
     }
     .btn {
-        background-color: #000000;
+        background-color: #252525;
         display: table-cell;
         border: none;
         border-radius: 0;

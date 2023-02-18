@@ -5,7 +5,7 @@ import colors from "config/colors";
 const Content = styled.div`
   flex-direction: row;
   justify-content: center;
-  background-color: #000000;
+  background-color: #252525;
   padding-top: 32px;
   padding-bottom: 10px;
 
@@ -18,7 +18,7 @@ const Content = styled.div`
 	margin: 20px -70px 0px -10px;
 
 	img{
-		width: 180px;
+		width: 16rem;
 	}
 }
 
@@ -42,14 +42,14 @@ const Content = styled.div`
     line-height: 120%;
   	color: white;
     &.active {
-      color: #fc1347;
+      color: #e73538;
       text-decoration: none;
       text-decoration-line: none;
     }
     
     :hover {
       transition: 0.1s ease-in-out;
-      color: #fc1347;
+      color: #e73538;
       text-decoration: none;
       text-decoration-line: none;
     }
@@ -75,6 +75,7 @@ const Content = styled.div`
   			color: ${colors.primary};
   			transition: 0.2s ease-in-out;
   			text-decoration: none;
+        text-decoration-line: none;
   		}
   	}
   	

@@ -79,7 +79,10 @@ import BannerWorkWithUs from './bannerWorkWithUs';
 import DescriptionWorkWithUs from './descriptionWorkWithUs';
 import FormWorkWithUs from './formWorkWithUs';
 
+import Aplicativo from "./aplicativo";
+
 export {
+    Aplicativo,
 
     // Home 
     Menu,

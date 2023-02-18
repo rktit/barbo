@@ -9,7 +9,7 @@ margin-left: 0px;
 .title {
   font-size: 2rem;
   font-family: ${fonts.comfortaa};
-  color: #000000;
+  color: #252525;
   text-align: center;
   padding-bottom: 1rem;
 }

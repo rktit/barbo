@@ -46,7 +46,7 @@ const Content = styled.div`
     flex-direction: column;
     align-content: center;
     align-items: center;
-  	color: #000000;
+  	color: #252525;
     padding-top: 30px;
 
   	font-family: ${font.comfortaa};
@@ -56,7 +56,7 @@ const Content = styled.div`
   }
   
   .input-newsletter {
-			border: #000000;
+			border: #252525;
 			border-radius: 0.125rem;
 			border-width: 1px;
 			border-style: solid;
@@ -66,7 +66,7 @@ const Content = styled.div`
 			padding: 10px 20px;
 			z-index: 2;
 			::-webkit-input-placeholder {
-		    color: #000000;
+		    color: #252525;
 		  }
   }
   

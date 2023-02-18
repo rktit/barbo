@@ -24,7 +24,7 @@ export const Content = styled.div`
   .textos{
     padding-top: 80px;
     padding-left: 50px;
-    color:#000000;
+    color:#252525;
     font-size: 2rem;
     z-index: 1;
     font-family: ${fonts.comfortaa};

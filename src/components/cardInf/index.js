@@ -28,7 +28,7 @@ function CardINF(props) {
             {props.text}
           </div>
           <div className="btn d-flex col-12">
-            <a href="/barbo/infinity">Mais informações <strong>>></strong></a>
+            <a href="/barbo/infinity">Mais informações</a>
           </div>
         </div>
       </div>

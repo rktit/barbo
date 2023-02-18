@@ -12,7 +12,7 @@ img{
 }
 
 .card-body{
-    color: #000000;
+    color: #252525;
     text-align: left;
 }
 
@@ -23,12 +23,12 @@ img{
 .card-items{
     padding-bottom: 2rem;
     font-size: 1.5rem;
-    font-family: ${fonts.opensans_regular};
+    font-family: ${fonts.comfortaa};
 }
 .card-title{
     margin-bottom: -0.2rem;
     font-size: 1rem;
-    font-family: ${fonts.opensans_regular};
+    font-family: ${fonts.comfortaa};
 }
 
 .card-text{
@@ -58,7 +58,7 @@ img{
     bottom: 20px;
 }
 .btn{
-    background-color: #000000;
+    background-color: #252525;
     display: table-cell;
     border: none;
     border-radius: 0;
@@ -86,11 +86,11 @@ img{
 }
 .btn-primary {
     font-size: 1.5rem;
-    font-family: ${fonts.opensans_regular};
+    font-family: ${fonts.comfortaa};
 }
 .btn1{
-    background-color: #000000;
-    font-family: ${fonts.opensans_regular};
+    background-color: #252525;
+    font-family: ${fonts.comfortaa};
     font-size: 1.75rem;
     text-align: center;
     color: #ffffff;
@@ -100,12 +100,12 @@ img{
     justify-content: center;
 
     &.active {
-      background-color: #000000;
+      background-color: #252525;
     }
 
     :hover {
       transition: 0.1s ease-in-out;
-      background-color: #000000;
+      background-color: #252525;
       text-decoration: none;
       text-align: center;
     }
@@ -130,7 +130,7 @@ img{
         height: 100%;
     }
     .card-body{
-        color: #000000;
+        color: #252525;
         text-align: left;
         padding: 1.25rem 16px;
     }
@@ -142,12 +142,12 @@ img{
     .card-items{
         padding: 0 0 20px 0;
         font-size: 0.8rem;
-        font-family: ${fonts.opensans_regular};
+        font-family: ${fonts.comfortaa};
     }
     .card-title{
         padding: 0;
         font-size: 1.5rem;
-        font-family: ${fonts.opensans_regular};
+        font-family: ${fonts.comfortaa};
     }
     .card-text{
         padding: 0;

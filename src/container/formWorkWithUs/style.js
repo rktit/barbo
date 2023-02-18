@@ -25,7 +25,7 @@ const Content = styled.div`
 
   .textCheck{
     font-size: 0.7rem !important;
-    color: #000000 !important;
+    color: #252525 !important;
   }
   .input{
     background-color: #f2f2f2;

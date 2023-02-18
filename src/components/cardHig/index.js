@@ -28,7 +28,7 @@ function CardHIG(props) {
             {props.text}
           </div>
           <div className="btn d-flex col-12">
-            <a href="https://rocketit.com.br/higienopolis/">Mais informações <strong>>></strong></a>
+            <a href="https://rocketit.com.br/higienopolis/">Mais informações</a>
           </div>
         </div>
       </button>

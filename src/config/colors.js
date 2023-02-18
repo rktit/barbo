@@ -16,7 +16,7 @@ const colors = {
   grayMedium: "#5D5D5D",
   grayDark: "#303030",
   white: "#ffffff",
-  black: "#000000",
+  black: "#252525",
   error: "#f44336",
   modalError: "#FF6B4C",
   inputBorder: "#E0DFDF",

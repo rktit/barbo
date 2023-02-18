@@ -1,10 +1,9 @@
 import React, { Fragment, useEffect, useState } from "react";
 
-import {BannerEmpreendimento, Welcome} from "container";
 import { configureAnchors } from "react-scrollable-anchor";
 
 import {FlashMessageCookies, ModalPolitica} from 'components';
-import {Menu, ListaImoveis, VideoBarbo, Footer} from "container";
+import {  Aplicativo,  Menu, BannerEmpreendimento, ListaImoveis, VideoBarbo, Footer} from "container";
 import { getAllPosts } from "service/state.posts";
 
 const Home_Page = () => {
@@ -18,6 +17,7 @@ const Home_Page = () => {
     <Fragment>
       <ModalPolitica />
       <FlashMessageCookies/>
+      {/* <Aplicativo /> */}
       <Menu/>
       <BannerEmpreendimento />
       <ListaImoveis posts={posts} loading={loading}/>

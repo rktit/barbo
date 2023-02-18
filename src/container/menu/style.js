@@ -3,13 +3,13 @@ import color from "config/colors";
 import fonts from "config/fonts";
 
 export const Content = styled.nav`
-margin: 0 0 -100px 0 !important;
+margin: 0 0 !important;
 z-index: 1027;
   transition: 0.2s ease-in-out;
   
   &.bg-active {
   	transition: all 0.2s ease-in-out 0s;
-    --tw-gradient-from: rgb(235 235 235 / 0%);
+    --tw-gradient-from: #252525;
     --tw-gradient-to: currentColor;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
     overflow: visible;
@@ -24,7 +24,7 @@ z-index: 1027;
   
   .menu-top {
   	transition: 0.2s ease-in-out;
-  	padding: 1.5rem !important;
+  	padding: 0.5rem !important;
   }
 
   .menu-logo {
@@ -69,12 +69,12 @@ z-index: 1027;
       display: flex;
       
       &.active {
-      	color: #fc1347;
+      	color: #e73538;
       }
       
       :hover {
         transition: 0.1s ease-in-out;
-        color: #fc1347;
+        color: #e73538;
         text-decoration: none;
       }
     }
@@ -104,7 +104,7 @@ z-index: 1027;
     }
   }
   .espaco {
-    color: #fc1347;
+    color: #e73538;
   }
   .menu-nav.show-menu {
     transition: 0.1s ease-in-out;

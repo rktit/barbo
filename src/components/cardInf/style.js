@@ -7,30 +7,30 @@ img{
     height: 325px;
 }
 a {
-    color: #000000;
+    color: #252525;
     text-decoration: none;
     background-color: transparent;
     &.active {
-        color: #fc1347;
+        color: #e73538;
     }
     
     :hover {
       transition: 0.1s ease-in-out;
-      color: #fc1347;
+      color: #e73538;
       text-decoration: none;
     }
 }
 .card{
-    width: 26rem;
+    width: 24rem;
     margin: 0 4px 0 4px;
     height: 28rem;
     padding: 0 0px 0 0px;
 }
 
 .card-body{
-    text-align: left;
+    text-align: -webkit-center;
     display: inline-table;
-    color: #ffffff;
+    color: #252525;
     position: absolute;
     padding: 0rem;
 }
@@ -63,11 +63,11 @@ a {
     font-weight: 900;
 }
 .btn{
-    background-color: #000000;
+    background-color: #252525;
     display: table-cell;
     border: none;
-    border-radius: 0;
-    width: 25.8rem;
+    border-radius: 5px;
+    width: 10rem;
     margin-top: 0.5rem;
     justify-content: space-evenly;
     
@@ -84,7 +84,7 @@ a {
     }
      a {
         color: #ffffff;
-        font-size: 1.5rem;
+        font-size: 1rem;
         text-decoration: none;
         background-color: transparent;
     }
@@ -124,7 +124,7 @@ a {
         background-color: #ffffff;
         display: table-cell;
         border: none;
-        border-radius: 0;
+        border-radius: 5px;
         width: 24rem;
         
     
@@ -145,12 +145,12 @@ a {
         text-decoration: none;
         background-color: transparent;
         &.active {
-            color: #fc1347;
+            color: #e73538;
         }
         
         :hover {
           transition: 0.1s ease-in-out;
-          color: #fc1347;
+          color: #e73538;
           text-decoration: none;
         }
     }

@@ -16,7 +16,7 @@ const Content = styled.div`
     align-items:center;
     text-align: center;
     color:#20396f;
-    font-family: ${fonts.opensans_regular};
+    font-family: ${fonts.comfortaa};
     font-size: 1.2rem;
     color: #000;
 
@@ -29,20 +29,20 @@ const Content = styled.div`
   }
 
   .title{
-    color: #000000;
+    color: #252525;
     font-size: 2rem;
-    font-family: ${fonts.opensans_light};
+    font-family: ${fonts.comfortaa};
     text-align: center;
     padding-bottom: 3rem;
   }
 
   .text{
-    font-family: ${fonts.opensans_light};
-    color: #000000;
+    font-family: ${fonts.comfortaa};
+    color: #252525;
     line-height: 2;
 
   strong{
-      font-family: ${fonts.opensans_regular};
+      font-family: ${fonts.comfortaa};
     }
   }
 
@@ -60,12 +60,12 @@ const Content = styled.div`
   .boxTitle{
     margin-left: -25px;
     font-size: 2rem;
-    font-family: ${fonts.opensans_light};
+    font-family: ${fonts.comfortaa};
     text-align: start;
     line-height:2.3rem;
     strong{
       font-size: 3rem;
-      font-family: ${fonts.opensans_bold};
+      font-family: ${fonts.comfortaa};
     }
   }
 
@@ -74,7 +74,7 @@ const Content = styled.div`
     margin-top: 20px;
     padding-top:5px;
     font-size:1rem;
-    font-family: ${fonts.opensans_regular};
+    font-family: ${fonts.comfortaa};
   }
 
   .btnWhat{
@@ -118,8 +118,8 @@ const Content = styled.div`
   }
 
     .btn{
-      font-family:${fonts.opensans_bold};
-      color: #fc1347;
+      font-family:${fonts.comfortaa};
+      color: #e73538;
       font-size: 1rem;
       text-aling: justify;
       background-color:#fff;
@@ -170,7 +170,7 @@ const Content = styled.div`
 
   .cidade{
     color: white;
-    font-family: ${fonts.opensans_bold};
+    font-family: ${fonts.comfortaa};
     font-size: 1.2rem;
     margin-top:2px;
     margin-bottom: 5px;
