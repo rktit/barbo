@@ -45,8 +45,8 @@ import Error_Page_404 from './pages/error/404'
 const Routes = () => (
     <BrowserRouter>
         <Switch>
-            {/* <Route path='/barbo/fale_conosco' component={FaleConosco_Page} />
-            <Route path='/barbo/portal_corretor' component={PortalCorretor_Page} />
+             <Route path='/barbo/fale_conosco' component={FaleConosco_Page} />
+           {/* <Route path='/barbo/portal_corretor' component={PortalCorretor_Page} />
 
             <Route path='/barbo/blog_interna' component={Blog_Interna} />
             <Route path='/barbo/blog' component={Blog_Page} />
@@ -61,8 +61,8 @@ const Routes = () => (
             <Route path='/barbo/morada_porto' component={MoradaPorto} />
             <Route path='/barbo/office_tower' component={OfficeTower} />
             <Route path='/barbo/quinta_vale' component={QuintaVale} />
-            <Route path='/barbo/villa_real' component={VillaReal} />*/}
-            <Route path='/barbo/empreendimentos' component={Empreendimentos_Page} /> 
+            <Route path='/barbo/villa_real' component={VillaReal} />
+            <Route path='/barbo/empreendimentos' component={Empreendimentos_Page} /> */}
             {/*    <Route path='/barbo/empreendimentos_interna' component={EmpreendimentosInterna} /> */}
 
 
