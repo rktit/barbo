@@ -1,26 +1,45 @@
-import React, { useEffect, useState } from 'react'
-import ScrollableAnchor from 'react-scrollable-anchor'
-import Content from "./style";
+import React, { useEffect, useState } from "react";
+import Content from './style';
 
-import whats from 'images/icons/icone-whatsapp-fundo.png'
+import whats from "images/icons/ico-whatsapp-white.png"
 
-export default function Page(props) {
-  return (
-    <ScrollableAnchor id={'aplicativo'}>
-      <div className="fixed whats-message">
-        <a
-          target="_blank"
-          href="https://wa.me/message/NIRO6DB4APXMG1"
-        >
-          <img
-            className="flex items-start md:items-end mr-2 md:mr-28 w-14 md:w-20"
-            src={whats}
-            alt="Whatsapp"
-          />
-        </a>
-        
-      </div>
-    </ScrollableAnchor>
+export default function Aplicativo() {
 
+  const [isMobile, setMobile] = useState(false);
+
+  useEffect(() => {
+    if (window.innerWidth >= 992) {
+      setMobile(false);
+    } else {
+      setMobile(true);
+    }
+  }, [window.innerWidth]);
+
+
+  return ( 
+  <Content className='col-10 text-center'>
+    {/* <div>
+						<Icon.InfoCircle color='#FFFFFF' size={36} className='mr-3 d-none d-md-block'/>
+				</div> */}
+    <button>
+      <a target="_blank" href="https://api.whatsapp.com/send?phone=5519996965525&text=Gostaria de falar com um consultor?">
+        Fale com um consultor
+      </a>
+    </button>
+    <button>
+      <a target="_blank" href="https://api.whatsapp.com/send?phone=5519996965525&text=Gostaria de falar com um consultor?">
+        Simule seu financiamento
+      </a>
+    </button>
+    <button>
+      <a target="_blank" href="https://api.whatsapp.com/send?phone=5519996965525&text=Gostaria de falar com um consultor?">
+        <img src={whats} />
+        Telefone +55 (19) 9.9696-5525
+      </a>
+    </button>
+    {/* <div className='align-items-stretch'>
+						<button onClick={closeFlashMessage} className='ml-3 h-100'>Continuar</button>
+				</div> */}
+  </Content>
   )
 }

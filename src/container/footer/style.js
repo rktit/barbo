@@ -6,8 +6,8 @@ const Content = styled.div`
   flex-direction: row;
   justify-content: center;
   background-color: #252525;
-  padding-top: 32px;
-  padding-bottom: 10px;
+  padding-top: 2rem;
+  padding-bottom: 6rem;
 
 .box {
   display: flex;
@@ -15,12 +15,9 @@ const Content = styled.div`
     // margin-right: -5rem;
 }
   .logo-footer{
-	margin: 20px -70px 0px -10px;
-
-	img{
-		width: 16rem;
-	}
-}
+    margin: 20px -50px 0px 0px;
+    width: 16rem;
+  }
 
   .nome-logo{
 	  font-size: 1.2rem;
@@ -66,18 +63,7 @@ const Content = styled.div`
   	span {
   		color: ${colors.primary};
   	}
-  	
-  	a {
-  		color: ${colors.white};
-  		transition: 0.2s ease-in-out;
-  		margin-bottom: 8px;
-  		:hover {
-  			color: ${colors.primary};
-  			transition: 0.2s ease-in-out;
-  			text-decoration: none;
-        text-decoration-line: none;
-  		}
-  	}
+  }
   	
   	.icone_contato {
   		height: 18px;
@@ -103,14 +89,30 @@ const Content = styled.div`
     width: 55rem;
     margin: auto;
   }
-  .copyright {
-    color: ${colors.white};
-    margin-top: 100px;
+  .rodape-text {
+    font-size: 0.75em;
+    color: #aba3a3;
     text-align: center;
-    font-size: 12px;
-    font-family: ${fonts.comfortaa};
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Comfortaa-VariableFont_wght;
+    margin-top: 100px;
+}
+    a {
+  		color: ${colors.white};
+  		transition: 0.2s ease-in-out;
+  		margin-bottom: 8px;
+  		:hover {
+  			color: ${colors.primary};
+  			transition: 0.2s ease-in-out;
+  			text-decoration: none;
+        text-decoration-line: none;
+  		}
+  
+  a:hover {
+    color: ${colors.white};
+    text-decoration-line: none;
   }
-
   @media only screen and (max-width: 600px) {
     
     .box {

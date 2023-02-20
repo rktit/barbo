@@ -7,7 +7,7 @@ img{
 }
 
 .card{
-    width: 25rem;
+    width: 24rem;
     margin: 5px;
 }
 
@@ -17,7 +17,9 @@ img{
 }
 
 .card-img-top{
-    height: 300px;
+    height: 20rem;
+    width: 24rem;
+    margin-left: -1rem;
 }
 
 .card-items{
@@ -61,10 +63,10 @@ img{
     background-color: #252525;
     display: table-cell;
     border: none;
-    border-radius: 0;
-    width: 24rem;
-    margin-top: 1.5rem;
-    justify-content: space-evenly;
+    border-radius: 0.5rem;
+    width: 8rem;
+    margin: 1.5rem 0 0px 6rem;
+    justify-content: center;
     
 
     &.active {
@@ -79,9 +81,10 @@ img{
     }
      a {
         color: #ffffff;
-        font-size: 1.5rem;
+        font-size: 1rem;
         text-decoration: none;
         background-color: transparent;
+        font-family: ${fonts.comfortaa};
     }
 }
 .btn-primary {

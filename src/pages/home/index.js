@@ -16,8 +16,8 @@ const Home_Page = () => {
   return (
     <Fragment>
       <ModalPolitica />
+      <Aplicativo />
       <FlashMessageCookies/>
-      {/* <Aplicativo /> */}
       <Menu/>
       <BannerEmpreendimento />
       <ListaImoveis posts={posts} loading={loading}/>

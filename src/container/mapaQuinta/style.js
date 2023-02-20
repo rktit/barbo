@@ -15,16 +15,16 @@ const Content = styled.div`
   .image-side{
     background: url(${mapa}) no-repeat center center;
     background-size: cover;
-    width: 50%;
+    width: 60%;
     height:auto;
 
-    min-width: 50rem;
+    min-width: auto;
     min-height: 20rem;
   }
-.left-side {
-  padding-right: 4rem;
-  margin-left: -10rem;
-}
+  .left-side {
+    padding-right: 1rem;
+    margin-left: 0rem;
+  }
   
 
   .title{

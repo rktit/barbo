@@ -288,9 +288,14 @@ function Footer(props) {
 						</div>
 					</div>
 				</div>
-				<div className='d-flex line'>
-					<div className='col-12 p-0 copyright'>
-						Desenvolvido por Huma Criativo
+				<div className='d-flex'>
+					<div className='col-12 p-0'>
+						<a className="rodape-text"
+							href="https://www.instagram.com/humacriativo.mkt/"
+							target="_blank"
+							rel="noreferrer">
+							Desenvolvido por Huma Criativo
+						</a>
 					</div>
 				</div>
 			</Content>

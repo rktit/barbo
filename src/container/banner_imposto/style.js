@@ -1,17 +1,18 @@
 import styled from "styled-components";
 import fonts from "config/fonts";
 
-import background from "images/blog/banner_blog.png";
-import backgroundMobile from "images/blog/banner_mobile_blog.png";
+import background from "images/blog/declarar/declarar_imovel.jpg";
+import backgroundMobile from "images/blog/declarar/declarar_imovel.jpg";
 
 
 const Content = styled.div`
   flex-direction: row;
   padding: 0 !important;
-  background: url(${background}) no-repeat top center;
+  background: url(${background}) no-repeat bottom center;
   background-size:cover;
-  height: 36rem;
-
+  height: 34rem;
+  width: 100%;
+  
   font-family: ${fonts.comfortaa};
   text-align: center;
 

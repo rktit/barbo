@@ -7,7 +7,7 @@ img{
 }
 
 .card{
-    width: 22rem;
+    width: 20rem;
     margin-right: 5px;
 }
 
@@ -82,13 +82,15 @@ img{
 .btn1{
     background-color: #252525;
     font-family: ${fonts.comfortaa};
-    font-size: 1.75rem;
+    font-size: 1.25rem;
     text-align: center;
     color: #ffffff;
     border-radius: 4px;
-    height: 50px;
-    width: 100%;
+    height: 2rem;
+    width: 8rem;
+    margin: 0 0 0 4rem;
     justify-content: center;
+    align-items: center;
 
     &.active {
       background-color: #252525;
@@ -96,7 +98,7 @@ img{
 
     :hover {
       transition: 0.1s ease-in-out;
-      background-color: #252525;
+      background-color: #ff3a66;
       text-decoration: none;
       text-align: center;
     }

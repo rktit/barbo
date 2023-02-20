@@ -2,7 +2,7 @@ import styled from "styled-components";
 import fonts from "config/fonts";
 
 
-import plantas from "images/blog/beneficios/beneficios_apartamento.jpeg";
+import plantas from "images/blog/beneficios/beneficios_apartamento.jpg";
 
 
 const Content = styled.div`
@@ -36,12 +36,13 @@ const Content = styled.div`
       }
 }
   .image-side{
-    background: url(${plantas}) no-repeat center center;
+    background: url(${plantas}) no-repeat left center;
     background-size: cover;
     padding-bottom: 24rem;
     height: 40rem;
-    width: 450px!important;
+    width: 35rem !important;
     margin: 8rem 0 0 6px;
+}
   }
 
   .imgConsorcio{
