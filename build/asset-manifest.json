@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/barbo/fale_conosco/static/css/main.e08655c7.chunk.css",
-    "main.js": "/barbo/fale_conosco/static/js/main.483b493f.chunk.js",
-    "main.js.map": "/barbo/fale_conosco/static/js/main.483b493f.chunk.js.map",
+    "main.js": "/barbo/fale_conosco/static/js/main.d81eb916.chunk.js",
+    "main.js.map": "/barbo/fale_conosco/static/js/main.d81eb916.chunk.js.map",
     "runtime-main.js": "/barbo/fale_conosco/static/js/runtime-main.da2bc277.js",
     "runtime-main.js.map": "/barbo/fale_conosco/static/js/runtime-main.da2bc277.js.map",
     "static/css/2.597ffff1.chunk.css": "/barbo/fale_conosco/static/css/2.597ffff1.chunk.css",
     "static/js/2.179765f1.chunk.js": "/barbo/fale_conosco/static/js/2.179765f1.chunk.js",
     "static/js/2.179765f1.chunk.js.map": "/barbo/fale_conosco/static/js/2.179765f1.chunk.js.map",
     "index.html": "/barbo/fale_conosco/index.html",
-    "precache-manifest.728ccdbda5cebf1a75cf351610bd4340.js": "/barbo/fale_conosco/precache-manifest.728ccdbda5cebf1a75cf351610bd4340.js",
+    "precache-manifest.49c7f19550831f518b663a1bc009f77e.js": "/barbo/fale_conosco/precache-manifest.49c7f19550831f518b663a1bc009f77e.js",
     "service-worker.js": "/barbo/fale_conosco/service-worker.js",
     "static/css/2.597ffff1.chunk.css.map": "/barbo/fale_conosco/static/css/2.597ffff1.chunk.css.map",
     "static/css/main.e08655c7.chunk.css.map": "/barbo/fale_conosco/static/css/main.e08655c7.chunk.css.map",
@@ -18,6 +18,7 @@
     "static/media/styles.css": "/barbo/fale_conosco/static/media/SF-Pro-Display-Ultralight.1610ab29.ttf",
     "static/media/BackgroundBanner.jpg": "/barbo/fale_conosco/static/media/BackgroundBanner.34314fa4.jpg",
     "static/media/BannerTrabalheConosco.jpg": "/barbo/fale_conosco/static/media/BannerTrabalheConosco.ad68e257.jpg",
+    "static/media/Barbo-Logo.png": "/barbo/fale_conosco/static/media/Barbo-Logo.759b2513.png",
     "static/media/Higienopolis.jpg": "/barbo/fale_conosco/static/media/Higienopolis.0b524190.jpg",
     "static/media/Infinity.jpg": "/barbo/fale_conosco/static/media/Infinity.bbc7c472.jpg",
     "static/media/Infinity_Rio_Claro_Barbo_10.jpg": "/barbo/fale_conosco/static/media/Infinity_Rio_Claro_Barbo_10.3fff94d5.jpg",
@@ -54,7 +55,7 @@
     "static/media/lasrocas.png": "/barbo/fale_conosco/static/media/lasrocas.c35a6f1b.png",
     "static/media/login.png": "/barbo/fale_conosco/static/media/login.314b3dfc.png",
     "static/media/login_mobile.png": "/barbo/fale_conosco/static/media/login_mobile.62539486.png",
-    "static/media/logo-portal.png": "/barbo/fale_conosco/static/media/logo-portal.0547a5be.png",
+    "static/media/logo-portal.png": "/barbo/fale_conosco/static/media/logo-portal.1e4e653d.png",
     "static/media/mapa.png": "/barbo/fale_conosco/static/media/mapa.06ef7951.png",
     "static/media/mapa_mobile.png": "/barbo/fale_conosco/static/media/mapa_mobile.1c97c886.png",
     "static/media/mobile_bannerPredio.png": "/barbo/fale_conosco/static/media/mobile_bannerPredio.2609083d.png",
@@ -69,6 +70,6 @@
     "static/css/2.597ffff1.chunk.css",
     "static/js/2.179765f1.chunk.js",
     "static/css/main.e08655c7.chunk.css",
-    "static/js/main.483b493f.chunk.js"
+    "static/js/main.d81eb916.chunk.js"
   ]
 }

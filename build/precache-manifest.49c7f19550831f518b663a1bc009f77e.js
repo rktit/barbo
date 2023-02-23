@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9e4400a7ebb890652fa9b44fa30cfa3e",
+    "revision": "84d081132501764fbde96f2834c0afb9",
     "url": "/barbo/fale_conosco/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/barbo/fale_conosco/static/css/2.597ffff1.chunk.css"
   },
   {
-    "revision": "1fa96883ae3ee3873d76",
+    "revision": "db3d27873e441a4a135a",
     "url": "/barbo/fale_conosco/static/css/main.e08655c7.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/barbo/fale_conosco/static/js/2.179765f1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1fa96883ae3ee3873d76",
-    "url": "/barbo/fale_conosco/static/js/main.483b493f.chunk.js"
+    "revision": "db3d27873e441a4a135a",
+    "url": "/barbo/fale_conosco/static/js/main.d81eb916.chunk.js"
   },
   {
     "revision": "6e3fb609d9e94382de7e",
@@ -42,6 +42,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ad68e257495c21d2ff9cb3a3c1f71076",
     "url": "/barbo/fale_conosco/static/media/BannerTrabalheConosco.ad68e257.jpg"
+  },
+  {
+    "revision": "759b25139edeac056b5718bfa79c8705",
+    "url": "/barbo/fale_conosco/static/media/Barbo-Logo.759b2513.png"
   },
   {
     "revision": "0f0ea204488f7d0bbaa7451c312f4db5",
@@ -352,8 +356,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/barbo/fale_conosco/static/media/login_mobile.62539486.png"
   },
   {
-    "revision": "0547a5be471d9fc1e7d61b79b1b81df2",
-    "url": "/barbo/fale_conosco/static/media/logo-portal.0547a5be.png"
+    "revision": "1e4e653d7b7d55094a94df013b35100c",
+    "url": "/barbo/fale_conosco/static/media/logo-portal.1e4e653d.png"
   },
   {
     "revision": "06ef795176502a11be34bfe96ba211dd",

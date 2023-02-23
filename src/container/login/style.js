@@ -37,6 +37,10 @@ const Content = styled.div`
     justify-content: center;
     align-items: center;
  }
+ .logo {
+	padding: 0rem;
+    width: 20rem;
+}
   .logoLogin {
 	display: flex!important;
     justify-content: center;
@@ -101,9 +105,9 @@ const Content = styled.div`
 	.conteudo{
 		display: flex;
 		flex-direction: column;
-		width: 20rem;
-		height: 24rem;
-		margin-left: -3.5rem;
+		width: 22rem;
+    	height: 22rem;
+	    margin-left: 0rem;
 		&.active {
 			width: 20rem;
 			}
@@ -120,8 +124,8 @@ const Content = styled.div`
 	}
 
 	.logo {
-		padding: 3rem 0 0 0;
-		width: 16rem;
+		padding: 0;
+    width: 14rem;
 	}
 	.logoLogin {
 		padding-top: 0px;
@@ -146,7 +150,7 @@ const Content = styled.div`
 	.buttom {
 		text-align: center;
 		padding: 20px 0px;
-		margin: 1rem 0 4rem 0px;
+		margin: 1rem 0 0rem 0px;
 		width: 18rem;
 	}
   }

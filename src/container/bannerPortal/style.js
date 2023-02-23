@@ -2,7 +2,7 @@ import styled from "styled-components";
 import fonts from "config/fonts";
 
 import background from "images/login/login.png";
-import backgroundMobile from "images/login/login_mobile.png";
+import backgroundMobile from "images/login/login.png";
 
 const Content = styled.div`
   flex-direction: row;
@@ -62,8 +62,9 @@ const Content = styled.div`
 
   @media only screen and (max-width: 600px) {
     background: url(${backgroundMobile}) no-repeat center;
-    height: 105vh;
-
+    height: 100vh;
+    width: auto;
+    
     margin-bottom: 300px;
     display: flex;
     align-items: center;
