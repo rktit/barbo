@@ -33,7 +33,7 @@ z-index: 1027;
     align-items: center;
     justify-content: space-between;
     #logo {
-      width: 130px;
+      width: 10rem;
       height: auto;
       transition: 0.2s ease-in-out;
       &.scroll{

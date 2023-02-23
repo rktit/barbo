@@ -17,7 +17,7 @@ const Content = styled.div`
     justify-content: center;
   }
   .title {
-	margin-top:-10px;
+    margin-top: 1rem;
   	color: #ffffff;
   	font-family: ${font.comfortaa};
     font-size: 1.55rem;
@@ -44,16 +44,16 @@ const Content = styled.div`
 	flex-direction: column;
 }
   .input-newsletter {
-			border: none;
-			background-color: ${colors.white};
-			color: ${colors.gray_text};
-			font-family: ${font.comfortaa};
-			padding: 5px 29px;
-			margin: auto;
-			z-index: 2;
-			::-webkit-input-placeholder {
-		    color: ${colors.secondary};
-		  }
+	border: none;
+	background-color: ${colors.white};
+	color: ${colors.gray_text};
+	font-family: ${font.comfortaa};
+	padding: 5px 26px;
+	margin: 0 16px 0 0;
+	z-index: 2;
+	::-webkit-input-placeholder {
+	color: ${colors.secondary};
+	}
   }
   
   .buttom {
@@ -84,9 +84,9 @@ const Content = styled.div`
   }
 
   @media only screen and (max-width: 600px) {
-    margin: 50px -12px !important;
-	min-height: 24rem;
-	max-height: 20rem;
+    margin: 4rem 0 !important;
+    min-height: 30rem;
+    max-height: 20rem;
 
 	.conteudo{
 		display: flex;
@@ -118,6 +118,7 @@ const Content = styled.div`
     	flex-direction: column;
     	align-content: center;
     	align-items: center;
+		margin-left: 6.5rem;
 	}
 
 	.title{
@@ -126,11 +127,12 @@ const Content = styled.div`
 		justify-content: center;
 		margin-top:0px;
 		text-align: center;
-		font-size: 1.5rem;
+		font-size: 2rem;
 		padding: 0 0rem;
-		height: 100px;
+		padding-top: 0px;
 	}
 	.texto {
+		font-size: 1.5rem;
 		display: flex;
 		flex-direction: column;	
 	  }

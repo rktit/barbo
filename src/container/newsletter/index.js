@@ -54,28 +54,28 @@ function NewsLetterLs() {
         <ScrollableAnchor id="newsletter">
             <Content className="row">
                 <Fade right> 
-                    <div className='conteudo col-12 col-md-4 offset-md-0 p-0 '>
-                        <div className="texto col-12 col-d-2 d-flex">
+                    <div className='conteudo offset-md-0 p-0 '>
+                        <div className="texto d-flex">
                             newsletter
-                            <div className="title col-12 col-d-6 d-flex">
+                            <div className="title  d-flex">
                                 Cadastre-se e fique pro dentro <br />
                                 das novidades da Barbo
                             </div>
                         </div>
                     </div>
-                    <div className="col-8 col-md-10 d-flex flex-wrap">
+                    <div className="d-flex flex-wrap">
                         <form onSubmit={handleSubmit}>
-                            <div className="boxNome col-8 col-d-12 d-flex">
+                            <div className="boxNome d-flex">
                                 <input type='nome' name="input_newsletter" className="input-newsletter"
                                     placeholder="Nome" onChange={e => handleChange(e)}
                                     value={fields.input_newsletter} />
-                                <div className="boxEmail col-9 col-d-6 d-flex">
+                                <div className="boxEmail d-flex">
                                     <input type='email' name="input_newsletter" className="input-newsletter"
                                         placeholder="E-mail" onChange={e => handleChange(e)}
                                         value={fields.input_newsletter} />
                                 </div>
                             </div>
-                            <div className="boxCadastrar col-12 col-d-6 d-flex">
+                            <div className="boxCadastrar d-flex">
                                 <a href="#newsletter" className='buttom' onClick={handleSubmit}>
                                     Enviar
                                 </a>
