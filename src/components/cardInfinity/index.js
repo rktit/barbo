@@ -16,7 +16,7 @@ function CardInfinity(props) {
   return (
     <Content>
       <div className="card col-12 d-flex">
-        <div className="love" alt="Favoritar">Pronto para morar</div>
+        <div className="love" alt="Favoritar pronto-para-morar">Pronto para morar</div>
         <img src={props.image} className="card-img-top" />
         <div className="card-body">
           <div className="card-items">
@@ -32,7 +32,7 @@ function CardInfinity(props) {
             {props.text1}
           </div>
           <div className="d-flex btn col-12">
-            <a href="/barbo/infinity">Ver Mais</a>
+            <a href="https://alakadim.com.br/infinity/ ">Ver mais</a>
           </div>
         </div>
       </div>

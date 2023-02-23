@@ -68,13 +68,13 @@ img{
     
 
     &.active {
-        background-color: #ff3a66;
+        background-color: #e73538;
         width: 20rem;
         }
 
     :hover {
     transition: 0.1s ease-in-out;
-    background-color: #ff3a66;
+    background-color: #e73538;
     text-decoration: none;
     }
      a {

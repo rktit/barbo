@@ -180,7 +180,7 @@ background-color: #eeeeee;
         color: #000;
         font-family: ${fonts.comfortaa};
         font-weight: 500;
-        border-radius: 0;
+        border-radius: 0.5rem;
         border-width: 1px;
         border-color: rgb(0 0 0);
         border-style: solid;
@@ -188,6 +188,7 @@ background-color: #eeeeee;
         background-color: transparent;
         line-height: 17px;
         padding: 20px;
+        margin: 4px 4px;
     }
      .filtro__item {
         width: 14.5rem;
@@ -195,9 +196,10 @@ background-color: #eeeeee;
     }
     .btn_lupa {
         height: 2.75rem;
-        padding: 1rem 1rem;
-        border-radius: 0;
+        padding: 2rem 7rem;
+        border-radius: 0.5rem;
         border-width: 1px;
+        justify-content: center;
     }
     .filtro__button {
         width: 2.75rem;
@@ -206,7 +208,7 @@ background-color: #eeeeee;
     padding-left: 0px !important;
 
     .title {
-        font-size: 2rem;
+        font-size: 1.5rem;
         text-align: center;
     }
 

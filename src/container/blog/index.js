@@ -6,7 +6,7 @@ import '@splidejs/splide/dist/css/themes/splide-sea-green.min.css';
 
 import iluminacao from "images/blog/iluminacao/iluminacao_casa.jpeg";
 import imposto from "images/blog/declarar/declarar_imovel.jpeg";
-import plantas from "images/blog/beneficios/beneficios_planta.jpeg";
+import plantas from "images/blog/beneficios/beneficios_apartamento.jpg";
 
 import CardIluminacao from "components/cardBlog_iluminacao";
 import CardBeneficios from "components/cardBlog_beneficios";

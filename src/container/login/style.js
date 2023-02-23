@@ -4,12 +4,9 @@ import colors from 'config/colors';
 
 
 const Content = styled.div`
-  background-size:100%;
-  padding-top: 10rem;
-
 
   .conteudo {
-	background-color: #ffffff;
+	background-color: #252525;
     display: flex;
     border: none;
     border-radius: 0;
@@ -46,7 +43,7 @@ const Content = styled.div`
     flex-direction: column;
     align-content: center;
     align-items: center;
-  	color: #252525;
+  	color: #ffffff;
     padding-top: 30px;
 
   	font-family: ${font.comfortaa};
@@ -56,18 +53,17 @@ const Content = styled.div`
   }
   
   .input-newsletter {
-			border: #252525;
-			border-radius: 0.125rem;
-			border-width: 1px;
-			border-style: solid;
-			background-color: transparent;
-			color: ${colors.gray_text};
-			font-family: ${font.comfortaa};
-			padding: 10px 20px;
-			z-index: 2;
-			::-webkit-input-placeholder {
-		    color: #252525;
-		  }
+	  border: #ffffff;
+	  border-radius: 0.125rem;
+	  border-width: 1px;
+	  border-style: solid;
+	  background-color: transparent;
+	  font-family: ${font.comfortaa};
+	  padding: 10px 20px;
+	  z-index: 2;
+	  ::-webkit-input-placeholder {
+	  color: #ffffff;
+	  }
   }
   
   .buttom {
@@ -75,7 +71,7 @@ const Content = styled.div`
   		z-index: 0;
 		  display: block;
 		  padding: 10px 12rem;
-		  color: ${colors.white};
+		  color: #ffffff;
 		  background-color: #ff0d29;
 		  font-size: 1rem;
 		  font-family: ${font.comfortaa};

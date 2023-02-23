@@ -66,9 +66,7 @@ text-align: center;
   }
 
   @media only screen and (max-width: 600px) {
-    margin-bottom: 300px;
-    display: flex;
-    align-items: center;
+   
 
     .title {
       margin-top: 32px;

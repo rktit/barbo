@@ -45,6 +45,15 @@ const Content = styled.div`
         padding-right: 6px;
       }
   }
+  @media only screen and (max-width: 600px) {
+    flex-direction: column;
+    margin: 0px 4px;
+    
+    button {
+      margin: 0.2rem 1rem;
+  }
+
+  }
 `
 
 export default Content;

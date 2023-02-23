@@ -57,20 +57,19 @@ function Imoveis() {
                   <label for="form-search-filter-city" className="filtro__label form-label"></label>
                   <select id="form-search-filter-city" name="cidade" className="filtro__select form-select form-search-filter-city">
                     <option value="">Cidade</option>
-                    <option value="piracicaba" data-phases="pronto-para-morar,final-de-obras,em-obras">Piracicaba</option>
-                    <option value="americana" data-phases="pronto-para-morar">Americana</option>
-                    <option value="ipeuna" data-phases="pronto-para-morar">Rio Claro</option>
-                    <option value="iperioclarouna" data-phases="pronto-para-morar">Rio Claro</option>
-                    <option value="barrabonita" data-phases="pronto-para-morar">Barra Bonita</option>
+                    <option value="piracicaba" data-phases="pronto-para-morar">Piracicaba</option>
+                    <option value="americana" data-phases="em-obras">Americana</option>
+                    <option value="rio-claro" data-phases="corporativo">Rio Claro</option>
+                    <option value="barra-bonita" data-phases="loteamento">Barra Bonita</option>
                   </select>
                 </div>
                 <div className="filtro__item">
                   <label for="form-search-filter-phase" className="filtro__label form-label"></label>
                   <select name="fase" id="form-search-filter-phase" className="filtro__select form-select form-search-filter-phase">
                     <option value="">Tipos</option>
-                    <option value="loteamento" data-phases="pronto-para-morar,final-de-obras,em-obras">Loteamento</option>
-                    <option value="residencial" data-phases="pronto-para-morar">Residencial</option>
-                    <option value="corporativo" data-phases="pronto-para-morar">Corporativo</option>
+                    <option value="loteamento">Loteamento</option>
+                    <option value="residencial">Residencial</option>
+                    <option value="corporativo">Corporativo</option>
                   </select>
                 </div>
                 <button type="submit" class="filtro__button btn_lupa">Pesquisar</button>
@@ -81,19 +80,19 @@ function Imoveis() {
                   <label for="form-search-filter-city" className="filtro__label form-label"></label>
                   <select id="form-search-filter-city" name="cidade" className="filtro__select form-select form-search-filter-city">
                     <option value="">Cidade</option>
-                    <option value="piracicaba" data-phases="pronto-para-morar,final-de-obras,em-obras">Piracicaba</option>
-                    <option value="americana" data-phases="pronto-para-morar">Americana</option>
-                    <option value="iperioclarouna" data-phases="pronto-para-morar">Rio Claro</option>
-                    <option value="barrabonita" data-phases="pronto-para-morar">Barra Bonita</option>
+                    <option value="piracicaba" data-phases="pronto-para-morar">Piracicaba</option>
+                    <option value="americana" data-phases="em-obras">Americana</option>
+                    <option value="rio-claro" data-phases="corporativo">Rio Claro</option>
+                    <option value="barra-bonita" data-phases="loteamento">Barra Bonita</option>
                   </select>
                 </div>
                 <div className="filtro__item">
                   <label for="form-search-filter-phase" className="filtro__label form-label"></label>
                   <select name="fase" id="form-search-filter-phase" className="filtro__select form-select form-search-filter-phase">
                     <option value="">Tipos</option>
-                    <option value="loteamento" data-phases="pronto-para-morar,final-de-obras,em-obras">Loteamento</option>
-                    <option value="residencial" data-phases="pronto-para-morar">Residencial</option>
-                    <option value="corporativo" data-phases="pronto-para-morar">Corporativo</option>
+                    <option value="loteamento">Loteamento</option>
+                    <option value="residencial">Residencial</option>
+                    <option value="corporativo">Corporativo</option>
                   </select>
                 </div>
                 <button type="submit" class="filtro__button btn_lupa">Pesquisar</button>
@@ -218,3 +217,6 @@ function Imoveis() {
   );
 }
 export default Imoveis;
+
+
+

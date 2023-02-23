@@ -5,7 +5,7 @@ import ScrollableAnchor from "react-scrollable-anchor";
 import Fade from "react-reveal/Fade";
 
 import imposto from "images/blog/declarar/declarar_imovel.jpeg";
-import plantas from "images/blog/beneficios/beneficios_planta.jpeg";
+import plantas from "images/blog/beneficios/beneficios_apartamento.jpg";
 
 import CardBeneficios from "components/cardBlog_beneficios";
 import CardImposto from "components/cardBlog_imposto";

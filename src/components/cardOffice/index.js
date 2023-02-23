@@ -16,7 +16,7 @@ function CardOffice(props) {
   return (
     <Content>
       <div className="card col-12 d-flex">
-        <div className="love" alt="Favoritar">Pronto para morar</div>
+        <div className="love" alt="Favoritar corporativo">Corporativo</div>
         <img src={props.image} className="card-img-top" />
         <div className="card-body">
           <div className="card-items">
@@ -32,7 +32,7 @@ function CardOffice(props) {
             {props.text1}
           </div>
           <div className="d-flex btn col-12">
-            <a href="/barbo/office_tower">Ver Mais</a>
+            <a href="/barbo/office_tower">Ver mais</a>
           </div>
         </div>
       </div>

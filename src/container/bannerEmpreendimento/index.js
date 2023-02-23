@@ -46,12 +46,18 @@ function BannerEmpreendimento() {
                         <div className="banner">
                             <a href="https://rocketit.com.br/frontlake/"><img src={banner1Mobile} /></a>
                         </div>
+                    </SplideSlide>
+                    <SplideSlide>
                         <div className="banner">
                             <a href="/barbo/infinity"><img src={banner2Mobile} /></a>
                         </div>
+                    </SplideSlide>
+                    <SplideSlide>
                         <div className="banner">
                             <a href="/barbo/office_tower"><img src={banner3Mobile} /></a>
                         </div>
+                    </SplideSlide>
+                    <SplideSlide>
                         <div className="banner">
                             <a href="/barbo/quinta_vale"><img src={banner4Mobile} /></a>
                         </div>

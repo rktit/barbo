@@ -73,13 +73,13 @@ a {
     
 
     &.active {
-        background-color: #ff3a66;
+        background-color: #e73538;
         width: 20rem;
         }
 
     :hover {
     transition: 0.1s ease-in-out;
-    background-color: #ff3a66;
+    background-color: #e73538;
     text-decoration: none;
     }
      a {
@@ -117,25 +117,26 @@ a {
         display: contents;
     }
     .card-mais{
-        right: -5rem;
-        bottom: -29rem;
+        right: 0rem;
+        bottom: 0rem;
     }
     .btn{
-        background-color: #ffffff;
+        background-color: #252525;
         display: table-cell;
         border: none;
         border-radius: 5px;
-        width: 24rem;
-        
+        width: 10rem;
+        margin: 30rem 0 0 2rem;
+
     
         &.active {
-            background-color: #ff3a66;
+            background-color: #e73538;
             width: 20rem;
             }
     
         :hover {
         transition: 0.1s ease-in-out;
-        background-color: #ff3a66;
+        background-color: #e73538;
         text-decoration: none;
         }
     }

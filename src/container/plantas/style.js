@@ -38,13 +38,13 @@ const Content = styled.div`
     width: 200px;
 
     &.active {
-      background-color: #ff3a66;
+      background-color: #e73538;
       }
 
       :hover {
       transition: 0.1s ease-in-out;
       text-decoration-line: underline;
-      text-decoration-color: #ff3a66;
+      text-decoration-color: #e73538;
       text-decoration-thickness: 3px;
       }
   }

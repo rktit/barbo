@@ -60,3 +60,6 @@ export const getImgPost = async (id) => {
     });
   return result;
 };
+
+
+

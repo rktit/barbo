@@ -5,7 +5,7 @@ import ScrollableAnchor from "react-scrollable-anchor";
 import Fade from "react-reveal/Fade";
 
 import iluminacao from "images/blog/iluminacao/iluminacao_casa.jpeg";
-import plantas from "images/blog/beneficios/beneficios_planta.jpeg";
+import plantas from "images/blog/beneficios/beneficios_apartamento.jpg";
 
 import CardIluminacao from "components/cardBlog_iluminacao";
 import CardBeneficios from "components/cardBlog_beneficios";

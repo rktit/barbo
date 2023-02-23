@@ -28,7 +28,7 @@ function CardQV(props) {
             {props.text}
           </div>
           <div className="btn d-flex col-12">
-            <a href="/barbo/quinta_vale">Mais informações</a>
+            <a href="https://alakadim.com.br/quinta-do-valle/">Mais informações</a>
           </div>
         </div>
       </div>

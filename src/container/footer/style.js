@@ -11,7 +11,7 @@ const Content = styled.div`
 
 .box {
   display: flex;
-    padding: 0rem 0rem 0rem 6rem;
+    padding: 0rem 0rem 3rem 6rem;
     // margin-right: -5rem;
 }
   .logo-footer{
@@ -97,6 +97,9 @@ const Content = styled.div`
     text-align: center;
     font-family: Comfortaa-VariableFont_wght;
     margin-top: 100px;
+    :hover { 
+      color: #ffffff;
+    }
 }
     a {
   		color: ${colors.white};
@@ -114,10 +117,11 @@ const Content = styled.div`
     text-decoration-line: none;
   }
   @media only screen and (max-width: 600px) {
-    
+    padding-bottom: 6rem;
+
     .box {
+      padding: 0rem 0rem 0rem 4rem;
       display: flex;
-        padding: 0rem 0rem 0rem 2rem;
         // margin-right: -5rem;
     }
 
@@ -145,13 +149,13 @@ const Content = styled.div`
  .logo-footer {
     margin: 5px;
 }
-   .icone_midia {
-    height: 3rem;
-    width: 4rem;
-    margin-top: -16px;
-    margin-left: -3rem;
-    padding-right: 2rem;
-  }
+.icone_midia {
+  height: 2rem;
+  width: 3rem;
+  margin-top: -16px;
+  margin-left: -3rem;
+  padding-right: 1rem;
+}
 `;
 
 export default Content;

@@ -32,7 +32,7 @@ function CardImoveis(props) {
             {props.text1}
           </div>
           <div className="d-flex btn col-12">
-            <a href="/barbo/empreendimentos_interna">Ver Mais</a>
+            <a href="/barbo/empreendimentos_interna">Ver mais</a>
           </div>
         </div>
       </div>

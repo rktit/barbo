@@ -1,350 +1,240 @@
 import React from 'react';
 
-import {Modal} from 'react-bootstrap'
+import { Modal } from 'react-bootstrap'
 
-import {useDispatch, useSelector} from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import * as Actions from 'store/actions';
 
-import {Content, Title} from './style'
+import { Content, Title } from './style'
 import * as Icon from "react-bootstrap-icons";
 
 export default function ModalPolitica() {
-		
-		const _modal = useSelector(({modal}) => modal.politica);
-		const dispatch = useDispatch()
-		
-		return (
-				<>
-						<Modal
-								show={_modal}
-								size="lg"
-								onHide={() => dispatch(Actions.close_modal('politica'))}
-								backdrop="static"
-								keyboard={true}
-								centered
-						>
-								<Modal.Header className="topo-modal-politica">
-										<Modal.Title className='row col-12 justify-content-center'>
-												<Title className='row col-12 p-0 flex justify-content-between'>
-														<div className='title'>POLÍTICA DE PRIVACIDADE BARBO EMPREENDIMENTOS</div>
-														<div><a href={"#"} onClick={() => dispatch(Actions.close_modal('politica'))}
-														        className='text-center'><Icon.XCircle color='#252525' size={18}/></a></div>
-												</Title>
-										</Modal.Title>
-								</Modal.Header>
-								<Modal.Body>
-										<Content className='row col-12 text-left'>
-												<strong>INTRODUÇÃO</strong>
-												Nós, da Barbo Empreendimentos temos o prazer de oferecer para você, a melhor experiência de
-												consumo possível. Para que isso aconteça, quando você acessa nosso site, nós coletamos os dados
-												pessoais que você compartilha conosco para tornar nossos serviços de vendas ainda melhores.
-												<br/><br/>
-												O objetivo desta Política de Privacidade é fornecer a você uma visão clara de como usamos os
-												dados pessoais que você nos fornece quando visita nosso ambiente, sejam ele digital ou físico. A
-												nossa dedicação principal é protegê-los, proteger sua privacidade, seus direitos e as opções que
-												você tem para controlar seus dados pessoais e, até mesmo, os terceiros com quem compartilhamos
-												eles.
-												<br/><br/>
-												<strong>O QUE SÃO, COMO E QUAIS DADOS PESSOAIS COLETAMOS DE VOCÊ:</strong>
-												“Dados Pessoais” são quaisquer informações que se refiram a você e que lhe identifiquem
-												pessoalmente, seja individualmente ou em conjunto com quaisquer outras informações que nos sejam
-												disponibilizadas.<br/>
-												A Barbo Empreendimentos coletará vários tipos e categorias de dados pessoais, conforme aplicável:
-												<br/><br/>
-												1 – NA ASSINATURA: Caso você se registre em uma de nossas contas, a qual lhe permite usar as
-												mesmas informações de registro em qualquer lugar no mundo, coletamos seus dados para efetivar
-												seu acesso e isso pode incluir seu nome, sobrenome, endereço de e-mail.
-												<br/><br/>
-												2 - USO DE NOSSOS PRODUTOS E SERVIÇOS: ao usar nossos produtos e serviços, solicitaremos
-												informações pessoais (mas, claro, no momento da coleta, explicaremos quais informações serão
-												necessárias e quais são opcionais de preenchimento), tais como:
-												<br/><br/>
-												a. sua data de nascimento e/ou a confirmação de que você tem mais de 18 anos;<br/>
-												b. seu endereço de e-mail, ao se inscrever em uma de nossas promoções ou newsletters;
-												<br/><br/>
-												4 - DADOS PESSOAIS QUE COLETAMOS AUTOMATICAMENTE: também podemos coletar dados pessoais a seu
-												respeito, quando você interage com nosso site, e sobre como você os usa, a saber:
-												<br/><br/>
-												- Sites: coletaremos informações sobre visita e uso dos sites. Uma visita a um de nossos sites
-												resulta no envio de dados de seu navegador para nossos servidores. Coletaremos dados pessoais da
-												seguinte forma: endereço de IP; data e hora da visita e tempo de permanência em nosso site; URL
-												de referência (site terceiro do qual você foi direcionado para o nosso site); páginas e produtos
-												visitados em nosso site; e informações sobre o dispositivo e o navegador (tais como tipo e
-												versão do navegador e sistema operacional).
-												<br/><br/>
-												- Cookies e dispositivos similares: nós e nossos parceiros usamos várias tecnologias para
-												coletar e armazenar informações, inclusive dados pessoais, quando você estiver visitando nossos
-												sites ou usando nossos aplicativos, incluindo o envio de um ou mais cookies ou outros
-												dispositivos similares para seu dispositivo.
-												<br/><br/>
-												5 - FONTES DE INFORMAÇÕES: a maioria das informações que coletarmos a seu respeito estará
-												relacionada aos dados pessoais que você forneceu voluntariamente, por meio de sites, WhatsApp,
-												ou seja, por meio de todas as interações que você fizer com os sistemas disponibilizados pela
-												Barbo Empreendimentos.
-												<br/><br/>
-												<strong>COMO USAMOS SEUS DADOS PESSOAIS:</strong>
-												Os dados pessoais que coletarmos, a partir das fontes listadas acima, serão usados no formato em
-												que forem recebidos ou, quando apropriado, serão combinados com as informações pessoais que
-												obtivermos de outras fontes internas ou externas. Usamos e analisamos essas informações pessoais
-												para outras finalidades, as quais detalhamos abaixo:
-												<br/><br/>
-												No Atendimento ao Consumidor: se contatar nossos Canais de Atendimento (ou vice-versa), usaremos
-												dados pessoais para processar seu pedido e oferecer o melhor serviço/solução possível.
-												<br/><br/>
-												No desenvolvimento de produtos, serviços, promoções, sorteios, ofertas e eventos promovidos pela
-												Barbo Empreendimentos: usaremos seus dados pessoais, se assim permitido, para oferecer produtos e
-												serviços, tais como promoções;
-												<br/><br/>
-												Para ações de marketing: quando você se inscrever para receber as “newsletters” Barbo Empreendimentos,
-												criar uma conta, solicitar ou fornecer feedback sobre um produto ou serviço online ou usar nosso
-												site, usaremos seus dados pessoais para criar um perfil com base nas informações que tivermos a
-												seu respeito. Criamos seu perfil de acordo com suas preferências para oferecer a melhor
-												experiência personalizada e enviar mensagens de marketing e newsletters personalizadas, bem como
-												para pesquisa de opinião. Para atingir as referidas finalidades, a Barbo Empreendimentos utiliza seus
-												dados pessoais através da maneira como você interage com nossa marca por meio de todos os
-												diferentes canais descritos acima e as informações que coletamos a esse respeito, por meio de
-												cada um desses canais, dizem muito sobre seus interesses e preferências. Essa percepção
-												permite-nos oferecer a melhor experiência possível. Em particular, poderemos combinar as
-												informações que coletarmos com as informações coletadas por terceiros. Caso tenha permitido
-												enviar comunicações de marketing, usaremos as informações que você forneceu, ao interagir
-												conosco, para enviar mensagens com esse cunho, mas, de maneira personalizada, sobre os produtos
-												ou serviços, descontos e promoções comerciais realizadas por nós. Em algumas circunstâncias,
-												também combinaremos suas informações pessoais com aquelas de outros indivíduos para criar
-												relatórios abrangentes sobre como os clientes usam nossos produtos e serviços e experimentam
-												nossa marca, mas para questões estatísticas nós utilizaremos seus dados pessoais anonimamente.
-												Além disso, enviaremos comunicações de marketing diretas por meio do canal que você escolher e
-												permitir, tais como e-mail, telefone ou redes sociais. Como mencionamos, as mensagens que
-												enviarmos serão personalizadas e customizadas de acordo com suas preferências e interesses
-												individuais. Usamos dados analíticos para gerar essas mensagens personalizadas. Essas mensagens
-												de marketing diretas poderão conter informações sobre os produtos e serviços ou promoções e
-												notícias. Também usaremos, em determinadas circunstâncias, os canais para pesquisa de opinião
-												(para perguntar se você gostaria de participar de uma pesquisa), bem como para saber mais sobre
-												sua experiência.
-												<br/><br/>
-												Redirecionamento: nosso site usa tecnologias de redirecionamento. Isso nos permite apresentar a
-												nossos visitantes, que já demonstraram interesse por nossa loja e por nossos produtos e/ou
-												serviços, nossos anúncios em outros sites. Acreditamos que a apresentação de anúncios
-												personalizados, com base em interesses, seja mais interessante e relevante para nossos clientes
-												do que a apresentação de anúncios que não tenham conexão pessoal. As tecnologias de
-												redirecionamento analisam as informações que coletamos sobre suas interações, conforme descrito
-												acima, a respeito das ações de marketing, inclusive seus cookies, e apresentam anúncios com base
-												em seu comportamento prévio de navegação na web.
-												<br/><br/>
-												Anúncios: também operamos com empresas parceiras, que usam tecnologias de rastreamento para
-												veicular anúncios em nosso nome pela Internet. Essas empresas talvez coletem dados pessoais
-												sobre suas visitas a nossos sites ou aplicativos e sobre sua interação com nossas comunicações,
-												inclusive publicitárias. Informações sobre quais dados essas empresas coletam e como tratam seus
-												dados pessoais, deverão ser consultadas nas Políticas de Privacidade e Tratamento de Dados das
-												próprias empresas. Caberá a você ler tais Políticas, sendo de sua responsabilidade aceitá-las ou
-												rejeitá-las. A Barbo Empreendimentos não é responsável pelas Políticas de Privacidade e Tratamento de
-												Dados de terceiros e nem pelo conteúdo de quaisquer sites, conteúdo ou serviços ligados a
-												ambientes que são de terceiros.
-												<br/><br/>
-												Enriquecimento de nossos dados: quando obtivermos suas informações de diversas fontes,
-												combinamos essas informações, em certas circunstâncias, para enriquecer nosso entendimento de
-												suas preferências com relação a nossos produtos e serviços, com a finalidade de melhorar sua
-												experiência, enviando a você marketing personalizado ou preparar campanhas de marketing mais
-												eficazes.
-												<br/><br/>
-												Aperfeiçoamento de nossos produtos e serviços: usamos os dados pessoais que detivermos sobre
-												você, (bem como as informações na forma de pseudônimos ou anônimas geradas por suas informações
-												pessoais) para executar nossa análise e pesquisa, incluindo: ciência ou análise de dados, em que
-												combinamos informações (tais como informações pessoais e/ou sensíveis obtidas pelo uso de um
-												aplicativo de Training ou de seu histórico de navegação, por exemplo) que mantemos em grande
-												escala, com o objetivo de aprender mais sobre nossos clientes e suas preferências, identificar
-												seus padrões e tendências, aprimorar a experiência de usuário em nossos sites, fornecer
-												informações, conteúdo e ofertas sob medida para as necessidades de maneira individualizada, fins
-												genéricos de pesquisa e estatística ou, até mesmo, com fins de relatório agregado. Podendo,
-												ainda, nos ajudar a desenvolver novos produtos e serviços, monitorar o desempenho deles e/ou
-												aprimorar nossa tecnologia.
-												<br/><br/>
-												Sites: os dados pessoais coletados via site serão usados para permitir-nos avaliar
-												comportamentos de navegação em nossos sites, entender onde é possível melhorarmos, otimizar
-												nossos produtos e serviços, bem como para personalizar e aprimorar sua experiência em nossos
-												sites e com nossos aplicativos.
-												<br/><br/>
-												Análise de desempenho: vamos usar seus dados pessoais (inclusive via anonimato e agregação com
-												as informações pessoais de outros clientes) para fins de análise de vendas, cadeia de
-												suprimentos e financeira, de modo a determinar como a Barbo Empreendimentos está desempenhando, onde é
-												possível introduzir melhorias.
-												<br/><br/>
-												Solicitaremos sua permissão se quisermos usar seus dados pessoais para fins diferentes dos
-												mencionados nesta Política de Privacidade e do modo exigido pela Lei Geral de Proteção de Dados
-												Pessoais (LGPD).
-												<br/><br/>
-												<strong>COMO COMPARTILHAMOS SEUS DADOS PESSOAIS:</strong>
-												Seus dados pessoais são tratados com cuidado e como confidenciais pela Barbo Empreendimentos, sendo
-												compartilhados com terceiros apenas quando necessário e conforme indicado abaixo:
-												<br/><br/>
-												<strong>COM PRESTADORES DE SERVIÇOS:</strong>
-												Podemos compartilhar os dados pessoais limitados que você fornece ou forneceu por meio dos
-												canais de venda (seu nome, e-mail, senha e data de nascimento) com nossos prestadores de
-												serviços, para fins de identificação e autenticação, de modo que você possa acessar sua conta
-												com rapidez, facilidade e na velocidade que você espera de nós em qualquer lugar do mundo.
-												<br/><br/>
-												Vamos também compartilhar seus dados pessoais, conforme necessário, e somente para os fins
-												descritos acima, com terceiros que processam seus dados pessoais em nosso nome, tais como
-												terceiros que administram, como: prestadores de serviços de armazenamento em nuvem, entrega de
-												produtos, operadores para processar seus pagamentos e gestão de fraudes, agências de
-												classificação de crédito e plataformas analíticas. Exigimos que esses prestadores de serviços e
-												outros terceiros cumpram regras rígidas ao processar seus dados pessoais, incluindo o uso
-												exclusivo destes dados de acordo com as instruções da Barbo Empreendimentos e da Lei Geral de Proteção de
-												Dados Pessoais (LGPD), bem como outras legislações, normas ou regulamentos aplicáveis sobre a
-												matéria e ao caso concreto.
-												<br/><br/>
-												<strong>COM REDES SOCIAIS:</strong>
-												Nosso site em certas circunstâncias, fornecerão a você plug-ins para diversas redes sociais. Se
-												você decidir interagir com uma rede social, ao registrar sua conta, sua atividade em nosso site
-												ou via aplicativos será disponibilizada pela rede social. Se você tiver logado em alguma dessas
-												redes sociais durante sua visita a um de nossos sites ou aplicativos ou estiver interagindo com
-												algum dos plug-ins sociais, a rede social pode adicionar essa informação a seu perfil nessa
-												rede, com base em suas configurações de privacidade. Se quiser impedir esse tipo de
-												transferência de dados, saia de sua conta de rede social antes de entrar em nosso site, ou
-												altere as configurações do aplicativo quando possível. Leia as políticas de privacidade das
-												redes sociais para obter informações detalhadas sobre a coleta e transferência de dados
-												pessoais, seus direitos e sobre como manter configurações de privacidade adequadas às suas
-												necessidades.
-												<br/><br/>
-												<strong>COM AS AUTORIDADES DE SEGURANÇA E REGULATÓRIAS:</strong>
-												A Barbo Empreendimentos divulgará seus dados pessoais quando exigido por autoridade, lei ou processo
-												judicial, para a administração da justiça, para proteger seus interesses vitais, para
-												investigações das autoridades de segurança ou regulatórias, para proteger os bens e direitos da
-												empresa, proteger a segurança dos usuários do site ou no caso de mandado judicial ou ordem de
-												órgão de segurança.
-												<br/><br/>
-												
-												<strong>COMO PROTEGEMOS SEUS DADOS PESSOAIS:</strong>
-												Estamos comprometidos com a proteção dos dados pessoais que você nos confia e implementamos
-												medidas de segurança nos mais níveis técnicos e organizacionais para protegê-los contra o
-												processamento não autorizado ou ilegal, contra a venda, perda, destruição ou danos
-												acidentais.<br/>
-												A Barbo Empreendimentos garante a segurança da informação em seus sistemas por meio de protocolos,
-												controles, políticas internas e orientações para manter as medidas de segurança.<br/>
-												Internamente, os dados pessoais coletados são acessados somente por profissionais devidamente
-												autorizados, respeitando os princípios de proporcionalidade, necessidade e relevância para os
-												objetivos do negócio da Barbo Empreendimentos, além do compromisso de confidencialidade e preservação da
-												sua privacidade nos termos desta Política.
-												<br/><br/>
-												<strong>COMO ARMAZENAMOS SEUS DADOS PESSOAIS:</strong>
-												Vamos manter seus dados pessoais, em ambiente seguro e controlado, por um prazo mínimo de:
-												<br/><br/>
-												1. Dados cadastrais: 5 (cinco) anos após o término da relação existente entre você e a Barbo Empreendimentos, de acordo com os artigos 12 e 34 do Código de Defesa do Consumidor;<br/>
-												2. Dados de identificação digital: 6 (seis) meses, conforme o artigo 15 do Marco Civil da
-												Internet;<br/>
-												3. Outros dados: enquanto durar a relação existente entre você e a Barbo Empreendimentos e não houver
-												pedido de apagamento ou revogação de consentimento, conforme o artigo 9º, inciso II, da Lei
-												Geral de Proteção de Dados Pessoais (LGPD).<br/>
-												Os prazos poderão ser maiores para fins de auditoria, segurança ou controle de fraudes, proteção
-												de crédito e preservação de direitos, podendo a Barbo Empreendimentos permanecer com seus dados pessoais.
-												<br/><br/>
-												
-												<strong>DADOS PESSOAIS DE CRIANÇAS:</strong><br/>
-												Como regra geral, não coletamos intencionalmente dados pessoais de crianças menores de 13 anos.
-												Se vier ao nosso conhecimento que coletamos dados pessoais de crianças com idade inferior a 13
-												anos, tomaremos medidas para excluir essas informações tão logo quanto possível, salvo se a lei
-												nos exigir que as mantenhamos.<br/>
-												Se soubermos que a criança tem mais de 13 anos, mas é considerada menor, conforme o Estatuto da
-												Criança e do Adolescente, vamos obter a permissão dos pais ou responsáveis antes de usar esses
-												dados pessoais.<br/>
-												É responsabilidade dos pais ou representantes legais supervisionar as atividades online de seus
-												filhos, crianças ou adolescentes.
-												<br/><br/>
-												<strong>LINKS PARA OUTROS SITES E SERVIÇOS:</strong><br/>
-												Nossos sites podem conter links para sites de terceiros e alguns de nossos serviços
-												proporcionarão a você acesso a sites e serviços de terceiros (tais como redes sociais).<br/>
-												Não temos controle sobre como esses terceiros processam seus dados pessoais. Não examinamos e
-												não somos responsáveis por sites e serviços de terceiros ou por suas práticas de privacidade.
-												Caberá a você ler as Políticas de Privacidade e Tratamento de Dados de tais portais ou
-												plataformas fora do nosso ambiente, sendo de sua responsabilidade aceitá-las ou rejeitá-las.
-												<br/><br/>
-												<strong>SEUS DIREITOS EM RELAÇÃO AOS SEUS DADOS PESSOAIS:</strong><br/>
-												Concorrência leal e transparência são importantes para nós. Somos transparentes quanto aos dados
-												pessoais que coletamos e implementamos mecanismos relacionados a eles.
-												<br/><br/>
-												Acesso e correção de dados pessoais:<br/>
-												Caso você tenha encomendado produtos ou serviços ou se registrado em uma de nossas contas, você
-												poderá acessar um volume de seus dados pessoais por meio de nossos sites. Eles apresentam, de
-												forma geral, a opção de adicionar, atualizar ou remover algumas das informações que tivermos
-												sobre você.<br/>
-												Se qualquer dado pessoal que tenhamos a seu respeito não estiver acessível por meio do site, é
-												possível nos enviar uma solicitação para acessar estas informações, sem qualquer custo,
-												utilizando as informações de contato apresentadas ao final desta Política de Privacidade.<br/>
-												Após receber sua solicitação e informações suficientes para verificar sua identidade,
-												forneceremos uma cópia dos dados pessoais a que você tiver direito segundo a Lei Geral de
-												Proteção de Dados Pessoais (LGPD). Confirmaremos a finalidade vinculada à utilização de tais
-												dados pessoais, seus destinatários e a origem das informações.<br/>
-												Você poderá nos escrever a qualquer momento solicitando alterações de certos dados pessoais que
-												forem considerados incorretos ou irrelevantes ou solicitar o bloqueio, eliminação ou de qualquer
-												outra forma a remoção de seus dados pessoais. Atualizaremos, bloquearemos e removeremos seus
-												dados pessoais mediante solicitação de acordo com a Lei Geral de Proteção de Dados Pessoais
-												(LGPD).
-												<br/><br/>
-												Pedido de exclusão e cancelamento de registro para recebimento de mensagens de marketing:<br/>
-												Todos nossos comunicados de marketing contêm uma forma fácil de exclusão de registro para
-												recebimento de mensagens futuras, pois, nesses comunicados, disponibilizamos link pelo qual você
-												poderá cancelar o seu registro, exceto pelo WhatsApp (nesse caso, pedimos que você nos contate
-												pelos meios informados abaixo). Também será possível solicitar a exclusão de canais particulares
-												(por exemplo, e-mail ou SMS) da forma indicada na mensagem recebida em tal canal ou por meio das
-												configurações da sua conta com a Barbo Empreendimentos.<br/>
-												Caso opte pela exclusão do recebimento de mensagens de marketing, você poderá utilizar o link de
-												cancelamento de inscrição contido na mensagem que você tiver recebido ou, alternativamente,
-												poderá entrar em contato conosco através dos meios mencionados abaixo:
-												<br/><br/>
-												&bull;  Atendimento ao Cliente: <br/>
-												&bull;  Através dos telefones: +55 (19)9.9696-5525  (WhatsApp)<br/>
-												&bull;  Através do e-mail: contato@barbo.com.br<br/>
-												&bull;  Contato do Encarregado de Proteção de Dados – Andreia Ventura<br/>
-												<br/><br/>
-												Observe que, caso você opte pelo cancelamento do recebimento de nossas mensagens de marketing da
-												forma explicada acima, continuaremos a processar seus dados pessoais para outras finalidades já
-												mencionadas nesta Política, especialmente para permitir que possamos entender seus interesses e
-												preferências, porém, não iremos mais utilizar seus dados pessoais para enviar mensagens de
-												marketing personalizadas ou não personalizadas. Caso deseje a suspensão deste processamento de
-												forma parcial ou completa, explicamos como proceder no parágrafo acima.
-												<br/><br/>
-												Observe que alguns de nossos aplicativos de dispositivos móveis também podem enviar mensagens,
-												incluindo, caso você tenha dado permissão, mensagens push, como, por exemplo, sobre novos
-												produtos e serviços. Neste caso, o aplicativo fornecerá apenas notificações just-in-time antes
-												de enviarmos notificações push. É possível desativar estas mensagens nas configurações de seu
-												telefone ou no aplicativo ou optar por desinstalar o aplicativo para deixar de receber as
-												mensagens.
-												<br/><br/>
-												<strong>Exclusão de dados pessoais:</strong>
-												Você poderá, a qualquer momento, solicitar que a Barbo Empreendimentos elimine seus dados pessoais.
-												Avaliaremos e, quando necessário, cumpriremos sua solicitação de acordo com a Lei Geral de
-												Proteção de Dados Pessoais (LGPD), da forma explicada acima. Caso não seja possível atendermos
-												seu pedido, informaremos a você quais as justificativas da negativa.
-												<br/><br/>
-												
-												<strong>ALTERAÇÕES DESTA POLÍTICA:</strong>
-												A Barbo Empreendimentos se obrigou a cumprir os princípios fundamentais de privacidade e proteção de
-												dados aplicáveis pela legislação específica. Portanto, revisamos regularmente nossa Política de
-												Privacidade online para assegurar que esta esteja livre de erros e claramente visível nos sites,
-												que ela contenha as informações apropriadas sobre seus direitos e as nossas atividades de
-												processamento e que seja implementada e esteja de acordo com a Lei Geral de Proteção de Dados
-												Pessoais (LGPD). Caso façamos alterações significantes a esta Política de Privacidade, você será
-												informado por meio de notificação postada em nossos sites e/ou aplicativos móveis.
-												Ocorrendo atualizações neste documento que demandem nova coleta de consentimento, você será
-												notificado por meio dos contatos que você informar.
-												<br/><br/>
-												<strong>INFORMAÇÕES DE CONTATO:</strong>
-												Caso você tenha qualquer pergunta sobre a utilização de seus dados pessoais, sobre como exercer
-												seus direitos ou sobre nossa Política de Privacidade, sinta-se à vontade para entrar em contato
-												conosco através dos canais mencionados abaixo:
-												<br/><br/>
-												<strong>ATENDIMENTO AO CLIENTE</strong>
-												Através dos telefones: (15) 3389-1029
-												Através do e-mail: contato@barbo.com.br
-												
-												<br/><br/>
-												
-												<button onClick={() => dispatch(Actions.close_modal('politica'))}
-												        className='col-12 text-center'>Fechar
-												</button>
-										
-										</Content>
-								</Modal.Body>
-						</Modal>
-				</>
-		);
+
+	const _modal = useSelector(({ modal }) => modal.politica);
+	const dispatch = useDispatch()
+
+	return (
+		<>
+			<Modal
+				show={_modal}
+				size="lg"
+				onHide={() => dispatch(Actions.close_modal('politica'))}
+				backdrop="static"
+				keyboard={true}
+				centered
+			>
+				<Modal.Header className="topo-modal-politica">
+					<Modal.Title className='row col-12 justify-content-center'>
+						<Title className='row col-12 p-0 flex justify-content-between'>
+							<div className='title'>POLÍTICA DE PRIVACIDADE BARBO EMPREENDIMENTOS</div>
+							<div><a href={"#"} onClick={() => dispatch(Actions.close_modal('politica'))}
+								className='text-center'><Icon.XCircle color='#252525' size={18} /></a></div>
+						</Title>
+					</Modal.Title>
+				</Modal.Header>
+				<Modal.Body>
+					<Content className='row col-12 text-left'>
+						<strong>SOBRE A NOSSA POLÍTICA DE PRIVACIDADE</strong>
+
+						Como tratamos seus dados pessoais
+
+						Nós, da Barbo, sabemos como é importante que você esteja seguro sobre seus Dados Pessoais. <br/>
+						Por isto todas as informações pessoais relativas a usuários, clientes ou visitantes, que usem nossos serviços digitais ou físicos, são tratadas em concordância com a Lei da Proteção de Dados Pessoais, além de atender às boas práticas de Segurança da Informação.<br/><br/>
+
+						<strong>Por que coletamos e tratamos seus Dados Pessoais?</strong><br/>
+
+						Ao oferecermos nossos serviços, precisamos coletar e tratar seus Dados Pessoais para as seguintes finalidades:<br/>
+
+						a) prover os serviços de incorporação e comercialização de imóveis;<br/>
+						b) atender nossos parceiros de negócio, como nos financiamentos dos imóveis que comercializamos;<br/>
+						c) atender às obrigações legais e administrativas de órgãos públicos ligados a estes serviços, no âmbito municipal, estadual e federal.<br/><br/>
+
+						Assim, quando realizamos qualquer atividade que utiliza Dados Pessoais, como cadastros, processamentos diversos relativos ao desenvolvimento do serviço contratado, fazemos isto com muito respeito e responsabilidade e tomamos medidas técnicas e administrativas para assegurar a sua privacidade.<br/><br/>
+
+						Para tanto, desenvolvemos uma Política de Privacidade para cuidar especificamente de Dados Pessoais, como parte integrante do nosso SGPD – Sistema de Gestão de Privacidade e Dados e que descreve, entre outras coisas, como os dados são coletados, armazenados, tratados, compartilhados, retidos e descartados.<br/><br/>
+
+						Também, estamos constantemente aprimorando nossa Política de Privacidade e, em nosso site, além de encontrar esta política, você também encontrará as formas para entrar em contato conosco e esclarecer quaisquer dúvidas sobre Privacidade de Dados Pessoais.<br/><br/><br/>
+
+
+
+						<strong>POLÍTICA DE PRIVACIDADE</strong><br/>
+
+						Em agosto de 2018, com a publicação da LGPD – Lei Geral de Proteção de Dados, surgiram novos conceitos e definições que norteiam a forma como os Dados Pessoais devem ser tratados pelas organizações.<br/>
+
+						Assim, descrevemos a seguir estes conceitos e definições importantes, bem como outros detalhes da nossa Política de Privacidade e como adequamos a BARBO para atender às leis vigentes.<br/><br/>
+
+						1. Entenda quem é quem perante a LGPD<br/><br/>
+
+						1.1. Titular<br/>
+
+						É você, a pessoa que possui os Dados Pessoais, seja na condição de cliente BARBO, colaborador ou mesmo de um visitante, presencial ou remoto (on-line).<br/><br/>
+
+						1.2. Controlador<br/>
+
+						Somos nós, a BARBO, onde através de nossas empresas, áreas e departamentos competem as decisões referentes ao tratamento de Dados Pessoais.<br/><br/>
+
+						1.3. Controlador conjunto<br/>
+
+						São empresas homologadas pela BARBO, como por exemplo imobiliárias parceiras, que podem coletar informações adicionais para atender a um serviço prestado a você.<br/><br/>
+
+						1.4. Operador<br/>
+
+						Em determinadas situações, são nossos parceiros credenciados que, em nosso nome, realizam o tratamento de Dados Pessoais.<br/><br/>
+
+						1.4. Encarregado (DPO – Data Protection Officer)<br/>
+
+						É a pessoa responsável por assegurar o cumprimento da LGPD dentro de uma organização. Na BARBO o Encarregado trabalha em conjunto com uma equipe multidisciplinar e um comitê para poder conduzir os trabalhos necessários nas áreas de tecnologia, administrativa e jurídica.<br/><br/>
+
+						1.5. ANPD<br/>
+
+						É a Autoridade Nacional de Proteção de Dados, órgão federal instituído especialmente para zelar, auxiliar as empresas e fiscalizar o cumprimento da LGPD no Brasil.<br/><br/>
+
+						2. Alguns conceitos e definições importantes<br/>
+
+						(os conceitos são apresentados em ordem que vão sendo mencionados)<br/><br/>
+
+						2.1. Política de Privacidade<br/>
+
+						É o conjunto de regras, procedimentos e orientações administrativas e de tecnologia a serem observados e seguidos por todos os envolvidos de forma a assegurar a privacidade de seus Dados Pessoais.<br/><br/>
+
+						2.2. Dado Pessoal<br/>
+
+						É o dado relativo a uma pessoa, sendo este capaz de identificá-la ou tornar possível a sua identificação. Como exemplo, são Dados Pessoais que permitem a sua identificação: Nome, CPF, RG, endereço, telefone, e-mail etc.<br/><br/>
+
+						2.3. Dado Pessoal Sensível<br/>
+
+						É qualquer informação sobre origem racial ou étnica, convicção religiosa, opinião política, filiação a sindicato ou a organização de caráter religioso, filosófico ou político, dado referente à saúde ou à vida sexual, dado genético ou biométrico, quando vinculado a uma pessoa.<br/><br/>
+
+						2.4. Tratamento<br/>
+
+						É qualquer ação realizada com Dados Pessoais. Por exemplo, coleta, armazenamento, consulta, atualização, compartilhamento, transmissão, classificação, reprodução, exclusão, inativação etc.<br/><br/>
+
+						2.5. Tratamento de Dados Pessoais de Crianças e de Adolescentes<br/>
+
+						O tratamento de Dados Pessoais de crianças somente deve ser realizado com o consentimento específico dado por pelo menos um dos pais ou pelo responsável legal.<br/><br/>
+
+						2.6. Consentimento<br/>
+
+						É a sua declaração autorizando o tratamento de seus Dados Pessoais quando não houver uma outra base legal, como por exemplo, um contrato. Nós sempre solicitaremos o consentimento para uma finalidade específica e você terá total liberdade para concordar ou não com os Termos de Tratamento dos Dados Pessoais. Não concordando, os Dados Pessoais não serão coletados, porém isto poderá limitar alguma prestação de nossos serviços ou experiências.<br/>
+
+						Os Dados Pessoais poderão ser utilizados sem o prévio consentimento do Titular ou responsável legal nas seguintes hipóteses: a) se tivermos que cumprir obrigação legal ou regulatória; b) para exercermos nossos direitos em processos judiciais e administrativos, c) para realizarmos estudos e pesquisas, assegurando a anonimização; d) para executarmos o contrato ou procedimentos preliminares a este; e) para proteção à vida ou da segurança física do Titular, f) para atendermos legítimo interesse, respeitando-se os direitos e liberdades fundamentais do Titular; e g) para proteção do crédito.<br/><br/>
+
+						2.7. Legítimo interesse<br/>
+
+						É o que permite que nós possamos tratar Dados Pessoais para atender as necessidades operacionais, administrativas e legais, de forma a prover os serviços oferecidos pela BARBO a você. A LGPD define que os interesses só serão considerados legítimos se a forma de uso dos Dados Pessoais não for contrária à legislação brasileira, a finalidade de uso for específica e desde que seja dada efetiva transparência a tais usos, bem como sejam respeitados os seus direitos e liberdades individuais.<br/><br/>
+
+						2.8. Bases legais<br/>
+
+						São as possibilidades permitidas pela lei e que autorizam o tratamento de Dados Pessoais. Por exemplo, o consentimento é uma base legal, como também a necessidade de cumprir um contrato que nós temos com você ou o cumprimento de uma outra legislação.<br/><br/>
+
+						2.9. Plataformas<br/>
+
+						São os sites, sistemas e aplicativos com funções específicas e que podem coletar e tratar dados diversos, incluindo Dados Pessoais.<br/><br/>
+
+						2.10. Serviços e Experiências<br/>
+
+						Serviços são as atividades que realizamos para você. Os serviços podem ser presenciais ou remotos, digitais ou não digitais. Experiências são as formas como você se relaciona ou interage com a gente.<br/><br/>
+
+						2.11. Tecnologias<br/>
+
+						São todas as ferramentas digitais, sistemas, aplicativos, incluindo as de identificação pessoal, como por exemplo sites, formulários, cadastros digitais, ou ainda o acesso ao Wi-Fi e outros serviços oferecidos em razão do uso dos serviços operacionais ou administrativos, como câmeras de segurança, realidade aumentada etc.<br/><br/>
+
+						2.12. Cookies<br/>
+
+						São arquivos que armazenam temporariamente, no seu próprio computador ou dispositivo móvel, sobre o que você está visitando em um determinado site da Internet. Com base nestas informações, as empresas que utilizam cookies em seus respectivos sites podem aprimorar a experiência de navegação para cada pessoa, por exemplo, oferecendo uma melhor visualização ou até mesmo oferecendo informações mais relevantes a você. Eventualmente poderemos utilizar cookies para melhorar a sua experiência de navegação, e quando isto acontecer você será avisado durante a navegação no site, e poderá aceitar ou não.<br/><br/>
+
+						3. Quais Dados Pessoais são coletados e de qual forma?<br/>
+
+						Para poder prover nossos serviços, nós coletamos seus Dados Pessoais cujo tipo de dado se propõe a cumprir um objetivo específico.<br/>
+
+						A definição de quais dados coletamos, respeita as necessidades mínimas e legítimas de cada serviço, que vão desde cadastros, atividades administrativas, financeiras, geração de relatórios, geração de informações para atendimento a órgãos públicos, fiscais, jurídicos, no âmbito municipal, estadual e federal.<br/>
+
+						Estes dados podem ser coletados através de documentos entregues por você, como, por exemplo, documentos originais emitidos por outras empresas ou órgãos públicos, cópias impressas de documentos pessoais, informações suas para contato e emissão de boletos bancários, entre outros.<br/>
+
+						Também, estes dados podem ser coletados por formulários eletrônicos, sistemas remotos, páginas da Web, ou qualquer outro sistema digital de coleta de dados.<br/><br/>
+
+						4. Por quanto tempo mantemos seus Dados Pessoais?<br/>
+
+						Nosso SGPD – Sistema de Gestão da Proteção de Dados possui regras específicas sobre a coleta, armazenamento, tratamento, manutenção e descarte de Dados Pessoais, bem como o período de retenção adequado para cada tipo de Dado Pessoal coletado, considerando a necessidade, finalidade ou para o cumprimento de obrigações legais, regulatórias, contratuais, entre outras, sempre fundamentadas em bases legais.<br/>
+
+						A manutenção, seja de um documento impresso ou digital, depende de cada atividade em que este deve ser tratado, sendo que em alguns casos as leis relacionadas podem nos obrigar a manter dados de forma perene.<br/>
+
+						Também, dados pessoais poderão ser mantidos sob nossa custódia por tempo indeterminado, armazenados em sistemas apropriados, e seguindo todos os critérios de Segurança da Informação, nas seguintes circunstâncias:<br/><br/>
+
+						a) para o cumprimento de novas obrigações legais em fase de elaboração;<br/>
+						b) para atender aos critérios de conformidade constantes em nosso Sistema de Gestão de Segurança da Informação;<br/>
+						c) para combater ações de fraudes ou corrupção;<br/>
+						d) para assegurar outras situações não previstas e que julgarmos serem de interesse do Titular a recuperação dos seus dados pessoais, sendo assim legítimo interesse.<br/><br/>
+
+						5. Com quem compartilhamos seus Dados Pessoais?<br/>
+
+						Para que possamos prestar os nossos serviços, utilizamos parceiros credenciados que poderão tratar parcialmente seus Dados Pessoais, limitados a finalidade legítima e mínimo necessário. Também, nestes casos, adotamos políticas que exigem destes parceiros práticas de segurança e privacidade adequadas para o tratamento dos Dados Pessoais.<br/><br/>
+
+						São considerados nossos parceiros de negócio, ou de apoio aos nossos serviços, e que poderão tratar seus dados pessoais:<br/>
+
+						a) empresas coligadas do grupo;<br/>
+						b) imobiliárias e corretores de imóveis;<br/>
+						c) instituições financeiras;<br/>
+						d) escritórios jurídicos ou empresas de cobrança;<br/>
+						e) outras empresas coligadas à BARBO, como por exemplo uma SPE (Sociedade de Propósito Específico), cuja finalidade é a gestão dos empreendimentos imobiliários.<br/><br/>
+
+						Também, para cumprirmos a lei, poderá ser necessário compartilhar seus Dados Pessoais com autoridades públicas, mas sempre defenderemos os seus direitos como Titular.<br/>
+
+						É importante salientar que não compartilhamos seus Dados Pessoais com fabricantes de móveis, fornecedores de eletrodomésticos, fornecedores ou prestadores de serviços em geral.<br/><br/>
+
+						6. Quais são os seus direitos como Titular?<br/>
+
+						Você poderá a qualquer momento:<br/><br/>
+
+						6. Quais são os seus direitos como Titular?<br/><br/>
+
+						6.1. Obter a Confirmação e Acesso a uma cópia dos seus Dados Pessoais existentes em nossos sistemas, bem com solicitar informações sobre com quem Compartilhamos seus Dados Pessoais.<br/><br/>
+
+						6.2. Solicitar Correção ou Atualização dos Dados Pessoais, de forma a mantê-los precisos.<br/><br/>
+
+						6.3. Solicitar a Eliminação de Dados Pessoais que não sejam mais necessários para o cumprimento dos serviços contratados conosco ou para o cumprimento de questões legais. Em certos casos, alguns dados poderão ser Anonimizados, ou seja, serão alterados de tal forma que não permitam sua identificação. Em outros casos, informaremos sobre a impossibilidade de eliminação dos dados pessoais em razão de cumprimento de obrigação legal, ou para cumprir um dos tópicos listados em “Por quanto tempo mantemos seus Dados Pessoais?”.<br/><br/>
+
+						6.4. Solicitar Portabilidade dos seus Dados Pessoais para outros prestadores de serviços semelhantes, na forma definida no contrato de prestação de serviços.<br/><br/>
+
+						6.5. Não Consentir que seus Dados Pessoais sejam utilizados. Sempre que necessário, nós solicitaremos o seu consentimento de forma clara e objetiva e você será livre para consentir ou não com o uso dos seus Dados Pessoais. Não consentindo e sendo o Dado Pessoal necessário para a realização de um serviço, ficaremos limitados e não poderemos atender à sua necessidade.<br/><br/>
+
+						6.6. Revogar (retirar) um consentimento realizado anteriormente. Contudo, nos casos de revogação pelo Titular ou de seu responsável legal, é possível que tenhamos que cancelar os serviços contratados ou limitar nossos serviços e experiências.<br/><br/>
+
+						6.7. Você ainda poderá Opor-se ao tratamento de algum de seus Dados Pessoais desde que estes dados não atendam a um legítimo interesse ou não atendam a alguma necessidade legal ou contratual.<br/><br/>
+
+						7. Quais são nossas responsabilidades e como protegemos seus Dados Pessoais?<br/><br/>
+
+						Na condição de Controlador, nós cuidamos dos seus Dados Pessoais com responsabilidade e utilizamos somente para fins de prestação dos nossos Serviços. Além desta política, adotamos conceituadas técnicas e boas práticas de segurança e governança, incluindo o uso de criptografia e outros sistemas de prevenção de incidentes, ações educativas, mecanismos de supervisão, monitoramento e procedimentos para mitigar riscos e outros aspectos relacionados à Segurança da Informação, tudo com o objetivo de proteger seus Dados Pessoais.<br/>
+
+						Embora todas estas ações, a segurança da informação não depende exclusivamente de nossas ações. Por exemplo, acesso ou uso não autorizado das suas contas em serviços diversos de Internet, falhas dos dispositivos, programas e antivírus desatualizados, os quais não estão sob o nosso controle, entre outros fatores, podem comprometer a segurança dos seus Dados Pessoais.<br/>
+
+						Portanto, a sua atuação preventiva, postura cuidadosa e confidencialidade dos logins e senhas, também é de extrema importância para manter em um ambiente seguro.<br/><br/>
+
+						8. Como falar sobre seus Dados Pessoais com a gente?<br/>
+
+						Se você acredita que seus Dados Pessoais foram utilizados de forma incompatível com esta Política de Privacidade ou com a Lei Geral de Proteção de Dados Pessoais, ou mesmo se você tiver dúvidas sobre o tratamento de seus Dados Pessoais ou exercício de seus direitos, bem como comentários e sugestões sobre esta política, entre em contato conosco.<br/><br/>
+
+						• Encarregado (DPO): MODUS DPO - Flávio Ibelli Callegari<br/>
+						• E-mail: dpo@modusdpo.com.br<br/>
+						• Endereço: MODUS DPO - Rua do Rosário, 1524, Cj 08, Centro, Piracicaba – SP 13400-186 A/c DPO | (19) 2538-9460<br/><br/>
+
+						9. Atualização e mudanças nesta Política de Privacidade.<br/>
+
+						Como estamos em constante processo de aperfeiçoamento dos nossos serviços, nossa Política de Privacidade também será aperfeiçoada, sempre objetivando atender às novas necessidades, aos requisitos no tratamento de dados pessoais, alterações legais ou novas exigências ou regulamentações da ANPD.<br/><br/>
+
+						10. Aplicação<br/>
+
+						Esta Política de Privacidade se aplica às seguintes empresas: BARBO RIO CLARO EMPREENDIMENTOS LTDA, pessoa jurídica de direito privado, CNPJ/MF sob nº 11.004.164/0001-03, Rua 09 CJ, nº 500, Sala 02, Cidade Jardim, Rio Claro/SP, CEP 13501-100; e EMPREENDIMENTOS BARBO LTDA, pessoa jurídica de direito privado, CNPJ/MF sob nº 00.567.422/0001-43, Rua 09 CJ, nº 500, Sala 01, Cidade Jardim, Rio Claro/SP, CEP 13501-100<br/>
+
+						<br /><br />
+
+						<button onClick={() => dispatch(Actions.close_modal('politica'))}
+							className='col-12 text-center'>Fechar
+						</button>
+
+					</Content>
+				</Modal.Body>
+			</Modal>
+		</>
+	);
 }

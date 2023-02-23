@@ -28,7 +28,7 @@ function CardLR(props) {
             {props.text}
           </div>
           <div className="btn d-flex col-12">
-            <a href="/barbo/las_rocas">Mais informações</a>
+            <a href="https://alakadim.com.br/lasrocas/">Mais informações</a>
           </div>
         </div>
       </div>

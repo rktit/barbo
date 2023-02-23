@@ -176,33 +176,33 @@ background-color: #eeeeee;
             display: flex;
             justify-content: center;
         }
-    .filtro__select {
-        width: 14rem;
-        font-size: 14px;
-        color: #000;
-        font-family: ${fonts.comfortaa};
-        font-weight: 500;
-        border-radius: 0;
-        border-width: 1px;
-        border-color: rgb(0 0 0);
-        border-style: solid;
-        box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
-        background-color: transparent;
-        line-height: 17px;
-        padding: 20px;
-    }
-    .filtro__item {
-        width: fit-content;
-        padding: 4px 0px;
-    }
-    
-    .btn_lupa {
-        background: url(${lupa}) no-repeat center;
-        height: 2.75rem;
-        padding: 1rem 1rem;
-        border-radius: 0;
-        border-width: 1px;
-    }
+        .filtro__select {
+            width: 14rem;
+            font-size: 14px;
+            color: #000;
+            font-family: ${fonts.comfortaa};
+            font-weight: 500;
+            border-radius: 0.5rem;
+            border-width: 1px;
+            border-color: rgb(0 0 0);
+            border-style: solid;
+            box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+            background-color: transparent;
+            line-height: 17px;
+            padding: 20px;
+            margin: 4px 4px;
+        }
+         .filtro__item {
+            width: 14.5rem;
+            padding: 0 0;
+        }
+        .btn_lupa {
+            height: 2.75rem;
+            padding: 2rem 7rem;
+            border-radius: 0.5rem;
+            border-width: 1px;
+            justify-content: center;
+        }
     .filtro__button {
         width: 14rem;
     }

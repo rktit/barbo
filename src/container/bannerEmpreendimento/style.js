@@ -72,7 +72,9 @@ const Content = styled.div`
             width: 180px;
         }
         .banner{
-            height: 24rem;
+            height: 11rem;
+            width: 30rem;
+            margin-top: 10rem;
             background-repeat: no-repeat;
         }
     }

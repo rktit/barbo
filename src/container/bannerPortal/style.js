@@ -7,9 +7,10 @@ import backgroundMobile from "images/login/login_mobile.png";
 const Content = styled.div`
   flex-direction: row;
   padding: 0 !important;
-  background: url(${background}) no-repeat top center;
-  background-size:cover;
-  height: 101vh;
+  background: url(${background}) no-repeat  center;
+  background-size: cover;
+  height: 90vh;
+
   justify-content: center;
   align-items: center;
 

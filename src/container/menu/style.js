@@ -168,8 +168,8 @@ z-index: 1027;
 		  
 		  .menu-top {
 		    transition: 0.2s ease-in-out;
-        padding: 1.5rem 1.5rem 2.5rem 1.5rem !important;
-		  }
+        padding: 0.5rem 1.5rem 1rem 1.5rem !important;
+      }
       .container {
         margin-top: 10px;
       }

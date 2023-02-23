@@ -63,7 +63,7 @@ a {
     
 
     &.active {
-        background-color: #ff3a66;
+        background-color: #e73538;
         width: 20rem;
         }
 

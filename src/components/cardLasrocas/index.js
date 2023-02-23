@@ -16,7 +16,7 @@ function CardLasrocas(props) {
   return (
     <Content>
       <div className="card col-12 d-flex">
-        <div className="love" alt="Favoritar">Pronto para morar</div>
+        <div className="love" alt="Favoritar pronto-para-morar">Pronto para morar</div>
         <img src={props.image} className="card-img-top" />
         <div className="card-body">
           <div className="card-items">
@@ -32,7 +32,7 @@ function CardLasrocas(props) {
             {props.text1}
           </div>
           <div className="d-flex btn col-12">
-            <a href="/barbo/las_rocas">Ver Mais</a>
+            <a href="https://alakadim.com.br/lasrocas/">Ver mais</a>
           </div>
         </div>
       </div>
