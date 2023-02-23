@@ -51,11 +51,11 @@ const Routes = () => (
 
            {/* <Route path='/barbo/blog' component={Blog_Page} /> 
              <Route path='/barbo/declarar_imposto' component={DeclararImposto} />
-            <Route path='/barbo/beneficios_plantas' component={BeneficiosPlantas} />
-           <Route path='/barbo/iluminacao' component={BlogIluminacao} /> */}
+            <Route path='/barbo/beneficios_plantas' component={BeneficiosPlantas} />*/}
+           <Route path='/barbo/iluminacao' component={BlogIluminacao} /> 
 
-              <Route path='/barbo/empreendimentos' component={Empreendimentos_Page} />
-         {/*  <Route path='/barbo/front_lake' component={FrontLake} />
+             {/*  <Route path='/barbo/empreendimentos' component={Empreendimentos_Page} />
+          <Route path='/barbo/front_lake' component={FrontLake} />
              <Route path='/barbo/higienopolis' component={Higienopolis} />
             <Route path='/barbo/infinity' component={Infinity} />
             <Route path='/barbo/las_rocas' component={LasRocas} />
