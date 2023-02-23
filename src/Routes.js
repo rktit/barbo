@@ -61,10 +61,10 @@ const Routes = () => (
              <Route path='/barbo/las_rocas' component={LasRocas} />
              <Route path='/barbo/morada_porto' component={MoradaPorto} />
           <Route path='/barbo/office_tower' component={OfficeTower} />
-            <Route path='/barbo/quinta_vale' component={QuintaVale} />
-              <Route path='/barbo/villa_real' component={VillaReal} />   */}
+            <Route path='/barbo/quinta_vale' component={QuintaVale} /> */}
+              <Route path='/barbo/villa_real' component={VillaReal} />  
 
-            <Route path='/' component={Home_Page} />
+            {/* <Route path='/' component={Home_Page} /> */}
 
             {/*    <Route path='/barbo/empreendimentos_interna' component={EmpreendimentosInterna} />
             <Route path='/barbo/blog_interna' component={Blog_Interna} /> */}
