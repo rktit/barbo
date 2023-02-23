@@ -2,7 +2,7 @@ import styled from "styled-components";
 import fonts from "config/fonts";
 
 import background from "images/contato/img.png";
-import backgroundMobile from "images/contato/img_mobile.png";
+import backgroundMobile from "images/contato/img.png";
 
 
 

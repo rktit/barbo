@@ -84,7 +84,7 @@ const Content = styled.div`
   }
 
   @media only screen and (max-width: 600px) {
-	margin: 50px 0 !important;
+    margin: 50px -12px !important;
 	min-height: 24rem;
 	max-height: 20rem;
 
@@ -127,7 +127,7 @@ const Content = styled.div`
 		margin-top:0px;
 		text-align: center;
 		font-size: 1.5rem;
-		padding: 0 3rem;
+		padding: 0 0rem;
 		height: 100px;
 	}
 	.texto {

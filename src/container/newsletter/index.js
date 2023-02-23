@@ -63,7 +63,7 @@ function NewsLetterLs() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-8 col-md-5 d-flex flex-wrap">
+                    <div className="col-8 col-md-10 d-flex flex-wrap">
                         <form onSubmit={handleSubmit}>
                             <div className="boxNome col-8 col-d-12 d-flex">
                                 <input type='nome' name="input_newsletter" className="input-newsletter"
