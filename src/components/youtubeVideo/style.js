@@ -10,11 +10,11 @@ margin-left: 0px;
 }
 
 @media only screen and (max-width: 600px) {
-    padding: 20px 0px !important;
+    padding: 2rem 0px !important;
     .image {
-      width: 121%;
-    height: 15rem;
-    margin-left: -2rem;
+      width: 25rem;
+      height: 15rem;
+      margin-left: -2rem;
     }
 
   .content {

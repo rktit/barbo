@@ -9,7 +9,7 @@ padding: 0 !important;
 background: url(${background}) no-repeat top center;
 background-size:cover;
 height: auto;
-width: 100%
+width: 100%;
 
 font-family: ${fonts.comfortaa};
 text-align: center;
@@ -66,8 +66,13 @@ text-align: center;
   }
 
   @media only screen and (max-width: 600px) {
-   
+    top: 10rem;
+    height: 15rem;
+    width: 100%;
 
+    .welcome{
+      margin-top:10rem;
+    }
     .title {
       margin-top: 32px;
       font-size: 1.4rem;

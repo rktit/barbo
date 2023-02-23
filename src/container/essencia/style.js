@@ -195,7 +195,7 @@ const Content = styled.div`
       align-items: center;
     }
     .title{
-      padding: 3rem 0rem;
+      padding: 12rem 0rem 1rem 0rem;
     }
   
     .orcamento{

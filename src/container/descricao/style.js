@@ -32,7 +32,7 @@ const Content = styled.div`
     color: #20396f;
     font-size: 2rem;
     font-family: ${fonts.comfortaa};
-padding-top: 80px;
+    padding-top: 80px;
     strong{
       font-family: ${fonts.comfortaa};
     }
@@ -201,7 +201,7 @@ padding-top: 80px;
   width: 5px;
 }
   @media only screen and (max-width: 600px) {
-    padding: 0px;
+    padding: 0rem 0 2rem 0px;
     .content {
       margin: -1rem 0 2rem 0;
     }
