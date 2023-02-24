@@ -140,7 +140,7 @@ const Content = styled.div`
   
 
   @media only screen and (max-width: 600px) {
-    box-artigo {
+    .box-artigo {
       display: flex;
       flex-direction: column;
     }

@@ -140,8 +140,25 @@ const Content = styled.div`
   
 
   @media only screen and (max-width: 600px) {
-    flex-direction: column;
-
+    .box-artigo {
+      display: flex;
+      flex-direction: column;
+    }
+    .image-side{
+      background: url(${iluminacao}) no-repeat center center;
+      background-size: cover;
+      padding-bottom: 24rem;
+      height: 30rem;
+      width: 24rem!important;
+      margin: 5rem 0 0 4px;
+    }
+    .title {
+      font-family: Comfortaa-VariableFont_wght;
+      font-size: 1.5rem;
+      padding-top: 4rem;
+      font-weight: bold;
+      color: #252525;
+  }
     .splideLoc{
       display: flex;
       justify-content: center;
@@ -233,6 +250,14 @@ const Content = styled.div`
     fill: transparent;
     transition: fill .2s linear;
 }
+
+.maquinas{
+  display: flex;
+  margin: 0.5rem 0 1rem 0;
+  align-items: center;
+}
+
+
   }
 `;
 
