@@ -74,22 +74,41 @@ function ArtigoBeneficios(props) {
           <div className="image-side">
           </div>
         </Fade>
-        <Fade>
-          <div className="box-artigo">
-            <span className="title">Veja mais</span><p />
-            <div className="maquinas">
-              <CardImposto image={imposto}
-                items="Postado em Dicas - 09/12/2022"
-                title="Declarar Imposto"
-                text="Declarar imóvel financiado no imposto de renda" />
-              <CardBeneficios image={plantas}
-                items="Postado em Dicas - 09/12/2022"
-                title="Benefícios das Plantas"
-                text="Leve a natureza de forma consciente para o design do seu lar" />
+        {isMobile ?
+          <Fade>
+            <div className="box-artigo">
+              <span className="title">VEJA MAIS</span><p />
+              <div className="maquinas">
+                <CardImposto image={imposto}
+                  items="Postado em Dicas - 09/12/2022"
+                  title="Iluminação"
+                  text="Para dar um toque mais aconchegante e requintado para os seus espaços" />
+              </div>
+              <div className="maquinas pb-5">
+                <CardBeneficios image={plantas}
+                  items="Postado em Dicas - 09/12/2022"
+                  title="Benefícios das Plantas"
+                  text="Leve a natureza de forma consciente para o design do seu lar" />
+              </div>
             </div>
-          </div>
-        </Fade>
-
+          </Fade>
+          :
+          <Fade>
+            <div className="box-artigo">
+              <span className="title">VEJA MAIS</span><p />
+              <div className="maquinas">
+                <CardImposto image={imposto}
+                  items="Postado em Dicas - 09/12/2022"
+                  title="Iluminação"
+                  text="Para dar um toque mais aconchegante e requintado para os seus espaços" />
+                <CardBeneficios image={plantas}
+                  items="Postado em Dicas - 09/12/2022"
+                  title="Benefícios das Plantas"
+                  text="Leve a natureza de forma consciente para o design do seu lar" />
+              </div>
+            </div>
+          </Fade>
+        }
       </Content>
     </ScrollableAnchor >
   );

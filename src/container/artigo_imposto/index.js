@@ -31,30 +31,45 @@ function ArtigoImposto(props) {
               <div className="flex m-0">
                 <span className="title">Declarar imóvel financiado <br />no imposto de renda</span><p />
                 <span className="texto">
-                  Imposto de renda é uma tarefa muito importante e que pode ser muito 
-                  complicada, ainda mais quando você precisa declarar um
-                  <a href='https://www.instagram.com/barboempreendimentos/' target="_blank"> imóvel financiado. </a><br/><br/>
-
-                  Duas coisas que você precisa saber: 
+                  Imposto de renda é uma tarefa muito importante e que pode ser muito <br />
+                  complicada, ainda mais quando você<br />
+                  precisa declarar um
+                  <a href='https://www.instagram.com/barboempreendimentos/' target="_blank"> imóvel financiado. </a><br />
+                  Duas coisas que você precisa saber: <br />
                   a primeira é que um
-                  <a href='https://www.instagram.com/barboempreendimentos/' target="_blank"> financiamento imobiliário </a> não deve ser declarado 
-                  como uma dívida, a segunda é que você não deve colocar o valor total do
-                  <a href='https://www.instagram.com/barboempreendimentos/' target="_blank"> financiamento </a>, pois esse valor pode mudar. Você precisa declarar somente 
-                  o valor pago até o momento, isso inclui a entrada, as prestações já quitadas, 
-                  os impostos, custos de corretagem, e por aí vai, mas nunca as parcelas que 
-                  ainda serão pagas no futuro. Para facilitar a sua declaração preste atenção: Imóveis devem ser discriminados na ficha de ‘Bens e Direitos’.<br/><br/>
-
-                  <a href='/barbo/empreendimentos_interna' target="_blank"> 
-                  Os apartamentos </a>ficam na linha 11, casas na linha 12 e terrenos na linha 13. Não esqueça de fornecer o máximo de informações. 
-                  O endereço, a inscrição municipal e a área total do terreno têm um espaço 
-                  específico para preenchimento. O preenchimento do campo ‘Situação em 
-                  31/12/2022’ funciona assim: se o imóvel foi financiado em 2023 preencha esse 
-                  campo com ‘R$ 0’. Se foi financiado antes de 2023 permanece o mesmo 
-                  valor declarado no início de 2023. <br/><br/>
-
-                  Já no campo ‘Situação em 31/12/2023’, se o imóvel foi financiado em 2023 
-                  coloque o valor da entrada mais as parcelas já pagas. Se financiou antes
-                  de 2023, você precisa somar o valor declarado em 2022 com as parcelas 
+                  <a href='https://www.instagram.com/barboempreendimentos/' target="_blank"> financiamento <br />
+                    imobiliário </a> não deve ser declarado <br />
+                  como uma dívida, a segunda é que você<br />
+                  não deve colocar o valor total do
+                  <a href='https://www.instagram.com/barboempreendimentos/' target="_blank"> financiamento </a>, pois esse valor pode <br />
+                  mudar. Você precisa declarar somente <br />
+                  o valor pago até o momento, isso inclui <br />
+                  a entrada, as prestações já quitadas, <br />
+                  os impostos, custos de corretagem, e <br />
+                  por aí vai, mas nunca as parcelas que <br />
+                  ainda serão pagas no futuro. Para <br />
+                  facilitar a sua declaração preste aten-<br />
+                  ção: Imóveis devem ser discriminados <br />
+                  na ficha de ‘Bens e Direitos’.
+                  <a href='/barbo/empreendimentos_interna' target="_blank"> Os aparta- <br />
+                    mentos </a>ficam na linha 11, casas na linha <br />
+                  12 e terrenos na linha 13. Não esqueça<br />
+                  de fornecer o máximo de informações. <br />
+                  O endereço, a inscrição municipal e a <br />
+                  área total do terreno têm um espaço <br />
+                  específico para preenchimento. O pre-<br />
+                  enchimento do campo ‘Situação em <br />
+                  31/12/2022’ funciona assim: se o imóvel <br />
+                  foi financiado em 2023 preencha esse <br />
+                  campo com ‘R$ 0’. Se foi financiado<br />
+                  antes de 2023 permanece o mesmo <br />
+                  valor declarado no início de 2023. <br />
+                  Já no campo ‘Situação em 31/12/2023’, <br />
+                  se o imóvel foi financiado em 2023 <br />
+                  coloque o valor da entrada mais as <br />
+                  parcelas já pagas. Se financiou antes<br />
+                  de 2023, você precisa somar o valor <br />
+                  declarado em 2022 com as parcelas <br />
                   adicionais que foram pagas.
 
                 </span>
