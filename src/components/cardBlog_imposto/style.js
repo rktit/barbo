@@ -141,8 +141,8 @@ img{
     .card-text{
         padding: 0;
     }
-    .btn{
-        
+    .btn1{
+        margin: 0 0 0 7rem;
     }
 }
 

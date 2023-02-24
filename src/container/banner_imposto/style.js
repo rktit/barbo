@@ -84,7 +84,7 @@ const Content = styled.div`
       padding: 10px;
     }
     .welcome {
-      margin-top: 4vh;
+      margin-top: 30vh;
       font-size: 2rem;
       width: 21rem;
     }
