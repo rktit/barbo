@@ -111,13 +111,7 @@ img{
 
   }
   @media only screen and (max-width: 600px) {
-    .card-img-top{
-        width: 100%;
-    }
-    img{
-        width: 100%;
-        // height: auto;
-    }
+    
     .card{
         width: 100%;
         height: 100%;
@@ -129,7 +123,8 @@ img{
     }
     
     .card-img-top{
-        height: 300px;
+        width: 100%;
+        height: 25rem;
     }
     
     .card-items{

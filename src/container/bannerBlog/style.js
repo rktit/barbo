@@ -2,7 +2,7 @@ import styled from "styled-components";
 import fonts from "config/fonts";
 
 import background from "images/blog/banner_blog.png";
-import backgroundMobile from "images/blog/banner_mobile_blog.png";
+import backgroundMobile from "images/blog/banner_blog.png";
 
 
 const Content = styled.div`
@@ -71,7 +71,10 @@ const Content = styled.div`
     background: url(${backgroundMobile}) no-repeat top center;
     background-size:cover;
     align-items: center;
-
+    top: 10rem;
+    height: 24rem;
+    width: 100%;
+    
     .title {
       margin-top: 20px;
       font-size: 1.5rem;
