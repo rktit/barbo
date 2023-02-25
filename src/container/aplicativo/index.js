@@ -70,40 +70,30 @@ const Aplicativo = (props) => {
 
   return (
     <Content className='col-10 text-center'>
-          <button className='conteudo'>
-            <a href="#fale-corretor" onClick={() => abreModal(Actions.toggle_modal('corretor'))}>Fale com o corretor</a>
-          </button>
-        {/* <button className='conteudo'>
-          <a onClick={() => { abreModal(props.title) }} className={active === "#" ? 'active mr-0' : 'mr-3'}>
-            Fale com o corretor</a>
-        </button> */}
-          <button className='conteudo'>
-            <a href="#simule-financiamento" onClick={() => abreModal(Actions.toggle_modal('financiamento'))}>Simule seu financiamento</a>
-          </button>
-        {/* <button className='conteudo'>
-          <a onClick={() => { abreModal(props.title) }} className={active === "#" ? 'active mr-0' : 'mr-3'}>
-            Simule seu financiamento</a>
-        </button> */}
-        <button>
-          <a target="_blank" href="https://api.whatsapp.com/send?phone=5519996965525&text=Gostaria de falar com um corretor?">
-            <img src={whats} />
-            Atendimento via WhatsApp
-          </a>
-        </button>
-
+      <button className='conteudo'>
+        <a href="#fale-corretor" onClick={() => abreModal(Actions.toggle_modal('corretor'))}>Fale com o corretor</a>
+        <Corretor name={nomeModelo}
+          show={modalShow}
+          onHide={() => setModalShow(false)}
+        />
+        <Corretor />
+      </button>
+      
+      <button className='conteudo'>
+        <a href="#simule-financiamento" onClick={() => abreModal(Actions.toggle_modal('financiamento'))}>Simule seu financiamento</a>
         <Financiamento name={nomeModelo}
           show={modalShow}
           onHide={() => setModalShow(false)}
         />
         <Financiamento />
-
-        {/* <Corretor name={nomeModelo}
-          show={modalShow}
-          onHide={() => setModalShow(false)}
-        />
-        <Corretor /> */}
-        {/* <div className='align-items-stretch'>
-						<button onClick={closeFlashMessage} className='ml-3 h-100'>Continuar</button> */}
+      </button>
+      
+      <button>
+        <a target="_blank" href="https://api.whatsapp.com/send?phone=5519996965525&text=Gostaria de falar com um corretor?">
+          <img src={whats} />
+          Atendimento via WhatsApp
+        </a>
+      </button>
     </Content>
   )
 }

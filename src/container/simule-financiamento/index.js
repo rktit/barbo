@@ -77,11 +77,13 @@ function Financiamento(props) {
 		const data = await new FormData()
 
 		data.append('nome', fields.input_nome);
-		data.append('celular', fields.input_whats);
+		data.append('sobrenome', fields.input_sobrenome);
 		data.append('email', fields.input_email);
-		data.append('uf', fields.input_uf);
-		data.append('cidade', fields.input_cidade);
-		data.append('permissao', fields.input_permissao);
+		data.append('celular', fields.input_whats);
+		data.append('entrada', fields.input_entrada);
+		data.append('garantia', fields.input_garantia);
+		data.append('renda', fields.input_renda);
+
 
 
 		dispatch(Actions.toggle_modal('load'));
@@ -96,11 +98,12 @@ function Financiamento(props) {
 			dispatch(Actions.open_alert('success', 'Proposta enviada com SUCESSO!'));
 			setFields({
 				input_nome: '',
-				input_whats: '',
+				input_sobrenome: '',
 				input_email: '',
-				input_uf: '',
-				input_cidade: '',
-				input_permissao: '',
+				input_whats: '',
+				input_entrada: '',
+				input_garantia: '',
+				input_renda: '',
 			});
 		}
 	}
@@ -122,9 +125,9 @@ function Financiamento(props) {
 								<Col className="">
 									<img className="logo" src={logo} width="30%" />
 								</Col>
-									<div className="formTitle">
-										Deixe seus dados, e nossa equipe<br />de atendimento entrará em contato:
-									</div>
+								<div className="formTitle">
+									Faça a sua simulação
+								</div>
 								<Form
 									className="form col-12 p-0 col-md-12 p-md-4"
 									action='/api/sendOrcamento'
@@ -134,48 +137,54 @@ function Financiamento(props) {
 									id={'form'}
 								>
 									<Form.Group controlId="exampleForm.ControlInput1">
-										<Form.Control className="input" value={fields.input_nome} name="input_nome" onChange={handleChange} type="text" placeholder="Nome Completo" />
+										<Form.Control className="input" value={fields.input_nome} name="input_nome" onChange={handleChange} type="text" placeholder="Nome: " />
 									</Form.Group>
-									<Form.Group controlId="formGridEmail">
-										<Form.Control value={fields.input_email} name="input_email" className="input" onChange={handleChange} type="email" placeholder="E-mail" />
-									</Form.Group>
-									<Form.Row>
-										<div class="col-4">
-											<Form.Group controlId="formGridWhats">
-												<Form.Control value={fields.input_whats} name="input_whats" className="input" onChange={handleChange} type="text" placeholder="DDD" />
-											</Form.Group>
-										</div>
-										<div className="col-8">
-											<Form.Group controlId="formGridWhats">
-												<Form.Control value={fields.input_whats} name="input_whats" className="input" onChange={handleChange} type="text" placeholder="Telefone" />
-											</Form.Group>
-										</div>
-									</Form.Row>
-									<Form.Row>
-										<div class="col-4">
-											<Form.Group controlId="formGridUF">
-												<Form.Control value={fields.input_uf} name="input_uf" className="input" onChange={handleChange} type="text" placeholder="UF" />
-											</Form.Group>
-										</div>
-										<div className="col-8">
-											<Form.Group controlId="formGridCidade">
-												<Form.Control value={fields.input_cidade} name="input_cidade" className="input" onChange={handleChange} type="text" placeholder="Cidade" />
-											</Form.Group>
-										</div>
-									</Form.Row>
 
-									<Form.Row>
-										<Form.Group controlId="row formGridAceite">
-											<Form.Control value={fields.input_permissao} name="input_permissao" className="input" onChange={handleChange} type="checkbox" />
-										</Form.Group>
-										<div className="mx-2 col-10">
-											Afirmo que li e que concordo o Termo de Consentimento para Tratamento de Dados Pessoais.
-										</div>
-									</Form.Row>
+									<Form.Group controlId="exampleForm.ControlInput1">
+										<Form.Control className="input" value={fields.input_sobrenome} name="input_sobrenome" onChange={handleChange} type="text" placeholder="Sobrenome:" />
+									</Form.Group>
+
+									<Form.Group controlId="formGridEmail">
+										<Form.Control value={fields.input_email} name="input_email" className="input" onChange={handleChange} type="email" placeholder="E-mail:" />
+									</Form.Group>
+
+									<Form.Group controlId="formGridWhats">
+										<Form.Control value={fields.input_whats} name="input_whats" className="input" onChange={handleChange} type="text" placeholder="Telefone:" />
+									</Form.Group>
+
+									<Form.Group controlId="formGridEntrada">
+										<Form.Control value={fields.input_entrada} name="input_entrada" className="input" onChange={handleChange} type="text" placeholder="Valor de entrada:" />
+									</Form.Group>
+
+									<Form.Group controlId="formGridGarantia">
+										<Form.Control value={fields.input_garantia} name="input_garantia" className="input" onChange={handleChange} type="text" placeholder="Valor de fundo de garantia:" />
+									</Form.Group>
+
+									<Form.Group controlId="formGridRenda">
+										<Form.Control value={fields.input_renda} name="input_renda" className="input" onChange={handleChange} type="text" placeholder="Renda mensal:" />
+									</Form.Group>
+
 									<Form.Group className="boxBtn" as={Row}>
 										<Col md={{ span: 10 }}>
-
-											<Button href="" onClick={(handleSubmit) => dispatch(Actions.toggle_modal(''))} className="btnEnviar" type="submit">ENVIAR</Button>
+											<div className="filtro__item">
+												<label for="form-search-filter-phase" className="filtro__label form-label"></label>
+												<select name="fase" id="form-search-filter-phase" className="filtro__select form-select form-search-filter-phase">
+													<option value="">
+														Selecione o empreendimento desejado:
+													</option>
+													<option value="residencial">Las Rocas</option>
+													<option value="residencial">Higienópolis</option>
+													<option value="residencial">Front Lake</option>
+													<option value="residencial">infinity</option>
+													<option value="corporativo">Office Tower</option>
+													<option value="residencial">Villa Real</option>
+													<option value="residencial">Morada do Porto</option>
+													<option value="loteamento">Quinta do Vale</option>
+												</select>
+											</div>
+											<Button href="" onClick={(handleSubmit) => dispatch(Actions.toggle_modal(''))} className="btnEnviar mt-2" type="submit">
+												ENVIAR
+											</Button>
 										</Col>
 									</Form.Group>
 								</Form>

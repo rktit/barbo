@@ -3,7 +3,7 @@ import fonts from "config/fonts";
 
 const Content = styled.div`
     
-padding: 5rem 0rem 0rem 0rem;
+padding: 0rem;
     
 .col {
     flex-basis: 0;
