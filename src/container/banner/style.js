@@ -2,7 +2,7 @@ import styled from "styled-components";
 import fonts from "config/fonts";
 
 import background from "images/empreendimento/bannerPredio.png";
-import backgroundMobile from "images/empreendimento/mobile_bannerPredio.png";
+import backgroundMobile from "images/empreendimento/bannerPredio.png";
 
 
 const Content = styled.div`
@@ -70,7 +70,8 @@ text-align: center;
 
   @media only screen and (max-width: 600px) {
     background: url(${backgroundMobile}) no-repeat top center;
-    margin-bottom: 300px;
+    height: 40rem;
+    margin-left: -20rem;
     display: flex;
     align-items: center;
 

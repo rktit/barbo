@@ -121,16 +121,9 @@ img{
 
   }
   @media only screen and (max-width: 600px) {
-    .card-img-top{
-        width: 100%;
-    }
-    img{
-        width: 100%;
-        // height: auto;
-    }
+   
     .card{
-        width: 100%;
-        height: 100%;
+        margin-top: 1rem;
     }
     .card-body{
         color: #252525;
@@ -139,12 +132,13 @@ img{
     }
     
     .card-img-top{
-        height: 300px;
+        width: 24rem;
+        height: 24rem;
     }
     
     .card-items{
         padding: 0 0 20px 0;
-        font-size: 0.8rem;
+        font-size: 2rem;
         font-family: ${fonts.comfortaa};
     }
     .card-title{

@@ -164,12 +164,46 @@ background-color: #eeeeee;
 @media only screen and (max-width: 600px) {
     display: flex!important;
         flex-direction: column;
-.maquinas {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 100%;
-}
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+
+    .maquinas {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+    .slide{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .title{
+        margin-top: 0px;
+        font-size: 1.5rem;
+        text-align: center;
+        width: 22rem;
+        padding-top: 2rem;
+    }
+
+    .splide{
+        margin: 4rem 0;
+    }
+
+    .slide{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .texto{
+        text-align: center;
+        font-size: 1rem;
+        padding: 40px 30px;
+    }
         .box {
             height: 10rem;
             width: 20rem;
@@ -203,21 +237,14 @@ background-color: #eeeeee;
             border-width: 1px;
             justify-content: center;
         }
-    .filtro__button {
-        width: 14rem;
-    }
-    padding-right: 0px !important;
-    padding-left: 0px !important;
-
-    .title{
-        margin: 30px 0 30px 28px;
-
-    }
-
-    .splide__arrow svg {
+        .filtro__button {
+            width: 2.75rem;
+        }
+        
+        .splide__arrow svg {
         width: 1.5em;
         height: 1.5em;
-        fill: #252525;
+        fill: transparent;
         transition: fill .2s linear;
     }
     .splide__pagination__page {
@@ -235,33 +262,9 @@ background-color: #eeeeee;
         background: #252525;
         width: 5px;
     }
-    .slide.is-active{
-        display: contents;
-        min-width: auto;
-        margin-bottom: 50px;
+    
+    
     }
-    .textos{
-        text-align: center;
-        top: 5px;
-        font-size: 0.7rem;
-        right:22%;
-
-        p{ 
-            border-left-width: 0px;
-        }
-    }
-    .btn {
-        background-color: #252525;
-        display: table-cell;
-        border: none;
-        border-radius: 0;
-        width: 0;
-        font-size: 2rem;
-        height: fit-content;
-        padding: 1rem 0px 1rem 7rem;
-        color: #ffffff;
-    }
-}
 
 `;
 

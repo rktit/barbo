@@ -73,13 +73,13 @@ a {
     
 
     &.active {
-        background-color: #e73538;
+        background-color: #ff3a66;
         width: 20rem;
         }
 
     :hover {
     transition: 0.1s ease-in-out;
-    background-color: #e73538;
+    background-color: #ff3a66;
     text-decoration: none;
     }
      a {
@@ -130,13 +130,13 @@ a {
 
     
         &.active {
-            background-color: #e73538;
+            background-color: #ff3a66;
             width: 20rem;
             }
     
         :hover {
         transition: 0.1s ease-in-out;
-        background-color: #e73538;
+        background-color: #ff3a66;
         text-decoration: none;
         }
     }

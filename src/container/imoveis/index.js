@@ -50,7 +50,7 @@ function Imoveis() {
       <div className="title ">Encontre um imóvel Barbo perto de você!</div>
         <div className="flex box">
           <form className="d-block d-lg-block form-search-filters" name="form-search-filters"
-            id="form-search-filters" method="get" action="https://www.rocketit.com.br/barbo/imoveis/" autocomplete="off">
+            id="form-search-filters" method="get" action="https://www.rocketit.com.br/barbo/empreendimentos/" autocomplete="off">
             {isMobile ?
               <div className="d-flex flex-column align-items-center">
                 <div className="filtro__item">
@@ -109,7 +109,6 @@ function Imoveis() {
             pagination: true,
             arrows: false,
           }}>
-            <div className="maquinas">
               <SplideSlide className="slide col">
                 <CardFront image={front_lake}
                   items="Front Lake"
@@ -161,7 +160,6 @@ function Imoveis() {
                   title="Americana | Jardim Bela Vista"
                   text="2 Dormitórios" />
               </SplideSlide>
-            </div>
           </Splide>
           :
           <div className="maquinas">
