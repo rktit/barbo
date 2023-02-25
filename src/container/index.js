@@ -13,37 +13,10 @@ import Imoveis from './imoveis';
 import ConhecaBarbo from './conhecaBarbo';
 
 
-import BannerFront from './banner_front';
-import EmpreendimentoFront from './empreendimento_front';
-import MapaFront from './mapaFront';
-
-import BannerHigienopolis from './banner_higienopolis';
-import EmpreendimentoHigienopolis from './empreendimento_higienopolis';
-import MapaHigienopolis from './mapaHigienopolis';
-
-import BannerInfinity from './banner_infinity';
-import EmpreendimentoInfinity from './empreendimento_infinity';
-import MapaInfinity from './mapaInfinity';
-
-import BannerLasRocas from './banner_lasrocas';
-import EmpreendimentoLasrocas from './empreendimento_lasrocas';
-import MapaLasrocas from './mapaLasrocas';
-
-import BannerMorada from './banner_morada';
-import EmpreendimentoMorada from './empreendimento_morada';
-import MapaMorada from './mapaMorada';
-
 import BannerOffice from './banner_office';
 import EmpreendimentoOffice from './empreendimento_office';
 import MapaOffice from './mapaOffice';
 
-import BannerQuinta from './banner_quinta';
-import EmpreendimentoQuinta from './empreendimento_quinta';
-import MapaQuinta from './mapaQuinta';
-
-import BannerVilla from './banner_villa';
-import EmpreendimentoVilla from './empreendimento_villa';
-import MapaVilla from './mapaVilla';
 
 import BannerEmpreendimento from './bannerEmpreendimento';
 import Empreendimento from './empreendimento';
@@ -110,55 +83,12 @@ export {
     Empreendimento,
     Mapa,
 
-    // Front Lake 
-    BannerFront,
-    EmpreendimentoFront,
-    MapaFront,
-    Plantas,
-
-    // Higienopolis
-    BannerHigienopolis,
-    EmpreendimentoHigienopolis,
-    MapaHigienopolis,
-    // Plantas,
-
-    // Infinity
-    BannerInfinity,
-    EmpreendimentoInfinity,
-    MapaInfinity,
-    // Plantas,
-
-    // Las Rocas
-    BannerLasRocas,
-    EmpreendimentoLasrocas,
-    MapaLasrocas,
-    // Plantas,
-
-    // Morada do Porto
-    BannerMorada,
-    EmpreendimentoMorada,
-    MapaMorada,
-    // Plantas,
 
     // Office Tower
     BannerOffice,
     EmpreendimentoOffice,
     MapaOffice,
-    // Plantas,
-
-    // Quinta do Vale
-    BannerQuinta,
-    EmpreendimentoQuinta,
-    MapaQuinta,
-    // Plantas,
-
-    // Villa Real
-    BannerVilla,
-    EmpreendimentoVilla,
-    MapaVilla,
-    // Plantas,
-
-
+    Plantas,
 
     // Blog 
     BannerArtigo,
