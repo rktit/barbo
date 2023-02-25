@@ -16,8 +16,7 @@ function CardHigienopolis(props) {
 
   return (
     <Content>
-      <div className="card col-12 d-flex">
-        <div className="love" alt="Favoritar pronto-para-morar">Pronto para morar</div>
+<button className="card" onClick={() => { window.location.href='https://rocketit.com.br/higienopolis/'}} >
         <img src={props.image} className="card-img-top" />
         <div className="card-body">
           <div className="card-items">
@@ -36,7 +35,7 @@ function CardHigienopolis(props) {
             <a href="https://rocketit.com.br/higienopolis/">Ver mais</a>
           </div>
         </div>
-      </div>
+      </button>
     </Content>
   );
 }

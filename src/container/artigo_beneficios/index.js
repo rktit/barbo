@@ -125,13 +125,13 @@ function ArtigoBeneficios(props) {
               <span className="title">VEJA MAIS</span><p />
               <div className="maquinas">
                 <CardIluminacao image={iluminacao}
-                  items="Postado em Dicas - 09/12/2022"
+                  items="Postado em Dicas - 01/03/2023"
                   title="Iluminação"
                   text="Para dar um toque mais aconchegante e requintado para os seus espaços" />
               </div>
               <div className="maquinas">
                 <CardImposto image={imposto}
-                  items="Postado em Dicas - 09/12/2022"
+                  items="Postado em Dicas - 01/03/2023"
                   title="Declarar Imposto"
                   text="Declarar imóvel financiado no imposto de renda" />
               </div>
@@ -143,11 +143,11 @@ function ArtigoBeneficios(props) {
               <span className="title">VEJA MAIS</span><p />
               <div className="maquinas">
                 <CardIluminacao image={iluminacao}
-                  items="Postado em Dicas - 09/12/2022"
+                  items="Postado em Dicas - 01/03/2023"
                   title="Iluminação"
                   text="Para dar um toque mais aconchegante e requintado para os seus espaços" />
                 <CardImposto image={imposto}
-                  items="Postado em Dicas - 09/12/2022"
+                  items="Postado em Dicas - 01/03/2023"
                   title="Declarar Imposto"
                   text="Declarar imóvel financiado no imposto de renda" />
               </div>

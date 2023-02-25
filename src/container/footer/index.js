@@ -66,7 +66,7 @@ function Footer(props) {
 	};
 
 	return (
-		<ScrollableAnchor id="contatos">
+		<ScrollableAnchor id="">
 			<Content className="row">
 				<div className='box col-12'>
 					<div className='col-12 p-0 content'>
@@ -260,22 +260,12 @@ function Footer(props) {
 								<div className='titulo'>Central</div>
 								<Fade>
 									<div className='conteudo'>
-										<a onClick={() => clickMenu("/barbo/fale_conosco")} href="/barbo/fale_conosco" id="btn-trab">Perguntas Frequentes</a>
-									</div>
-								</Fade>
-								<Fade>
-									<div className='conteudo'>
 										<a onClick={() => clickMenu("/barbo/portal_corretor")} href="/barbo/portal_corretor" id="btn-trab">Portal do Corretor</a>
 									</div>
 								</Fade>
 								<Fade>
 									<div className='conteudo'>
 										<a onClick={() => clickMenu("/site/trabalhe-conosco")} href="/site/trabalhe-conosco" id="btn-trab">Trabalhe Conosco</a>
-									</div>
-								</Fade>
-								<Fade>
-									<div className='conteudo'>
-										<a onClick={() => clickMenu("/barbo")} href="/barbo" id="btn-trab">Portal do Cliente</a>
 									</div>
 								</Fade>
 								<Fade>

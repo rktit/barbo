@@ -16,7 +16,6 @@ function CardInfinity(props) {
   return (
     <Content>
       <div className="card col-12 d-flex">
-        <div className="love" alt="Favoritar pronto-para-morar">Pronto para morar</div>
         <img src={props.image} className="card-img-top" />
         <div className="card-body">
           <div className="card-items">

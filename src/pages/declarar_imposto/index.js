@@ -1,6 +1,6 @@
 import React, { Fragment, useEffect } from "react";
 
-import {Menu, BannerImposto, ArtigoImposto, Footer} from "container";
+import {Aplicativo, Menu, BannerImposto, ArtigoImposto, Footer} from "container";
 import { configureAnchors } from "react-scrollable-anchor";
 
 import {ModalPolitica} from 'components';
@@ -14,6 +14,7 @@ const DeclararImposto = () => {
   return (
     <Fragment>
       <ModalPolitica />
+      <Aplicativo />
       <Menu />
       <BannerImposto />
       <ArtigoImposto />

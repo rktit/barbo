@@ -49,17 +49,17 @@ function BannerEmpreendimento() {
                     </SplideSlide>
                     <SplideSlide>
                         <div className="banner">
-                            <a href="/barbo/infinity"><img src={banner2Mobile} /></a>
+                            <a href="https://alakadim.com.br/infinity/"><img src={banner2Mobile} /></a>
                         </div>
                     </SplideSlide>
                     <SplideSlide>
                         <div className="banner">
-                            <a href="/barbo/office_tower"><img src={banner3Mobile} /></a>
+                            <a href="https://rocketit.com.br/barbo/office_tower/"><img src={banner3Mobile} /></a>
                         </div>
                     </SplideSlide>
                     <SplideSlide>
                         <div className="banner">
-                            <a href="/barbo/quinta_vale"><img src={banner4Mobile} /></a>
+                            <a href="https://alakadim.com.br/quinta-do-valle/"><img src={banner4Mobile} /></a>
                         </div>
                     </SplideSlide>
                 </Splide>
@@ -82,21 +82,21 @@ function BannerEmpreendimento() {
                     <SplideSlide>
                         <div className="row slide">
                             <div className="banner">
-                                <a href="/barbo/infinity"><img src={banner2} /></a>
+                                <a href="https://alakadim.com.br/infinity/"><img src={banner2} /></a>
                             </div>
                         </div>
                     </SplideSlide>
                     <SplideSlide>
                         <div className="row slide">
                             <div className="banner">
-                                <a href="/barbo/office_tower"><img src={banner3} /></a>
+                                <a href="https://rocketit.com.br/barbo/office_tower/"><img src={banner3} /></a>
                             </div>
                         </div>
                     </SplideSlide>
                     <SplideSlide>
                         <div className="row slide">
                             <div className="banner">
-                                <a href="/barbo/quinta_vale"><img src={banner4} /></a>
+                                <a href="https://alakadim.com.br/quinta-do-valle/"><img src={banner4} /></a>
                             </div>
                         </div>
                     </SplideSlide>

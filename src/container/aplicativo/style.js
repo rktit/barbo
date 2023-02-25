@@ -4,7 +4,7 @@ import colors from "config/colors";
 
 const Content = styled.div`
 	position: fixed;
-	bottom: -6px;
+	bottom: 0px;
 	background-color: RGBA(0,0,0,0.3);
 	border-radius: 0px;
   padding: 1rem 0rem;
@@ -17,7 +17,13 @@ const Content = styled.div`
   color: ${colors.white};
   font-family: ${fonts.comfortaa};
   font-size: 12px;
-  
+  height: 4rem;
+
+  .menu-nav {
+    display: flex;
+    align-items: center;
+  }
+
   a {
     text-decoration: none;
   	font-family: ${fonts.comfortaa};
@@ -25,15 +31,18 @@ const Content = styled.div`
   }
   
   button {
-    background-color: ${colors.primary};
+    background-color: #ff0d29;
     font-family: ${fonts.comfortaa};
-    text-transform: uppercase;
     color: ${colors.white};
     border-radius: 4px;
     border: none;
-    padding: 0.25rem 6rem;
     margin: 0rem 1rem;
-    
+    width: 20rem;
+    height: 2rem;
+    display
+    &.active {
+      background-color: #252525;
+      }
     :hover {
       background-color: #252525;
       font-weight: 900;
@@ -50,6 +59,7 @@ const Content = styled.div`
     margin: 0px 4px;
     
     button {
+      padding: 0.25rem 4rem;
       margin: 0.2rem 1rem;
   }
 

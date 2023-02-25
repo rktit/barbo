@@ -1,7 +1,7 @@
 import React, { Fragment, useEffect } from "react";
 import { configureAnchors } from "react-scrollable-anchor";
 
-import {Menu, BannerOffice, EmpreendimentoOffice, Plantas, MapaOffice, Footer} from "container";
+import {Aplicativo, Menu, BannerOffice, EmpreendimentoOffice, Plantas, MapaOffice, Footer} from "container";
 import { FlashMessageCookies, ModalPolitica } from 'components';
 
 const OfficeTower = () => {
@@ -13,6 +13,7 @@ const OfficeTower = () => {
   return (
     <Fragment>
       <ModalPolitica />
+      <Aplicativo />
       <Menu />
       <BannerOffice />
       <EmpreendimentoOffice />

@@ -87,7 +87,8 @@ function ListaImoveis() {
               </div>
             }
           </form>
-        </div>        {isMobile ?
+        </div>        
+        {isMobile ?
           <Splide className="splide col-12" options={{
             rewind: false,
             width: "auto",

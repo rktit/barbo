@@ -15,8 +15,7 @@ function CardQuinta(props) {
 
   return (
     <Content>
-      <div className="card col-12 d-flex">
-        <div className="love" alt="Favoritar loteamento">Loteamento</div>
+      <button className="card" onClick={() => { window.location.href='https://alakadim.com.br/quinta-do-valle/'}} >
         <img src={props.image} className="card-img-top" />
         <div className="card-body">
           <div className="card-items">
@@ -35,7 +34,7 @@ function CardQuinta(props) {
             <a href="https://alakadim.com.br/quinta-do-valle/">Ver mais</a>
           </div>
         </div>
-      </div>
+      </button>
     </Content>
   );
 }

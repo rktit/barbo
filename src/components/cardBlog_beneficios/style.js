@@ -28,11 +28,13 @@ img{
 .card-title{
     margin-bottom: -0.2rem;
     font-size: 1.3rem;
+    font-weight: bold;
     font-family: ${fonts.comfortaa};
 }
 
 .card-text{
     height:120px;
+    line-height: 1.25rem;
     font-family: ${fonts.comfortaa};
 }
 .love {

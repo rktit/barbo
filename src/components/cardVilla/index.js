@@ -15,8 +15,7 @@ function CardVilla(props) {
 
   return (
     <Content>
-      <div className="card col-12 d-flex">
-        <div className="love" alt="Favoritar pronto-para-morar">Pronto para morar</div>
+      <button className="card" onClick={() => { window.location.href='https://alakadim.com.br/villa-real/'}} >
         <img src={props.image} className="card-img-top" />
         <div className="card-body">
           <div className="card-items">
@@ -35,7 +34,7 @@ function CardVilla(props) {
             <a href="https://alakadim.com.br/villa-real/">Ver mais</a>
           </div>
         </div>
-      </div>
+      </button>
     </Content>
   );
 }

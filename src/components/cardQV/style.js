@@ -100,7 +100,7 @@ a {
     }
     .card-img-top{
         width: 23rem;
-        height: 34rem;
+        height: 28rem;
     }
     img{
         width: 100%;
@@ -126,7 +126,7 @@ a {
         border: none;
         border-radius: 5px;
         width: 10rem;
-        margin: 30rem 0 0 2rem;
+        margin: 24rem 0 0 3rem;
 
     
         &.active {

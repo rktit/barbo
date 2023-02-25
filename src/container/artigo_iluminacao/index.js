@@ -80,13 +80,13 @@ function ArtigoBeneficios(props) {
               <span className="title">VEJA MAIS</span><p />
               <div className="maquinas">
                 <CardImposto image={imposto}
-                  items="Postado em Dicas - 09/12/2022"
+                  items="Postado em Dicas - 01/03/2023"
                   title="Iluminação"
                   text="Para dar um toque mais aconchegante e requintado para os seus espaços" />
               </div>
               <div className="maquinas pb-5">
                 <CardBeneficios image={plantas}
-                  items="Postado em Dicas - 09/12/2022"
+                  items="Postado em Dicas - 01/03/2023"
                   title="Benefícios das Plantas"
                   text="Leve a natureza de forma consciente para o design do seu lar" />
               </div>
@@ -98,11 +98,11 @@ function ArtigoBeneficios(props) {
               <span className="title">VEJA MAIS</span><p />
               <div className="maquinas">
                 <CardImposto image={imposto}
-                  items="Postado em Dicas - 09/12/2022"
+                  items="Postado em Dicas - 01/03/2023"
                   title="Iluminação"
                   text="Para dar um toque mais aconchegante e requintado para os seus espaços" />
                 <CardBeneficios image={plantas}
-                  items="Postado em Dicas - 09/12/2022"
+                  items="Postado em Dicas - 01/03/2023"
                   title="Benefícios das Plantas"
                   text="Leve a natureza de forma consciente para o design do seu lar" />
               </div>

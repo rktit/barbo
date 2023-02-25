@@ -1,6 +1,6 @@
 import React, { Fragment, useEffect } from "react";
 
-import {Menu, BannerContato, MenuFormulario, Newsletter, Footer} from "container";
+import {Aplicativo, Menu, BannerContato, MenuFormulario, Newsletter, Footer} from "container";
 import { configureAnchors } from "react-scrollable-anchor";
 
 import {FlashMessageCookies, ModalPolitica} from 'components';
@@ -14,6 +14,7 @@ const FaleConosco_Page = () => {
   return (
     <Fragment>
       <ModalPolitica />
+      <Aplicativo />
       <Menu/>
       <BannerContato />
       <MenuFormulario />

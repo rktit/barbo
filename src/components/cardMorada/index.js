@@ -15,8 +15,7 @@ function CardMorada(props) {
 
   return (
     <Content>
-      <div className="card col-12 d-flex">
-        <div className="love" alt="Favoritar em-obras">Em construção</div>
+      <button className="card" onClick={() => { window.location.href='https://alakadim.com.br/morada-do-porto/'}} >
         <img src={props.image} className="card-img-top" />
         <div className="card-body">
           <div className="card-items">
@@ -35,7 +34,7 @@ function CardMorada(props) {
             <a href="https://alakadim.com.br/morada-do-porto/">Ver mais</a>
           </div>
         </div>
-      </div>
+      </button>
     </Content>
   );
 }

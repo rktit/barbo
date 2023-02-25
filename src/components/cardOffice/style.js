@@ -7,24 +7,26 @@ img{
 }
 
 .card{
-    width: 24rem;
+    width: 22rem;
     margin: 5px;
 }
 
 .card-body{
     color: #252525;
     text-align: left;
+    padding: 1.25rem;
 }
 
 .card-img-top{
     height: 20rem;
-    width: 24rem;
-    margin-left: -1rem;
+    width: 22rem;
+    margin-left: -0.5rem;
 }
 
 .card-items{
     padding-bottom: 1rem;
     font-size: 1.5rem;
+    font-weight: bold;
     font-family: ${fonts.comfortaa};
 }
 .card-title{
@@ -35,6 +37,7 @@ img{
 
 .card-text{
     font-size: 1rem;
+    padding-right: 3.4rem;
     font-family: ${fonts.comfortaa};
 }
 .love {
@@ -65,7 +68,7 @@ img{
     border: none;
     border-radius: 0.5rem;
     width: 8rem;
-    margin: 1.5rem 0 0px 6rem;
+    margin: 2.25rem 0rem 0rem 5rem;
     justify-content: center;
     
 

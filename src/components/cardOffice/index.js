@@ -15,8 +15,7 @@ function CardOffice(props) {
 
   return (
     <Content>
-      <div className="card col-12 d-flex">
-        <div className="love" alt="Favoritar corporativo">Corporativo</div>
+      <button className="card" onClick={() => { window.location.href='/barbo/office_tower'}} >
         <img src={props.image} className="card-img-top" />
         <div className="card-body">
           <div className="card-items">
@@ -35,7 +34,7 @@ function CardOffice(props) {
             <a href="/barbo/office_tower">Ver mais</a>
           </div>
         </div>
-      </div>
+      </button>
     </Content>
   );
 }

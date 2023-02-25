@@ -43,27 +43,27 @@ function Blog() {
           }}>
             <SplideSlide className="slide col">
               <CardIluminacao image={iluminacao}
-                items="Postado em Dicas - 09/12/2022"
+                items="Postado em Dicas - 01/03/2023"
                 title="Iluminação"
                 text="Para dar um toque mais aconchegante e requintado para os seus espaços" />
               <CardImposto image={imposto}
-                items="Postado em Dicas - 09/12/2022"
+                items="Postado em Dicas - 01/03/2023"
                 title="Declarar Imposto"
                 text="Declarar imóvel financiado no imposto de renda" />
               <CardBeneficios image={plantas}
-                items="Postado em Dicas - 09/12/2022"
+                items="Postado em Dicas - 01/03/2023"
                 title="Benefícios das Plantas"
                 text="Leve a natureza de forma consciente para o design do seu lar" />
               {/* <CardBlog image={iluminacao2}
-                items="Postado em Dicas - 09/12/2022"
+                items="Postado em Dicas - 01/03/2023"
                 title="Iluminação"
                 text="Para dar um toque mais aconchegante e requintado para os seus espaços" />
               <CardBlog image={design2}
-                items="Postado em Dicas - 09/12/2022"
+                items="Postado em Dicas - 01/03/2023"
                 title="Benefícios das Plantas"
                 text="Leve a natureza de forma consciente para o design do seu lar" />
               <CardBlog image={imposto2}
-                items="Postado em Dicas - 09/12/2022"
+                items="Postado em Dicas - 01/03/2023"
                 title="imposto nas cores"
                 text="As paredes dos seus cômodos podem te relaxar ou estimular" /> */}
             </SplideSlide>
@@ -72,27 +72,27 @@ function Blog() {
           :
           <div className="maquinas">
            <CardIluminacao image={iluminacao}
-                items="Postado em Dicas - 09/12/2022"
+                items="Postado em Dicas - 01/03/2023"
                 title="Iluminação"
                 text="Para dar um toque mais aconchegante e requintado para os seus espaços" />
               <CardImposto image={imposto}
-                items="Postado em Dicas - 09/12/2022"
+                items="Postado em Dicas - 01/03/2023"
                 title="Declarar Imposto"
                 text="Declarar imóvel financiado no imposto de renda" />
               <CardBeneficios image={plantas}
-                items="Postado em Dicas - 09/12/2022"
+                items="Postado em Dicas - 01/03/2023"
                 title="Benefícios das Plantas"
                 text="Leve a natureza de forma consciente para o design do seu lar" />
             {/* <CardBlog image={iluminacao2}
-              items="Postado em Dicas - 09/12/2022"
+              items="Postado em Dicas - 01/03/2023"
               title="Iluminação"
               text="Para dar um toque mais aconchegante e requintado para os seus espaços" />
             <CardBlog image={design2}
-              items="Postado em Dicas - 09/12/2022"
+              items="Postado em Dicas - 01/03/2023"
               title="Benefícios das Plantas"
               text="Leve a natureza de forma consciente para o design do seu lar" />
             <CardBlog image={imposto2}
-              items="Postado em Dicas - 09/12/2022"
+              items="Postado em Dicas - 01/03/2023"
               title="imposto nas cores"
               text="As paredes dos seus cômodos podem te relaxar ou estimular" /> */}
           </div>

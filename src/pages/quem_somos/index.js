@@ -1,6 +1,6 @@
 import React, { Fragment, useEffect } from "react";
 
-import {Menu, QuemSomos, Essencia, ConhecaBarbo, Descricao, Footer} from "container";
+import {Aplicativo, Menu, QuemSomos, Essencia, ConhecaBarbo, Descricao, Footer} from "container";
 import { configureAnchors } from "react-scrollable-anchor";
 
 import {ModalPolitica} from 'components';
@@ -14,6 +14,7 @@ const QuemSomos_Page = () => {
   return (
     <Fragment>
       <ModalPolitica />
+      <Aplicativo />
       <Menu/>
       <QuemSomos />
       <Essencia/>

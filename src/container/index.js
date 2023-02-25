@@ -80,9 +80,13 @@ import DescriptionWorkWithUs from './descriptionWorkWithUs';
 import FormWorkWithUs from './formWorkWithUs';
 
 import Aplicativo from "./aplicativo";
+import Corretor from './fale-corretor';
+import Financiamento from './simule-financiamento';
 
 export {
     Aplicativo,
+    Corretor,
+    Financiamento,
 
     // Home 
     Menu,

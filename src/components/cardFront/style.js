@@ -7,7 +7,7 @@ img{
 }
 
 .card{
-    width: 24rem;
+    width: 22rem;
     margin: 5px;
 }
 
@@ -18,13 +18,14 @@ img{
 
 .card-img-top{
     height: 20rem;
-    width: 24rem;
-    margin-left: -1rem;
+    width: 22rem;
+    margin-left: -0.5rem;
 }
 
 .card-items{
     padding-bottom: 1rem;
     font-size: 1.5rem;
+    font-weight: bold;
     font-family: ${fonts.comfortaa};
 }
 .card-title{
@@ -65,7 +66,7 @@ img{
     border: none;
     border-radius: 0.5rem;
     width: 8rem;
-    margin: 1.5rem 0 0px 6rem;
+    margin: 1.5rem 0 0px 5rem;
     justify-content: center;
     
 

@@ -15,8 +15,7 @@ function CardFront(props) {
 
   return (
     <Content>
-      <div className="card col-12 d-flex">
-        <div className="love" alt="Favoritar pronto-para-morar">Pronto para morar</div>
+      <button className="card" onClick={() => { window.location.href='https://rocketit.com.br/frontlake/'}} >
         <img src={props.image} className="card-img-top" />
         <div className="card-body">
           <div className="card-items">
@@ -35,7 +34,7 @@ function CardFront(props) {
             <a href="https://rocketit.com.br/frontlake/">Ver mais</a>
           </div>
         </div>
-      </div>
+      </button>
     </Content>
   );
 }

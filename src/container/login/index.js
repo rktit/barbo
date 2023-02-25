@@ -63,19 +63,19 @@ function Login() {
                         </div>
                         <div className="d-flex">
                             <form onSubmit={handleSubmit} className="d-flex logoLogin">
-                                    <div className="boxEmail">
-                                        <input type='nome' name="input_newsletter" className="input-newsletter col-11"
-                                            placeholder="Nome" onChange={e => handleChange(e)}
-                                            value={fields.input_newsletter} />
-                                    </div>
-                                    <div className="boxEmail">
-                                        <input type='email' name="input_newsletter" className="input-newsletter col-11"
-                                            placeholder="E-mail" onChange={e => handleChange(e)}
-                                            value={fields.input_newsletter} />
-                                    </div>
+                                <div className="boxEmail">
+                                    <input type='nome' name="input_newsletter" className="input-newsletter col-11"
+                                        placeholder="Nome" onChange={e => handleChange(e)}
+                                        value={fields.input_newsletter} />
+                                </div>
+                                <div className="boxEmail">
+                                    <input type='email' name="input_newsletter" className="input-newsletter col-11"
+                                        placeholder="E-mail" onChange={e => handleChange(e)}
+                                        value={fields.input_newsletter} />
+                                </div>
                                 <div className="boxCadastrar d-flex">
                                     <a href="#newsletter" className='buttom' onClick={handleSubmit}>
-                                        Enviar
+                                        Entrar
                                     </a>
                                 </div>
                             </form>
