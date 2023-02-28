@@ -120,7 +120,7 @@ const Content = styled.div`
   }
 }
   @media only screen and (max-width: 600px) {
-    padding-bottom: 12rem;
+    padding-bottom: 14rem;
 
     .box {
       display: flex;

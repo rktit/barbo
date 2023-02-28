@@ -91,7 +91,7 @@ const MenuFormulario = (props) => {
 						<div className="title text-center">
 							Fale Conosco
 						</div>
-						<div className="d-flex flex-row icones-empreendimentos my-5">
+						<div className="d-flex icones-empreendimentos my-5">
 							<div className="icones">
 								<a onClick={() => { abreModal(props.title) }} className="icones-text">
 									<img className="" src={casa} alt="Quero comprar um imóvel" />
@@ -118,7 +118,7 @@ const MenuFormulario = (props) => {
 							</div>
 						</div>
 						<div className="d-flex">
-							<div className="d-flex flex-row icones-empreendimentos my-5">
+							<div className="d-flex icones-empreendimentos my-0 my-d-5">
 								<div className="icones pr-2">
 									<a onClick={() => { abreModal(props.title) }} className="icones-text">
 										<img className="" src={fornecedor} alt="Fornecedor" />

@@ -56,11 +56,12 @@ const Content = styled.div`
   }
   @media only screen and (max-width: 600px) {
     flex-direction: column;
-    margin: 0px 4px;
+    margin: 5rem 1.5rem;
     
     button {
-      padding: 0.25rem 4rem;
+      padding: 0.5rem 4rem;
       margin: 0.2rem 1rem;
+      height: 4rem;
   }
 
   }
