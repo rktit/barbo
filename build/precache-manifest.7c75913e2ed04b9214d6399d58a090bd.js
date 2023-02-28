@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "481809e9aaf5ba7a01607e5fda0f6922",
+    "revision": "fe027a070cd7c991503c732c02c96256",
     "url": "/barbo/fale_conosco/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/barbo/fale_conosco/static/css/2.597ffff1.chunk.css"
   },
   {
-    "revision": "9a7a59c71ae42c35f085",
+    "revision": "e70fba4fe2e84076655a",
     "url": "/barbo/fale_conosco/static/css/main.e08655c7.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/barbo/fale_conosco/static/js/2.36896b96.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9a7a59c71ae42c35f085",
-    "url": "/barbo/fale_conosco/static/js/main.20f634af.chunk.js"
+    "revision": "e70fba4fe2e84076655a",
+    "url": "/barbo/fale_conosco/static/js/main.4f2cd540.chunk.js"
   },
   {
     "revision": "6e3fb609d9e94382de7e",

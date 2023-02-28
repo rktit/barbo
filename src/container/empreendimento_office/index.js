@@ -8,6 +8,17 @@ import shower from "images/empreendimento_interna/shower.png";
 import area from "images/empreendimento_interna/area.png";
 import doubleBed from "images/empreendimento_interna/double-bed.png";
 import garage from "images/empreendimento_interna/garage.png";
+import acessibilidade from "images/empreendimento_interna/acessibilidade.png";
+import elevadores from "images/empreendimento_interna/elevadores.png";
+import espacoTerreo from "images/empreendimento_interna/espacoTerreo.png";
+import estacionamentoRotativo from "images/empreendimento_interna/estacionamentoRotativo.png";
+import gerador from "images/empreendimento_interna/gerador.png";
+import lobby from "images/empreendimento_interna/lobby.png";
+import sistemaControle from "images/empreendimento_interna/sistemaControle.png";
+import vaga from "images/empreendimento_interna/vaga.png";
+import vagaSubsolo from "images/empreendimento_interna/vagaSubsolo.png";
+import varandaTecnica from "images/empreendimento_interna/varandaTecnica.png";
+import banheiro from "images/empreendimento_interna/banheiro.png";
 
 function EmpreendimentoOffice(props) {
 
@@ -77,33 +88,33 @@ function EmpreendimentoOffice(props) {
                   58 Unidades Tipo 2 (49,94 M²)
                 </div>
                 <div className="icones">
-                  <img className="" src={area} alt="" />
+                  <img className="" src={banheiro} alt="" />
                   Banheiro Privativo
                 </div>
                 <div className="icones">
-                  <img className="" src={doubleBed} alt="" />
+                  <img className="" src={varandaTecnica} alt="" />
                   Varanda Ténica Com Infra Para Ar Tipo Split
                 </div>
               </div>
               <div className="icones-empreendimentos my-5">
                 <div className="icones pr-2">
-                  <img className="" src={garage} alt="" />
+                  <img className="" src={elevadores} alt="" />
                   5 Elevadores sendo 3 Panorâmicos
                 </div>
                 <div className="icones">
-                  <img className="" src={area} alt="" />
+                  <img className="" src={vaga} alt="" />
                   1 Vaga De Estacionamento
                 </div>
                 <div className="icones">
-                  <img className="" src={doubleBed} alt="" />
+                  <img className="" src={vagaSubsolo} alt="" />
                   2 Subsolos Com Vagas De Aumotomóveis E Motocicletas
                 </div>
                 <div className="icones pr-2">
-                  <img className="" src={garage} alt="" />
+                  <img className="" src={estacionamentoRotativo} alt="" />
                   Estacionamento Rotativo Com Manobristas (Sistema Vallet Parking)
                 </div>
                 <div className="icones">
-                  <img className="" src={shower} alt="" />
+                  <img className="" src={lobby} alt="" />
                   Lobby Com Pé Direito Duplo
                 </div>
                 <div className="icones">
@@ -113,7 +124,7 @@ function EmpreendimentoOffice(props) {
               </div>
               <div className="icones-empreendimentos my-5">
                 <div className="icones">
-                  <img className="" src={doubleBed} alt="" />
+                  <img className="" src={sistemaControle} alt="" />
                   Sistema De Controle De Acesso Com Catracas Eletrônicas
                 </div>
                 <div className="icones pr-2">
@@ -121,15 +132,15 @@ function EmpreendimentoOffice(props) {
                   Infraestrutura De Telefonia E Redes De Alto Desempenho
                 </div>
                 <div className="icones pr-2">
-                  <img className="" src={garage} alt="" />
+                  <img className="" src={gerador} alt="" />
                   Gerador De Energia
                 </div>
                 <div className="icones">
-                  <img className="" src={area} alt="" />
+                  <img className="" src={acessibilidade} alt="" />
                   Total Acessibilidade
                 </div>
                 <div className="icones">
-                  <img className="" src={doubleBed} alt="" />
+                  <img className="" src={espacoTerreo} alt="" />
                   Espaços Térreos Comercializáveis Para<br/>
                   Cafeterias/Lanchonete e Bureau De Serviços
                 </div>
