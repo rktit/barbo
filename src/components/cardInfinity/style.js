@@ -66,7 +66,7 @@ img{
     border: none;
     border-radius: 0.5rem;
     width: 8rem;
-    margin: 1.5rem 0 0px 5rem;
+    margin: 1.5rem 0 0px 4rem;
     justify-content: center;
     
 
