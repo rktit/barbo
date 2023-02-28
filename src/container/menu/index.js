@@ -6,7 +6,7 @@ import * as Icon from "react-bootstrap-icons";
 import { useDispatch } from "react-redux";
 import * as Actions from 'store/actions';
 
-import logo from "images/logo/Barbo-Logo.png";
+import logo from "images/logo/logo.png";
 import { HeaderLS } from "container";
 
 let limit_scroll = 450;

@@ -71,8 +71,8 @@ export const Content = styled.nav`
       justify-content: center;
       border-bottom-width: 1px;
       border-color: rgb(0 0 0);
-      background-color: rgb(249 246 246);
       height: 3.25rem;
+      flex-direction: column;
       
       &.active {
         border-color: rgb(0 0 0);
@@ -85,11 +85,7 @@ export const Content = styled.nav`
       }
       
       :hover {
-        transition: 0.1s ease-in-out;
-        text-decoration-color: #000;
-        text-decoration-line: none;
-        font-weight: 800;
-        background-color: rgb(241 236 236);
+        cursor: pointer;
       }
     }
     .marca{
@@ -134,7 +130,7 @@ export const Content = styled.nav`
   .line {
     border-style: solid;
     border-width: 1px;
-    border-color: #e73538;
+    border-color: transparent;
     width: 38rem;
     margin: 2rem 0;
     }
@@ -155,7 +151,42 @@ export const Content = styled.nav`
       }
     }
   }
-
+  .icones-empreendimentos{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: baseline;
+  }
+  .icones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0em 2em;
+    font-family: ${fonts.comfortaa};
+    font-size: 0.75rem;
+    align-items: center;
+    color: #252525;
+    
+    img{
+      width: 8rem;
+      height: 6rem;
+      padding: 1rem;
+    }
+  }
+.icones-text {
+  text-align: center;
+  padding-top: 4rem;
+  font-weight: bold;
+  font-size: 1rem;
+  margin: 0 4px;
+}
+.texto {
+  font-family: ${fonts.comfortaa};
+}
+.title {
+  font-family: ${fonts.comfortaa};
+  font-size: 2rem;
+}
 
   @media only screen and (max-width: 992px) {
     height: 40rem;

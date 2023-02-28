@@ -59,35 +59,44 @@ const Aplicativo = (props) => {
       setShowMenu(false);
     }
   };
-  const [modalShow, setModalShow] = useState(false);
+  const [modalShowCorretor, setModalShowCorretor] = useState(false);
+  const [modalShowFinanciamento, setmodalShowFinanciamento] = useState(false);
   const [nomeModelo, setNomeModelo] = useState("");
 
   function abreModal(modelo) {
     setNomeModelo(modelo);
-    setModalShow(true);
+    if (modelo = "Corretor") {
+      setModalShowCorretor(true);
+    }
+    if (modelo = "Financiamento") {
+      setmodalShowFinanciamento(true);
+    }
   }
 
 
   return (
     <Content className='col-10 text-center'>
+      {/* <Button
+        className="conteudo btn-danger ml-2"
+        type="button"
+        onClick={() => handleShow(item.enterprise[0].id)}
+      >
+      </Button> */}
+
+
       <button className='conteudo'>
         <a href="#fale-corretor" onClick={() => abreModal(Actions.toggle_modal('corretor'))}>Fale com o corretor</a>
-        <Corretor name={nomeModelo}
-          show={modalShow}
-          onHide={() => setModalShow(false)}
-        />
-        <Corretor />
       </button>
-      
+
       <button className='conteudo'>
         <a href="#simule-financiamento" onClick={() => abreModal(Actions.toggle_modal('financiamento'))}>Simule seu financiamento</a>
-        <Financiamento name={nomeModelo}
-          show={modalShow}
-          onHide={() => setModalShow(false)}
-        />
-        <Financiamento />
       </button>
-      
+      <Financiamento name={nomeModelo}
+        show={modalShowFinanciamento}
+        onHide={() => setmodalShowFinanciamento(false)}
+      />
+      <Financiamento />
+
       <button>
         <a target="_blank" href="https://api.whatsapp.com/send?phone=5519996965525&text=Gostaria de falar com um corretor?">
           <img src={whats} />
@@ -95,6 +104,14 @@ const Aplicativo = (props) => {
         </a>
       </button>
     </Content>
+    // if (setModalShowCorretor = true){
+    //   <Corretor name={nomeModelo}
+    //     show={modalShowCorretor}
+    //     onHide={() => setModalShowCorretor(false)}
+    //   />
+    //   <Corretor />
+    //   } 
+
   )
 }
 export default Aplicativo;

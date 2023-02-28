@@ -5,6 +5,14 @@ import * as Actions from 'store/actions';
 
 import { Formulario } from "container";
 
+import casa from "images/contato/casa.png";
+import cliente from "images/contato/cliente.png";
+import terreno from "images/contato/terreno.png";
+import vizinho from "images/contato/vizinho.png";
+import fornecedor from "images/contato/fornecedor.png";
+import assessoria from "images/contato/assessoria.png";
+import assuntos from "images/contato/assuntos.png";
+
 let limit_scroll = 450;
 let limit_scroll_header = 250;
 
@@ -72,44 +80,85 @@ const MenuFormulario = (props) => {
 		<Content className={`d-flex`}>
 			<div className="container ">
 				<div className={`menu-nav ${showMenu ? "show-menu" : "show-menu"}`}>
-					<a onClick={() => { abreModal(props.title) }} className={active === "#" ? 'active mr-0' : 'mr-3'}>
+
+
+					{/* <a onClick={() => { abreModal(props.title) }} className={active === "#" ? 'active mr-0' : 'mr-3'}>
 						Quero Comprar um Imóvel
-					</a>
-					<a onClick={() => { abreModal(props.title) }} className={active === "#" ? 'active mr-0' : 'mr-3'}>
-						Já sou Cliente
-					</a>
-					<a onClick={() => { abreModal(props.title) }} className={active === "#" ? 'active mr-0' : 'mr-3'}>
-						Compramos seu Terreno
-					</a>
-					<a onClick={() => { abreModal(props.title) }} className={active === "#" ? 'active mr-0' : 'mr-3'}>
-						Sou Vizinho(a) de Obra
-					</a>
-					<a onClick={() => { abreModal(props.title) }} className={active === "#" ? 'active mr-0' : 'mr-3'}>
-						Fornecedor
-					</a>
-					<a onClick={() => { abreModal(props.title) }} className={active === "#" ? 'active mr-0' : 'mr-3'}>
-						Assessoria de Imprensa
-					</a>
-					<a onClick={() => { abreModal(props.title) }} className={active === "#" ? 'active mr-0' : 'mr-3'}>
-						Outros Assuntos
-					</a>
+					</a> */}
+
+
+					<div className="d-flex flex-column align-items-center">
+						<div className="title text-center">
+							Fale Conosco
+						</div>
+						<div className="d-flex flex-row icones-empreendimentos my-5">
+							<div className="icones">
+								<a onClick={() => { abreModal(props.title) }} className="icones-text">
+									<img className="" src={casa} alt="Quero comprar um imóvel" />
+									Quero comprar um imóvel
+								</a>
+							</div>
+							<div className="icones">
+								<a onClick={() => { abreModal(props.title) }} className="icones-text">
+									<img className="" src={cliente} alt="Já sou Cliente" />
+									Já sou Cliente
+								</a>
+							</div>
+							<div className="icones pr-2">
+								<a onClick={() => { abreModal(props.title) }} className="icones-text">
+									<img className="" src={terreno} alt="Compramos seu Terreno" />
+									Compramos seu Terreno
+								</a>
+							</div>
+							<div className="icones">
+								<a onClick={() => { abreModal(props.title) }} className="icones-text">
+									<img className="" src={vizinho} alt="Sou Vizinho(a) de Obra" />
+									Sou Vizinho(a) de Obra
+								</a>
+							</div>
+						</div>
+						<div className="d-flex">
+							<div className="d-flex flex-row icones-empreendimentos my-5">
+								<div className="icones pr-2">
+									<a onClick={() => { abreModal(props.title) }} className="icones-text">
+										<img className="" src={fornecedor} alt="Fornecedor" />
+										Fornecedor
+									</a>
+								</div>
+								<div className="icones">
+									<a onClick={() => { abreModal(props.title) }} className="icones-text">
+										<img className="" src={assessoria} alt="Assessoria de Imprensa" />
+										Assessoria de Imprensa
+									</a>
+								</div>
+								<div className="icones">
+									<a onClick={() => { abreModal(props.title) }} className="icones-text">
+										<img className="" src={assuntos} alt="Outros Assuntos" />
+										Outros Assuntos
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
 					<div className="flex line"></div>
 					<div className="texto text-center">
 						Dúvidas? <br />
 						Entre em contato com nossa Central<br />
-						<strong>de Relacionamentos.</strong><p />
+						de Relacionamentos.<p />
 					</div>
 					<div className="texto text-center">
-						Whatsapp +55 (19) 9.9696-5525<br />
-						Fones +55 (19) 3597-5552 / 3597-5553<br />
-						contato@barbo.Com.Br<br />
+						Whatsapp +55 (19) 99696.5525<br />
+						Fones +55 (19) 3597.5552 | 3597.5553<br />
+						contato@barbo.com.br<br />
 					</div>
 				</div>
 			</div>
 			<Formulario name={nomeModelo}
-						show={modalShow}
-						onHide={() => setModalShow(false)}
-					/>
+				show={modalShow}
+				onHide={() => setModalShow(false)}
+			/>
 			<Formulario />
 		</Content>
 	);

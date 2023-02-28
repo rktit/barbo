@@ -24,7 +24,7 @@ z-index: 1027;
   
   .menu-top {
   	transition: 0.2s ease-in-out;
-  	padding: 0.5rem !important;
+  	padding: 0.25rem !important;
   }
 
   .menu-logo {
@@ -33,7 +33,7 @@ z-index: 1027;
     align-items: center;
     justify-content: space-between;
     #logo {
-      width: 10rem;
+      width: 100%;
       height: auto;
       transition: 0.2s ease-in-out;
       &.scroll{
