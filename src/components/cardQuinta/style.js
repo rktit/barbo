@@ -8,7 +8,7 @@ img{
 
 .card{
     width: 22rem;
-    margin: 5px;
+    margin: 0 1px;
 }
 
 .card-body{
@@ -24,9 +24,10 @@ img{
 }
 
 .card-items{
-    padding-bottom: 1rem;
     font-size: 1.5rem;
     font-weight: bold;
+    padding-right: 4rem;
+    padding-bottom: 1rem;
     font-family: ${fonts.comfortaa};
 }
 .card-title{
@@ -65,9 +66,9 @@ img{
     background-color: #252525;
     display: table-cell;
     border: none;
-    border-radius: 0.5rem;
-    width: 8rem;
-    margin: 1.5rem 1rem 0px 5rem;
+    border-radius: 0rem;
+    width: 18rem;
+    margin: 1.5rem 0 -0.5rem 0.5rem;
     justify-content: center;
     
 

@@ -8,13 +8,15 @@ z-index: 1027;
   transition: 0.2s ease-in-out;
   
   &.bg-active {
-  	transition: all 0.2s ease-in-out 0s;
-    --tw-gradient-from: #252525;
-    --tw-gradient-to: currentColor;
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-    overflow: visible;
-    background-image: linear-gradient(to top, var(--tw-gradient-stops));
-    background-image: linear-gradient(to top, var(--tw-gradient-stops));
+    background: -webkit-linear-gradient(top, transparent, rgb(0, 0, 0));  /* Para o Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(top, transparent, rgb(0, 0, 0));       /* Para o Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(top, transparent, rgb(0, 0, 0));     /* Para o Firefox 3.6 to 15 */
+    background: linear-gradient(to top, transparent, rgb(0, 0, 0));       /* Sintaxe padrão */
+
+    height: 14%;
+    position: absolute;
+    top:0%;
+    width:100%;
   }
   
   .menu-scroll {
@@ -33,7 +35,7 @@ z-index: 1027;
     align-items: center;
     justify-content: space-between;
     #logo {
-      width: 100%;
+      width: 80%;
       height: auto;
       transition: 0.2s ease-in-out;
       &.scroll{

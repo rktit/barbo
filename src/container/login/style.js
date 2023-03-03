@@ -12,6 +12,7 @@ const Content = styled.div`
     border-radius: 0;
     width: 35rem;
     height: 25rem;
+	margin-top: 3rem;
     flex-direction: column;
     align-content: center;
     align-items: center;

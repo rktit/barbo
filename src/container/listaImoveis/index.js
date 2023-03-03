@@ -36,58 +36,6 @@ function ListaImoveis() {
     <ScrollableAnchor id="">
       <Content className="col-12 d-flex flex-column align-items-center p-0">
         <div className="title ">Encontre um imóvel Barbo perto de você!</div>
-        <div className="flex box">
-          <form className="d-block d-lg-block form-search-filters" name="form-search-filters"
-            id="form-search-filters" method="get" action="https://www.rocketit.com.br/barbo/empreendimentos/" autocomplete="off">
-            {isMobile ?
-              <div className="d-flex flex-column align-items-center">
-                <div className="filtro__item">
-                  <label for="form-search-filter-city" className="filtro__label form-label"></label>
-                  <select id="form-search-filter-city" name="cidade" className="filtro__select form-select form-search-filter-city">
-                    <option value="">Cidade</option>
-                    <option value="piracicaba" data-phases="pronto-para-morar">Piracicaba</option>
-                    <option value="americana" data-phases="em-obras">Americana</option>
-                    <option value="rio-claro" data-phases="corporativo">Rio Claro</option>
-                    <option value="barra-bonita" data-phases="loteamento">Barra Bonita</option>
-                  </select>
-                </div>
-                <div className="filtro__item">
-                  <label for="form-search-filter-phase" className="filtro__label form-label"></label>
-                  <select name="fase" id="form-search-filter-phase" className="filtro__select form-select form-search-filter-phase">
-                    <option value="">Tipos</option>
-                    <option value="loteamento">Loteamento</option>
-                    <option value="residencial">Residencial</option>
-                    <option value="corporativo">Corporativo</option>
-                  </select>
-                </div>
-                <button type="submit" class="filtro__button btn_lupa">Pesquisar</button>
-              </div>
-              :
-              <div className="d-flex justify-content-between">
-                <div className="filtro__item">
-                  <label for="form-search-filter-city" className="filtro__label form-label"></label>
-                  <select id="form-search-filter-city" name="cidade" className="filtro__select form-select form-search-filter-city">
-                    <option value="">Cidade</option>
-                    <option value="piracicaba" data-phases="pronto-para-morar">Piracicaba</option>
-                    <option value="americana" data-phases="em-obras">Americana</option>
-                    <option value="rio-claro" data-phases="corporativo">Rio Claro</option>
-                    <option value="barra-bonita" data-phases="loteamento">Barra Bonita</option>
-                  </select>
-                </div>
-                <div className="filtro__item">
-                  <label for="form-search-filter-phase" className="filtro__label form-label"></label>
-                  <select name="fase" id="form-search-filter-phase" className="filtro__select form-select form-search-filter-phase">
-                    <option value="">Tipos</option>
-                    <option value="loteamento">Loteamento</option>
-                    <option value="residencial">Residencial</option>
-                    <option value="corporativo">Corporativo</option>
-                  </select>
-                </div>
-                <button type="submit" class="filtro__button btn_lupa">Pesquisar</button>
-              </div>
-            }
-          </form>
-        </div>        
         {isMobile ?
           <Splide className="splide col-12" options={{
             rewind: false,
@@ -105,32 +53,16 @@ function ListaImoveis() {
               <CardLR image={lasrocas}
                 title=""
                 text="" />
+            </SplideSlide>
+            <SplideSlide className="slide">
 
               <CardMP image={moradadoporto}
                 title=""
                 text="" />
-            </SplideSlide>
-            <SplideSlide className="slide">
               <CardVR image={villareal}
                 title=""
                 text="" />
 
-              <CardHIG image={higienopolis}
-                title=""
-                text="" />
-
-              <CardLR image={lasrocas}
-                title=""
-                text="" />
-            </SplideSlide>
-            <SplideSlide className="slide">
-              <CardMP image={moradadoporto}
-                title=""
-                text="" />
-
-              <CardVR image={villareal}
-                title=""
-                text="" />
             </SplideSlide>
           </Splide>
           :
@@ -149,22 +81,6 @@ function ListaImoveis() {
                 <CardLR image={lasrocas}
                   title=""
                   text="" />
-                <CardMP image={moradadoporto}
-                  title=""
-                  text="" />
-              </div>
-            </SplideSlide>
-            <SplideSlide>
-              <div className="row slide">
-                <CardVR image={villareal}
-                  title=""
-                  text="" />
-                <CardHIG image={higienopolis}
-                  title=""
-                  text="" />
-                <CardLR image={lasrocas}
-                  title=""
-                  text="" />
               </div>
             </SplideSlide>
             <SplideSlide>
@@ -173,9 +89,6 @@ function ListaImoveis() {
                   title=""
                   text="" />
                 <CardVR image={villareal}
-                  title=""
-                  text="" />
-                <CardHIG image={higienopolis}
                   title=""
                   text="" />
               </div>

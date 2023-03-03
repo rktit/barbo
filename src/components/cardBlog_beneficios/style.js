@@ -7,9 +7,10 @@ img{
 }
 
 .card{
-    width: 20rem;
-    margin-right: 5px;
+    width: 22rem;
+    margin: 0 1px;
 }
+
 
 .card-body{
     color: #252525;
@@ -87,10 +88,10 @@ img{
     font-size: 1.25rem;
     text-align: center;
     color: #ffffff;
-    border-radius: 4px;
+    border-radius: 0px;
     height: 2rem;
-    width: 8rem;
-    margin: 0 0 0 4rem;
+    width: 20rem;
+    margin: 0rem;
     justify-content: center;
     align-items: center;
 

@@ -7,7 +7,6 @@ const Content = styled.div`
   justify-content: center;
   background-color: #252525;
   padding-top: 2rem;
-  padding-bottom: 6rem;
 
 .box {
   display: flex;
@@ -18,17 +17,11 @@ const Content = styled.div`
     margin: 0px;
   }
   .logo{
-    margin: 0px -50px 0px 0px;
-    width: 16rem;
-  }
-  .nome-logo{
-	  font-size: 1.2rem;
-	  font-family: ${fonts.comfortaa};
-	  margin-top:10px;
+    width: 14rem;
   }
 
   .titulo {
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-family: ${fonts.comfortaa};
     line-height: 120%;
   	color: white;
@@ -36,7 +29,7 @@ const Content = styled.div`
   }
   
   .chegar {
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-family: ${fonts.comfortaa};
     line-height: 120%;
   	color: white;
@@ -55,12 +48,12 @@ const Content = styled.div`
   }
 
   .info {
-	margin-top:24px;
+	margin-top:20px;
   }
   
   .conteudo {
   	font-family: ${fonts.comfortaa};
-  	font-size: 0.8rem;
+  	font-size: 0.7rem;
   	
   	span {
   		color: ${colors.primary};
@@ -106,7 +99,6 @@ const Content = styled.div`
     a {
   		color: ${colors.white};
   		transition: 0.2s ease-in-out;
-  		margin-bottom: 8px;
   		:hover {
   			color: ${colors.primary};
   			transition: 0.2s ease-in-out;

@@ -67,6 +67,12 @@ background-color: #eeeeee;
     fill: #252525;
     transition: fill .2s linear;
 }
+.splide__arrow--next {
+    right: 10em;
+}
+.splide__arrow--prev {
+    left: 10em;
+}
 .splide__pagination__page {
     display: inline-block;
     width: 20px;

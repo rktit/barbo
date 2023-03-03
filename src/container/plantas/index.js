@@ -49,7 +49,7 @@ function Plantas(props) {
 
   return (
     isMobile ?
-      <ScrollableAnchor id="plantas">
+      <ScrollableAnchor id="">
         <Content className="row justify-content-center">
           <Fade left>
             <div className="left-side col-md-5 mt-5">

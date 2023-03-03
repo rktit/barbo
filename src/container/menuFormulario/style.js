@@ -228,11 +228,11 @@ export const Content = styled.nav`
         align-items: center;
         color: #252525;
         
-        img{
-          width: 8rem;
-          height: 6rem;
+        img {
+          width: 10rem;
+          height: 8rem;
           padding: 1rem;
-        }
+      }
       }
     .icones-text {
       text-align: center;

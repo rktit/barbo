@@ -21,7 +21,7 @@ a {
     }
 }
 .card{
-    width: 24rem;
+    width: 33rem;
     margin: 0 4px 0 4px;
     height: 28rem;
     padding: 0 0px 0 0px;
@@ -66,9 +66,9 @@ a {
     background-color: #252525;
     display: table-cell;
     border: none;
-    border-radius: 5px;
-    width: 10rem;
-    margin-top: 0.5rem;
+    border-radius: 0px;
+    width: 26rem;
+    margin: 1rem 2rem;
     justify-content: space-evenly;
     
 

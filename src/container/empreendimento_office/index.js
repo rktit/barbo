@@ -33,33 +33,51 @@ function EmpreendimentoOffice(props) {
   }, [window.innerWidth]);
 
   return (
-    <ScrollableAnchor id="descricao">
+    <ScrollableAnchor id="">
       <Content className="col-12 row justify-content-center">
 
         <Fade left>
           <div className="left-side mt-5">
-            {/* {isMobile ? ""
-              : */}
-            <div className=""></div>
-            {/* } */}
-            <div className="flex m-5">
-              <span className="title">Office Tower Rio Claro</span><p />
-              <span className="texto">
-                O Office Tower Rio Claro é um prédio corporativo no interior<br />
-                de São Paulo com toda a tecnologia e modernidade dos grandes<br />
-                prédios empresariais das grandes capitais.<br />
-                Com salas individuais ou lajes corporativas, foi projetado<br />
-                pensando no que é melhor para as empresas e profissionais que<br />
-                precisam estar conectados com o mundo.<br />
-                Por isso, investimos em um empreendimento de qualidade e com<br />
-                todas as soluções para os muitos profissionais que já se<br />
-                instalaram no Office Tower.<br />
-                Com presença marcante, tornou-se referência na Avenida Tancredo <br />
-                Neves, uma área com muitos comércios, bancos e escolas. <br />
-                Além disso, o edifício conta com espaços comercializáveis para<br />
-                serviços, cafés, lanchonetes e conveniência.
-              </span>
-            </div>
+            {isMobile ?
+              <div className="flex">
+                <span className="title">Office Tower Rio Claro</span><p />
+                <span className="texto">
+                  O Office Tower Rio Claro é um prédio corporativo no interior
+                  de São Paulo com toda a tecnologia e modernidade dos grandes
+                  prédios empresariais das grandes capitais.
+                  Com salas individuais ou lajes corporativas, foi projetado
+                  pensando no que é melhor para as empresas e profissionais que
+                  precisam estar conectados com o mundo.
+                  Por isso, investimos em um empreendimento de qualidade e com
+                  todas as soluções para os muitos profissionais que já se
+                  instalaram no Office Tower.
+                  Com presença marcante, tornou-se referência na Avenida Tancredo 
+                  Neves, uma área com muitos comércios, bancos e escolas. 
+                  Além disso, o edifício conta com espaços comercializáveis para
+                  serviços, cafés, lanchonetes e conveniência.
+                </span>
+              </div>
+              :
+              <div className="flex m-5">
+                <span className="title">Office Tower Rio Claro</span><p />
+                <span className="texto">
+                  O Office Tower Rio Claro é um prédio corporativo no interior<br />
+                  de São Paulo com toda a tecnologia e modernidade dos grandes<br />
+                  prédios empresariais das grandes capitais.<br />
+                  Com salas individuais ou lajes corporativas, foi projetado<br />
+                  pensando no que é melhor para as empresas e profissionais que<br />
+                  precisam estar conectados com o mundo.<br />
+                  Por isso, investimos em um empreendimento de qualidade e com<br />
+                  todas as soluções para os muitos profissionais que já se<br />
+                  instalaram no Office Tower.<br />
+                  Com presença marcante, tornou-se referência na Avenida Tancredo <br />
+                  Neves, uma área com muitos comércios, bancos e escolas. <br />
+                  Além disso, o edifício conta com espaços comercializáveis para<br />
+                  serviços, cafés, lanchonetes e conveniência.
+                </span>
+              </div>
+
+            }
           </div>
         </Fade>
         <Fade right>
@@ -69,7 +87,7 @@ function EmpreendimentoOffice(props) {
         <Fade left>
           <div className="box-empreendimento">
             <span className="d-flex texto-empreendimento">Dados do Empreendimento:</span>
-            <div className="d-flex flex-row	">
+            <div className="d-flex flex-d-row	flex-column">
               <div className="icones-empreendimentos my-5">
                 <div className="icones">
                   <img className="" src={area} alt="" />
@@ -96,7 +114,7 @@ function EmpreendimentoOffice(props) {
                   Varanda Ténica Com Infra Para Ar Tipo Split
                 </div>
               </div>
-              <div className="icones-empreendimentos my-5">
+              <div className="icones-empreendimentos my-0 my-d-5">
                 <div className="icones pr-2">
                   <img className="" src={elevadores} alt="" />
                   5 Elevadores sendo 3 Panorâmicos
@@ -122,7 +140,7 @@ function EmpreendimentoOffice(props) {
                   Recepção/Portaria Inteligente
                 </div>
               </div>
-              <div className="icones-empreendimentos my-5">
+              <div className="icones-empreendimentos my-0 my-d-5">
                 <div className="icones">
                   <img className="" src={sistemaControle} alt="" />
                   Sistema De Controle De Acesso Com Catracas Eletrônicas
@@ -141,7 +159,7 @@ function EmpreendimentoOffice(props) {
                 </div>
                 <div className="icones">
                   <img className="" src={espacoTerreo} alt="" />
-                  Espaços Térreos Comercializáveis Para<br/>
+                  Espaços Térreos Comercializáveis Para<br />
                   Cafeterias/Lanchonete e Bureau De Serviços
                 </div>
               </div>

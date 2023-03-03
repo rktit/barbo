@@ -87,7 +87,7 @@ function Footer(props) {
 										<Fade>
 											<div className='col-12 col-md-6 p-0'>
 												<a target="_blank" href='https://www.google.com/maps/place/Barbo+Empreendimentos/@-22.425263,-47.5618185,17z/data=!3m1!4b1!4m6!3m5!1s0x94c7dba75cdfb1ff:0x1aa0d91b03209f5f!8m2!3d-22.425268!4d-47.5596298!16s%2Fg%2F11j21cf130'>
-													<div className='chegar pb-5'>Como chegar</div>
+													<div className='chegar pb-4'>Como chegar</div>
 												</a>
 											</div>
 										</Fade>

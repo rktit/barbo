@@ -5,7 +5,6 @@ import colors from "config/colors";
 const Content = styled.div`
 	position: fixed;
 	bottom: 0px;
-	background-color: RGBA(0,0,0,0.3);
 	border-radius: 0px;
   padding: 1rem 0rem;
 	z-index: 999;
@@ -18,35 +17,38 @@ const Content = styled.div`
   font-family: ${fonts.comfortaa};
   font-size: 12px;
   height: 4rem;
-
+  
+  .conteudo {
+  	margin-bottom: 10rem;
+  }
   .menu-nav {
     display: flex;
     align-items: center;
   }
-
-  a {
-    text-decoration: none;
-  	font-family: ${fonts.comfortaa};
-  	color: ${colors.white};
-  }
   
-  button {
-    background-color: #ff0d29;
+   a{
+    background-color: #252525;
     font-family: ${fonts.comfortaa};
     color: ${colors.white};
-    border-radius: 4px;
+    border-radius: 0px;
     border: none;
-    margin: 0rem 1rem;
-    width: 20rem;
-    height: 2rem;
-    display
+    margin: 0px 1px;
+    width: 22rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
     &.active {
-      background-color: #252525;
+      background-color: #626262;
+      // color: #ff0d29;
       }
+      
     :hover {
-      background-color: #252525;
+      background-color: #626262;
       font-weight: 900;
       text-decoration: none;
+      // color: #ff0d29;
       }
       img {
         width: 2rem;
@@ -56,7 +58,7 @@ const Content = styled.div`
   }
   @media only screen and (max-width: 600px) {
     flex-direction: column;
-    margin: 5rem 1.5rem;
+    margin: 5rem 0rem;
     
     button {
       padding: 0.5rem 4rem;

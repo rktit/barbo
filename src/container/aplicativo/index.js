@@ -3,9 +3,8 @@ import Content from './style';
 import { useDispatch } from "react-redux";
 import * as Actions from 'store/actions';
 
-import { Financiamento, Corretor } from "container";
 
-import whats from "images/icons/ico-whatsapp-white.png"
+import whats from "images/icons/icone-whatsapp-fundo.png"
 
 let limit_scroll = 450;
 let limit_scroll_header = 250;
@@ -25,7 +24,6 @@ const Aplicativo = (props) => {
       setMobile(false);
     } else {
       setMobile(true);
-      dispatch(Actions.close_modal('black'));
       limit_scroll = 50;
     }
   }, [window.innerWidth]);
@@ -59,59 +57,30 @@ const Aplicativo = (props) => {
       setShowMenu(false);
     }
   };
-  const [modalShowCorretor, setModalShowCorretor] = useState(false);
-  const [modalShowFinanciamento, setmodalShowFinanciamento] = useState(false);
-  const [nomeModelo, setNomeModelo] = useState("");
-
-  function abreModal(modelo) {
-    setNomeModelo(modelo);
-    if (modelo = "Corretor") {
-      setModalShowCorretor(true);
-    }
-    if (modelo = "Financiamento") {
-      setmodalShowFinanciamento(true);
-    }
-  }
 
 
   return (
-    <Content className='col-10 text-center'>
-      {/* <Button
-        className="conteudo btn-danger ml-2"
-        type="button"
-        onClick={() => handleShow(item.enterprise[0].id)}
-      >
-      </Button> */}
-
-
-      <button className='conteudo'>
-        <a href="#fale-corretor" onClick={() => abreModal(Actions.toggle_modal('corretor'))}>Fale com o corretor</a>
-      </button>
-
-      <button className='conteudo'>
-        <a href="#simule-financiamento" onClick={() => abreModal(Actions.toggle_modal('financiamento'))}>Simule seu financiamento</a>
-      </button>
-      <Financiamento name={nomeModelo}
-        show={modalShowFinanciamento}
-        onHide={() => setmodalShowFinanciamento(false)}
-      />
-      <Financiamento />
-
-      <button>
+    <Content className='text-center'>
+      <div className='conteudo'>
+        <a onClick={() => clickMenu("barbo/empreendimentos")} className={active === "barbo/empreendimentos" ? 'active ' : ''}
+          href="barbo/empreendimentos">
+          Conheça nosso estabelecimento
+        </a>
+      </div>
+      <div>
         <a target="_blank" href="https://api.whatsapp.com/send?phone=5519996965525&text=Gostaria de falar com um corretor?">
           <img src={whats} />
           Atendimento via WhatsApp
         </a>
-      </button>
-    </Content>
-    // if (setModalShowCorretor = true){
-    //   <Corretor name={nomeModelo}
-    //     show={modalShowCorretor}
-    //     onHide={() => setModalShowCorretor(false)}
-    //   />
-    //   <Corretor />
-    //   } 
+      </div>
+      <div className='conteudo'>
+        <a onClick={() => clickMenu("barbo/empreendimentos")} className={active === "https://alakadim.com.br/quinta-do-valle/" ? 'active ' : ''}
+          href="https://alakadim.com.br/quinta-do-valle/">
+          Último lançamento
+        </a>
+      </div>
 
+    </Content>
   )
 }
 export default Aplicativo;

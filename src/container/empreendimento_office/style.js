@@ -103,7 +103,6 @@ const Content = styled.div`
     flex-direction: column;
     align-items: flex-start;
     justify-items: center;
-
   }
   .icones{
     display: flex;
@@ -126,6 +125,26 @@ const Content = styled.div`
 
   @media only screen and (max-width: 600px) {
     flex-direction: column;
+.image-side {
+  width: 100%!important;
+
+}
+.icones-empreendimentos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+.icones{
+  margin: 1em 2em;
+  
+  img{
+    width: 50px;
+    heigth: auto;
+    padding: 0px 10px 0px 0px;
+    margin: 1em 2em;
+  }
+}
 
     .splideLoc{
       display: flex;
@@ -208,6 +227,9 @@ const Content = styled.div`
   .icone_whatsapp{
     width:35px;
     height:35px;
+  }
+  .texto-empreendimento {
+    font-size:2rem;
   }
   .infoCotacao{
     font-size:1rem;

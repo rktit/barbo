@@ -8,6 +8,73 @@ const Content = styled.div`
     width: 100%
     background-size: cover;
 }
+.welcome{
+    height: 24rem;
+    width: 30rem;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #252525;
+    transform: rotate(-40deg);
+    margin: -24rem 0rem 0rem 4rem;
+    transform: rotate(30deg);
+}
+.box-texto {
+    margin-top: 0rem;
+    transform: rotate(-30deg);
+    margin: 2rem 0rem 0rem 4rem;
+    width: max-content;
+  }
+  .title{
+    font-size: 3.75rem;
+    font-family: ${fonts.opensans_light};
+    color: #252525;
+    text-align: left;
+    margin-bottom: -20px;
+  }
+  .title1{
+    font-size: 2rem;
+    font-family: ${fonts.opensans_bold};
+    color: #252525;
+    text-align: left;
+  }
+  .text{
+    font-family: ${fonts.opensans_light};
+    color: #252525;
+    text-align: left;
+  }
+  .btn1{
+    background-color: #252525;
+    color: #ffffff;
+    font-size: 1.5rem;
+    display: table-cell;
+    border: none;
+    border-radius: 0px;
+    height: 2rem;
+    width: 18rem;
+    margin: 1rem 0rem;
+    justify-content: space-evenly;
+    
+
+    &.active {
+        background-color: #e73538;
+        color: #ffffff;
+        width: 20rem;
+        }
+
+    :hover {
+    transition: 0.1s ease-in-out;
+    background-color: #e73538;
+    color: #ffffff;
+    text-decoration: none;
+    }
+     a {
+        color: #ffffff;
+        text-decoration: none;
+        background-color: transparent;
+    }
+}
+
+
 .splide {
     padding: 0em 0em;
 }

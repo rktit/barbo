@@ -11,7 +11,11 @@ const Content = styled.div`
   background-color: #eeeeee;
   padding-top: 4rem;
   align-items: center;
-
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
   .image-side{
     background: url(${mapa}) no-repeat center center;
     background-size: cover;
@@ -87,24 +91,24 @@ const Content = styled.div`
       font-size: 0.9rem;
     }
     .image-side{
-      background: url(${mapaMobile}) no-repeat center center;
-      background-size: auto;
-      width:100%;
+      background: url(${mapa}) no-repeat center center;
+      background-size: cover;
+      width: 100%;
       height:auto;
-  
-      min-width: 0rem;
-      min-height: 0rem;
-      margin-right: 0rem;
+      margin-bottom: 4rem;
+      min-width: auto;
+      min-height: 20rem;
     }
     .icones-empreendimentos{
       display: flex;
       flex-direction: row;
       justify-content: center;
       padding-top: 20px;
+      padding-bottom: 2rem;
     }
     .left-side {
       padding-right: 0rem;
-      margin-left: -3rem;
+      margin-left: 0rem;
       padding-top: 2rem;
     }
   }

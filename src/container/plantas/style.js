@@ -151,9 +151,21 @@ const Content = styled.div`
     .image-side{
       padding: 110px 0 !important;
     }
-
+    .fotos{
+      width: 20rem;
+      margin-left: 2rem;
+    }
+    .marca {
+      width: 18rem;
+      height: 30rem;
+      position: relative;
+  }
+  .chyJPT .consulta {
+    width: 20rem;
+    margin-left: 2rem;
+}
     .left-side{
-      padding: 0 30px;
+      padding: 2rem 0rem;
     }
 
     .slide{
