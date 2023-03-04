@@ -79,7 +79,7 @@ img{
     
     .card{
         width: 22rem;
-        height: 38rem;
+        height: 37rem;
         margin: 1rem 1px;
     }
     
@@ -96,7 +96,7 @@ img{
     }
     
     .card-items{
-        font-size: 2rem;
+        font-size: 1.75rem;
         font-weight: bold;
         font-family: ${fonts.comfortaa};
         padding: 1rem 1rem 1rem 0rem;
@@ -110,6 +110,7 @@ img{
     .card-text{
         font-size: 1rem;
         font-family: ${fonts.comfortaa};
+        padding: 0px 4rem 0px 0px;
     }
     
     .btn{
@@ -118,7 +119,7 @@ img{
         border: none;
         border-radius: 0rem;
         width: 18rem;
-        margin: 1.5rem 0 -0.5rem 0.5rem;
+        margin: 2.5rem 0px -0.5rem 0.5rem;
         justify-content: center;
         
     
