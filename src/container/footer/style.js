@@ -113,14 +113,28 @@ const Content = styled.div`
 }
   @media only screen and (max-width: 600px) {
     padding-bottom: 14rem;
-
+    .titulo {
+      font-size: 1rem;
+      font-family: ${fonts.comfortaa};
+      line-height: 120%;
+      color: white;
+      font-weight: 900;
+    }
+    .conteudo {
+      font-family: ${fonts.comfortaa};
+      font-size: 0.75rem;
+      
+      span {
+        color: ${colors.primary};
+      }
+    }
     .box {
       display: flex;
       padding: 0rem 0rem 3rem 3rem;
     }
 
     .info {
-    	margin-top: 50px;
+    	margin-top: 40px;
     	::before {
   	    content: '';
 		    border-left: none;

@@ -39,6 +39,7 @@ img{
 .card-text{
     font-size: 1rem;
     font-family: ${fonts.comfortaa};
+    padding: 0 3rem 0 0px;
 }
 
 .btn{
@@ -47,7 +48,7 @@ img{
     border: none;
     border-radius: 0rem;
     width: 18rem;
-    margin: 1.5rem 0 -0.5rem 0.5rem;
+    margin: 2.2rem 0 -0.5rem 0.5rem;
     justify-content: center;
     
 

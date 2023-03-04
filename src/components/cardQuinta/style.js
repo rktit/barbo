@@ -34,6 +34,7 @@ img{
     margin-bottom: -0.2rem;
     font-size: 1rem;
     font-family: ${fonts.comfortaa};
+    padding-right: 3rem;
 }
 
 .card-text{

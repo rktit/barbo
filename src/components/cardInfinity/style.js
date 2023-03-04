@@ -14,7 +14,7 @@ img{
 .card-body{
     color: #252525;
     text-align: left;
-    padding: 1.25rem 3.25rem 1.25rem 1.25rem;
+    padding: 2.25rem 3.25rem 1.25rem 1.25rem;
 }
 
 .card-img-top{
@@ -27,7 +27,7 @@ img{
     padding-bottom: 1rem;
     font-size: 1.5rem;
     font-weight: bold;
-    padding-right: 2rem;
+    padding-right: 0rem;
     font-family: ${fonts.comfortaa};
 }
 .card-title{
