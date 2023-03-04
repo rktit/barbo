@@ -80,7 +80,7 @@ const Content = styled.div`
   }
   @media only screen and (max-width: 600px) {
     flex-direction: column;
-    margin: 10rem 0rem;
+    margin-bottom: 2rem;
     
     button {
       padding: 0.5rem 4rem;
