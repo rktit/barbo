@@ -14,13 +14,13 @@ img{
 .card-body{
     color: #252525;
     text-align: left;
-    padding: 2.25rem 3.25rem 1.25rem 1.25rem;
+    padding: 1.25rem 3.25rem 1.25rem 1.25rem;
 }
 
 .card-img-top{
     height: 20rem;
     width: 22rem;
-    margin-left: -0.5rem;
+    margin-left: -1rem;
 }
 
 .card-items{
@@ -47,7 +47,7 @@ img{
     border: none;
     border-radius: 0rem;
     width: 18rem;
-    margin: 1.5rem 0 -0.5rem 0.5rem;
+    margin: 2.5rem 0 -0.5rem 0.5rem;
     justify-content: center;
     
 
