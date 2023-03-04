@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/barbo/empreendimentos/static/css/main.e014828d.chunk.css",
-    "main.js": "/barbo/empreendimentos/static/js/main.ba8c6c03.chunk.js",
-    "main.js.map": "/barbo/empreendimentos/static/js/main.ba8c6c03.chunk.js.map",
+    "main.js": "/barbo/empreendimentos/static/js/main.62efefa6.chunk.js",
+    "main.js.map": "/barbo/empreendimentos/static/js/main.62efefa6.chunk.js.map",
     "runtime-main.js": "/barbo/empreendimentos/static/js/runtime-main.20f7e5e9.js",
     "runtime-main.js.map": "/barbo/empreendimentos/static/js/runtime-main.20f7e5e9.js.map",
     "static/css/2.597ffff1.chunk.css": "/barbo/empreendimentos/static/css/2.597ffff1.chunk.css",
     "static/js/2.a26802c1.chunk.js": "/barbo/empreendimentos/static/js/2.a26802c1.chunk.js",
     "static/js/2.a26802c1.chunk.js.map": "/barbo/empreendimentos/static/js/2.a26802c1.chunk.js.map",
     "index.html": "/barbo/empreendimentos/index.html",
-    "precache-manifest.2c4873e6d482dc3bc346ff96ffd849fa.js": "/barbo/empreendimentos/precache-manifest.2c4873e6d482dc3bc346ff96ffd849fa.js",
+    "precache-manifest.91ecc44da6efb3df6a02fb4ed6063945.js": "/barbo/empreendimentos/precache-manifest.91ecc44da6efb3df6a02fb4ed6063945.js",
     "service-worker.js": "/barbo/empreendimentos/service-worker.js",
     "static/css/2.597ffff1.chunk.css.map": "/barbo/empreendimentos/static/css/2.597ffff1.chunk.css.map",
     "static/css/main.e014828d.chunk.css.map": "/barbo/empreendimentos/static/css/main.e014828d.chunk.css.map",
@@ -75,6 +75,6 @@
     "static/css/2.597ffff1.chunk.css",
     "static/js/2.a26802c1.chunk.js",
     "static/css/main.e014828d.chunk.css",
-    "static/js/main.ba8c6c03.chunk.js"
+    "static/js/main.62efefa6.chunk.js"
   ]
 }
