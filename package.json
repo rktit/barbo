@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "homepage1": "./",
-  "homepage": "https://rocketit.com.br/barbo/",
+  "homepage": "https://rocketit.com.br/barbo/office_tower",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
