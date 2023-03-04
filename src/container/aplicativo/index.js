@@ -60,14 +60,14 @@ const Aplicativo = (props) => {
 
 
   return (
-    <Content className='text-center'>
+    <Content className='btn text-center'>
       <div className='conteudo'>
         <a onClick={() => clickMenu("barbo/empreendimentos")} className={active === "barbo/empreendimentos" ? 'active ' : ''}
           href="barbo/empreendimentos">
-          Conheça nosso estabelecimento
+          Conheça nossos empreendimentos
         </a>
       </div>
-      <div>
+      <div className='conteudo'>
         <a target="_blank" href="https://api.whatsapp.com/send?phone=5519996965525&text=Gostaria de falar com um corretor?">
           <img src={whats} />
           Atendimento via WhatsApp

@@ -145,7 +145,7 @@ const MenuFormulario = (props) => {
 					<div className="flex line"></div>
 					<div className="texto text-center">
 						Dúvidas? <br />
-						Entre em contato com nossa Central<br />
+						Entre em contato com nossa Central
 						de Relacionamentos.<p />
 					</div>
 					<div className="texto text-center">

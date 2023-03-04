@@ -21,18 +21,18 @@ a {
     }
 }
 .card{
-    width: 33rem;
-    margin: 0 4px 0 4px;
-    height: 28rem;
+    width: 22rem;
+    margin: 0 2px 0 2px;
+    height: 26rem;
     padding: 0 0px 0 0px;
 }
 
 .card-body{
     text-align: -webkit-center;
     display: inline-table;
-    color: #252525;
+    color: #ffffff;
     position: absolute;
-    padding: 0rem;
+    padding: 0rem 1rem;
 }
 
 .card-img-top{
@@ -40,16 +40,19 @@ a {
 }
 
 .card-items{
-    padding-bottom: 1rem;
+    padding: 1rem 0rem;
     font-size: 0.8rem;
 }
 .card-title{
     margin-bottom: -0.2rem;
     font-size: 1.3rem;
+    text-align: start;
 }
 
 .card-text{
-    height: 23rem;
+    height: 20rem;
+    text-align: start;
+    padding: 1rem 8rem 0rem 1rem;
 }
 .card-mais {
     right: 0rem;
@@ -67,8 +70,8 @@ a {
     display: table-cell;
     border: none;
     border-radius: 0px;
-    width: 26rem;
-    margin: 1rem 2rem;
+    width: 18rem;
+    margin: -0.5rem 2rem 0rem 1rem;
     justify-content: space-evenly;
     
 
@@ -112,9 +115,12 @@ a {
         padding: 0 0rem 0 0rem;
         margin: 0.5rem 0px;
     }
+    .card-title{
+        font-size: 2rem;
+    }
     .card-text{
         height:100%;
-        display: contents;
+        padding: 1rem 6rem 0rem 1rem;
     }
     .card-mais{
         right: 0rem;
@@ -124,9 +130,9 @@ a {
         background-color: #252525;
         display: table-cell;
         border: none;
-        border-radius: 5px;
-        width: 10rem;
-        margin: 24rem 0 0 3rem;
+        border-radius: 0px;
+        width: 18rem;
+        margin: 16rem 0 0 1rem;
 
     
         &.active {
@@ -143,6 +149,7 @@ a {
 
     a {
         color: #ffffff;
+        font-size: 1.25rem;
         text-decoration: none;
         background-color: transparent;
         &.active {
@@ -155,7 +162,10 @@ a {
           text-decoration: none;
         }
     }
+    . btn a{
+        font-size: 1.25rem;
 
+    }
 
 }
 

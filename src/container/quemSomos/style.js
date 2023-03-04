@@ -66,8 +66,8 @@ text-align: center;
   }
 
   @media only screen and (max-width: 600px) {
-    top: 10rem;
-    height: 15rem;
+    top: 0rem;
+    height: 20rem;
     width: 100%;
 
     .welcome{

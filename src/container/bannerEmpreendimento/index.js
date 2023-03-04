@@ -14,10 +14,10 @@ import '@splidejs/splide/dist/css/themes/splide-sea-green.min.css';
 
 
 
-import banner1 from "images/banner/banner_frontlake.png";
-import banner2 from "images/banner/banner_infinity.png";
-import banner3 from "images/banner/banner_officetower.png";
-import banner4 from "images/banner/banner_quintadovale.png";
+import banner1 from "images/banner/banner_home_frontlake.png";
+import banner2 from "images/banner/banner_home_infinity.png";
+import banner3 from "images/banner/banner_home_officetower.png";
+import banner4 from "images/banner/banner_home_quintadovale.png";
 
 import banner1Mobile from "images/banner/banner_frontlake.png";
 import banner2Mobile from "images/banner/banner_infinity.png";
@@ -47,12 +47,11 @@ function BannerEmpreendimento() {
                             <a href="https://rocketit.com.br/frontlake/"><img src={banner1Mobile} /></a>
                             <div className="welcome">
                                 <div className="box-texto">
-                                    <div className="title">Nome do </div>
+                                    <div className="title">Front Lake </div>
                                     <div className="title1">Empreendimento</div>
                                     <p className="text">
-                                        São Paulo | Vila Mariano <br />
-                                        Área privativa de 253 m² <br />
-                                        2 suítes
+                                        Rio Claro | Vila Operária <br />
+                                        Área privativa de 94 m² <br />
                                     </p>
                                     <a href="/site/jacto" className="btn1 shadow mb-4 d-flex align-items-center justify-content-center">
                                         Ver mais
@@ -66,12 +65,11 @@ function BannerEmpreendimento() {
                             <a href="https://alakadim.com.br/infinity/"><img src={banner2Mobile} /></a>
                             <div className="welcome">
                                 <div className="box-texto">
-                                    <div className="title">Nome do </div>
+                                    <div className="title">Infinity </div>
                                     <div className="title1">Empreendimento</div>
                                     <p className="text">
-                                        São Paulo | Vila Mariano <br />
-                                        Área privativa de 253 m² <br />
-                                        2 suítes
+                                        Rio Claro | Cidade Jardim <br />
+                                        Área privativa de 151 m² <br />
                                     </p>
                                     <a href="/site/jacto" className="btn1 shadow mb-4 d-flex align-items-center justify-content-center">
                                         Ver mais
@@ -85,12 +83,11 @@ function BannerEmpreendimento() {
                             <a href="https://rocketit.com.br/barbo/office_tower/"><img src={banner3Mobile} /></a>
                             <div className="welcome">
                                 <div className="box-texto">
-                                    <div className="title">Nome do </div>
+                                    <div className="title">Office Tower </div>
                                     <div className="title1">Empreendimento</div>
                                     <p className="text">
-                                        São Paulo | Vila Mariano <br />
-                                        Área privativa de 253 m² <br />
-                                        2 suítes
+                                        Rio Claro | Jardim Claret <br />
+                                        Salas - 42,06 m² / 43,66 m² / 49,94 m² <br />
                                     </p>
                                     <a href="/site/jacto" className="btn1 shadow mb-4 d-flex align-items-center justify-content-center">
                                         Ver mais
@@ -104,12 +101,11 @@ function BannerEmpreendimento() {
                             <a href="https://alakadim.com.br/quinta-do-valle/"><img src={banner4Mobile} /></a>
                             <div className="welcome">
                                 <div className="box-texto">
-                                    <div className="title">Nome do </div>
+                                    <div className="title">Quinta do Vale </div>
                                     <div className="title1">Empreendimento</div>
                                     <p className="text">
-                                        São Paulo | Vila Mariano <br />
-                                        Área privativa de 253 m² <br />
-                                        2 suítes
+                                        Barra Bonita | Portal São José da Barra <br />
+                                        Com lotes de 200m² a 400m² <br />
                                     </p>
                                     <a href="/site/jacto" className="btn1 shadow mb-4 d-flex align-items-center justify-content-center">
                                         Ver mais
@@ -134,12 +130,11 @@ function BannerEmpreendimento() {
                                 <a href="https://rocketit.com.br/frontlake/"><img src={banner1} /></a>
                                 <div className="welcome">
                                     <div className="box-texto">
-                                        <div className="title">Nome do </div>
+                                        <div className="title">Front Lake </div>
                                         <div className="title1">Empreendimento</div>
                                         <p className="text">
-                                            São Paulo | Vila Mariano <br />
-                                            Área privativa de 253 m² <br />
-                                            2 suítes
+                                            Rio Claro | Vila Operária <br />
+                                            Área privativa de 94 m² <br />
                                         </p>
                                         <a href="/site/jacto" className="btn1 shadow mb-4 d-flex align-items-center justify-content-center">
                                             Ver mais
@@ -155,12 +150,11 @@ function BannerEmpreendimento() {
                                 <a href="https://alakadim.com.br/infinity/"><img src={banner2} /></a>
                                 <div className="welcome">
                                     <div className="box-texto">
-                                        <div className="title">Nome do </div>
+                                        <div className="title">Infinity </div>
                                         <div className="title1">Empreendimento</div>
                                         <p className="text">
-                                            São Paulo | Vila Mariano <br />
-                                            Área privativa de 253 m² <br />
-                                            2 suítes
+                                            Rio Claro | Cidade Jardim <br />
+                                            Área privativa de 151 m² <br />
                                         </p>
                                         <a href="/site/jacto" className="btn1 shadow mb-4 d-flex align-items-center justify-content-center">
                                             Ver mais
@@ -176,12 +170,11 @@ function BannerEmpreendimento() {
                                 <a href="https://rocketit.com.br/barbo/office_tower/"><img src={banner3} /></a>
                                 <div className="welcome">
                                     <div className="box-texto">
-                                        <div className="title">Nome do </div>
+                                        <div className="title">Office Tower </div>
                                         <div className="title1">Empreendimento</div>
                                         <p className="text">
-                                            São Paulo | Vila Mariano <br />
-                                            Área privativa de 253 m² <br />
-                                            2 suítes
+                                            Rio Claro | Jardim Claret <br />
+                                            Salas - 42,06 m² / 43,66 m² / 49,94 m² <br />
                                         </p>
                                         <a href="/site/jacto" className="btn1 shadow mb-4 d-flex align-items-center justify-content-center">
                                             Ver mais
@@ -197,12 +190,11 @@ function BannerEmpreendimento() {
                                 <a href="https://alakadim.com.br/quinta-do-valle/"><img src={banner4} /></a>
                                 <div className="welcome">
                                     <div className="box-texto">
-                                        <div className="title">Nome do </div>
+                                        <div className="title">Quinta do Vale </div>
                                         <div className="title1">Empreendimento</div>
                                         <p className="text">
-                                            São Paulo | Vila Mariano <br />
-                                            Área privativa de 253 m² <br />
-                                            2 suítes
+                                            Barra Bonita | Portal São José da Barra <br />
+                                            Com lotes de 200m² a 400m² <br />
                                         </p>
                                         <a href="/site/jacto" className="btn1 shadow mb-4 d-flex align-items-center justify-content-center">
                                             Ver mais

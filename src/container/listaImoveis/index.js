@@ -46,22 +46,26 @@ function ListaImoveis() {
             arrows: false,
           }}>
             <SplideSlide className="slide">
-              <CardHIG image={higienopolis}
-                title=""
-                text="" />
-
               <CardLR image={lasrocas}
-                title=""
-                text="" />
+                title="Las Rocas"
+                text="Piracicaba | Piracicamirim
+                Área privativa de 55 m²" />
+              <CardHIG image={higienopolis}
+                title="Higienópolis"
+                text="Piracicaba | Higienópolis
+                Área privativa de 88 m²" />
+
             </SplideSlide>
             <SplideSlide className="slide">
 
               <CardMP image={moradadoporto}
-                title=""
-                text="" />
+                title="Morada do Porto"
+                text="Americana | Terramérica
+                Área privativa de 53m² e 68 m²" />
               <CardVR image={villareal}
-                title=""
-                text="" />
+                title="Villa Rea"
+                text="Americana | Jardim Bela Vista
+                Área privativa de 58 m²" />
 
             </SplideSlide>
           </Splide>
@@ -75,22 +79,26 @@ function ListaImoveis() {
           }}>
             <SplideSlide>
               <div className="row slide">
-                <CardHIG image={higienopolis}
-                  title=""
-                  text="" />
                 <CardLR image={lasrocas}
-                  title=""
-                  text="" />
+                  title="Las Rocas"
+                  text="Piracicaba | Piracicamirim
+                  Área privativa de 55 m²" />
+                <CardHIG image={higienopolis}
+                  title="Higienópolis"
+                  text="Piracicaba | Higienópolis
+                  Área privativa de 88 m²" />
+                <CardMP image={moradadoporto}
+                  title="Morada do Porto"
+                  text="Americana | Terramérica
+                  Área privativa de 53m² e 68 m²" />
               </div>
             </SplideSlide>
             <SplideSlide>
               <div className="row slide">
-                <CardMP image={moradadoporto}
-                  title=""
-                  text="" />
                 <CardVR image={villareal}
-                  title=""
-                  text="" />
+                  title="Villa Real"
+                  text="Americana | Jardim Bela Vista
+                  Área privativa de 58 m²" />
               </div>
             </SplideSlide>
           </Splide>

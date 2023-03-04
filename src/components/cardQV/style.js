@@ -124,9 +124,9 @@ a {
         background-color: #252525;
         display: table-cell;
         border: none;
-        border-radius: 5px;
-        width: 10rem;
-        margin: 24rem 0 0 3rem;
+        border-radius: 0px;
+        width: 18rem;
+        margin: 24rem 0 0 2rem;
 
     
         &.active {
@@ -156,7 +156,10 @@ a {
         }
     }
 
+    . btn a{
+        font-size: 1.25rem;
 
+    }
 }
 
 `;

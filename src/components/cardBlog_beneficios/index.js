@@ -16,7 +16,7 @@ function CardBeneficios(props) {
   return (
     <Content>
       <div className="card">
-        <img src={props.image} className="card-img-top" alt="Imagem maquina" />
+        <img src={props.image} className="card-img-top" alt="Plantas" />
         <div className="card-body col-12">
           <div className="col-12 card-items">
             {props.items}

@@ -7,7 +7,7 @@ import Fade from "react-reveal/Fade";
 import { Services_Emails } from "service";
 import { useDispatch } from "react-redux";
 import * as Actions from 'store/actions';
-import logo from "images/logo/logo-portal.png";
+import logo from "images/logo/logo-vermelho.png";
 
 
 

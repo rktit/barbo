@@ -5,52 +5,52 @@ import fonts from "config/fonts";
 const Content = styled.div`
 .banner{
     height: auto;
-    width: 100%
+    width: 100%;
     background-size: cover;
 }
 .welcome{
-    height: 24rem;
-    width: 30rem;
+    height: 18rem;
+    width: 32rem;
     border-width: 2px;
     border-style: solid;
-    border-color: #252525;
+    border-color: #ffffff;
     transform: rotate(-40deg);
-    margin: -24rem 0rem 0rem 4rem;
-    transform: rotate(30deg);
+    margin: -20rem 0rem 2rem 4rem;
+    transform: rotate(14deg);
 }
 .box-texto {
     margin-top: 0rem;
-    transform: rotate(-30deg);
+    transform: rotate(-14deg);
     margin: 2rem 0rem 0rem 4rem;
     width: max-content;
   }
   .title{
-    font-size: 3.75rem;
+    font-size: 3rem;
     font-family: ${fonts.opensans_light};
-    color: #252525;
+    color: #ffffff;
     text-align: left;
-    margin-bottom: -20px;
+    margin-bottom: -16px;
   }
   .title1{
-    font-size: 2rem;
+    font-size: 1.75rem;
     font-family: ${fonts.opensans_bold};
-    color: #252525;
+    color: #ffffff;
     text-align: left;
   }
   .text{
     font-family: ${fonts.opensans_light};
-    color: #252525;
+    color: #ffffff;
     text-align: left;
   }
   .btn1{
     background-color: #252525;
     color: #ffffff;
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     display: table-cell;
     border: none;
     border-radius: 0px;
-    height: 2rem;
-    width: 18rem;
+    height: 3rem;
+    width: 14rem;
     margin: 1rem 0rem;
     justify-content: space-evenly;
     
@@ -129,12 +129,61 @@ const Content = styled.div`
     }
 
     @media only screen and (max-width: 600px) {
-        .text{
-            margin-right: 0;
-            text-align:center;
-            font-size: 1.2rem;
-            margin-top: -310px;
+        
+        .welcome {
+            height: 14rem;
+            width: 22rem;
+            margin: -17rem 0rem 3rem 1rem;
         }
+        .box-texto {
+            margin-top: 0rem;
+            transform: rotate(-14deg);
+            margin: 0.5rem 0rem 0rem 2rem;
+            width: max-content;
+          }
+          .title{
+            font-size: 2rem;
+            font-family: ${fonts.opensans_light};
+            color: #ffffff;
+            text-align: left;
+            margin-bottom: -20px;
+          }
+          .title1{
+            font-size: 2rem;
+            font-family: ${fonts.opensans_bold};
+            color: #ffffff;
+            text-align: left;
+          }
+          .text{
+            font-family: ${fonts.opensans_light};
+            color: #ffffff;
+            text-align: left;
+          }
+          .btn1{
+            background-color: #252525;
+            color: #ffffff;
+            font-size: 2rem;
+            display: table-cell;
+            border: none;
+            border-radius: 0px;
+            height: 3rem;
+            width: 12rem;
+            margin: 1rem 0rem;
+            justify-content: space-evenly;
+            
+        
+            &.active {
+                background-color: #e73538;
+                color: #ffffff;
+                width: 20rem;
+                }
+        
+            :hover {
+            transition: 0.1s ease-in-out;
+            background-color: #e73538;
+            color: #ffffff;
+            text-decoration: none;
+            }
         img{
             width: 180px;
         }

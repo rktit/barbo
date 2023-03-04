@@ -45,7 +45,7 @@ function Imoveis() {
   }, [window.innerWidth]);
 
   return (
-    <ScrollableAnchor id="blog">
+    <ScrollableAnchor id="">
       <Content className="col-12 d-flex flex-column align-items-center p-0">
         <div className="title ">Encontre um imóvel Barbo perto de você!</div>
         <div className="flex box">
@@ -122,20 +122,22 @@ function Imoveis() {
                 text="Área privativa de 88 m²"
                 text1="3 Dormitórios (1 suíte)
               " />
+            </SplideSlide>
+            <SplideSlide className="slide col">
               <CardInfinity image={infinity}
                 items="Infinity Residencial"
                 title="Rio Claro | Cidade Jardim"
                 text="Área privativa de 151 m²"
                 text1="4 Suítes (1 master)
               " />
-            </SplideSlide>
-            <SplideSlide className="slide col">
               <CardLasrocas image={lasRocas}
                 items="Las Rocas Residencial"
                 title="Piracicaba | Piracicamirim"
                 text="Área privativa de 55 m²"
                 text1="2 Dormitórios
               " />
+            </SplideSlide>
+            <SplideSlide className="slide col">
               <CardMorada image={moradadoporto}
                 items="Morada do Porto Residencial"
                 title="Americana | Terramérica"

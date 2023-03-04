@@ -10,7 +10,7 @@ import ScrollableAnchor from "react-scrollable-anchor";
 import ico_insta from 'images/icons/icon_instagram.png';
 import ico_face from 'images/icons/icon_facebook.png';
 import ico_youtube from 'images/icons/icon_youtube.png';
-import logo from 'images/logo/Barbo-Logo.png';
+import logo from 'images/logo/logo-vermelho.png';
 
 let limit_scroll = 450;
 let limit_scroll_header = 250;
@@ -69,7 +69,7 @@ function Footer(props) {
 		<ScrollableAnchor id="">
 			<Content className="row">
 				<div className='box col-12'>
-					<div className='col-12 p-0 content'>
+					<div className='col-10 p-0 content'>
 						<div className="col-12 row p-0 text-white">
 							<Fade left>
 								<div className="logo-footer col-10 col-md-4 p-0">
@@ -219,7 +219,7 @@ function Footer(props) {
 								</Fade>
 							</div>
 
-							<div className='col-12 col-md-2 p-0 info'>
+							<div className='col-12 col-md-2 p-0 info '>
 								<div className='titulo'>Fale Conosco</div>
 								<Fade>
 									<div className='conteudo'>

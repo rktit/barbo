@@ -64,7 +64,7 @@ background-color: #eeeeee;
 .splide__arrow svg {
     width: 1.5em;
     height: 1.5em;
-    fill: #252525;
+    fill: #ffffff;
     transition: fill .2s linear;
 }
 .splide__arrow--next {

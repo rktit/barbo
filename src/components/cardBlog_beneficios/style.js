@@ -123,12 +123,13 @@ img{
     .card-body{
         color: #252525;
         text-align: left;
-        padding: 1.25rem 16px;
+        padding: 1.25rem 1rem;
+        width: 22rem;
     }
     
     .card-img-top{
         width: 100%;
-        height: 25rem;
+        height: 30rem;
     }
     
     .card-items{
@@ -144,8 +145,8 @@ img{
     .card-text{
         padding: 0;
     }
-    .btn1{
-        margin: 0 0 0 7rem;
+    .btn1 {
+        margin: 0 0 0 0rem;
     }
 }
 

@@ -190,7 +190,7 @@ export const Content = styled.nav`
 
   @media only screen and (max-width: 992px) {
     .container {
-      width: 100%;
+      width: 20rem;
     }
     .menu-nav {
       padding: 0.5rem 0 0.5rem 0.05rem;
@@ -222,7 +222,7 @@ export const Content = styled.nav`
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 4em 2em;
+        padding: 6em 2em;
         font-family: ${fonts.comfortaa};
         font-size: 0.75rem;
         align-items: center;
