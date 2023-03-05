@@ -7,7 +7,7 @@ img{
 }
 
 .card{
-    width: 22rem;
+    width: 24.75rem;
     margin: 0 1px;
 }
 
@@ -18,8 +18,8 @@ img{
 }
 
 .card-img-top{
-    height: 20rem;
-    width: 22rem;
+    height: 24.75rem;
+    width: 24.75rem;
     margin-left: -0.5rem;
 }
 
@@ -47,7 +47,7 @@ img{
     border: none;
     border-radius: 0rem;
     width: 18rem;
-    margin: 1.5rem 0 -0.5rem 0.5rem;
+    margin: 3.75rem 0 -0.5rem 0.5rem;
     justify-content: center;
     
 

@@ -7,21 +7,22 @@ const Content = styled.div`
     height: auto;
     width: 100%;
     background-size: cover;
+    
 }
 .welcome{
-    height: 18rem;
-    width: 32rem;
+    height: 20rem;
+    width: 30rem;
     border-width: 2px;
     border-style: solid;
     border-color: #ffffff;
     transform: rotate(-40deg);
-    margin: -20rem 0rem 2rem 4rem;
+    margin: -26rem 0rem 4rem 4rem;
     transform: rotate(14deg);
 }
 .box-texto {
     margin-top: 0rem;
     transform: rotate(-14deg);
-    margin: 2rem 0rem 0rem 4rem;
+    margin: 3rem 0rem 0rem 4rem;
     width: max-content;
   }
   .title{
@@ -77,11 +78,12 @@ const Content = styled.div`
 
 .splide {
     padding: 0em 0em;
+    margin-top: -22rem;
 }
 .splide__slide img {
     vertical-align: bottom;
     width: 100%;
-    height: auto;
+    height: 34rem;
 }
     .splide__arrow svg {
         width: 1.5em;
@@ -129,11 +131,14 @@ const Content = styled.div`
     }
 
     @media only screen and (max-width: 600px) {
-        
+        .splide {
+            padding: 0em 0em;
+            margin-top: -92rem;
+        }
         .welcome {
             height: 14rem;
             width: 22rem;
-            margin: -17rem 0rem 3rem 1rem;
+            margin: -16rem 0rem 2rem 1rem;
         }
         .box-texto {
             margin-top: 0rem;

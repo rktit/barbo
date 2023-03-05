@@ -72,7 +72,7 @@ function Imoveis() {
                     <option value="corporativo">Corporativo</option>
                   </select>
                 </div>
-                <button type="submit" class="filtro__button btn_lupa">Pesquisar</button>
+                <button type="submit" class="filtro__button btn_lupa"></button>
               </div>
               :
               <div className="d-flex justify-content-between">
@@ -95,13 +95,15 @@ function Imoveis() {
                     <option value="corporativo">Corporativo</option>
                   </select>
                 </div>
-                <button type="submit" class="filtro__button btn_lupa">Pesquisar</button>
+                <button type="submit" class="filtro__button btn_lupa"></button>
               </div>
             }
           </form>
         </div>
         {isMobile ?
           <Splide className="splide col-12" options={{
+            type: 'loop',
+            focus: 'center',
             rewind: false,
             width: "100%",
             gap: '2rem',

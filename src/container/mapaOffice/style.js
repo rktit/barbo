@@ -19,11 +19,10 @@ const Content = styled.div`
   .image-side{
     background: url(${mapa}) no-repeat center center;
     background-size: cover;
-    width: 60%;
-    height:auto;
-
+    width: 60rem;
     min-width: auto;
     min-height: 20rem;
+    margin: 0 -10rem 0 0rem;
   }
   .left-side {
     padding-right: 1rem;
@@ -84,6 +83,7 @@ const Content = styled.div`
   @media only screen and (max-width: 600px) {
     flex-direction: column;
     padding: 0;
+    
     .title{
       font-size: 1.5rem;
     }
@@ -98,6 +98,7 @@ const Content = styled.div`
       margin-bottom: 4rem;
       min-width: auto;
       min-height: 20rem;
+      margin: 0 0rem 0 0rem;
     }
     .icones-empreendimentos{
       display: flex;

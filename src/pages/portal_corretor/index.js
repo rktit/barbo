@@ -14,7 +14,7 @@ const PortalCorretor_Page = () => {
   return (
     <Fragment>
       <ModalPolitica />
-      <Aplicativo />
+      {/* <Aplicativo /> */}
       <Menu/>
        <BannerPortal />
       {/* <Login /> */}

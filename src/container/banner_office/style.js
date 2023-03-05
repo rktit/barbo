@@ -11,6 +11,7 @@ const Content = styled.div`
   background: url(${background}) no-repeat top center;
   background-size:cover;
   height: 32rem;
+  top: -22rem;
 
   font-family: ${fonts.comfortaa};
   text-align: center;
@@ -66,6 +67,7 @@ const Content = styled.div`
     margin-bottom: 300px;
     display: flex;
     align-items: center;
+    top: -90rem;
 
     .title {
       margin-top: 32px;

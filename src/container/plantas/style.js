@@ -7,7 +7,7 @@ import implemento from "images/statics/implemento.png";
 const Content = styled.div`
   flex-direction: row;
   justify-content: center;
-  background-color: #eeeeee;
+  background-color: #ffffff;
   
    .icone_whatsapp{
     width: 30px;
@@ -47,6 +47,9 @@ const Content = styled.div`
       text-decoration-color: #e73538;
       text-decoration-thickness: 3px;
       }
+  }
+  .left-side {
+    margin:-22rem 0rem 0rem 0rem;
   }
   .image-side{
     font-family: ${fonts.comfortaa};
@@ -101,16 +104,16 @@ const Content = styled.div`
     background: #252525;
     color: #ffffff;
     align-items: center;
-    width: 65rem;
-    margin-left: 9rem; 
+    width: 74.5rem;
+    margin-left: 4rem;
     justify-content: center;
   }
   .consulta{
     background: #252525;
     color: #ffffff;
     align-items: center;
-    width: 65rem;
-    margin-left: 9rem;    
+    width: 74.5rem;
+    margin-left: 4rem;    
     justify-content: center;
   }
   .marca{
@@ -148,21 +151,27 @@ const Content = styled.div`
   @media only screen and (max-width: 600px) {
     flex-direction: column;
     padding: 0px;
+    .left-side {
+      margin:-80rem 0rem 0rem 0rem;
+    }
     .image-side{
-      padding: 110px 0 !important;
+      width: 10rem;
+      height: 5rem;
+      padding: 0px !important;
     }
-    .fotos{
+    .fotos {
       width: 20rem;
-      margin-left: 2rem;
-    }
+      margin-left: 1.25rem;
+  }
     .marca {
-      width: 18rem;
-      height: 30rem;
+      width: 16rem;
+      height: 20rem;
       position: relative;
   }
-  .chyJPT .consulta {
-    width: 20rem;
-    margin-left: 2rem;
+  .consulta {
+    width: 100%;
+    height: 6rem;
+    margin-left: 0rem;
 }
     .left-side{
       padding: 2rem 0rem;

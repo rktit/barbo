@@ -11,7 +11,8 @@ padding: 0 !important;
 background: url(${background}) no-repeat top center;
 background-size:cover;
 height: auto;
-width: 100%
+width: 100%;
+top: -22rem;
 
 font-family: ${fonts.comfortaa};
 text-align: center;
@@ -70,11 +71,12 @@ text-align: center;
 
   @media only screen and (max-width: 600px) {
     background: url(${backgroundMobile}) no-repeat top center;
-    height: 30rem;
+    height: 20rem;
     width: 100%;
     margin-left: -20rem;
     display: flex;
     align-items: center;
+    top: -78rem;
 
     .title {
       margin-top: 32px;

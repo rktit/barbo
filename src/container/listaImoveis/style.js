@@ -11,7 +11,7 @@ background-color: #eeeeee;
     font-size: 1.5rem;
     color: #252525;
     margin-top: 6rem;
-    padding-bottom: 1rem;
+    padding-bottom: 0rem;
 }
 
 .demarcador{
@@ -68,10 +68,10 @@ background-color: #eeeeee;
     transition: fill .2s linear;
 }
 .splide__arrow--next {
-    right: 10em;
+    right: 6em;
 }
 .splide__arrow--prev {
-    left: 10em;
+    left: 6em;
 }
 .splide__pagination__page {
     display: inline-block;

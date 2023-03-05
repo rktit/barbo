@@ -48,12 +48,12 @@ function BannerEmpreendimento() {
                             <div className="welcome">
                                 <div className="box-texto">
                                     <div className="title">Front Lake </div>
-                                    <div className="title1">Empreendimento</div>
+                                    <div className="title1">Residencial</div>
                                     <p className="text">
                                         Rio Claro | Vila Operária <br />
                                         Área privativa de 94 m² <br />
                                     </p>
-                                    <a href="/site/jacto" className="btn1 shadow mb-4 d-flex align-items-center justify-content-center">
+                                    <a href="https://rocketit.com.br/frontlake/" className="btn1 shadow mb-4 d-flex align-items-center justify-content-center">
                                         Ver mais
                                     </a>
                                 </div>
@@ -66,12 +66,12 @@ function BannerEmpreendimento() {
                             <div className="welcome">
                                 <div className="box-texto">
                                     <div className="title">Infinity </div>
-                                    <div className="title1">Empreendimento</div>
+                                    <div className="title1">Residencial</div>
                                     <p className="text">
                                         Rio Claro | Cidade Jardim <br />
                                         Área privativa de 151 m² <br />
                                     </p>
-                                    <a href="/site/jacto" className="btn1 shadow mb-4 d-flex align-items-center justify-content-center">
+                                    <a href="https://alakadim.com.br/infinity/" className="btn1 shadow mb-4 d-flex align-items-center justify-content-center">
                                         Ver mais
                                     </a>
                                 </div>
@@ -84,12 +84,12 @@ function BannerEmpreendimento() {
                             <div className="welcome">
                                 <div className="box-texto">
                                     <div className="title">Office Tower </div>
-                                    <div className="title1">Empreendimento</div>
+                                    <div className="title1">Corporativo</div>
                                     <p className="text">
                                         Rio Claro | Jardim Claret <br />
                                         Salas - 42,06 m² / 43,66 m² / 49,94 m² <br />
                                     </p>
-                                    <a href="/site/jacto" className="btn1 shadow mb-4 d-flex align-items-center justify-content-center">
+                                    <a href="https://rocketit.com.br/barbo/office_tower/" className="btn1 shadow mb-4 d-flex align-items-center justify-content-center">
                                         Ver mais
                                     </a>
                                 </div>
@@ -102,12 +102,12 @@ function BannerEmpreendimento() {
                             <div className="welcome">
                                 <div className="box-texto">
                                     <div className="title">Quinta do Vale </div>
-                                    <div className="title1">Empreendimento</div>
+                                    <div className="title1">Loteamento</div>
                                     <p className="text">
                                         Barra Bonita | Portal São José da Barra <br />
                                         Com lotes de 200m² a 400m² <br />
                                     </p>
-                                    <a href="/site/jacto" className="btn1 shadow mb-4 d-flex align-items-center justify-content-center">
+                                    <a href="https://alakadim.com.br/quinta-do-valle/" className="btn1 shadow mb-4 d-flex align-items-center justify-content-center">
                                         Ver mais
                                     </a>
                                 </div>
@@ -119,6 +119,8 @@ function BannerEmpreendimento() {
                 <Splide className="" options={{
                     rewind: false,
                     autoplay: "auto",
+                    type: 'loop',
+                    focus: 'center',
                     width: "100%",
                     gap: '1.5rem',
                     perPage: 1,
@@ -131,12 +133,12 @@ function BannerEmpreendimento() {
                                 <div className="welcome">
                                     <div className="box-texto">
                                         <div className="title">Front Lake </div>
-                                        <div className="title1">Empreendimento</div>
+                                        <div className="title1">Residencial</div>
                                         <p className="text">
                                             Rio Claro | Vila Operária <br />
                                             Área privativa de 94 m² <br />
                                         </p>
-                                        <a href="/site/jacto" className="btn1 shadow mb-4 d-flex align-items-center justify-content-center">
+                                        <a href="https://rocketit.com.br/frontlake/" className="btn1 shadow mb-4 d-flex align-items-center justify-content-center">
                                             Ver mais
                                         </a>
                                     </div>
@@ -151,12 +153,12 @@ function BannerEmpreendimento() {
                                 <div className="welcome">
                                     <div className="box-texto">
                                         <div className="title">Infinity </div>
-                                        <div className="title1">Empreendimento</div>
+                                        <div className="title1">Residencial</div>
                                         <p className="text">
                                             Rio Claro | Cidade Jardim <br />
                                             Área privativa de 151 m² <br />
                                         </p>
-                                        <a href="/site/jacto" className="btn1 shadow mb-4 d-flex align-items-center justify-content-center">
+                                        <a href="https://alakadim.com.br/infinity/" className="btn1 shadow mb-4 d-flex align-items-center justify-content-center">
                                             Ver mais
                                         </a>
                                     </div>
@@ -171,12 +173,12 @@ function BannerEmpreendimento() {
                                 <div className="welcome">
                                     <div className="box-texto">
                                         <div className="title">Office Tower </div>
-                                        <div className="title1">Empreendimento</div>
+                                        <div className="title1">Corporativo</div>
                                         <p className="text">
                                             Rio Claro | Jardim Claret <br />
                                             Salas - 42,06 m² / 43,66 m² / 49,94 m² <br />
                                         </p>
-                                        <a href="/site/jacto" className="btn1 shadow mb-4 d-flex align-items-center justify-content-center">
+                                        <a href="https://rocketit.com.br/barbo/office_tower/" className="btn1 shadow mb-4 d-flex align-items-center justify-content-center">
                                             Ver mais
                                         </a>
                                     </div>
@@ -191,12 +193,12 @@ function BannerEmpreendimento() {
                                 <div className="welcome">
                                     <div className="box-texto">
                                         <div className="title">Quinta do Vale </div>
-                                        <div className="title1">Empreendimento</div>
+                                        <div className="title1">Loteamento</div>
                                         <p className="text">
                                             Barra Bonita | Portal São José da Barra <br />
                                             Com lotes de 200m² a 400m² <br />
                                         </p>
-                                        <a href="/site/jacto" className="btn1 shadow mb-4 d-flex align-items-center justify-content-center">
+                                        <a href="https://alakadim.com.br/quinta-do-valle/" className="btn1 shadow mb-4 d-flex align-items-center justify-content-center">
                                             Ver mais
                                         </a>
                                     </div>

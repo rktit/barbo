@@ -21,7 +21,7 @@ a {
     }
 }
 .card{
-    width: 33rem;
+    width: 28em;
     margin: 0 4px 0 4px;
     height: 28rem;
     padding: 0 0px 0 0px;
@@ -95,9 +95,7 @@ a {
 }
 
 @media only screen and (max-width: 600px) {
-    .card-img-top{
-        width: 100%;
-    }
+   
     .card-img-top{
         width: 23rem;
         height: 28rem;

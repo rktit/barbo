@@ -2,7 +2,6 @@ import styled from "styled-components";
 import fonts from "config/fonts";
 
 const Content = styled.div`
-margin-right: 0px
 img{
     height: 325px;
 }
@@ -22,15 +21,14 @@ a {
 }
 .card{
     width: 22rem;
-    margin: 0 2px 0 2px;
-    height: 26rem;
-    padding: 0 0px 0 0px;
+    height: 22rem;
+    padding: 0px;
 }
 
 .card-body{
     text-align: -webkit-center;
     display: inline-table;
-    color: #ffffff;
+    color: #252525;
     position: absolute;
     padding: 0rem 1rem;
 }
@@ -39,20 +37,22 @@ a {
     height: 100%;
 }
 
-.card-items{
-    padding: 1rem 0rem;
-    font-size: 0.8rem;
-}
 .card-title{
-    margin-bottom: -0.2rem;
-    font-size: 1.3rem;
+    margin: 0.8rem 1rem -0.5rem 0rem;
+    font-size: 1.5rem;
     text-align: start;
+}
+.card-items{
+    font-size: 1rem;
+    text-align: start;
+    padding: 1rem 1rem 0rem 1rem;
 }
 
 .card-text{
-    height: 20rem;
+    font-size: 1rem;
+    height: 15rem;
     text-align: start;
-    padding: 1rem 8rem 0rem 1rem;
+    padding-left: 1rem;
 }
 .card-mais {
     right: 0rem;
@@ -71,7 +71,7 @@ a {
     border: none;
     border-radius: 0px;
     width: 18rem;
-    margin: -0.5rem 2rem 0rem 1rem;
+    margin: -1rem 2rem 0rem 1rem;
     justify-content: space-evenly;
     
 
@@ -98,9 +98,7 @@ a {
 }
 
 @media only screen and (max-width: 600px) {
-    .card-img-top{
-        width: 100%;
-    }
+    
     .card-img-top{
         width: 23rem;
         height: 28rem;

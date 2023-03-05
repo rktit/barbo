@@ -10,7 +10,7 @@ const Content = styled.div`
 
 .box {
   display: flex;
-    padding: 0rem 0rem 3rem 6rem;
+    padding: 0rem 0rem 0rem 6rem;
     // margin-right: -5rem;
 }
   .logo-footer{
@@ -112,7 +112,7 @@ const Content = styled.div`
   }
 }
   @media only screen and (max-width: 600px) {
-    padding-bottom: 14rem;
+    padding-bottom: 8rem;
     .titulo {
       font-size: 1rem;
       font-family: ${fonts.comfortaa};

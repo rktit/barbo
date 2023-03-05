@@ -11,9 +11,7 @@ function Office() {
     return (
         <Content className="col-12 row">
             <div className="col-8 col-md-3 offset-1">
-                <div className="welcome">
-                    
-                </div>
+               
             </div>
         </Content>
     );

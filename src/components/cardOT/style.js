@@ -95,9 +95,7 @@ a {
 }
 
 @media only screen and (max-width: 600px) {
-    .card-img-top{
-        width: 100%;
-    }
+    
     .card-img-top{
         width: 23rem;
         height: 28rem;

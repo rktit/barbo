@@ -34,13 +34,15 @@ function ListaImoveis() {
 
   return (
     <ScrollableAnchor id="">
-      <Content className="col-12 d-flex flex-column align-items-center p-0">
+      <Content className="d-flex flex-column align-items-center p-0">
         <div className="title ">Encontre um imóvel Barbo perto de você!</div>
         {isMobile ?
           <Splide className="splide col-12" options={{
+            type: 'loop',
+            focus: 'center',
             rewind: false,
-            width: "auto",
-            gap: '2rem',
+            width: "22rem",
+            gap: '0rem',
             perPage: 1,
             pagination: false,
             arrows: false,
@@ -48,57 +50,64 @@ function ListaImoveis() {
             <SplideSlide className="slide">
               <CardLR image={lasrocas}
                 title="Las Rocas"
-                text="Piracicaba | Piracicamirim
-                Área privativa de 55 m²" />
+                items="Piracicaba | Piracicamirim"
+                text="Área privativa de 55 m²" />
               <CardHIG image={higienopolis}
                 title="Higienópolis"
-                text="Piracicaba | Higienópolis
-                Área privativa de 88 m²" />
-
+                items="Piracicaba | Higienópolis"
+                text="Área privativa de 88 m²" />
             </SplideSlide>
             <SplideSlide className="slide">
-
               <CardMP image={moradadoporto}
                 title="Morada do Porto"
-                text="Americana | Terramérica
-                Área privativa de 53m² e 68 m²" />
+                items="Americana | Terramérica"
+                text="Área privativa de 53m² e 68 m²" />
               <CardVR image={villareal}
-                title="Villa Rea"
-                text="Americana | Jardim Bela Vista
-                Área privativa de 58 m²" />
-
+                title="Villa Real"
+                items="Americana | Jardim Bela Vista"
+                text="Área privativa de 58 m²" />
             </SplideSlide>
           </Splide>
           :
-          <Splide className="col-8" options={{
+          <Splide className="" options={{
+            type: 'loop',
+            focus: 'center',
             rewind: true,
             width: "100%",
-            gap: '1.5rem',
-            perPage: 1,
-            pagination: true
+            gap: '0rem',
+            perPage: 3,
+            pagination: true,
           }}>
             <SplideSlide>
               <div className="row slide">
                 <CardLR image={lasrocas}
                   title="Las Rocas"
-                  text="Piracicaba | Piracicamirim
-                  Área privativa de 55 m²" />
+                  items="Piracicaba | Piracicamirim"
+                  text="Área privativa de 55 m²" />
+              </div>
+            </SplideSlide>
+            <SplideSlide>
+              <div className="row slide">
                 <CardHIG image={higienopolis}
                   title="Higienópolis"
-                  text="Piracicaba | Higienópolis
-                  Área privativa de 88 m²" />
+                  items="Piracicaba | Higienópolis"
+                  text="Área privativa de 88 m²" />
+              </div>
+            </SplideSlide>
+            <SplideSlide>
+              <div className="row slide">
                 <CardMP image={moradadoporto}
                   title="Morada do Porto"
-                  text="Americana | Terramérica
-                  Área privativa de 53m² e 68 m²" />
+                  items="Americana | Terramérica"
+                  text="Área privativa de 53m² e 68 m²" />
               </div>
             </SplideSlide>
             <SplideSlide>
               <div className="row slide">
                 <CardVR image={villareal}
                   title="Villa Real"
-                  text="Americana | Jardim Bela Vista
-                  Área privativa de 58 m²" />
+                  items="Americana | Jardim Bela Vista"
+                  text="Área privativa de 58 m²" />
               </div>
             </SplideSlide>
           </Splide>

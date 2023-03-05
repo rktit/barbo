@@ -10,6 +10,7 @@ const Content = styled.div`
   background: url(${background}) no-repeat  center;
   background-size: cover;
   height: 100vh;
+  top: -22rem;
 
   justify-content: center;
   align-items: center;
@@ -64,8 +65,6 @@ const Content = styled.div`
     background: url(${backgroundMobile}) no-repeat center;
     height: 100vh;
     width: auto;
-    
-    margin-bottom: 300px;
     display: flex;
     align-items: center;
 

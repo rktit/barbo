@@ -3,7 +3,7 @@ import fonts from "config/fonts";
 
 
 const Content = styled.div`
-
+top: -22rem;
 background-color: #eeeeee;
 .title{
     font-family: ${fonts.comfortaa};
@@ -118,7 +118,7 @@ background-color: #eeeeee;
     width: 5px;
 }
 @media only screen and (max-width: 600px) {
-
+    margin: -56rem 0rem -22rem 0rem;
     padding-right: 0px !important;
     padding-left: 0px !important;
 

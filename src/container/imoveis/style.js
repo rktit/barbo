@@ -1,11 +1,12 @@
 import styled from "styled-components";
 import fonts from "config/fonts";
-import lupa from "images/empreendimento/lupa.png";
+import lupa from "images/menu/pesquisar.png";
 
 
 const Content = styled.div`
-
+top: -22rem;
 background-color: #eeeeee;
+
 .maquinas {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -49,14 +50,14 @@ background-color: #eeeeee;
     padding: 0 0;
 }
 .btn_lupa {
-    background: url(${lupa}) no-repeat left;
+    background: url(${lupa}) no-repeat center;
     font-family: ${fonts.comfortaa};
     height: 2.75rem;
-    background-color: #E73538;
     border-color: white;
-    color: white;    width: 14rem;
-    padding: 1rem 8rem 1rem 6rem;
-    border-radius: 3px;
+    width: 14rem;
+    border-color: #252525;
+    padding: 1rem 0rem 1rem 0rem;
+    border-radius: 0px;
     border-width: 1px;
     display: flex;
     justify-content: flex-start;
@@ -162,22 +163,17 @@ background-color: #eeeeee;
     width: 5px;
 }
 @media only screen and (max-width: 600px) {
+    margin: -56rem 0rem -26rem 0rem;
     display: flex!important;
-        flex-direction: column;
-        padding-right: 0px !important;
-        padding-left: 0px !important;
+    flex-direction: column;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
 
     .maquinas {
         display: flex;
         flex-direction: column;
         width: 100%;
         height: 100%;
-    }
-    .slide{
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        flex-wrap: wrap;
     }
 
     .title{
@@ -198,7 +194,14 @@ background-color: #eeeeee;
         width: 100%;
         flex-wrap: wrap;
     }
-
+    .splide__pagination {
+        display: inline-flex;
+        align-items: center;
+        width: 95%;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 2rem 0px;
+    }
     .texto{
         text-align: center;
         font-size: 1rem;

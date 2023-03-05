@@ -9,10 +9,12 @@ const Content = styled.div`
   flex-direction: row;
   padding: 0 !important;
   background: url(${background}) no-repeat top center;
+  margin-top: -25rem;
   background-size:cover;
   height: auto;
-  width: 100%
-  
+  width: 100%;
+  top: -22rem;
+
   font-family: ${fonts.comfortaa};
   text-align: center;
 
@@ -71,7 +73,7 @@ const Content = styled.div`
     background: url(${backgroundMobile}) no-repeat top center;
     background-size:cover;
     align-items: center;
-    top: 0rem;
+    top: -78rem;
     height: 20rem;
     width: 100%;
     

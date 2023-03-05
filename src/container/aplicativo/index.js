@@ -4,7 +4,7 @@ import { useDispatch } from "react-redux";
 import * as Actions from 'store/actions';
 
 
-import whats from "images/icons/icone-whatsapp-fundo.png"
+import whats from "images/icons/whatsapp.png"
 
 let limit_scroll = 450;
 let limit_scroll_header = 250;

@@ -15,7 +15,7 @@ function CardInfinity(props) {
 
   return (
     <Content>
-      <div className="card col-12 d-flex">
+      <button className="card" onClick={() => { window.location.href='https://alakadim.com.br/infinity/ '}} >
         <img src={props.image} className="card-img-top" />
         <div className="card-body">
           <div className="card-items">
@@ -34,7 +34,7 @@ function CardInfinity(props) {
             <a href="https://alakadim.com.br/infinity/ ">Ver mais</a>
           </div>
         </div>
-      </div>
+      </button>
     </Content>
   );
 }

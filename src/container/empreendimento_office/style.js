@@ -9,17 +9,19 @@ const Content = styled.div`
   flex-direction: row;
   justify-content: center;
   background-color: #eeeeee;
-  
+  top: -22rem;
+
   .image-side{
     background: url(${office_tower}) no-repeat center center;
     background-size: cover;
     padding-bottom: 24rem;
-    height: 450px;
-    width: 450px!important;
-    margin-right: 15px;
+    height: 32rem;
+    width: 32rem!important;
 
   }
-
+.box-descrição {
+  margin: 0rem 0rem 0rem 0rem;
+}
   .imgConsorcio{
     width:100%;
     height:auto;
@@ -68,6 +70,7 @@ const Content = styled.div`
     font-family:${fonts.comfortaa};
     text-size: 0.5rem;
     color:#252525;
+    letter-spacing: 0.065em;
     strong {
       font-family: ${fonts.comfortaa};
     }
@@ -108,7 +111,7 @@ const Content = styled.div`
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 1em 2em 1em 4em;
+    margin: 1em 0em 1em 6em;
     font-family: ${fonts.comfortaa};
     font-size: 0.75rem;
     align-items: center;
@@ -120,11 +123,43 @@ const Content = styled.div`
       padding: 0px 10px 0px 0px;
     }
   }
- 
-  
+  .icones1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 1em 0em 1em 5em;
+    font-family: ${fonts.comfortaa};
+    font-size: 0.75rem;
+    align-items: center;
+    color: #252525;
+    
+    img{
+      width: 50px;
+      heigth: auto;
+      padding: 0px 10px 0px 0px;
+    }
+  }
+  .icones2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 1em 3em 1em 2em;
+    font-family: ${fonts.comfortaa};
+    font-size: 0.75rem;
+    align-items: center;
+    color: #252525;
+    
+    img{
+      width: 50px;
+      heigth: auto;
+      padding: 0px 10px 0px 0px;
+    }
+  }
 
   @media only screen and (max-width: 600px) {
     flex-direction: column;
+    top: -90rem;
+
 .image-side {
   width: 100%!important;
 
@@ -134,13 +169,40 @@ const Content = styled.div`
   flex-direction: column;
   align-items: center;
   justify-items: center;
+  text-items: center;
 }
 .icones{
-  margin: 1em 2em;
-  
+    margin: 1em 2em;
+    flex-direction: column;
+    font-size: 1.2rem;
+    text-items: center;
+    margin: 0em 2em;
   img{
-    width: 50px;
-    heigth: auto;
+    width: 6rem;
+    padding: 0px 10px 0px 0px;
+    margin: 1em 2em;
+  }
+}
+.icones1{
+    margin: 1em 2em;
+    flex-direction: column;
+    font-size: 1.2rem;
+    text-items: center;
+    margin: 0em 2em;
+  img{
+    width: 7rem;
+    padding: 0px 10px 0px 0px;
+    margin: 1em 2em;
+  }
+}
+.icones2{
+    margin: 1em 2em;
+    flex-direction: column;
+    font-size: 1.2rem;
+    text-items: center;
+    margin: 0em 2em;
+  img{
+    width: 7rem;
     padding: 0px 10px 0px 0px;
     margin: 1em 2em;
   }
@@ -195,22 +257,22 @@ const Content = styled.div`
       //   width: 120%;
       // }
     }
-    .icones{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin: 0em 2em;
-      font-family: ${fonts.comfortaa};
-      font-size: 1.2rem;
-      text-align: center;
-      color: #252525;
+    // .icones{
+    //   display: flex;
+    //   flex-direction: column;
+    //   align-items: center;
+    //   margin: 0em 2em;
+    //   font-family: ${fonts.comfortaa};
+    //   font-size: 1.2rem;
+    //   text-align: center;
+    //   color: #252525;
       
-      img{
-        width: 5rem;
-        heigth: auto;
-        padding-bottom: 6px;
-      }
-    }
+    //   img{
+    //     width: 6rem;
+    //     heigth: auto;
+    //     padding-bottom: 6px;
+    //   }
+    // }
     .boxTitle{
       font-size: 1.6rem;
       margin-left: 0px;
@@ -229,7 +291,7 @@ const Content = styled.div`
     height:35px;
   }
   .texto-empreendimento {
-    font-size:2rem;
+    font-size: 1.75rem;
   }
   .infoCotacao{
     font-size:1rem;

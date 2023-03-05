@@ -52,24 +52,59 @@ function Plantas(props) {
       <ScrollableAnchor id="">
         <Content className="row justify-content-center">
           <Fade left>
-            <div className="left-side col-md-5 mt-5">
-              <div className="">
-                <div className="box-mobile mx-2">
-                  <div className="">
-                    <Splide
-                      className="splide-badges "
-                      options={{
-                        rewind: true,
-                        width: 'auto',
-                        height: '100%',
-                        gap: '0rem',
-                        perPage: 1,
-                        pagination: false,
-                        arrows: true,
-                      }}
-                    >
-                      {arrayFotos.map(el => { return (renderImg(el)) })}
-                    </Splide>
+            <div className="col-md-12 mt-5">
+              <div className="left-side">
+                <div className="flex justify-center align-center">
+                  <div className="w-full justify-center pt-64">
+                    <div className=" flex flex-row w-auto">
+                      <div className="d-flex py-6">
+                        <div className='' style={{ display: 'flex', alignItems: 'center', flexDirection: 'column' }}>
+                          <div className="fotos text-center">
+                            <div className="btn py-7 px-2" onClick={() => { moveSlide(0) }} >Fotos</div>
+                            <div className="btn py-7 px-2" onClick={() => { moveSlide(1) }} >Plantas</div>
+                            <div className="btn py-7 px-2" onClick={() => { moveSlide(2) }} >Vista Aérea</div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className="flex w-auto pt-16">
+                        <div className="listaMarcas content-center">
+                          <Splide
+                            ref={ref}
+                            className="splide-badges"
+                            options={{
+                              rewind: true,
+                              width: '100%',
+                              gap: '0rem',
+                              perPage: 1,
+                              pagination: true,
+                              arrows: !isMobile,
+                            }}
+                          >
+                            <SplideSlide className="slide">
+                              <img src={sala} className="marca" />
+                            </SplideSlide>
+                            <SplideSlide className="slide">
+                              <img src={humanizada} className="marca" />
+                            </SplideSlide>
+                            <SplideSlide className="slide">
+                              <img src={aerea} className="marca" />
+                            </SplideSlide>
+                          </Splide>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="d-flex row">
+                    <div className="d-flex consulta">
+                      <div className="image-side shadow btn">
+                        Whatsapp
+                        <a target="_blank" href="https://api.whatsapp.com/send?phone=5515997831666&text=Gostaria de falar com um consultor?">
+                          <img className="icone_whatsapp" src={icone_whatsapp} alt="Whatsapp" />
+                        </a>
+                      </div>
+                      Fale com um de nossos consultores
+                    </div>
                   </div>
                 </div>
               </div>
@@ -81,8 +116,8 @@ function Plantas(props) {
       <ScrollableAnchor id="plantas">
         <Content className="flex row justify-content-center py-4">
           <Fade left>
-            <div className="left-side col-md-12 mt-5">
-              <div className="">
+            <div className="col-md-12 mt-5">
+              <div className="left-side">
                 <div className="flex justify-center align-center">
                   <div className="w-full justify-center pt-64">
                     <div className=" flex flex-row w-auto">

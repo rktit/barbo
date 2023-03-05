@@ -47,12 +47,12 @@ return (
                             <span style={{marginTop:"5px"}}>243<br/>Lançamentos<br/>2023</span>
                         </div>
                     </SplideSlide>
-                    <SplideSlide>
+                    {/* <SplideSlide>
                         <div className="icones">
                             <img className="image" src={descricao3}/>
                             <span style={{marginTop:"5px"}}>185<br/>Empreend.<br/>Em obras</span>
                         </div>
-                    </SplideSlide>
+                    </SplideSlide> */}
                     <SplideSlide>  
                         <div className="icones">
                             <img className="image" src={descricao4}/>
@@ -76,12 +76,12 @@ return (
                                 <span style={{marginTop:"5px"}}>243<br/>Lançamentos<br/>2023</span>
                             </div>
                         </Zoom>
-                        <Zoom>
+                        {/* <Zoom>
                             <div className="icones col-3">
                                 <img className="image" src={descricao3}/>
                                 <span style={{marginTop:"5px"}}>185<br/>Empreend.<br/>Em obras</span>
                             </div>
-                        </Zoom>
+                        </Zoom> */}
                         <Zoom>
                             <div className="icones col-3">
                                 <img className="image" src={descricao4}/>

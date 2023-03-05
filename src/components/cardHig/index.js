@@ -17,12 +17,12 @@ function CardHIG(props) {
     <Content>
       <button className="card" onClick={() => { window.location.href='https://rocketit.com.br/higienopolis/'}} >
         <img src={props.image} className="card-img-top" />
-        <div className="card-body col-10">
-          <div className="col-12 card-items">
-            {props.items}
-          </div>
+        <div className="card-body">
           <div className="card-title col-12">
             {props.title}
+          </div>
+          <div className="col-12 card-items">
+            {props.items}
           </div>
           <div className="col-12 card-text">
             {props.text}

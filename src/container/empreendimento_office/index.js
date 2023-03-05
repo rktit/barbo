@@ -34,31 +34,31 @@ function EmpreendimentoOffice(props) {
 
   return (
     <ScrollableAnchor id="">
-      <Content className="col-12 row justify-content-center">
+      <Content className="col-12 row justify-content-center pt-5">
 
         <Fade left>
-          <div className="left-side mt-5">
+          <div className="left-side mt-3">
             {isMobile ?
-              <div className="flex">
+              <div className="flex mx-4">
                 <span className="title">Office Tower Rio Claro</span><p />
                 <span className="texto">
                   O Office Tower Rio Claro é um prédio corporativo no interior
                   de São Paulo com toda a tecnologia e modernidade dos grandes
-                  prédios empresariais das grandes capitais.
+                  prédios empresariais das grandes capitais.<br />
                   Com salas individuais ou lajes corporativas, foi projetado
                   pensando no que é melhor para as empresas e profissionais que
-                  precisam estar conectados com o mundo.
+                  precisam estar conectados com o mundo.<br />
                   Por isso, investimos em um empreendimento de qualidade e com
                   todas as soluções para os muitos profissionais que já se
-                  instalaram no Office Tower.
+                  instalaram no Office Tower.<br />
                   Com presença marcante, tornou-se referência na Avenida Tancredo 
-                  Neves, uma área com muitos comércios, bancos e escolas. 
+                  Neves, uma área com muitos comércios, bancos e escolas. <br />
                   Além disso, o edifício conta com espaços comercializáveis para
                   serviços, cafés, lanchonetes e conveniência.
                 </span>
               </div>
               :
-              <div className="flex m-5">
+              <div className="flex mr-5">
                 <span className="title">Office Tower Rio Claro</span><p />
                 <span className="texto">
                   O Office Tower Rio Claro é um prédio corporativo no interior<br />
@@ -85,24 +85,24 @@ function EmpreendimentoOffice(props) {
           </div>
         </Fade>
         <Fade left>
-          <div className="box-empreendimento">
-            <span className="d-flex texto-empreendimento">Dados do Empreendimento:</span>
-            <div className="d-flex flex-d-row	flex-column">
-              <div className="icones-empreendimentos my-5">
+          <div className="box-empreendimento my-5">
+            <span className="d-flex texto-empreendimento mb-5"><strong>Dados do Empreendimento:</strong></span>
+            <div className="d-flex flex-d-row	flex-lg-row flex-column">
+              <div className="icones-empreendimentos my-0">
                 <div className="icones">
                   <img className="" src={area} alt="" />
                   Salas Individuais Ou Lajes Corporativas
                 </div>
                 <div className="icones">
-                  <img className="" src={doubleBed} alt="" />
+                  <img className="" src={area} alt="" />
                   117 Unidades Tipo 1 (43,66 M²)
                 </div>
                 <div className="icones pr-2">
-                  <img className="" src={garage} alt="" />
+                  <img className="" src={area} alt="" />
                   30 Unidades Tipo 1a (42,06 M²)
                 </div>
                 <div className="icones">
-                  <img className="" src={shower} alt="" />
+                  <img className="" src={area} alt="" />
                   58 Unidades Tipo 2 (49,94 M²)
                 </div>
                 <div className="icones">
@@ -115,49 +115,49 @@ function EmpreendimentoOffice(props) {
                 </div>
               </div>
               <div className="icones-empreendimentos my-0 my-d-5">
-                <div className="icones pr-2">
+                <div className="icones1 pr-2">
                   <img className="" src={elevadores} alt="" />
                   5 Elevadores sendo 3 Panorâmicos
                 </div>
-                <div className="icones">
+                <div className="icones1">
                   <img className="" src={vaga} alt="" />
                   1 Vaga De Estacionamento
                 </div>
-                <div className="icones">
+                <div className="icones1">
                   <img className="" src={vagaSubsolo} alt="" />
                   2 Subsolos Com Vagas De Aumotomóveis E Motocicletas
                 </div>
-                <div className="icones pr-2">
+                <div className="icones1 pr-2">
                   <img className="" src={estacionamentoRotativo} alt="" />
                   Estacionamento Rotativo Com Manobristas (Sistema Vallet Parking)
                 </div>
-                <div className="icones">
+                <div className="icones1">
                   <img className="" src={lobby} alt="" />
                   Lobby Com Pé Direito Duplo
                 </div>
-                <div className="icones">
-                  <img className="" src={area} alt="" />
+                <div className="icones1">
+                  <img className="" src={lobby} alt="" />
                   Recepção/Portaria Inteligente
                 </div>
               </div>
               <div className="icones-empreendimentos my-0 my-d-5">
-                <div className="icones">
+                <div className="icones2">
                   <img className="" src={sistemaControle} alt="" />
                   Sistema De Controle De Acesso Com Catracas Eletrônicas
                 </div>
-                <div className="icones pr-2">
-                  <img className="" src={garage} alt="" />
+                <div className="icones2 pr-2">
+                  <img className="" src={elevadores} alt="" />
                   Infraestrutura De Telefonia E Redes De Alto Desempenho
                 </div>
-                <div className="icones pr-2">
+                <div className="icones2 pr-2">
                   <img className="" src={gerador} alt="" />
                   Gerador De Energia
                 </div>
-                <div className="icones">
+                <div className="icones2">
                   <img className="" src={acessibilidade} alt="" />
                   Total Acessibilidade
                 </div>
-                <div className="icones">
+                <div className="icones2">
                   <img className="" src={espacoTerreo} alt="" />
                   Espaços Térreos Comercializáveis Para<br />
                   Cafeterias/Lanchonete e Bureau De Serviços

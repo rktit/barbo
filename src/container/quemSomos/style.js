@@ -8,8 +8,9 @@ flex-direction: row;
 padding: 0 !important;
 background: url(${background}) no-repeat top center;
 background-size:cover;
-height: auto;
+height: 32rem;
 width: 100%;
+top: -22rem;
 
 font-family: ${fonts.comfortaa};
 text-align: center;
@@ -66,7 +67,7 @@ text-align: center;
   }
 
   @media only screen and (max-width: 600px) {
-    top: 0rem;
+    top: -78rem;
     height: 20rem;
     width: 100%;
 

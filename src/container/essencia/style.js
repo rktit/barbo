@@ -4,6 +4,7 @@ import fonts from "config/fonts";
 const Content = styled.div`
   background-color: #ffffff;
   padding: 32px;
+  margin-top: -20rem;
 
   .medalhas{
     flex-direction: row;
@@ -40,12 +41,22 @@ const Content = styled.div`
     font-family: ${fonts.comfortaa};
     color: #252525;
     line-height: 2;
+    margin: 0 0rem 0 -4rem;
 
   strong{
       font-family: ${fonts.comfortaa};
     }
   }
+  .text1{
+    font-family: ${fonts.comfortaa};
+    color: #252525;
+    line-height: 2;
+    margin: 0 -4rem 0 0rem;
 
+  strong{
+      font-family: ${fonts.comfortaa};
+    }
+  }
   .orcamento{
     background-color: #20396f;
     color: white;
@@ -186,6 +197,7 @@ const Content = styled.div`
 
 
   @media only screen and (max-width: 600px) {
+    margin-top: -78rem;
     padding: 0px;
     .content {
       margin-bottom: 32px;
@@ -197,7 +209,12 @@ const Content = styled.div`
     .title{
       padding: 4rem 0rem 1rem 0rem;
     }
-  
+    .text{
+      margin: 0rem;
+    }
+    .text1{
+      margin: 0rem;
+    }
     .orcamento{
       width: 100%;
       margin-top: 0px;

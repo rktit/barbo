@@ -15,14 +15,13 @@ function CardVR(props) {
 
   return (
     <Content>
-      <div className="card">
-        <img src={props.image} className="card-img-top" />
+      <button className="card" onClick={() => { window.location.href = 'https://alakadim.com.br/villa-real/' }} >        <img src={props.image} className="card-img-top" />
         <div className="card-body col-10">
-          <div className="col-12 card-items">
-            {props.items}
-          </div>
           <div className="card-title col-12">
             {props.title}
+          </div>
+          <div className="col-12 card-items">
+            {props.items}
           </div>
           <div className="col-12 card-text">
             {props.text}
@@ -31,7 +30,7 @@ function CardVR(props) {
             <a href="https://alakadim.com.br/villa-real/">Mais informações</a>
           </div>
         </div>
-      </div>
+      </button>
     </Content>
   );
 }

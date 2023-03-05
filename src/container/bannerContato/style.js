@@ -10,6 +10,7 @@ const Content = styled.div`
 flex-direction: row;
 padding: 0 !important;
 background: url(${background}) no-repeat top center;
+margin-top: -22rem;
 background-size:cover;
 height: auto;
 width: 100%
@@ -73,6 +74,7 @@ text-align: center;
     height: 38rem;
     display: flex;
     align-items: center;
+    margin-top: -78rem;
 
     .title {
       margin-top: 32px;

@@ -65,6 +65,8 @@ function Mapa(props) {
         </Fade>
         <Fade right>
           <div className="image-side">
+            <a target="_blank" href='https://www.google.com/maps/place/Office+Tower/@-22.4153557,-47.5755905,17z/data=!3m1!4b1!4m6!3m5!1s0x94c7dafa714d3e65:0x3df0051cf45860b7!8m2!3d-22.4153607!4d-47.5734018!16s%2Fg%2F11c5rx0b33'>
+            </a>
           </div>
         </Fade>
       </Content>

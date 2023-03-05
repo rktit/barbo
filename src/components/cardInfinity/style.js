@@ -7,19 +7,19 @@ img{
 }
 
 .card{
-    width: 22rem;
+    width: 24.75rem;
     margin: 0 1px;
 }
 
 .card-body{
     color: #252525;
     text-align: left;
-    padding: 1.25rem 1.25rem 1.25rem 0.25rem;
+    padding: 1.25rem 3.25rem 1.25rem 1.25rem;
 }
 
 .card-img-top{
-    height: 20rem;
-    width: 22rem;
+    height: 24.75rem;
+    width: 24.75rem;
     margin-left: -1rem;
 }
 

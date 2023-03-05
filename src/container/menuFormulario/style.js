@@ -189,6 +189,8 @@ export const Content = styled.nav`
 }
 
   @media only screen and (max-width: 992px) {
+    margin: -5rem 6rem 2rem 6rem !important;
+
     .container {
       width: 20rem;
     }
