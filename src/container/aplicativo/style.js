@@ -5,8 +5,8 @@ import colors from "config/colors";
 const Content = styled.div`
 position: -webkit-sticky;
 position: sticky;
-top: 37rem;
-padding: 0px 0px 10rem 0rem;
+top: 36.5rem;
+padding: 0px 0px 10.5rem 0rem;
 bottom: 0px;
 border-radius: 0px;
 z-index: 1;
