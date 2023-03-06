@@ -21,6 +21,7 @@ a {
     }
 }
 .card{
+    z-index: 1;
     width: 33rem;
     margin: 0 4px 0 4px;
     height: 28rem;
@@ -63,6 +64,7 @@ a {
     font-weight: 900;
 }
 .btn{
+    z-index: 1;
     background-color: #252525;
     display: table-cell;
     border: none;
@@ -109,6 +111,7 @@ a {
         height: 100%;
         padding: 0 0rem 0 0rem;
         margin: 0.5rem 0px;
+        z-index: 1;
     }
     .card-text{
         height:100%;
@@ -119,6 +122,7 @@ a {
         bottom: 0rem;
     }
     .btn{
+        z-index: 1;
         background-color: #252525;
         display: table-cell;
         border: none;

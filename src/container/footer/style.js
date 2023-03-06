@@ -135,6 +135,7 @@ const Content = styled.div`
       }
     }
     .box {
+      z-index: 1;
       display: flex;
       padding: 0rem 0rem 3rem 3rem;
     }

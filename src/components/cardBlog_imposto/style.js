@@ -9,6 +9,7 @@ img{
 .card{
     width: 24.75rem;
     margin: 0 1px;
+    z-index: 1;
 }
 
 .card-body{
@@ -118,6 +119,7 @@ img{
     .card{
         width: 100%;
         height: 100%;
+        z-index: 1;
     }
     .card-body{
         color: #252525;

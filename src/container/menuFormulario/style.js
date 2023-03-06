@@ -18,6 +18,7 @@ export const Content = styled.nav`
   }
   .container {
     width: 40rem;
+    z-index: 1;
   }
   .menu-scroll {
   	transition: 0.2s ease-in-out;
@@ -193,6 +194,7 @@ export const Content = styled.nav`
 
     .container {
       width: 20rem;
+      z-index: 1;
     }
     .menu-nav {
       padding: 0.5rem 0 0.5rem 0.05rem;
