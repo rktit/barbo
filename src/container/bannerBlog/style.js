@@ -13,7 +13,7 @@ const Content = styled.div`
   background-size:cover;
   height: auto;
   width: 100%;
-  top: -22rem;
+  top: -24rem;
 
   font-family: ${fonts.comfortaa};
   text-align: center;

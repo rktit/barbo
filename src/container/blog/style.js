@@ -3,9 +3,9 @@ import fonts from "config/fonts";
 
 
 const Content = styled.div`
-top: -22rem;
+top: -24rem;
 background-color: #eeeeee;
-margin-bottom: -22rem;
+margin-bottom: -24rem;
 
 .title{
     font-family: ${fonts.comfortaa};

@@ -5,13 +5,13 @@ import colors from "config/colors";
 const Content = styled.div`
 position: -webkit-sticky;
 position: sticky;
-top: 31.25rem;
-padding: 0px 0px 8.8rem 84.5rem;
+top: 37rem;
+padding: 0px 0px 10rem 0rem;
 bottom: 0px;
 border-radius: 0px;
 z-index: 1;
 max-width: 100%;
-transform: translate(-50%, -10%);
+transform: translate(0%, 0%);
 display: flex;
 justify-content: center;
 color: ${colors.white};
