@@ -11,7 +11,7 @@ const Content = styled.div`
   background: url(${background}) no-repeat top center;
   margin-top: -25rem;
   background-size:cover;
-  height: auto;
+  height: 20rem;
   width: 100%;
   top: -24rem;
 
