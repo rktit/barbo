@@ -1,7 +1,9 @@
 import styled from "styled-components";
 import fonts from "config/fonts";
 
-import background from "images/quem_somos/banner_quem_somos.png";
+import background from "images/quem_somos/banner_quemsomos.png";
+import backgroundMobile from "images/quem_somos/banner_quemsomos_mobile.png";
+
 
 const Content = styled.div`
 flex-direction: row;
@@ -67,6 +69,7 @@ text-align: center;
   }
 
   @media only screen and (max-width: 600px) {
+    background: url(${backgroundMobile}) no-repeat top center;
     top: -78rem;
     height: 20rem;
     width: 100%;

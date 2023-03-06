@@ -47,7 +47,7 @@ img{
     display: table-cell;
     border: none;
     border-radius: 0rem;
-    width: 18rem;
+    width: 20rem;
     margin: 1.5rem 0 -0.5rem 0.5rem;
     justify-content: center;
     

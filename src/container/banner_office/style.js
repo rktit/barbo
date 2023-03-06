@@ -1,8 +1,8 @@
 import styled from "styled-components";
 import fonts from "config/fonts";
 
-import background from "images/banner/banner_officetower_barbo.png";
-import backgroundMobile from "images/empreendimento/mobile_bannerPredio.png";
+import background from "images/officetower/OfficeTower.png";
+import backgroundMobile from "images/officetower/OfficeTower_mobile.png";
 
 
 const Content = styled.div`
@@ -63,7 +63,7 @@ const Content = styled.div`
   }
 
   @media only screen and (max-width: 600px) {
-    background: url(${background}) no-repeat top center;
+    background: url(${backgroundMobile}) no-repeat top center;
     margin-bottom: 300px;
     display: flex;
     align-items: center;

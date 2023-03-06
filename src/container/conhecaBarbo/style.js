@@ -4,7 +4,7 @@ import * as Color from "config/colors";
 
 const Content = styled.div`
 padding: 20px 0px !important;
-margin-left: 0px;
+margin-top: -20rem;
 
 .title {
   font-size: 2rem;

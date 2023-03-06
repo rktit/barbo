@@ -2,7 +2,7 @@ import styled from "styled-components";
 import fonts from "config/fonts";
 
 import background from "images/empreendimento/bannerPredio.png";
-import backgroundMobile from "images/empreendimento/bannerPredio.png";
+import backgroundMobile from "images/empreendimento/banner_empreendimentos_mobile.png";
 
 
 const Content = styled.div`

@@ -12,6 +12,7 @@ const Content = styled.div`
   background-size:cover;
   height: 32rem;
   width: 100%;
+  top: -20rem;
 
   font-family: ${fonts.comfortaa};
   text-align: center;
@@ -71,6 +72,7 @@ const Content = styled.div`
     background: url(${iluminacao}) no-repeat top center;
     background-size:cover;
     align-items: center;
+    top: -78rem;
 
     .title {
       margin-top: 20px;

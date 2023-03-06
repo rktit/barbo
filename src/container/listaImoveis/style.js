@@ -13,7 +13,10 @@ background-color: #eeeeee;
     margin-top: 6rem;
     padding-bottom: 0rem;
 }
-
+.slide {
+    min-width: 100%;
+    margin: 0rem 1rem 0rem 1rem;
+}
 .demarcador{
     height: 40px;
     width: 40px;

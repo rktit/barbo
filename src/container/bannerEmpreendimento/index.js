@@ -19,10 +19,10 @@ import banner2 from "images/banner/banner_home_infinity.png";
 import banner3 from "images/banner/banner_home_officetower.png";
 import banner4 from "images/banner/banner_home_quintadovale.png";
 
-import banner1Mobile from "images/banner/banner_frontlake.png";
-import banner2Mobile from "images/banner/banner_infinity.png";
-import banner3Mobile from "images/banner/banner_officetower.png";
-import banner4Mobile from "images/banner/banner_quintadovale.png";
+import banner1Mobile from "images/banner/banner_frontlake_mobile.png";
+import banner2Mobile from "images/banner/banner_infinity_mobile.png";
+import banner3Mobile from "images/banner/banner_officetower_mobile.png";
+import banner4Mobile from "images/banner/banner_quintadovale_mobile.png";
 import { loadOptions } from "@babel/core";
 
 function BannerEmpreendimento() {

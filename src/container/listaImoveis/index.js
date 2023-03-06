@@ -37,35 +37,41 @@ function ListaImoveis() {
       <Content className="d-flex flex-column align-items-center p-0">
         <div className="title ">Encontre um imóvel Barbo perto de você!</div>
         {isMobile ?
-          <Splide className="splide col-12" options={{
+          <Splide className="" options={{
             type: 'loop',
             focus: 'center',
             rewind: false,
-            width: "22rem",
+            width: "100%",
             gap: '0rem',
             perPage: 1,
             pagination: false,
             arrows: false,
           }}>
-            <SplideSlide className="slide">
-              <CardLR image={lasrocas}
-                title="Las Rocas"
-                items="Piracicaba | Piracicamirim"
-                text="Área privativa de 55 m²" />
-              <CardHIG image={higienopolis}
-                title="Higienópolis"
-                items="Piracicaba | Higienópolis"
-                text="Área privativa de 88 m²" />
+            <SplideSlide className="">
+              <div className="slide">
+                <CardLR image={lasrocas}
+                  title="Las Rocas"
+                  items="Piracicaba | Piracicamirim"
+                  text="Área privativa de 55 m²" />
+             
+                <CardHIG image={higienopolis}
+                  title="Higienópolis"
+                  items="Piracicaba | Higienópolis"
+                  text="Área privativa de 88 m²" />
+              </div>
             </SplideSlide>
-            <SplideSlide className="slide">
-              <CardMP image={moradadoporto}
-                title="Morada do Porto"
-                items="Americana | Terramérica"
-                text="Área privativa de 53m² e 68 m²" />
-              <CardVR image={villareal}
-                title="Villa Real"
-                items="Americana | Jardim Bela Vista"
-                text="Área privativa de 58 m²" />
+            <SplideSlide className="">
+              <div className="slide">
+                <CardMP image={moradadoporto}
+                  title="Morada do Porto"
+                  items="Americana | Terramérica"
+                  text="Área privativa de 53m² e 68 m²" />
+             
+                <CardVR image={villareal}
+                  title="Villa Real"
+                  items="Americana | Jardim Bela Vista"
+                  text="Área privativa de 58 m²" />
+              </div>
             </SplideSlide>
           </Splide>
           :

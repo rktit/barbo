@@ -3,10 +3,10 @@ import ScrollableAnchor from 'react-scrollable-anchor'
 import Content from "./style";
 import Fade from "react-reveal/Fade";
 
-import sala from 'images/empreendimento/Decorado/Infinity_Rio_Claro_Barbo_10.jpg';
-import humanizada from 'images/empreendimento/Plantas/03_Planta_Humanizada_Implantação_Geral.jpg';
-import aerea from 'images/empreendimento/VistaAerea/Infinity_Rio_Claro_Barbo_aerea_1.jpg';
-import icone_whatsapp from "images/empreendimento/whatsapp.png";
+import sala from 'images/officetower/Decorado/office-tower-28.jpg';
+import humanizada from 'images/officetower/Plantas/planta.jpg';
+import aerea from 'images/officetower/VistaAerea/office-tower-15.jpg';
+import icone_whatsapp from "images/officetower/whatsapp.png";
 
 import { Splide, SplideSlide } from '@splidejs/react-splide'
 import '@splidejs/splide/dist/css/themes/splide-sea-green.min.css'
@@ -161,13 +161,12 @@ function Plantas(props) {
                   </div>
                   <div className="d-flex row">
                     <div className="d-flex consulta">
+                      Fale com um de nossos consultores
                       <div className="image-side shadow btn">
-                        Whatsapp
                         <a target="_blank" href="https://api.whatsapp.com/send?phone=5515997831666&text=Gostaria de falar com um consultor?">
-                          <img className="icone_whatsapp" src={icone_whatsapp} alt="Whatsapp" />
+                          <img className="icone_whatsapp" src={icone_whatsapp} alt="Whatsapp" />WhatsApp
                         </a>
                       </div>
-                      Fale com um de nossos consultores
                     </div>
                   </div>
                 </div>

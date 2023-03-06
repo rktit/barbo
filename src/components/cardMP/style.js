@@ -2,6 +2,7 @@ import styled from "styled-components";
 import fonts from "config/fonts";
 
 const Content = styled.div`
+
 img{
     height: 325px;
 }

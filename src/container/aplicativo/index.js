@@ -69,13 +69,19 @@ const Aplicativo = (props) => {
       </div>
       <div className='conteudo'>
         <a target="_blank" href="https://api.whatsapp.com/send?phone=5519996965525&text=Gostaria de falar com um corretor?">
+      <div className="espaco d-flex">
+        |
+      </div>
           <img src={whats} />
-          Atendimento via WhatsApp
+          Atendimento rápido WhatsApp
         </a>
       </div>
       <div className='conteudo'>
         <a onClick={() => clickMenu("barbo/empreendimentos")} className={active === "https://alakadim.com.br/quinta-do-valle/" ? 'active ' : ''}
           href="https://alakadim.com.br/quinta-do-valle/">
+      <div className="espaco d-flex">
+        |
+      </div>
           Último lançamento
         </a>
       </div>

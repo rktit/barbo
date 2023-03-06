@@ -10,6 +10,7 @@ import ScrollableAnchor from "react-scrollable-anchor";
 import ico_insta from 'images/icons/icon_instagram.png';
 import ico_face from 'images/icons/icon_facebook.png';
 import ico_youtube from 'images/icons/icon_youtube.png';
+import ico_tiktok from 'images/icons/tiktok.png';
 import logo from 'images/logo/logo-vermelho.png';
 
 let limit_scroll = 450;
@@ -114,18 +115,32 @@ function Footer(props) {
 										</Fade>
 										<Fade>
 											<div className='icones col-12 info'>
-												<div className='col-8 col-md-12 row'>
+												<div className='col-12 row'>
 													<Fade right>
-														<div className='conteudo col-4 col-md-1'>
+														<div className='conteudo col-3 col-md-1'>
 															<a href='https://www.instagram.com/barboempreendimentos/' target="_blank">
 																<img src={ico_insta} alt='Instagram' className='icone_midia' />
 															</a>
 														</div>
 													</Fade>
 													<Fade right>
-														<div className='conteudo col-4 col-md-1'>
+														<div className='conteudo col-3 col-md-1'>
 															<a href='https://pt-br.facebook.com/barboempreendimentos/' target="_blank">
 																<img src={ico_face} alt='Facebook' className='icone_midia' />
+															</a>
+														</div>
+													</Fade>
+													<Fade right>
+														<div className='conteudo col-3 col-md-1'>
+															<a href='https://www.tiktok.com/@barboempreendimentos?_t=8aP28ak5Rkz&_r=1' target="_blank">
+																<img src={ico_tiktok} alt='Instagram' className='icone_midia' />
+															</a>
+														</div>
+													</Fade>
+													<Fade right>
+														<div className='conteudo col-3 col-md-1'>
+															<a href='https://www.youtube.com/@barboempreendimentos' target="_blank">
+																<img src={ico_youtube} alt='Instagram' className='icone_midia' />
 															</a>
 														</div>
 													</Fade>
@@ -148,6 +163,7 @@ function Footer(props) {
 										</div>
 									</Fade>
 								</div>
+
 								<div className='col-12 col-md-10 p-0 info'>
 									<Fade>
 										<div className='conteudo'>
@@ -219,7 +235,7 @@ function Footer(props) {
 								</Fade>
 							</div>
 
-							<div className='col-12 col-md-2 p-0 info '>
+							<div className='col-12 col-md-2 p-0 info'>
 								<div className='titulo'>Fale Conosco</div>
 								<Fade>
 									<div className='conteudo'>

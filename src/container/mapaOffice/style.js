@@ -19,13 +19,13 @@ const Content = styled.div`
   .image-side{
     background: url(${mapa}) no-repeat center center;
     background-size: cover;
-    width: 60rem;
+    width: 45rem;
     min-width: auto;
-    min-height: 20rem;
-    margin: 0 -10rem 0 0rem;
+    min-height: 18rem;
+    margin: 0 0rem 0 0rem;
   }
   .left-side {
-    padding-right: 1rem;
+    padding-right: 5rem;
     margin-left: 0rem;
   }
   

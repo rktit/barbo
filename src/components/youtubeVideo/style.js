@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const Content = styled.div`
 padding: 20px 0px !important;
-margin-left: 0px;
+margin-top: -20rem;
 
 .image {
   width: 100%;

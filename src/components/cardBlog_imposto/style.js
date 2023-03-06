@@ -89,7 +89,7 @@ img{
     color: #ffffff;
     border-radius: 0px;
     height: 2rem;
-    width: 20rem;
+    width: 22rem;
     margin: 0rem;
     justify-content: center;
     align-items: center;

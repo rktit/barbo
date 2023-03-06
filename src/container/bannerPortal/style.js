@@ -2,7 +2,7 @@ import styled from "styled-components";
 import fonts from "config/fonts";
 
 import background from "images/login/login.png";
-import backgroundMobile from "images/login/login.png";
+import backgroundMobile from "images/login/mobile_login.png";
 
 const Content = styled.div`
   flex-direction: row;

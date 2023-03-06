@@ -10,10 +10,19 @@ const Content = styled.div`
   background-color: #ffffff;
   
    .icone_whatsapp{
-    width: 30px;
-    height: 30px;
-    padding-right: 4px;
+     padding-right: 14px;
+     width: 2rem;
+     height: 1rem;   
+
+    }
+
+  a {
+      color: #252525;
+    :hover {
+      color: #e73538;
+      text-decoration: none;
   }
+}
 
   .title1{
     font-family: ${fonts.comfortaa};
@@ -36,6 +45,7 @@ const Content = styled.div`
     background-color: #ffffff;
     margin: 10px;
     width: 200px;
+    border-radius: 0rem;
 
     &.active {
       background-color: #e73538;
@@ -43,7 +53,6 @@ const Content = styled.div`
 
       :hover {
       transition: 0.1s ease-in-out;
-      text-decoration-line: underline;
       text-decoration-color: #e73538;
       text-decoration-thickness: 3px;
       }
@@ -57,7 +66,7 @@ const Content = styled.div`
     font-size: 1.2rem;
     text-aling: center;
     background-color: #ffffff;
-    margin: 10px;
+    margin: 10px 10px 10px 5rem;
     width: 200px;    
   }
   .icones{
@@ -111,10 +120,16 @@ const Content = styled.div`
   .consulta{
     background: #252525;
     color: #ffffff;
+    font-family: ${fonts.comfortaa};
     align-items: center;
     width: 74.5rem;
     margin-left: 4rem;    
     justify-content: center;
+    :hover {
+      transition: 0.1s ease-in-out;
+      text-decoration-color: #e73538;
+      text-decoration-thickness: 3px;
+      }
   }
   .marca{
     width: 65rem;

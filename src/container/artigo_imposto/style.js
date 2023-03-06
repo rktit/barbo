@@ -8,7 +8,8 @@ import imposto from "images/blog/declarar/declarar_imovel.jpeg";
 const Content = styled.div`
   flex-direction: row;
   justify-content: center;
-  background-color: #eeeeee;
+  background-color: #ffffff;
+  top: -22rem;
 
   .box-artigo {
     display: flex;
@@ -19,7 +20,7 @@ const Content = styled.div`
   .maquinas{
     display: flex;
     margin: 2rem 0;
-    align-items: center;
+    margin-bottom: -16rem;
 }
   a {
     color: #007bff;
@@ -140,9 +141,13 @@ const Content = styled.div`
   
 
   @media only screen and (max-width: 600px) {
+    top: -78rem;
+ 
     .box-artigo {
       display: flex;
       flex-direction: column;
+      margin-bottom: -70rem;
+
     }
     .image-side{
       background: url(${imposto}) no-repeat center center;
@@ -150,7 +155,7 @@ const Content = styled.div`
       padding-bottom: 24rem;
       height: 30rem;
       width: 24rem!important;
-      margin: 5rem 0 0 4px;
+      margin: 0rem 0 4rem 4px;
     }
   .title {
     font-family: Comfortaa-VariableFont_wght;
@@ -255,6 +260,8 @@ const Content = styled.div`
 display: flex;
 margin: 0.5rem 0 1rem 0;
 align-items: center;
+margin-bottom: 0rem;
+
 }
   }
 `;

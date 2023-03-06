@@ -2,8 +2,8 @@ import styled from "styled-components";
 import fonts from "config/fonts";
 
 
-import office_tower from "images/empreendimento/banner/OfficeTower.jpg";
-
+import office_tower from "images/officetower/OfficeTower.png";
+import office_tower_mobile from "images/officetower/OfficeTower_mobile.png";
 
 const Content = styled.div`
   flex-direction: row;
@@ -161,6 +161,7 @@ const Content = styled.div`
     top: -90rem;
 
 .image-side {
+  background: url(${office_tower_mobile}) no-repeat center center;
   width: 100%!important;
 
 }

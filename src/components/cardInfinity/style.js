@@ -20,7 +20,7 @@ img{
 .card-img-top{
     height: 24.75rem;
     width: 24.75rem;
-    margin-left: -1rem;
+    margin-left: -0.5rem;
 }
 
 .card-items{
@@ -49,7 +49,7 @@ img{
     display: table-cell;
     border: none;
     border-radius: 0rem;
-    width: 18rem;
+    width: 20rem;
     margin: 2.5rem 0 -0.5rem 0.5rem;
     justify-content: center;
     

@@ -4,10 +4,7 @@ import ScrollableAnchor from "react-scrollable-anchor";
 
 import Fade from "react-reveal/Fade";
 
-import shower from "images/empreendimento_interna/shower.png";
 import area from "images/empreendimento_interna/area.png";
-import doubleBed from "images/empreendimento_interna/double-bed.png";
-import garage from "images/empreendimento_interna/garage.png";
 import acessibilidade from "images/empreendimento_interna/acessibilidade.png";
 import elevadores from "images/empreendimento_interna/elevadores.png";
 import espacoTerreo from "images/empreendimento_interna/espacoTerreo.png";
@@ -37,7 +34,7 @@ function EmpreendimentoOffice(props) {
       <Content className="col-12 row justify-content-center pt-5">
 
         <Fade left>
-          <div className="left-side mt-3">
+          <div className="left-side mt-5">
             {isMobile ?
               <div className="flex mx-4">
                 <span className="title">Office Tower Rio Claro</span><p />
@@ -91,10 +88,6 @@ function EmpreendimentoOffice(props) {
               <div className="icones-empreendimentos my-0">
                 <div className="icones">
                   <img className="" src={area} alt="" />
-                  Salas Individuais Ou Lajes Corporativas
-                </div>
-                <div className="icones">
-                  <img className="" src={area} alt="" />
                   117 Unidades Tipo 1 (43,66 M²)
                 </div>
                 <div className="icones pr-2">
@@ -134,10 +127,6 @@ function EmpreendimentoOffice(props) {
                 <div className="icones1">
                   <img className="" src={lobby} alt="" />
                   Lobby Com Pé Direito Duplo
-                </div>
-                <div className="icones1">
-                  <img className="" src={lobby} alt="" />
-                  Recepção/Portaria Inteligente
                 </div>
               </div>
               <div className="icones-empreendimentos my-0 my-d-5">

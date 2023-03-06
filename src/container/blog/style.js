@@ -5,6 +5,8 @@ import fonts from "config/fonts";
 const Content = styled.div`
 top: -22rem;
 background-color: #eeeeee;
+margin-bottom: -22rem;
+
 .title{
     font-family: ${fonts.comfortaa};
     font-size: 2rem;

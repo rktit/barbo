@@ -5,12 +5,13 @@ import lupa from "images/menu/pesquisar.png";
 
 const Content = styled.div`
 top: -22rem;
-background-color: #eeeeee;
+background-color: #ffffff;
 
 .maquinas {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin-bottom: 50px;
+    margin-bottom: -16rem;
 }
 .box {
     height: 80px;

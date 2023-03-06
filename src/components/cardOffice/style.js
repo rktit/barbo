@@ -39,7 +39,7 @@ img{
 .card-text{
     font-size: 1rem;
     font-family: ${fonts.comfortaa};
-    padding: 0 3rem 0 0px;
+    padding: 0 4rem 0 0px;
 }
 
 .btn{
@@ -47,7 +47,7 @@ img{
     display: table-cell;
     border: none;
     border-radius: 0rem;
-    width: 18rem;
+    width: 20rem;
     margin: 2.2rem 0 -0.5rem 0.5rem;
     justify-content: center;
     

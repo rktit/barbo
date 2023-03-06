@@ -12,6 +12,7 @@ const Content = styled.div`
   display: flex;
     padding: 0rem 0rem 0rem 6rem;
     // margin-right: -5rem;
+    z-index: 1;
 }
   .logo-footer{
     margin: 0px;
@@ -54,7 +55,12 @@ const Content = styled.div`
   .conteudo {
   	font-family: ${fonts.comfortaa};
   	font-size: 0.7rem;
-  	
+  	:hover {
+      transition: 0.1s ease-in-out;
+      color: #e73538;
+      text-decoration: none;
+      text-decoration-line: none;
+    }
   	span {
   		color: ${colors.primary};
   	}

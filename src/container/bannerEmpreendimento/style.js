@@ -18,6 +18,7 @@ const Content = styled.div`
     transform: rotate(-40deg);
     margin: -26rem 0rem 4rem 4rem;
     transform: rotate(14deg);
+    background-color: #2525252b;
 }
 .box-texto {
     margin-top: 0rem;
@@ -133,12 +134,13 @@ const Content = styled.div`
     @media only screen and (max-width: 600px) {
         .splide {
             padding: 0em 0em;
-            margin-top: -92rem;
+            margin-top: -87rem;
         }
         .welcome {
             height: 14rem;
             width: 22rem;
             margin: -16rem 0rem 2rem 1rem;
+            background-color: #2525252b;
         }
         .box-texto {
             margin-top: 0rem;
