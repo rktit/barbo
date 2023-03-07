@@ -10,9 +10,9 @@ const Content = styled.div`
 flex-direction: row;
 padding: 0 !important;
 background: url(${background}) no-repeat top center;
-margin-top: -22rem;
+margin-top: -24rem;
 background-size:cover;
-height: auto;
+height: 20rem;
 width: 100%
 
 font-family: ${fonts.comfortaa};

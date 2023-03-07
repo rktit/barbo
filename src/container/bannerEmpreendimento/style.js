@@ -3,20 +3,21 @@ import fonts from "config/fonts";
 
 
 const Content = styled.div`
+margin-top: -23rem;
 .banner{
-    height: auto;
+    height: 30rem;
     width: 100%;
     background-size: cover;
     
 }
 .welcome{
     height: 20rem;
-    width: 30rem;
+    width: 27rem;
     border-width: 2px;
     border-style: solid;
     border-color: #ffffff;
     transform: rotate(-40deg);
-    margin: -26rem 0rem 4rem 4rem;
+    margin: -27rem 0rem 4rem 4rem;
     transform: rotate(14deg);
     background-color: #2525252b;
 }

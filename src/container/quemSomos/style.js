@@ -10,9 +10,9 @@ flex-direction: row;
 padding: 0 !important;
 background: url(${background}) no-repeat top center;
 background-size:cover;
-height: 32rem;
+height: 20rem;
 width: 100%;
-top: -22rem;
+top: -23rem;
 
 font-family: ${fonts.comfortaa};
 text-align: center;
