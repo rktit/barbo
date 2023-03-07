@@ -64,6 +64,13 @@ background-color: #eeeeee;
         font-family: ${fonts.comfortaa};
     }
 }
+.splide {
+    padding: 3rem 10em;
+}
+.splide__slide {
+    border-radius: 1px;
+    margin: 0 0rem 0 10px;
+}
 .splide__arrow svg {
     width: 1.5em;
     height: 1.5em;
@@ -71,10 +78,10 @@ background-color: #eeeeee;
     transition: fill .2s linear;
 }
 .splide__arrow--next {
-    right: 6em;
+    right: 10em;
 }
 .splide__arrow--prev {
-    left: 6em;
+    left: 10em;
 }
 .splide__pagination__page {
     display: inline-block;
@@ -220,12 +227,21 @@ background-color: #eeeeee;
         font-size: 1.5rem;
         text-align: center;
     }
-
+    .splide {
+        padding: 3rem 0em;
+    }
+    .splide__slide {
+        border-radius: 1px;
+        margin: 0 20rem 0 0rem;
+    }
     .splide__arrow svg {
     width: 1.5em;
     height: 1.5em;
     fill: transparent;
     transition: fill .2s linear;
+}
+.slide {
+    margin: 0rem 2rem 0rem 20rem;
 }
 .splide__pagination__page {
     display: inline-block;

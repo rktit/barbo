@@ -153,6 +153,7 @@ z-index: 1027;
       padding: 0rem 0 0.5rem 0.05rem;
       display: flex;
       flex-direction: column;
+      background-color: #2525252b;
       a {
         padding: 0rem 0 0.5rem 0.2rem;
       }

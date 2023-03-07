@@ -9,7 +9,7 @@ top: 43vw;
 padding: 0px 0px 10.5rem 0rem;
 bottom: 0px;
 border-radius: 0px;
-z-index: 2;
+z-index: 1;
 max-width: 100%;
 transform: translate(0%, 0%);
 display: flex;
@@ -86,20 +86,19 @@ font-size: 12px;
   @media only screen and (max-width: 600px) {
     position: -webkit-sticky;
     position: sticky;
-    top: 33rem;
+    top: 156vw;
     bottom: 0px;
     border-radius: 0px;
     z-index: 999;
     max-width: 100%;
-    transform: translate(-50%, -10%);
+    transform: translate(0%, 0%);
     display: flex;
     justify-content: center;
     color: ${colors.white};
     font-family: ${fonts.comfortaa};
     font-size: 12px;
     flex-direction: column;
-    margin-bottom: 2rem;
-    padding: 0px 0px 68.75rem 14.5rem;
+    padding: 0px 0px 78rem 2rem;
 
     button {
       padding: 0.5rem 4rem;

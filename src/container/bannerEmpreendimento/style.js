@@ -140,7 +140,7 @@ margin-top: -23rem;
         .welcome {
             height: 14rem;
             width: 22rem;
-            margin: -16rem 0rem 2rem 1rem;
+            margin: -20rem 0rem 2rem 1rem;
             background-color: #2525252b;
         }
         .box-texto {
