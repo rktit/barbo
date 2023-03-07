@@ -156,8 +156,8 @@ function Footer(props) {
 									<div className='titulo'>Quem somos</div>
 									<Fade>
 										<div className='conteudo'>
-											<a onClick={() => clickMenu("barbo/quem_somos")} className={active === "barbo/quem_somos" ? 'active ' : ''}
-												href="barbo/quem_somos">
+											<a onClick={() => clickMenu("/barbo/quem_somos")} className={active === "/barbo/quem_somos" ? 'active ' : ''}
+												href="/barbo/quem_somos">
 												Incorporadora
 											</a>
 										</div>
@@ -176,32 +176,32 @@ function Footer(props) {
 									<div className='titulo'>Cidades</div>
 									<Fade>
 										<div className='conteudo'>
-											<a onClick={() => clickMenu("barbo/empreendimentos")} className={active === "barbo/empreendimentos" ? 'active ' : ''}
-												href="barbo/empreendimentos">
+											<a onClick={() => clickMenu("/barbo/empreendimentos")} className={active === "/barbo/empreendimentos" ? 'active ' : ''}
+												href="/barbo/empreendimentos">
 												Piracicaba
 											</a>
 										</div>
 									</Fade>
 									<Fade>
 										<div className='conteudo'>
-											<a onClick={() => clickMenu("barbo/empreendimentos")} className={active === "barbo/empreendimentos" ? 'active ' : ''}
-												href="barbo/empreendimentos">
+											<a onClick={() => clickMenu("/barbo/empreendimentos")} className={active === "/barbo/empreendimentos" ? 'active ' : ''}
+												href="/barbo/empreendimentos">
 												Rio Claro
 											</a>
 										</div>
 									</Fade>
 									<Fade>
 										<div className='conteudo'>
-											<a onClick={() => clickMenu("barbo/empreendimentos")} className={active === "barbo/empreendimentos" ? 'active ' : ''}
-												href="barbo/empreendimentos">
+											<a onClick={() => clickMenu("/barbo/empreendimentos")} className={active === "/barbo/empreendimentos" ? 'active ' : ''}
+												href="/barbo/empreendimentos">
 												Americana
 											</a>
 										</div>
 									</Fade>
 									<Fade>
 										<div className='conteudo'>
-											<a onClick={() => clickMenu("barbo/empreendimentos")} className={active === "barbo/empreendimentos" ? 'active ' : ''}
-												href="barbo/empreendimentos">
+											<a onClick={() => clickMenu("/barbo/empreendimentos")} className={active === "/barbo/empreendimentos" ? 'active ' : ''}
+												href="/barbo/empreendimentos">
 												Barra Bonita
 											</a>
 										</div>
@@ -213,8 +213,8 @@ function Footer(props) {
 								<div className='titulo'>Empreendimentos</div>
 								<Fade>
 									<	div className='conteudo'>
-										<a onClick={() => clickMenu("barbo/empreendimentos")} className={active === "barbo/empreendimentos" ? 'active ' : ''}
-											href="barbo/empreendimentos">
+										<a onClick={() => clickMenu("/barbo/empreendimentos")} className={active === "/barbo/empreendimentos" ? 'active ' : ''}
+											href="/barbo/empreendimentos">
 											Loteamento
 										</a>
 									</div>
