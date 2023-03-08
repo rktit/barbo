@@ -65,11 +65,11 @@ background-color: #eeeeee;
     }
 }
 .splide {
-    padding: 3rem 10em;
+    padding: 3rem 5.25em;
 }
 .splide__slide {
     border-radius: 1px;
-    margin: 0 0rem 0 10px;
+    margin: 0 0rem 0 1rem;
 }
 .splide__arrow svg {
     width: 1.5em;
@@ -78,10 +78,10 @@ background-color: #eeeeee;
     transition: fill .2s linear;
 }
 .splide__arrow--next {
-    right: 10em;
+    right: 6em;
 }
 .splide__arrow--prev {
-    left: 10em;
+    left: 6em;
 }
 .splide__pagination__page {
     display: inline-block;
