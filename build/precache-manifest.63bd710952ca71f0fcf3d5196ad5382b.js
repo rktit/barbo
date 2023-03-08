@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d67d6eea6e3aa48bbc8c30971cdb235c",
+    "revision": "5630347313e1630ff157aed90f27044b",
     "url": "/barbo/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/barbo/static/css/2.597ffff1.chunk.css"
   },
   {
-    "revision": "4404b44dd4f4b573801e",
+    "revision": "a77507a49f3a5fa5f4a9",
     "url": "/barbo/static/css/main.90cf6d38.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/barbo/static/js/2.cc96d016.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4404b44dd4f4b573801e",
-    "url": "/barbo/static/js/main.c9d475a2.chunk.js"
+    "revision": "a77507a49f3a5fa5f4a9",
+    "url": "/barbo/static/js/main.962dca79.chunk.js"
   },
   {
     "revision": "c4c96cc070edc597d6d6",
@@ -384,8 +384,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/barbo/static/media/mobile_banner_home.f8fd44be.png"
   },
   {
-    "revision": "e456478c9278ad99c35639533a740ae2",
-    "url": "/barbo/static/media/mobile_login.e456478c.png"
+    "revision": "9b21ab2d9cab6aea3685d47589de09fe",
+    "url": "/barbo/static/media/mobile_login.9b21ab2d.png"
   },
   {
     "revision": "d03da66b400853959569273013d5d97c",
