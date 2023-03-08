@@ -4,14 +4,14 @@ const Content = styled.div`
 padding: 20px 0px !important;
 margin-top: -20rem;
 
-.image {
+.content {
   width: 100%;
   height: 30rem;
 }
 
 @media only screen and (max-width: 600px) {
-  padding: 2rem 0px 8rem 0px!important;
-  .image {
+  padding: 2rem 0px 10rem 0px!important;
+  .content {
       width: 23rem;
       height: 15rem;
       margin-left: 0rem;

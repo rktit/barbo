@@ -26,7 +26,7 @@ function YoutubeVideo(props) {
   }, [window.innerWidth]);
 
   const opts = {
-    height: isMobile === 1 ? 320 : 400,
+    height: isMobile === 1 ? 320 : 360,
     width: '100%',
     playerVars: {
       modestbranding: 1,
@@ -39,20 +39,20 @@ function YoutubeVideo(props) {
     <Content className="col-12 row">
       {isMobile ?
         <div className={`content col-12 ${props.className}`}>
-          {/* <YouTube videoId={videoId} opts={opts}/> */}
-          <div className="flex">
+          <YouTube videoId={"gcbXQM16094"} title={"Parceria YANMAR x Solis"} description={"descricao"} time={"tempo"} opts={opts}/>
+          {/* <div className="flex">
             <img className="image" src={conhecaBarboMobile} />
-          </div>
+          </div> */}
           {/* <div className="texts">
           <strong>{props.title}</strong><br />
         </div> */}
         </div>
         :
         <div className={`content col-12 ${props.className}`}>
-          {/* <YouTube videoId={videoId} opts={opts}/> */}
-          <div className="flex">
+          <YouTube videoId={"gcbXQM16094"} title={"Parceria YANMAR x Solis"} description={"descricao"} time={"tempo"} opts={opts}/>
+          {/* <div className="flex">
             <img className="image" src={conhecaBarbo} />
-          </div>
+          </div> */}
           {/* <div className="texts">
           <strong>{props.title}</strong><br />
         </div> */}

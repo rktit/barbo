@@ -12,6 +12,7 @@ function compareDate(d, m, y, hour, min, img, url) {
       <iframe
         frameborder="0"
         src={video}
+        width="100%"
         allow="accelerometer; autoplay; picture-in-picture; fullscreen"
         allowfullscreen="allowfullscreen"
         mozallowfullscreen="mozallowfullscreen"

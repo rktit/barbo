@@ -56,6 +56,7 @@ z-index: 1027;
     }
   }
   .menu-nav {
+    filter: drop-shadow(0 20px 13px rgb(0 0 0 / 0.03)) drop-shadow(0 8px 5px rgb(0 0 0 / 1.08));
     padding: 0.5rem 0 0.5rem 4rem;
     display: flex;
     flex-direction: row;
@@ -69,12 +70,15 @@ z-index: 1027;
       font-family: ${fonts.comfortaa};
       font-size: 15px;
       display: flex;
-      
+      filter: drop-shadow(0 20px 13px rgb(0 0 0 / 0.03)) drop-shadow(0 8px 5px rgb(0 0 0 / 1.08));
+
       &.active {
       	color: #e73538;
+        filter: drop-shadow(0 20px 13px rgb(0 0 0 / 0.03)) drop-shadow(0 8px 5px rgb(0 0 0 / 1.08));
       }
       
       :hover {
+        filter: drop-shadow(0 20px 13px rgb(0 0 0 / 0.03)) drop-shadow(0 8px 5px rgb(0 0 0 / 1.08));
         transition: 0.1s ease-in-out;
         color: #e73538;
         text-decoration: none;

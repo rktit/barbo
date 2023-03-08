@@ -109,7 +109,7 @@ const Content = styled.div`
 		width: 20rem;
     	height: 20rem;
 	    margin-left: 0rem;
-		margin-top: 6rem;
+		margin-top: 0rem;
 
 		&.active {
 			width: 20rem;
