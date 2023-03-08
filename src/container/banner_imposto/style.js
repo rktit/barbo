@@ -23,7 +23,7 @@ const Content = styled.div`
     font-size: 2.5rem;
     font-family: ${fonts.comfortaa};
     color: #ffffff;
-    width: 32rem;
+    width: 36rem;
     display: inline-block;
     filter: drop-shadow(0 20px 13px rgb(0 0 0 / 0.03)) drop-shadow(0 8px 5px rgb(0 0 0 / 1.08));
   }
