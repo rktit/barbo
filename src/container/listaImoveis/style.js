@@ -241,7 +241,7 @@ background-color: #eeeeee;
     transition: fill .2s linear;
 }
 .slide {
-    margin: 0rem 2rem 0rem 20rem;
+    margin: 0rem 2rem 0rem 21rem;
 }
 .splide__pagination__page {
     display: inline-block;

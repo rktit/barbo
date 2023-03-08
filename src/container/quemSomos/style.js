@@ -70,7 +70,7 @@ text-align: center;
 
   @media only screen and (max-width: 600px) {
     background: url(${backgroundMobile}) no-repeat top center;
-    top: -78rem;
+    top: -85rem;
     height: 20rem;
     width: 100%;
 

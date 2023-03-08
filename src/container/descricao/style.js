@@ -202,6 +202,8 @@ const Content = styled.div`
 }
   @media only screen and (max-width: 600px) {
     padding: 0rem 0 2rem 0px;
+    margin-top: -8rem;
+
     .content {
       margin: -1rem 0 2rem 0;
     }

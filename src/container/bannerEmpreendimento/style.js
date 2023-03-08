@@ -144,15 +144,15 @@ margin-top: -23rem;
             margin-top: -87rem;
         }
         .welcome {
-            height: 14rem;
-            width: 22rem;
-            margin: -20rem 0rem 2rem 1rem;
+            height: 16rem;
+            width: 21rem;
+            margin: -20rem 0rem 0rem 1rem;
             background-color: #2525252b;
         }
         .box-texto {
             margin-top: 0rem;
             transform: rotate(-14deg);
-            margin: 0.5rem 0rem 0rem 2rem;
+            margin: 1rem 0rem 0rem 2rem;
             width: max-content;
           }
           .title{

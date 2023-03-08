@@ -86,7 +86,7 @@ font-size: 12px;
   @media only screen and (max-width: 600px) {
     position: -webkit-sticky;
     position: sticky;
-    top: 154vw;
+    top: 150vw;
     bottom: 0px;
     border-radius: 0px;
     z-index: 999;
@@ -98,7 +98,8 @@ font-size: 12px;
     font-family: ${fonts.comfortaa};
     font-size: 12px;
     flex-direction: column;
-    padding: 0px 0px 78rem 2rem;
+    padding: 0px 0px 77rem 0rem;
+    align-items: center;
 
     button {
       padding: 0.5rem 4rem;
