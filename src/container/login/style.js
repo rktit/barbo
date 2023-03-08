@@ -106,10 +106,10 @@ const Content = styled.div`
 	.conteudo{
 		display: flex;
 		flex-direction: column;
-		width: 22rem;
-    	height: 22rem;
+		width: 20rem;
+    	height: 20rem;
 	    margin-left: 0rem;
-		margin-top: -4rem;
+		margin-top: 6rem;
 
 		&.active {
 			width: 20rem;

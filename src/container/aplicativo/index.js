@@ -62,7 +62,7 @@ const Aplicativo = (props) => {
   return (
     <Content className='btn text-center'>
       <div className='conteudo'>
-        <a onClick={() => clickMenu("barbo/empreendimentos")} className={active === "barbo/empreendimentos" ? 'active ' : ''}
+        <a onClick={() => clickMenu("barbo/empreendimentos")} className={active === "/barbo/empreendimentos" ? 'active ' : ''}
           href="barbo/empreendimentos">
           Conheça nossos empreendimentos
         </a>
