@@ -35,6 +35,7 @@ padding: 5rem 0rem 0rem 0rem;
         flex-direction: column;
         justify-content:center;
         align-items:center;
+        
     }
 
     .formTitle{

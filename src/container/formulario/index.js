@@ -8,6 +8,8 @@ import {useDispatch, useSelector} from "react-redux";
 import * as Actions from 'store/actions';
 import { Services_Emails } from "service";
 
+import logo from 'images/logo/logo-vermelho.png';
+
 function Formulario(props) {
 
     const _modal = useSelector(({modal}) => modal.formulario);
@@ -115,6 +117,7 @@ function Formulario(props) {
                       <Modal.Body className="p-0">
 
                 <div className="boxCatalogo ">
+                    <img src={logo} width="200"/>
                     <div className="formCatalogo">
                         <div className="formTitle">Deixe seus dados, e nossa equipe<br />de atendimento entrará em contato:</div>
                         <Form
