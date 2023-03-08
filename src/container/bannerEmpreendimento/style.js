@@ -29,23 +29,25 @@ margin-top: -23rem;
   }
   .title{
     font-size: 3rem;
-    font-family: ${fonts.opensans_light};
+    font-family: ${fonts.comfortaa};
     color: #ffffff;
     text-align: left;
     margin-bottom: -16px;
   }
   .title1{
     font-size: 1.75rem;
-    font-family: ${fonts.opensans_bold};
+    font-family: ${fonts.comfortaa};
     color: #ffffff;
     text-align: left;
   }
   .text{
-    font-family: ${fonts.opensans_light};
+    font-family: ${fonts.comfortaa};
     color: #ffffff;
     text-align: left;
   }
   .btn1{
+    font-family: ${fonts.comfortaa};
+
     background-color: #252525;
     color: #ffffff;
     font-size: 1.75rem;
@@ -59,18 +61,21 @@ margin-top: -23rem;
     
 
     &.active {
+        font-family: ${fonts.comfortaa};
         background-color: #e73538;
         color: #ffffff;
         width: 20rem;
         }
 
     :hover {
+    font-family: ${fonts.comfortaa};
     transition: 0.1s ease-in-out;
     background-color: #e73538;
     color: #ffffff;
     text-decoration: none;
     }
      a {
+        font-family: ${fonts.comfortaa};
         color: #ffffff;
         text-decoration: none;
         background-color: transparent;
@@ -157,19 +162,19 @@ margin-top: -23rem;
           }
           .title{
             font-size: 2rem;
-            font-family: ${fonts.opensans_light};
+            font-family: ${fonts.comfortaa};
             color: #ffffff;
             text-align: left;
             margin-bottom: -20px;
           }
           .title1{
             font-size: 2rem;
-            font-family: ${fonts.opensans_bold};
+            font-family: ${fonts.comfortaa};
             color: #ffffff;
             text-align: left;
           }
           .text{
-            font-family: ${fonts.opensans_light};
+            font-family: ${fonts.comfortaa};
             color: #ffffff;
             text-align: left;
           }
