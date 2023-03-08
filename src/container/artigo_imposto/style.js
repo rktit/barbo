@@ -141,7 +141,7 @@ const Content = styled.div`
   
 
   @media only screen and (max-width: 600px) {
-    top: -78rem;
+    top: -85em;
  
     .box-artigo {
       display: flex;

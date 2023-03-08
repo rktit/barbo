@@ -72,7 +72,8 @@ const Content = styled.div`
     background: url(${iluminacao}) no-repeat top center;
     background-size:cover;
     align-items: center;
-    top: -78rem;
+    top: -85rem;
+    height: 16rem;
 
     .title {
       margin-top: 20px;

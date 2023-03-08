@@ -73,7 +73,8 @@ const Content = styled.div`
     background: url(${backgroundMobile}) no-repeat top center;
     background-size:cover;
     align-items: center;
-    top: -78rem;
+    top: -85rem;
+    height: 16rem;
 
     .title {
       margin-top: 20px;
@@ -86,8 +87,8 @@ const Content = styled.div`
       padding: 10px;
     }
     .welcome {
-      margin-top: 30vh;
-      font-size: 2rem;
+          margin-top: 10vh;
+    font-size: 1.5rem;
       width: 21rem;
     }
   }
