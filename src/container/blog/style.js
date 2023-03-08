@@ -120,7 +120,7 @@ margin-bottom: -24rem;
     width: 5px;
 }
 @media only screen and (max-width: 600px) {
-    margin: -56rem 0rem -22rem 0rem;
+    margin: -62rem 0rem -16rem 0rem;
     padding-right: 0px !important;
     padding-left: 0px !important;
 

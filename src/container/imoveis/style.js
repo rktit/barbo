@@ -164,7 +164,7 @@ background-color: #ffffff;
     width: 5px;
 }
 @media only screen and (max-width: 600px) {
-    margin: -56rem 0rem -26rem 0rem;
+    margin: -60rem 0rem -26rem 0rem;
     display: flex!important;
     flex-direction: column;
     padding-right: 0px !important;

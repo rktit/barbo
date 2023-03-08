@@ -133,6 +133,12 @@ margin-top: -23rem;
     }
 
     @media only screen and (max-width: 600px) {
+        .banner{
+            height: 32rem;
+            width: 100%;
+            background-size: cover;
+            
+        }
         .splide {
             padding: 0em 0em;
             margin-top: -87rem;

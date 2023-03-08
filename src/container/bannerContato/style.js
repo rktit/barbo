@@ -74,7 +74,7 @@ text-align: center;
     height: 38rem;
     display: flex;
     align-items: center;
-    margin-top: -78rem;
+    margin-top: -85rem;
 
     .title {
       margin-top: 32px;

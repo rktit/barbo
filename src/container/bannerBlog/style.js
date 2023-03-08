@@ -73,8 +73,8 @@ const Content = styled.div`
     background: url(${backgroundMobile}) no-repeat top center;
     background-size:cover;
     align-items: center;
-    top: -78rem;
-    height: 20rem;
+    top: -86rem;
+    height: 30rem;
     width: 100%;
     
     .title {

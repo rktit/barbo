@@ -71,12 +71,12 @@ text-align: center;
 
   @media only screen and (max-width: 600px) {
     background: url(${backgroundMobile}) no-repeat top center;
-    height: 20rem;
+    height: 30rem;
     width: 100%;
     margin-left: -20rem;
     display: flex;
     align-items: center;
-    top: -78rem;
+    top: -85rem;
 
     .title {
       margin-top: 32px;

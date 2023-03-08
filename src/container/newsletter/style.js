@@ -84,7 +84,7 @@ const Content = styled.div`
   }
 
   @media only screen and (max-width: 600px) {
-    margin: 4rem 0 !important;
+    margin: 4rem 0 8rem 0 !important;
     min-height: 30rem;
     max-height: 20rem;
 
