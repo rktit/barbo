@@ -9,7 +9,7 @@ const Content = styled.div`
   flex-direction: row;
   justify-content: center;
   background-color: #eeeeee;
-  top: -22rem;
+  top: -23rem;
 
   .image-side{
     background: url(${office_tower}) no-repeat center center;
@@ -158,12 +158,12 @@ const Content = styled.div`
 
   @media only screen and (max-width: 600px) {
     flex-direction: column;
-    top: -90rem;
+    top: -93rem;
 
 .image-side {
   background: url(${office_tower_mobile}) no-repeat center center;
-  width: 100%!important;
-
+  height: 24rem;
+  width: 24rem!important;
 }
 .icones-empreendimentos{
   display: flex;
@@ -175,11 +175,11 @@ const Content = styled.div`
 .icones{
     margin: 1em 2em;
     flex-direction: column;
-    font-size: 1.2rem;
-    text-items: center;
+    font-size: 1rem;
+    text-align: center;
     margin: 0em 2em;
   img{
-    width: 6rem;
+    width: 5rem;
     padding: 0px 10px 0px 0px;
     margin: 1em 2em;
   }
@@ -187,11 +187,11 @@ const Content = styled.div`
 .icones1{
     margin: 1em 2em;
     flex-direction: column;
-    font-size: 1.2rem;
-    text-items: center;
+    font-size: 1rem;
+    text-align: center;
     margin: 0em 2em;
   img{
-    width: 7rem;
+    width: 6rem;
     padding: 0px 10px 0px 0px;
     margin: 1em 2em;
   }
@@ -199,11 +199,11 @@ const Content = styled.div`
 .icones2{
     margin: 1em 2em;
     flex-direction: column;
-    font-size: 1.2rem;
-    text-items: center;
+    font-size: 1rem;
+    text-align: center;
     margin: 0em 2em;
   img{
-    width: 7rem;
+    width: 6rem;
     padding: 0px 10px 0px 0px;
     margin: 1em 2em;
   }

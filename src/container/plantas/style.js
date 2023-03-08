@@ -170,7 +170,7 @@ const Content = styled.div`
       margin:-80rem 0rem 0rem 0rem;
     }
     .image-side{
-      width: 10rem;
+      width: 14rem;
       height: 5rem;
       padding: 0px !important;
     }
@@ -189,7 +189,7 @@ const Content = styled.div`
     margin-left: 0rem;
 }
     .left-side{
-      padding: 2rem 0rem;
+      margin-top: -90rem;
     }
 
     .slide{

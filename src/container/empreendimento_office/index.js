@@ -85,7 +85,7 @@ function EmpreendimentoOffice(props) {
           <div className="box-empreendimento my-5">
             <span className="d-flex texto-empreendimento mb-5"><strong>Dados do Empreendimento:</strong></span>
             <div className="d-flex flex-d-row	flex-lg-row flex-column">
-              <div className="icones-empreendimentos my-0">
+              <div className="icones-empreendimentos my-0 my-d-5">
                 <div className="icones">
                   <img className="" src={area} alt="" />
                   117 Unidades Tipo 1 (43,66 M²)

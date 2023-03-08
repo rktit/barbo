@@ -93,7 +93,7 @@ const Content = styled.div`
     .image-side{
       background: url(${mapa}) no-repeat center center;
       background-size: cover;
-      width: 100%;
+      width: 24rem;
       height:auto;
       margin-bottom: 4rem;
       min-width: auto;
@@ -111,6 +111,8 @@ const Content = styled.div`
       padding-right: 0rem;
       margin-left: 0rem;
       padding-top: 2rem;
+      margin-top: -44rem;
+
     }
   }
 `;

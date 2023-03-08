@@ -52,7 +52,7 @@ function Plantas(props) {
       <ScrollableAnchor id="">
         <Content className="row justify-content-center">
           <Fade left>
-            <div className="col-md-12 mt-5">
+            <div className="col-md-12">
               <div className="left-side">
                 <div className="flex justify-center align-center">
                   <div className="w-full justify-center pt-64">
