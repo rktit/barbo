@@ -143,23 +143,28 @@ function Formulario(props) {
                                     id={'form'}
                                 >
                                     <Form.Group controlId="exampleForm.ControlInput1">
-                                        <Form.Control className="input" value={fields.input_nome} name="input_nome" onChange={handleChange} type="text" placeholder="Nome Completo" />
+                                        <Form.Control className="input" value={fields.input_nome} name="input_nome" onChange={handleChange} type="text" placeholder="Nome Completo" 
+                                        style={{ backgroundColor: '#fff0'}}/>
                                     </Form.Group>
                                     <Form.Group controlId="formGridEmail">
-                                        <Form.Control value={fields.input_email} name="input_email" className="input" onChange={handleChange} type="email" placeholder="E-mail" />
+                                        <Form.Control value={fields.input_email} name="input_email" className="input" onChange={handleChange} type="email" placeholder="E-mail" 
+                                        style={{ backgroundColor: '#fff0'}}/>
                                     </Form.Group>
                                     <Form.Group controlId="exampleForm.ControlInput1">
-                                        <Form.Control value={fields.input_whats} name="input_whats" className="input" onChange={handleChange} type="text" placeholder="DDD + Telefone" />
+                                        <Form.Control value={fields.input_whats} name="input_whats" className="input" onChange={handleChange} type="text" placeholder="DDD + Telefone" 
+                                        style={{ backgroundColor: '#fff0'}}/>
                                     </Form.Group>
                                     <Form.Row>
                                         <div class="col-4">
                                             <Form.Group controlId="formGridUF">
-                                                <Form.Control value={fields.input_uf} name="input_uf" className="input" onChange={handleChange} type="text" placeholder="UF" />
+                                                <Form.Control value={fields.input_uf} name="input_uf" className="input" onChange={handleChange} type="text" placeholder="UF" 
+                                                style={{ backgroundColor: '#fff0'}}/>
                                             </Form.Group>
                                         </div>
                                         <div className="col-8">
                                             <Form.Group controlId="formGridCidade">
-                                                <Form.Control value={fields.input_cidade} name="input_cidade" className="input" onChange={handleChange} type="text" placeholder="Cidade" />
+                                                <Form.Control value={fields.input_cidade} name="input_cidade" className="input" onChange={handleChange} type="text" placeholder="Cidade" 
+                                                style={{ backgroundColor: '#fff0'}}/>
                                             </Form.Group>
                                         </div>
                                     </Form.Row>
