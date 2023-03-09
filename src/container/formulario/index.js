@@ -4,7 +4,7 @@ import ScrollableAnchor from "react-scrollable-anchor";
 
 import { Form, Col, Row, Button, Modal } from "react-bootstrap";
 
-import {useDispatch, useSelector} from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import * as Actions from 'store/actions';
 import { Services_Emails } from "service";
 
@@ -12,7 +12,7 @@ import logo from 'images/logo/logo-vermelho.png';
 
 function Formulario(props) {
 
-    const _modal = useSelector(({modal}) => modal.formulario);
+    const _modal = useSelector(({ modal }) => modal.formulario);
     const dispatch = useDispatch();
 
     const [fields, setFields] = useState({
@@ -108,67 +108,68 @@ function Formulario(props) {
     return (
         <ScrollableAnchor id="">
             <Content className="row">
-            <Modal
-          {...props}
-          size="lg"
-          aria-labelledby="contained-modal-title-vcenter"
-          centered
-        >
-                      <Modal.Body className="p-0">
+                <Modal
+                    {...props}
+                    size="lg"
+                    aria-labelledby="contained-modal-title-vcenter"
+                    centered
+                >
+                    <Modal.Body
+                        className="p-0">
 
-                <div className="boxCatalogo ">
-                    <img src={logo} width="200"/>
-                    <div className="formCatalogo">
-                        <div className="formTitle">Deixe seus dados, e nossa equipe<br />de atendimento entrará em contato:</div>
-                        <Form
-                            className="form col-12 p-0 col-md-12 p-md-4"
-                            action='/api/sendCatalogo'
-                            method="POST"
-                            enctype="multipart/form-data"
-                            name='form'
-                            id={'form'}
-                        >
-                            <Form.Group controlId="exampleForm.ControlInput1">
-                                <Form.Control className="input" value={fields.input_nome} name="input_nome" onChange={handleChange} type="text" placeholder="Nome Completo" />
-                            </Form.Group>
-                            <Form.Group controlId="formGridEmail">
-                                <Form.Control value={fields.input_email} name="input_email" className="input" onChange={handleChange} type="email" placeholder="E-mail" />
-                            </Form.Group>
-                            <Form.Group controlId="exampleForm.ControlInput1">
-                                <Form.Control value={fields.input_whats} name="input_whats" className="input" onChange={handleChange} type="text" placeholder="DDD + Telefone" />
-                            </Form.Group>
-                            <Form.Row>
-                                <div class="col-4">
-                                    <Form.Group controlId="formGridUF">
-                                        <Form.Control value={fields.input_uf} name="input_uf" className="input" onChange={handleChange} type="text" placeholder="UF" />
+                        <div className="boxCatalogo ">
+                            <img src={logo} width="200" />
+                            <div className="formCatalogo">
+                                <div className="formTitle">Deixe seus dados, e nossa equipe<br />de atendimento entrará em contato:</div>
+                                <Form
+                                    className="form col-12 p-0 col-md-12 p-md-4"
+                                    action='/api/sendCatalogo'
+                                    method="POST"
+                                    enctype="multipart/form-data"
+                                    name='form'
+                                    id={'form'}
+                                >
+                                    <Form.Group controlId="exampleForm.ControlInput1">
+                                        <Form.Control className="input" value={fields.input_nome} name="input_nome" onChange={handleChange} type="text" placeholder="Nome Completo" />
                                     </Form.Group>
-                                </div>
-                                <div className="col-8">
-                                    <Form.Group controlId="formGridCidade">
-                                        <Form.Control value={fields.input_cidade} name="input_cidade" className="input" onChange={handleChange} type="text" placeholder="Cidade" />
+                                    <Form.Group controlId="formGridEmail">
+                                        <Form.Control value={fields.input_email} name="input_email" className="input" onChange={handleChange} type="email" placeholder="E-mail" />
                                     </Form.Group>
-                                </div>
-                            </Form.Row>
+                                    <Form.Group controlId="exampleForm.ControlInput1">
+                                        <Form.Control value={fields.input_whats} name="input_whats" className="input" onChange={handleChange} type="text" placeholder="DDD + Telefone" />
+                                    </Form.Group>
+                                    <Form.Row>
+                                        <div class="col-4">
+                                            <Form.Group controlId="formGridUF">
+                                                <Form.Control value={fields.input_uf} name="input_uf" className="input" onChange={handleChange} type="text" placeholder="UF" />
+                                            </Form.Group>
+                                        </div>
+                                        <div className="col-8">
+                                            <Form.Group controlId="formGridCidade">
+                                                <Form.Control value={fields.input_cidade} name="input_cidade" className="input" onChange={handleChange} type="text" placeholder="Cidade" />
+                                            </Form.Group>
+                                        </div>
+                                    </Form.Row>
 
-                            <Form.Group className="boxBtn" as={Row}>
-                                <Col md={{ span: 10 }}>
+                                    <Form.Group className="boxBtn" as={Row}>
+                                        <Col md={{ span: 10 }}>
 
-                                <Button href="" onClick={(handleSubmit) => dispatch(Actions.toggle_modal('politica'))}className="btnEnviar" type="submit">ENVIAR</Button>
-                                </Col>
-                            </Form.Group>
-                            <Form.Row>
-                                <Form.Group controlId="row formGridAceite">
-                                    <Form.Control value={fields.input_permissao} name="input_permissao" className="input" onChange={handleChange} type="checkbox" />
-                                </Form.Group>
-                                <div className="mx-2 col-10">
-                                    Afirmo que li e que concordo o Termo de Consentimento para Tratamento de Dados Pessoais.
-                                </div>
-                            </Form.Row>
-                        </Form>
-                    </div>
-                </div>
-                </Modal.Body>
-        </Modal>
+                                            <Button href="" onClick={(handleSubmit) => dispatch(Actions.toggle_modal(''))} className="btnEnviar" type="submit">ENVIAR</Button>
+                                        </Col>
+                                    </Form.Group>
+                                    <Form.Row>
+                                        <Form.Group controlId="row formGridAceite">
+                                            <Form.Control value={fields.input_permissao} name="input_permissao" className="input" onChange={handleChange} type="checkbox" />
+                                        </Form.Group>
+                                        <div className="mx-2 col-10">
+                                            Afirmo que li e que concordo o Termo de Consentimento para Tratamento de Dados Pessoais.
+                                        </div>
+                                    </Form.Row>
+                                </Form>
+                            </div>
+                        </div>
+                    </Modal.Body>
+                </Modal>
             </Content>
         </ScrollableAnchor>
 
