@@ -9,6 +9,7 @@ import * as Actions from 'store/actions';
 import { Services_Emails } from "service";
 
 import logo from 'images/logo/logo-vermelho.png';
+import formulario from 'images/contato/caixa_simulacao.png';
 
 function Formulario(props) {
 
@@ -107,20 +108,32 @@ function Formulario(props) {
 
     return (
         <ScrollableAnchor id="">
-            <Content className="row">
+            <Content className="row" >
                 <Modal
                     {...props}
-                    size="lg"
-                    aria-labelledby="contained-modal-title-vcenter"
+                    dialogClassName="modal-70w"
+                    aria-labelledby="example-custom-modal-styling-title"
                     centered
                 >
                     <Modal.Body
-                        className="p-0">
+                        className="p-0"
+                        
+                        style={{ backgroundColor: '#252525'}}
+                    >
+                        <div className="boxCatalogo " >
+                            <div
+                                style={{
+                                    width: '100%',
+                                    display: 'flex',
+                                    justifyContent: 'center',
+                                    backgroundColor: '#626262',
+                                }}
+                            >
+                                <img src={logo} width="200" style={{ padding: 10 }} />
+                            </div>
 
-                        <div className="boxCatalogo ">
-                            <img src={logo} width="200" />
                             <div className="formCatalogo">
-                                <div className="formTitle">Deixe seus dados, e nossa equipe<br />de atendimento entrará em contato:</div>
+                                <div className="formTitle" style={{ color: 'white', paddingLeft: 25 }}>Deixe seus dados, e nossa equipe<br />de atendimento entrará em contato:</div>
                                 <Form
                                     className="form col-12 p-0 col-md-12 p-md-4"
                                     action='/api/sendCatalogo'
@@ -154,14 +167,19 @@ function Formulario(props) {
                                     <Form.Group className="boxBtn" as={Row}>
                                         <Col md={{ span: 10 }}>
 
-                                            <Button href="" onClick={(handleSubmit) => dispatch(Actions.toggle_modal(''))} className="btnEnviar" type="submit">ENVIAR</Button>
+                                            <Button href="" onClick={(handleSubmit) => dispatch(Actions.toggle_modal(''))} className="btnEnviar" type="submit"
+                                                style={{
+                                                    backgroundColor: '#e73538',
+                                                    borderColor: '#e73538'
+                                                }}
+                                            >ENVIAR</Button>
                                         </Col>
                                     </Form.Group>
                                     <Form.Row>
                                         <Form.Group controlId="row formGridAceite">
                                             <Form.Control value={fields.input_permissao} name="input_permissao" className="input" onChange={handleChange} type="checkbox" />
                                         </Form.Group>
-                                        <div className="mx-2 col-10">
+                                        <div className="mx-2 col-10" style={{ color: 'white' }}>
                                             Afirmo que li e que concordo o Termo de Consentimento para Tratamento de Dados Pessoais.
                                         </div>
                                     </Form.Row>
