@@ -7,8 +7,8 @@ img{
 }
 
 .card{
-    width: 24.75rem;
-    margin: 0 1px;
+    width: 24rem;
+    margin: 0 6px;
 }
 
 .card-body{
@@ -17,7 +17,7 @@ img{
 }
 
 .card-img-top{
-    height: 24.75rem;
+    height: 24rem;
 }
 
 .card-items{

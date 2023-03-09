@@ -56,7 +56,7 @@ margin-bottom: -24rem;
 .maquinas{
     display:grid;
     grid-template-columns: 0fr 1fr 1fr;
-
+    justify-items: center;
     margin-bottom: 50px;
 }
 
