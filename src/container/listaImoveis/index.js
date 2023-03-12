@@ -76,8 +76,8 @@ function ListaImoveis() {
           </Splide>
           :
           <Splide className="" options={{
-            type: 'loop',
-            focus: 'center',
+            // type: 'loop',
+            // focus: 'center',
             rewind: true,
             width: "100%",
             gap: '0rem',

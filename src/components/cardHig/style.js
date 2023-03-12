@@ -21,8 +21,8 @@ a {
     }
 }
 .card{
-    width: 25rem;
-    height: 25rem;
+    width: 28rem;
+    height: 28rem;
     padding: 0px;
 }
 
@@ -71,8 +71,8 @@ a {
     display: table-cell;
     border: none;
     border-radius: 0px;
-    width: 20rem;
-    margin: 1rem 0rem 0rem 1rem;
+    width: 22rem;
+    margin: 4rem 0rem 0rem 2rem;
     justify-content: space-evenly;
     
 

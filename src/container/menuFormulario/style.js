@@ -7,7 +7,7 @@ export const Content = styled.nav`
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    margin: 3rem 6rem !important;
+    margin: 3rem 6rem 5rem 6rem!important;
     z-index: 1027;
     transition: 0.2s ease-in-out;
 

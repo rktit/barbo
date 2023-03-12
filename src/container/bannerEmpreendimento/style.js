@@ -3,7 +3,7 @@ import fonts from "config/fonts";
 
 
 const Content = styled.div`
-margin-top: -23rem;
+margin-top: -26rem;
 .banner{
     height: 30rem;
     width: 100%;
@@ -33,17 +33,20 @@ margin-top: -23rem;
     color: #ffffff;
     text-align: left;
     margin-bottom: -16px;
+    filter: drop-shadow(0 20px 13px rgb(0 0 0 / 0.03)) drop-shadow(0 8px 5px rgb(0 0 0 / 1.08));
   }
   .title1{
     font-size: 1.75rem;
     font-family: ${fonts.comfortaa};
     color: #ffffff;
     text-align: left;
+    filter: drop-shadow(0 20px 13px rgb(0 0 0 / 0.03)) drop-shadow(0 8px 5px rgb(0 0 0 / 1.08));
   }
   .text{
     font-family: ${fonts.comfortaa};
     color: #ffffff;
     text-align: left;
+    filter: drop-shadow(0 20px 13px rgb(0 0 0 / 0.03)) drop-shadow(0 8px 5px rgb(0 0 0 / 1.08));
   }
   .btn1{
     font-family: ${fonts.comfortaa};

@@ -6,6 +6,10 @@ const Content = styled.div`
 padding: 20px 0px !important;
 margin-top: -20rem;
 
+.content {
+  width: 100%;
+  height: 26rem;
+}
 .title {
   font-size: 2rem;
   font-family: ${fonts.comfortaa};

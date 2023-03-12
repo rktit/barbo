@@ -149,8 +149,8 @@ const MenuFormulario = (props) => {
 						de Relacionamentos.<p />
 					</div>
 					<div className="texto text-center">
-						Whatsapp +55 (19) 99696.5525<br />
-						Fones +55 (19) 3597.5552 | 3597.5553<br />
+						Whatsapp (19) 99696.5525<br />
+						Contato (19) 3597.5552 | 3597.5553<br />
 						contato@barbo.com.br<br />
 					</div>
 				</div>

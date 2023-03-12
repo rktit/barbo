@@ -55,7 +55,7 @@ function Plantas(props) {
             <div className="col-md-12">
               <div className="left-side">
                 <div className="flex justify-center align-center">
-                  <div className="w-full justify-center pt-64">
+                  <div className="w-full justify-center">
                     <div className=" flex flex-row w-auto">
                       <div className="d-flex py-6">
                         <div className='' style={{ display: 'flex', alignItems: 'center', flexDirection: 'column' }}>
@@ -116,10 +116,10 @@ function Plantas(props) {
       <ScrollableAnchor id="plantas">
         <Content className="flex row justify-content-center py-4">
           <Fade left>
-            <div className="col-md-12 mt-5">
+            <div className="col-md-12">
               <div className="left-side">
                 <div className="flex justify-center align-center">
-                  <div className="w-full justify-center pt-64">
+                  <div className="w-full justify-center">
                     <div className=" flex flex-row w-auto">
                       <div className="d-flex py-6">
                         <div className='' style={{ display: 'flex', alignItems: 'center', flexDirection: 'column' }}>

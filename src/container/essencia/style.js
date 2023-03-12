@@ -4,7 +4,7 @@ import fonts from "config/fonts";
 const Content = styled.div`
   background-color: #ffffff;
   padding: 32px;
-  margin-top: -20rem;
+  margin-top: -26rem;
 
   .medalhas{
     flex-direction: row;
@@ -34,7 +34,7 @@ const Content = styled.div`
     font-size: 2rem;
     font-family: ${fonts.comfortaa};
     text-align: center;
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
   }
 
   .text{

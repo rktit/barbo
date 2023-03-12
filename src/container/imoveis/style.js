@@ -4,14 +4,14 @@ import lupa from "images/menu/pesquisar.png";
 
 
 const Content = styled.div`
-top: -22rem;
+top: -24rem;
 background-color: #ffffff;
 
 .maquinas {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin-bottom: 50px;
-    margin-bottom: -16rem;
+    margin-bottom: -20rem;
 }
 .box {
     height: 80px;
@@ -20,10 +20,10 @@ background-color: #ffffff;
 }
 .title{
     font-family: ${fonts.comfortaa};
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: #252525;
     margin-bottom: 30px;
-    margin-top: 30px;
+    margin-top: 1rem;
 }
 .row {
     display: flex;

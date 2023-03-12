@@ -3,7 +3,7 @@ import fonts from "config/fonts";
 
 
 const Content = styled.div`
-top: -24rem;
+top: -26rem;
 background-color: #eeeeee;
 margin-bottom: -24rem;
 
@@ -11,7 +11,7 @@ margin-bottom: -24rem;
     font-family: ${fonts.comfortaa};
     font-size: 2rem;
     color: #252525;
-    margin-top: 30px;
+    margin-top: 0rem;
 }
 
 .texto{

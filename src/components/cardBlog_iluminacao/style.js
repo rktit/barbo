@@ -34,7 +34,7 @@ img{
 }
 
 .card-text{
-    height:120px;
+    height: 5rem;
     line-height: 1.25rem;
     font-family: ${fonts.comfortaa};
 }

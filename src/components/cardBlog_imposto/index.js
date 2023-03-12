@@ -17,17 +17,17 @@ function CardImposto(props) {
     <Content>
       <div className="card">
         <img src={props.image} className="card-img-top" alt="Declarar Imposto" />
-        <div className="card-body col-12">
-          <div className="col-12 card-items">
+        <div className="card-body">
+          <div className="card-items">
             {props.items}
           </div>
-          <div className="card-title col-12">
+          <div className="card-title">
             {props.title}
           </div>
-          <div className="col-12 card-text">
+          <div className="card-text">
             {props.text}
           </div>
-          <div className="btn1 d-flex col-12">
+          <div className="btn1 d-flex">
             <a href="/barbo/declarar_imposto">Ver mais</a>
           </div>
         </div>

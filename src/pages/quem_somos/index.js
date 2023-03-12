@@ -19,7 +19,7 @@ const QuemSomos_Page = () => {
       <QuemSomos />
       <Essencia/>
       <ConhecaBarbo/>
-      <Descricao />
+      {/* <Descricao /> */}
       <Footer />
     </Fragment>
   );

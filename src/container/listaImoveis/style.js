@@ -8,9 +8,9 @@ const Content = styled.div`
 background-color: #eeeeee;
 .title{
     font-family: ${fonts.comfortaa};
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: #252525;
-    margin-top: 6rem;
+    margin-top: 4rem;
     padding-bottom: 0rem;
 }
 .slide {
@@ -65,11 +65,11 @@ background-color: #eeeeee;
     }
 }
 .splide {
-    padding: 3rem 5.25em;
+    padding: 2rem 0em 3rem 0em;
 }
 .splide__slide {
     border-radius: 1px;
-    margin: 0 0rem 0 1rem;
+    margin: 0rem;
 }
 .splide__arrow svg {
     width: 1.5em;
@@ -78,10 +78,10 @@ background-color: #eeeeee;
     transition: fill .2s linear;
 }
 .splide__arrow--next {
-    right: 6em;
+    right: 2em;
 }
 .splide__arrow--prev {
-    left: 6em;
+    left: 2em;
 }
 .splide__pagination__page {
     display: inline-block;

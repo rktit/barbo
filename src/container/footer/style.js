@@ -15,7 +15,7 @@ const Content = styled.div`
     z-index: 1;
 }
   .logo-footer{
-    margin: 0px;
+    margin: 0px 0rem 0 2rem;
   }
   .logo{
     width: 14rem;
@@ -52,6 +52,15 @@ const Content = styled.div`
 	margin-top:20px;
   }
   
+  .info1 {
+    margin: 20px -3rem 0 -2rem;
+  }
+  
+  .info2 {
+    margin: 20px 0rem 0 2rem;
+  }
+        
+
   .conteudo {
   	font-family: ${fonts.comfortaa};
   	font-size: 0.7rem;
@@ -116,6 +125,13 @@ const Content = styled.div`
     color: ${colors.white};
     text-decoration-line: none;
   }
+}
+.line {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: rgb(255 255 255);
+  width: 70rem;
+  margin: auto;
 }
   @media only screen and (max-width: 600px) {
     padding-bottom: 8rem;

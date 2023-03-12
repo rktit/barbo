@@ -31,7 +31,7 @@ function EmpreendimentoOffice(props) {
 
   return (
     <ScrollableAnchor id="">
-      <Content className="col-12 row justify-content-center pt-5">
+      <Content className="col-12 row justify-content-center pt-4">
 
         <Fade left>
           <div className="left-side mt-5">

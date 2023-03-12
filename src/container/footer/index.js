@@ -70,7 +70,7 @@ function Footer(props) {
 		<ScrollableAnchor id="">
 			<Content className="row">
 				<div className='box col-12'>
-					<div className='col-10 p-0 content'>
+					<div className='col-12 p-0 content'>
 						<div className="col-12 row p-0 text-white">
 							<Fade left>
 								<div className="logo-footer col-10 col-md-4 p-0">
@@ -79,7 +79,7 @@ function Footer(props) {
 										<div className='titulo'>Barbo Rio Claro Empreendimentos Ltda</div>
 										<Fade>
 											<div className='conteudo col-12 p-0 row infos'>
-												<div className='col-11 p-0 text-left'>
+												<div className='col-12 p-0 text-left'>
 													Rua 09 Cj, 500, Cidade Jardim <br />
 													Rio Claro|SP|Cep: 13501-100
 												</div>
@@ -95,20 +95,20 @@ function Footer(props) {
 										<Fade>
 											<div className="conteudo col-12 p-0">
 												<a target="_blank" href="https://api.whatsapp.com/send?phone=5519996965525&text=Gostaria de falar com um consultor?">
-													<strong>Whatsapp:</strong> +55 (19) 9.9696-5525
+													<strong>Whatsapp: </strong>(19) 9.9696-5525
 												</a>
 											</div>
 										</Fade>
 										<Fade>
 											<div className='conteudo col-12 p-0'>
-												<div className='col-11 p-0 text-left'>
-													<strong>Fones:</strong> +55 (19) 3597-5552 / 3597-5553
+												<div className='col-12 p-0 text-left'>
+													<strong>Contato: </strong>(19) 3597-5552 / 3597-5553
 												</div>
 											</div>
 										</Fade>
 										<Fade>
 											<div className='conteudo col-12 p-0'>
-												<div className='col-11 p-0 text-left'><a
+												<div className='col-12 p-0 text-left'><a
 													href='mailto: contato@barbo.com.br'>contato@barbo.com.br</a>
 												</div>
 											</div>
@@ -152,7 +152,7 @@ function Footer(props) {
 
 							</Fade>
 							<div className='col-12 col-md-2 p-0'>
-								<div className='col-12 col-md-7 p-0 info'>
+								<div className='col-12 col-md-6 p-0 info'>
 									<div className='titulo'>Quem somos</div>
 									<Fade>
 										<div className='conteudo'>
@@ -209,7 +209,7 @@ function Footer(props) {
 								</div>
 							</div>
 
-							<div className='col-12 col-md-2 p-0 info'>
+							<div className='col-12 col-md-2 p-0 info1'>
 								<div className='titulo'>Empreendimentos</div>
 								<Fade>
 									<	div className='conteudo'>
@@ -272,7 +272,7 @@ function Footer(props) {
 								</Fade>
 							</div>
 
-							<div className='col-12 col-md-2 p-0 info'>
+							<div className='col-12 col-md-2 p-0 info2'>
 								<div className='titulo'>Central</div>
 								<Fade>
 									<div className='conteudo'>
@@ -294,16 +294,19 @@ function Footer(props) {
 						</div>
 					</div>
 				</div>
-				<div className='d-flex'>
-					<div className='col-12 p-0'>
-						<a className="rodape-text"
-							href="https://www.instagram.com/humacriativo.mkt/"
-							target="_blank"
-							rel="noreferrer">
-							Desenvolvido por Huma Criativo
-						</a>
+				<Fade>
+				<div className="d-flex flex-column line"></div>
+					<div className='d-flex'>
+						<div className=''>
+							<a className="rodape-text"
+								href="https://www.instagram.com/humacriativo.mkt/"
+								target="_blank"
+								rel="noreferrer">
+								Desenvolvido por Huma Criativo
+							</a>
+						</div>
 					</div>
-				</div>
+				</Fade>
 			</Content>
 		</ScrollableAnchor>
 	);

@@ -26,7 +26,7 @@ function YoutubeVideo(props) {
   }, [window.innerWidth]);
 
   const opts = {
-    height: isMobile === 1 ? 320 : 360,
+    height: isMobile === 1 ? 320 : 400,
     width: '100%',
     playerVars: {
       modestbranding: 1,

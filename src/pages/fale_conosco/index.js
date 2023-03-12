@@ -18,7 +18,7 @@ const FaleConosco_Page = () => {
       <Menu/>
       <BannerContato />
       <MenuFormulario />
-      <Newsletter/>
+      {/* <Newsletter/> */}
       <Footer />
     </Fragment>
   );

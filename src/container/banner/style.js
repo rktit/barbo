@@ -12,7 +12,7 @@ background: url(${background}) no-repeat top center;
 background-size:cover;
 height: 20rem;
 width: 100%;
-top: -23rem;
+top: -26rem;
 
 font-family: ${fonts.comfortaa};
 text-align: center;

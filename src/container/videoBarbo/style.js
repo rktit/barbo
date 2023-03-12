@@ -3,7 +3,12 @@ import fonts from "config/fonts";
 import * as Color from "config/colors";
 
 const Content = styled.div`
-padding: 20px !important;
+padding: 20px 0px !important;
+
+.content {
+  width: 100%;
+  height: 26rem;
+}
 
 .title {
   font-size: 2rem;

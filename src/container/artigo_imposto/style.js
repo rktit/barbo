@@ -9,7 +9,7 @@ const Content = styled.div`
   flex-direction: row;
   justify-content: center;
   background-color: #ffffff;
-  top: -22rem;
+  top: -25rem;
 
   .box-artigo {
     display: flex;
@@ -20,7 +20,7 @@ const Content = styled.div`
   .maquinas{
     display: flex;
     margin: 2rem 0;
-    margin-bottom: -16rem;
+    margin-bottom: -20rem;
 }
   a {
     color: #007bff;

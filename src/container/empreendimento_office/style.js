@@ -9,7 +9,7 @@ const Content = styled.div`
   flex-direction: row;
   justify-content: center;
   background-color: #eeeeee;
-  top: -23rem;
+  top: -26rem;
 
   .image-side{
     background: url(${office_tower}) no-repeat center center;
@@ -50,14 +50,14 @@ const Content = styled.div`
 
   .icone_whatsapp{
     margin-top: 10px;
-    margin-left:10px;
-    width:40px;
+    margin-left: 10px;
+    width: 40px;
     height: 40px;
   }
 
   .title{
     font-family: ${fonts.comfortaa};
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: #252525;
   }
 
@@ -69,7 +69,7 @@ const Content = styled.div`
   .texto{
     font-family:${fonts.comfortaa};
     text-size: 0.5rem;
-    color:#252525;
+    color: #252525;
     letter-spacing: 0.065em;
     strong {
       font-family: ${fonts.comfortaa};
@@ -77,8 +77,8 @@ const Content = styled.div`
   }
 .texto-empreendimento {
     font-family:${fonts.comfortaa};
-    text-size: 0.5rem;
-    color:#252525;
+    text-size: 1.5rem;
+    color: #252525;
     text-align: center;
 }
   .btn{
