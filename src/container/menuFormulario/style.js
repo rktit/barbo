@@ -157,6 +157,7 @@ export const Content = styled.nav`
     justify-items: center;
     align-items: baseline;
     flex-direction: row;
+    padding-top: 4rem;
   }
   .icones{
     display: flex;
@@ -187,6 +188,7 @@ export const Content = styled.nav`
 .title {
   font-family: ${fonts.comfortaa};
   font-size: 2rem;
+  margin-bottom: -2rem;
 }
 
   @media only screen and (max-width: 992px) {
