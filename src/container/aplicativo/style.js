@@ -86,10 +86,10 @@ font-size: 12px;
   @media only screen and (max-width: 600px) {
     position: -webkit-sticky;
     position: sticky;
-    top: 38rem;
+    top: 70vh;
     bottom: 0px;
     border-radius: 0px;
-    z-index: 999;
+    z-index: 1;
     max-width: 100%;
     transform: translate(0%, 0%);
     display: flex;
@@ -116,7 +116,7 @@ a{
   border-radius: 0px;
   border: none;
   margin: 0px 0.5px;
-  width: 20rem;
+  width: 100vw;
   height: 2.5rem;
   display: flex;
   align-items: center;

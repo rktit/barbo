@@ -147,6 +147,7 @@ img{
     }
     .btn1 {
         margin: 0 0 0 0rem;
+        width: 20rem;
     }
 }
 

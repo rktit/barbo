@@ -23,16 +23,15 @@ margin-top: -20rem;
    margin: -78rem 0rem;
 
    .content {
+    height: 18rem;
 
    width: -webkit-fill-available;
    }
 
      .title{
         justify-content: center;
-        font-size: 1.3rem;
-        // text-align: end;
-        padding: 4rem 0rem 0rem 0rem;
-
+        font-size: 1.75rem;
+        padding: 0rem 0rem 0rem 0rem;
      }
   }
 `;

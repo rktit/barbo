@@ -207,7 +207,8 @@ const Content = styled.div`
       align-items: center;
     }
     .title{
-      padding: 4rem 0rem 1rem 0rem;
+      font-size: 1.75rem;
+      padding: 2rem 0rem 0rem 0rem;
     }
     .text{
       margin: 0rem;

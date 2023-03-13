@@ -192,16 +192,21 @@ export const Content = styled.nav`
   @media only screen and (max-width: 992px) {
     margin: -5rem 6rem 2rem 6rem !important;
 
+    .title {
+      font-size: 1.75rem;
+      padding-bottom: 3rem;
+    }
     .container {
       width: 20rem;
-      z-index: 1;
+      z-index: initial;
     }
     .menu-nav {
-      padding: 0.5rem 0 0.5rem 0.05rem;
+      padding: 0rem 0rem 6rem 0rem;
       display: flex;
       flex-direction: column;
       a {
-        padding: 0.5rem 0 0.5rem 0.2rem;
+        font-size: 1.25rem;
+        padding: 0rem;
       }
     }
     .line {
@@ -221,6 +226,7 @@ export const Content = styled.nav`
         flex-direction: column;
         justify-items: center;
         align-items: baseline;
+        align-items: center;
       }
       .icones{
         display: flex;

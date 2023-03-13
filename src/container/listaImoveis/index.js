@@ -38,8 +38,8 @@ function ListaImoveis() {
         <div className="title ">Encontre um imóvel Barbo perto de você!</div>
         {isMobile ?
           <Splide className="" options={{
-            type: 'loop',
-            focus: 'center',
+            // type: 'loop',
+            // focus: 'center',
             rewind: false,
             width: "100%",
             gap: '0rem',

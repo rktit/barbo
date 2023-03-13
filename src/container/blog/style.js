@@ -120,13 +120,13 @@ margin-bottom: -24rem;
     width: 5px;
 }
 @media only screen and (max-width: 600px) {
-    margin: -62rem 0rem -16rem 0rem;
+    margin: -62rem 0rem -19rem 0rem;
     padding-right: 0px !important;
     padding-left: 0px !important;
 
     .title{
         margin-top: 0px;
-        font-size: 1.5rem;
+        font-size: 1.75rem;
         text-align: center;
         width: 22rem;
         padding-top: 2rem;

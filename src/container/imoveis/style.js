@@ -179,14 +179,14 @@ background-color: #ffffff;
 
     .title{
         margin-top: 0px;
-        font-size: 1.5rem;
+        font-size: 1.75rem;
         text-align: center;
         width: 22rem;
-        padding-top: 2rem;
+        padding-top: 1rem;
     }
 
     .splide{
-        margin: 4rem 0;
+        margin: 2rem 0;
     }
 
     .slide{

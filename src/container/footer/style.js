@@ -166,7 +166,12 @@ const Content = styled.div`
         margin: 0 0 0 5rem;
         }
   		}
-      
+      .info1 {
+        margin: 20px 0rem 0 0rem;
+    }
+    .info2 {
+        margin: 20px 0rem 0 0rem;
+    }
       .icones{
         display: flex;
         justify-content: flex-start;

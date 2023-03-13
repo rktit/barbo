@@ -224,7 +224,7 @@ background-color: #eeeeee;
     padding-left: 0px !important;
 
     .title {
-        font-size: 1.5rem;
+        font-size: 1.75rem;
         text-align: center;
     }
     .splide {
@@ -241,7 +241,7 @@ background-color: #eeeeee;
     transition: fill .2s linear;
 }
 .slide {
-    margin: 0rem 2rem 0rem 21rem;
+    margin: 0rem 0rem 0rem 0.5rem;
 }
 .splide__pagination__page {
     display: inline-block;

@@ -28,6 +28,7 @@ padding: 20px 0px !important;
       // text-align: end;
    }
   .content {
+    height: 18rem;
     margin-left: 0;
   }
   
