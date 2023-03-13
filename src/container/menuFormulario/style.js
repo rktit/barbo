@@ -18,7 +18,7 @@ export const Content = styled.nav`
   }
   .container {
     width: 40rem;
-    z-index: 1;
+    z-index: initial;
   }
   .menu-scroll {
   	transition: 0.2s ease-in-out;
