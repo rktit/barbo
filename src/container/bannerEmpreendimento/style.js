@@ -119,6 +119,7 @@ margin-top: -26rem;
         padding: 0;
         transition: all .2s linear;
         border: none;
+        bottom: -3em;
     }
     .splide__pagination__page.is-active {
         background: #252525;

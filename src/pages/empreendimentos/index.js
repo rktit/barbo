@@ -32,7 +32,8 @@ const Empreendimentos = () => {
       <Aplicativo />
       <Menu/>
       <Banner />
-      <Imoveis data={data} loading={loading}/>
+      {!loading && 
+      <Imoveis data={data} loading={loading}/>}
       <ConhecaBarbo />
       <Footer />
     </Fragment>
