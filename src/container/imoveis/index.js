@@ -47,6 +47,21 @@ function Imoveis({ data, loading }) {
     }
   }, [])
 
+  const list_data = () => {
+    for (var i = 0; i < 4; i++) {
+      return (
+        <CardFront
+          image={front_lake}
+          items={data[i].enterprise.name}
+          title="Rio Claro | Vila Operária"
+          text="Área privativa de 94 m²"
+          text1="3 Dormitórios (1 suíte)"
+          onClick={() => clickMenu('barbo/front_lake')}
+        />
+      )
+    }
+  }
+
   return (
     !loading && (
       <ScrollableAnchor id="">
@@ -252,22 +267,7 @@ function Imoveis({ data, loading }) {
             </Splide>
           ) : (
             <div className="maquinas">
-              {data.length > 0 ? (
-                data.map((item, index) => {
-                  return (
-                    <CardFront
-                      images={item.images[0].link}
-                      items={item.enterprise.name}
-                      title={item.enterprise.name_resume}
-                      text={item.enterprise.resume}
-                      // text1={item.enterprise.name}
-                      onClick={() => clickMenu('barbo/front_lake')}
-                    />
-                  )
-                })
-              ) : (
-                <div>Não há imóveis!</div>
-              )}
+              {data.length > 0 ? list_data() : <div>Não há imóveis!</div>}
             </div>
           )}
         </Content>
