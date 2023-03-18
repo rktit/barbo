@@ -9,18 +9,18 @@ function compareDate(d, m, y, hour, min, img, url) {
 
     return (
       // eslint-disable-next-line jsx-a11y/iframe-has-title
-      <iframe
-        frameborder="0"
-        src={video}
-        width="100%"
-        allow="accelerometer; autoplay; picture-in-picture; fullscreen"
-        allowfullscreen="allowfullscreen"
-        mozallowfullscreen="mozallowfullscreen"
-        msallowfullscreen="msallowfullscreen"
-        oallowfullscreen="oallowfullscreen"
-        webkitallowfullscreen="webkitallowfullscreen"
-        className="iframe"
-      ></iframe>
+      // <iframe
+      //   frameborder="0"
+      //   src={video}
+      //   width="100%"
+      //   allow="accelerometer; autoplay; picture-in-picture; fullscreen"
+      //   allowfullscreen="allowfullscreen"
+      //   mozallowfullscreen="mozallowfullscreen"
+      //   msallowfullscreen="msallowfullscreen"
+      //   oallowfullscreen="oallowfullscreen"
+      //   webkitallowfullscreen="webkitallowfullscreen"
+      //   className="iframe"
+      // ></iframe>
     );
   } else {
     return (

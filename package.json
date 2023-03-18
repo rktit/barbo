@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "private": true,
   "homepage1": "./",
-  "homepage": "https://rocketit.com.br/barbo/fale_conosco",
+  "homepage": "https://rocketit.com.br/barbo",
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts --openssl-legacy-provider build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -16,7 +16,6 @@
     "@testing-library/react": "9.3.2",
     "@testing-library/user-event": "7.1.2",
     "axios": "^1.2.6",
-    "babel": "^6.23.0",
     "bootstrap": "^4.5.2",
     "date-fns": "^2.16.1",
     "js-cookie": "2.2.1",

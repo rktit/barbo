@@ -86,7 +86,7 @@ function Formulario(props) {
 
         dispatch(Actions.toggle_modal('load'));
 
-        const result = await Services_Emails.sendEmail(data, 'true');
+        const result = await Services_Emails.sendOrcamento(data, 'true');
         dispatch(Actions.close_modal('load'));
         if (result.error) {
             //alert('Houve um problema, tente novamente!');
