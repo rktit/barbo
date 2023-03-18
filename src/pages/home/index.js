@@ -8,7 +8,10 @@ import { Services_State } from "service";
 
 const Home_Page = () => {
     configureAnchors({ offset: -60, scrollDuration: 500 });
+    
     const [isMobile, setMobile] = useState(false)
+    const [loading, setLoading] = useState(true);
+    const [data, setData] = useState([]);
 
     useEffect(() => {
       loadInfos();
@@ -21,18 +24,18 @@ const Home_Page = () => {
     }, []);
 
     const loadInfos = async () => {
-      const enterprises = await Services_State.getAllEnterprises()
+      const enterprises = await Services_State.getAllMains()
       if(!enterprises.error) {
         setData(enterprises.data);
         console.log("enterprises", enterprises);
       }
 
       setLoading(false);
-    }
-  
-    const [loading, setLoading] = useState(true);
-    const [data, setData] = useState([]);
-  
+    } 
+
+    useEffect(() => {
+      loadInfos();
+    }, [])
 
   return (
     <Fragment>

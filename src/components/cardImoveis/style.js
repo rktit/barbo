@@ -7,22 +7,27 @@ img{
 }
 
 .card{
-    width: 25rem;
-    margin: 5px;
+    width: 24.75rem;
+    margin: 0 1px;
 }
 
 .card-body{
     color: #252525;
     text-align: left;
+    padding: 1.25rem 3.25rem 1.25rem 1.25rem;
 }
 
 .card-img-top{
-    height: 300px;
+    height: 24.75rem;
+    width: 24.75rem;
+    margin-left: -0.5rem;
 }
 
 .card-items{
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
     font-size: 1.5rem;
+    font-weight: bold;
+    padding-right: 2rem;
     font-family: ${fonts.comfortaa};
 }
 .card-title{
@@ -35,36 +40,15 @@ img{
     font-size: 1rem;
     font-family: ${fonts.comfortaa};
 }
-.love {
-    width: 10rem;
-    position: absolute;
-    height: 2rem;
-    left: 2rem;
-    top: 6px;
-    color: #ffffff;
-}
-.favoritos {
-    width: 2rem;
-    position: absolute;
-    height: 2rem;
-    right: 12px;
-    bottom: 20px;
-}
-.comente {
-    width: 2rem;
-    position: absolute;
-    height: 2rem;
-    right: 12px;
-    bottom: 20px;
-}
+
 .btn{
     background-color: #252525;
     display: table-cell;
     border: none;
-    border-radius: 0;
-    width: 24rem;
-    margin-top: 1.5rem;
-    justify-content: space-evenly;
+    border-radius: 0rem;
+    width: 20rem;
+    margin: 2.5rem 0 -0.5rem 0.5rem;
+    justify-content: center;
     
 
     &.active {
@@ -73,88 +57,87 @@ img{
         }
 
     :hover {
-    color: #ffffff;
     transition: 0.1s ease-in-out;
     background-color: #e73538;
     text-decoration: none;
     }
      a {
         color: #ffffff;
-        font-size: 1.5rem;
+        font-size: 1rem;
         text-decoration: none;
         background-color: transparent;
+        font-family: ${fonts.comfortaa};
     }
 }
-.btn-primary {
-    font-size: 1.5rem;
-    font-family: ${fonts.comfortaa};
-}
-.btn1{
-    background-color: #252525;
-    font-family: ${fonts.comfortaa};
-    font-size: 1.75rem;
-    text-align: center;
-    color: #ffffff;
-    border-radius: 4px;
-    height: 50px;
-    width: 100%;
-    justify-content: center;
 
-    &.active {
-      background-color: #252525;
-    }
-
-    :hover {
-      transition: 0.1s ease-in-out;
-      background-color: #252525;
-      text-decoration: none;
-      text-align: center;
-    }
-    a {
-        color: #ffffff;
-        text-decoration: none;
-        background-color: transparent;
-        text-align: center;
-    }
-
-  }
   @media only screen and (max-width: 600px) {
-    .card-img-top{
-        width: 100%;
-    }
+    
     img{
-        width: 100%;
-        // height: auto;
+        height: 325px;
     }
+    
     .card{
-        width: 100%;
-        height: 100%;
+        width: 22rem;
+        height: 38rem;
+        margin: 1rem 1px;
     }
+    
     .card-body{
         color: #252525;
         text-align: left;
-        padding: 1.25rem 16px;
+        padding: 0.25rem 0rem 0 1.25rem;
     }
     
     .card-img-top{
-        height: 300px;
+        height: 20rem;
+        width: 22rem;
+        margin-left: -0.4rem;
     }
     
     .card-items{
-        padding: 0 0 20px 0;
-        font-size: 0.8rem;
+        font-size: 2rem;
+        font-weight: bold;
         font-family: ${fonts.comfortaa};
+        padding: 1rem 1rem 1rem 0rem;
     }
     .card-title{
-        padding: 0;
-        font-size: 1.5rem;
+        margin-bottom: -0.2rem;
+        font-size: 1rem;
         font-family: ${fonts.comfortaa};
     }
+    
     .card-text{
-        padding: 0;
+        font-size: 1rem;
+        font-family: ${fonts.comfortaa};
     }
+    
     .btn{
+        background-color: #252525;
+        display: table-cell;
+        border: none;
+        border-radius: 0rem;
+        width: 18rem;
+        margin: 1.5rem 0 -0.5rem 0.5rem;
+        justify-content: center;
         
+    
+        &.active {
+            background-color: #e73538;
+            width: 20rem;
+            }
+    
+        :hover {
+        transition: 0.1s ease-in-out;
+        background-color: #e73538;
+        text-decoration: none;
+        }
+         a {
+            color: #ffffff;
+            font-size: 1.5rem;
+            text-decoration: none;
+            background-color: transparent;
+            font-family: ${fonts.comfortaa};
+        }
     }
 }
 

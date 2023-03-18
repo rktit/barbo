@@ -15,6 +15,20 @@ export const getAllEnterprises = async () => {
   return result;
 };
 
+export const getAllMains = async () => {
+  let result = [];
+  await axios
+    .get(`http://localhost:21038/api/enterprise/getMains`)
+    .then((res) => {
+      console.log("getAllMains result", res);
+      result = { ...res.data, error: false };
+    })
+    .catch((error) => {
+      console.log("getAllMains catch", error);
+      result = { error: true };
+    });
+  return result;
+};
 
 export const getPostById = async (id) => {
   let result = [];

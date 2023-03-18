@@ -9,6 +9,8 @@ const Empreendimentos = () => {
   // const _translate = useSelector(({translate}) => translate);
 
   configureAnchors({ offset: -60, scrollDuration: 500 });
+  const [loading, setLoading] = useState(true);
+  const [data, setData] = useState([]);
 
   const loadInfos = async () => {
     const enterprises = await Services_State.getAllEnterprises()
@@ -19,9 +21,6 @@ const Empreendimentos = () => {
 
     setLoading(false);
   }
-
-  const [loading, setLoading] = useState(true);
-  const [data, setData] = useState([]);
 
   useEffect(() => {
     loadInfos();

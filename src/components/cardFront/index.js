@@ -14,9 +14,9 @@ function CardFront(props) {
 
 
   return (
-    <Content>
+    <Content key={props.key}>
       <button className="card" onClick={() => { window.location.href='https://rocketit.com.br/frontlake/'}} >
-        <img src={props.image} className="card-img-top" />
+        <img src={"http://localhost:21038/api/upload/image/"+props.image} className="card-img-top" />
         <div className="card-body">
           <div className="card-items">
             {props.items}

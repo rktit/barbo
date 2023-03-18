@@ -29,8 +29,10 @@ import ScrollableAnchor from 'react-scrollable-anchor'
 
 function Imoveis({ data, loading }) {
   const [showMenu, setShowMenu] = useState(false)
-  const [isMobile, setMobile] = useState(false)
   const [active, setActive] = useState('#')
+  const [isMobile, setMobile] = useState(false)
+  const [img, setImagem] = useState(null)
+
 
   const clickMenu = (link) => {
     setActive(link)
@@ -46,21 +48,6 @@ function Imoveis({ data, loading }) {
       setMobile(true)
     }
   }, [])
-
-  const list_data = () => {
-    for (var i = 0; i < 4; i++) {
-      return (
-        <CardFront
-          image={front_lake}
-          items={data[i].enterprise.name}
-          title="Rio Claro | Vila Operária"
-          text="Área privativa de 94 m²"
-          text1="3 Dormitórios (1 suíte)"
-          onClick={() => clickMenu('barbo/front_lake')}
-        />
-      )
-    }
-  }
 
   return (
     !loading && (
@@ -124,7 +111,7 @@ function Imoveis({ data, loading }) {
                   </div>
                   <button
                     type="submit"
-                    class="filtro__button btn_lupa"
+                    className="filtro__button btn_lupa"
                   ></button>
                 </div>
               ) : (
@@ -175,7 +162,7 @@ function Imoveis({ data, loading }) {
                   </div>
                   <button
                     type="submit"
-                    class="filtro__button btn_lupa"
+                    className="filtro__button btn_lupa"
                   ></button>
                 </div>
               )}
@@ -195,6 +182,28 @@ function Imoveis({ data, loading }) {
                 arrows: false,
               }}
             >
+
+              <div className="row slide">
+                {data.length > 0 ? (
+                  data.map((item, index) => {
+                    return (
+                      <CardFront
+                        images={item.images[0].link}
+                        // items={item.enterprise.name}
+                        title={item.enterprise.name_resume}
+                        text={item.enterprise.resume}
+                        // text1={item.enterprise.name}
+                        onClick={() => clickMenu('barbo/front_lake')}
+                      />
+                    )
+                  })
+                ) : (
+                  <div>Não há imóveis!</div>
+                )}
+              </div>
+
+
+
               <SplideSlide className="slide col">
                 <CardFront
                   image={front_lake}
@@ -266,9 +275,37 @@ function Imoveis({ data, loading }) {
               </SplideSlide>
             </Splide>
           ) : (
-            <div className="maquinas">
-              {data.length > 0 ? list_data() : <div>Não há imóveis!</div>}
-            </div>
+            <Splide
+              className=""
+              options={{
+                // type: 'loop',
+                // focus: 'center',
+                rewind: true,
+                width: '100%',
+                gap: '0rem',
+                perPage: 3,
+                pagination: true,
+              }}
+            >
+              <div className="row slide">
+                {data.length > 0 ? (
+                  data.map((item, index) => {
+                    return (
+                      <CardFront
+                        image={item.images[0].link}
+                        // items={item.enterprise.name}
+                        title={item.enterprise.name_resume}
+                        text={item.enterprise.resume}
+                        // text1={item.enterprise.name}
+                        onClick={() => clickMenu('barbo/front_lake')}
+                      />
+                    )
+                  })
+                ) : (
+                  <div>Não há imóveis!</div>
+                )}
+              </div>
+            </Splide>
           )}
         </Content>
       </ScrollableAnchor>
@@ -276,3 +313,7 @@ function Imoveis({ data, loading }) {
   )
 }
 export default Imoveis
+
+
+
+
