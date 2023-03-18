@@ -26,8 +26,8 @@ function Card(props) {
           <div className="col-12 card-text">
             {props.text}
           </div>
-          <div className="card-mais d-flex">
-            <a href="/barbo/empreendimentos_interna">Mais informações...</a>
+          <div className="btn d-flex col-12">
+          <a href={props.btn}> Mais informações</a>
           </div>
         </div>
       </div>

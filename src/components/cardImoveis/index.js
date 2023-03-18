@@ -16,7 +16,7 @@ function CardImoveis(props) {
   return (
     <Content>
       <div className="card col-12 d-flex">
-        <div className="love" alt="Favoritar">Pronto para morar</div>
+        {/* <div className="love" alt="Favoritar">Pronto para morar</div> */}
         <img src={props.image} className="card-img-top" />
         <div className="card-body">
           <div className="card-items">
@@ -32,7 +32,8 @@ function CardImoveis(props) {
             {props.text1}
           </div>
           <div className="d-flex btn col-12">
-            <a href="/barbo/empreendimentos_interna">Ver mais</a>
+            <a href={props.btn}> Ver mais</a>
+            {/* <a href={"/barbo/empreendimentos_interna"}>Ver mais</a> */}
           </div>
         </div>
       </div>

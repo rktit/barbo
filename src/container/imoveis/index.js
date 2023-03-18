@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import Content from './style'
 
-import { Services_State } from '../services'
+// import { Services_State } from '../services'
 
 import { Splide, SplideSlide } from '@splidejs/react-splide'
 import '@splidejs/splide/dist/css/themes/splide-sea-green.min.css'
@@ -15,6 +15,7 @@ import officetower from 'images/empreendimento/officetower.png'
 import quintadovale from 'images/empreendimento/quintadovale.png'
 import villareal from 'images/empreendimento/villareal.png'
 
+import CardImoveis from 'components/cardImoveis'
 import CardFront from 'components/cardFront'
 import CardHigienopolis from 'components/cardHigienopolis'
 import CardInfinity from 'components/cardInfinity'
@@ -254,12 +255,12 @@ function Imoveis({ data, loading }) {
               {data.length > 0 ? (
                 data.map((item, index) => {
                   return (
-                    <CardFront
-                      image={front_lake}
+                    <CardImoveis
+                      images={item.images[0].link}
                       items={item.enterprise.name}
-                      title="Rio Claro | Vila Operária"
-                      text="Área privativa de 94 m²"
-                      text1="3 Dormitórios (1 suíte)"
+                      title={item.enterprise.name_resume}
+                      text={item.enterprise.resume}
+                      // text1={item.enterprise.name}
                       onClick={() => clickMenu('barbo/front_lake')}
                     />
                   )

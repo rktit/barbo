@@ -98,11 +98,11 @@ background-color: #eeeeee;
     background: #252525;
     width: 5px;
 }
-// .maquinas{
-//     display:grid;
-//     grid-template-columns: 0fr 1fr 1fr;
-//     margin: 50px 40px;
-// }
+.maquinas{
+    display:grid;
+    grid-template-columns: 0fr 1fr 1fr;
+    margin: 50px 40px;
+}
 
 .row {
     display: flex;

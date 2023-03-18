@@ -8,6 +8,7 @@ import { Services_State } from "service";
 
 const Home_Page = () => {
     configureAnchors({ offset: -60, scrollDuration: 500 });
+    const [isMobile, setMobile] = useState(false)
 
     useEffect(() => {
       loadInfos();
