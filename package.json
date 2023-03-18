@@ -6,16 +6,18 @@
   "homepage": "https://rocketit.com.br/barbo/fale_conosco",
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "dependencies": {
+    "@babel/helper-get-function-arity": "^7.16.7",
     "@splidejs/react-splide": "^0.4.4",
     "@testing-library/jest-dom": "4.2.4",
     "@testing-library/react": "9.3.2",
     "@testing-library/user-event": "7.1.2",
     "axios": "^1.2.6",
+    "babel": "^6.23.0",
     "bootstrap": "^4.5.2",
     "date-fns": "^2.16.1",
     "js-cookie": "2.2.1",
