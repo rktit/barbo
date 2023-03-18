@@ -73,6 +73,7 @@ img{
         }
 
     :hover {
+    color: #ffffff;
     transition: 0.1s ease-in-out;
     background-color: #e73538;
     text-decoration: none;

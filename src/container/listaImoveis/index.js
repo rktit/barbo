@@ -92,7 +92,7 @@ function ListaImoveis({ data, loading }) {
           </Splide>
         ) : (
           <Splide
-            className="row slide"
+            className=""
             options={{
               // type: 'loop',
               // focus: 'center',
@@ -103,7 +103,7 @@ function ListaImoveis({ data, loading }) {
               pagination: true,
             }}
           >
-            <div className="maquinas">
+            <div className="row slide">
               {data.length > 0 ? (
                 data.map((item, index) => {
                   return (

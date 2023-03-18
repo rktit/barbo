@@ -82,6 +82,7 @@ a {
         }
 
     :hover {
+    color: #ffffff;
     transition: 0.1s ease-in-out;
     background-color: #e73538;
     text-decoration: none;
@@ -94,7 +95,7 @@ a {
     }
 }
 .btn-primary {
-    nt-size: 1.5rem;
+    font-size: 1.5rem;
     font-family: ${fonts.comfortaa};
 }
 

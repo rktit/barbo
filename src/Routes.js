@@ -52,10 +52,7 @@ const Routes = () => (
 
       <Route path="/" component={Home_Page} />
 
-      <Route
-        path="/barbo/empreendimentos_interna"
-        component={EmpreendimentosInterna}
-      />
+      <Route path="/barbo/empreendimentos_interna" component={EmpreendimentosInterna} />
       <Route path="/barbo/blog_interna" component={Blog_Interna} />
 
       <Route path="/trabalhe-conosco" component={WorkWithUs} />

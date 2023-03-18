@@ -255,7 +255,7 @@ function Imoveis({ data, loading }) {
               {data.length > 0 ? (
                 data.map((item, index) => {
                   return (
-                    <CardImoveis
+                    <CardFront
                       images={item.images[0].link}
                       items={item.enterprise.name}
                       title={item.enterprise.name_resume}
