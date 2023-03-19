@@ -33,7 +33,7 @@ export const getAllMains = async () => {
 export const getPostById = async (id) => {
   let result = [];
   await axios
-    .get(`https://rocketit.com.br/barbo/wp-json/wp/v2/posts/` + id)
+    .get(`https://www.barbo.com.br/barbo/wp-json/wp/v2/posts/` + id)
     .then((res) => {
       console.log("getPostById result", res.data);
       result = { ...res.data, error: false };

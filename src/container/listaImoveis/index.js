@@ -46,7 +46,7 @@ function ListaImoveis({ data, loading }) {
                   title="Las Rocas"
                   items="Piracicaba | Piracicamirim"
                   text="Área privativa de 55 m²" /></a>
-              <a href="https://rocketit.com.br/higienopolis/">
+              <a href="https://www.barbo.com.br/higienopolis/">
                 <Card image={higienopolis}
                   title="Higienópolis"
                   items="Piracicaba | Higienópolis"
@@ -89,7 +89,7 @@ function ListaImoveis({ data, loading }) {
             </SplideSlide>
             <SplideSlide>
               <div className="row slide">
-                <a href="https://rocketit.com.br/higienopolis/">
+                <a href="https://www.barbo.com.br/higienopolis/">
                   <Card image={higienopolis}
                     title="Higienópolis"
                     items="Piracicaba | Higienópolis"

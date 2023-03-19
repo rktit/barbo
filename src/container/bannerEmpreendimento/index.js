@@ -44,7 +44,7 @@ function BannerEmpreendimento() {
                 }}>
                     <SplideSlide className="slide">
                         <div className="banner">
-                            <a href="https://rocketit.com.br/frontlake/"><img src={banner1Mobile} /></a>
+                            <a href="https://www.barbo.com.br/frontlake/"><img src={banner1Mobile} /></a>
                             <div className="welcome">
                                 <div className="box-texto">
                                     <div className="title">Front Lake </div>
@@ -53,7 +53,7 @@ function BannerEmpreendimento() {
                                         Rio Claro | Vila Operária <br />
                                         Área privativa de 94 m² <br />
                                     </p>
-                                    <a href="https://rocketit.com.br/frontlake/" className="btn1 shadow mb-4 d-flex align-items-center justify-content-center">
+                                    <a href="https://www.barbo.com.br/frontlake/" className="btn1 shadow mb-4 d-flex align-items-center justify-content-center">
                                         Ver mais
                                     </a>
                                 </div>
@@ -80,7 +80,7 @@ function BannerEmpreendimento() {
                     </SplideSlide>
                     <SplideSlide>
                         <div className="banner">
-                            <a href="https://rocketit.com.br/barbo/office_tower/"><img src={banner3Mobile} /></a>
+                            <a href="https://www.barbo.com.br/office_tower/"><img src={banner3Mobile} /></a>
                             <div className="welcome">
                                 <div className="box-texto">
                                     <div className="title">Office Tower </div>
@@ -89,7 +89,7 @@ function BannerEmpreendimento() {
                                         Rio Claro | Jardim Claret <br />
                                         Salas - 42,06 m² / 43,66 m² / 49,94 m² <br />
                                     </p>
-                                    <a href="https://rocketit.com.br/barbo/office_tower/" className="btn1 shadow mb-4 d-flex align-items-center justify-content-center">
+                                    <a href="https://www.barbo.com.br/office_tower/" className="btn1 shadow mb-4 d-flex align-items-center justify-content-center">
                                         Ver mais
                                     </a>
                                 </div>
@@ -129,7 +129,7 @@ function BannerEmpreendimento() {
                     <SplideSlide>
                         <div className="row slide">
                             <div className="banner">
-                                <a href="https://rocketit.com.br/frontlake/"><img src={banner1} /></a>
+                                <a href="https://www.barbo.com.br/frontlake/"><img src={banner1} /></a>
                                 <div className="welcome">
                                     <div className="box-texto">
                                         <div className="title">Front Lake </div>
@@ -138,7 +138,7 @@ function BannerEmpreendimento() {
                                             Rio Claro | Vila Operária <br />
                                             Área privativa de 94 m² <br />
                                         </p>
-                                        <a href="https://rocketit.com.br/frontlake/" className="btn1 shadow mb-4 d-flex align-items-center justify-content-center">
+                                        <a href="https://www.barbo.com.br/frontlake/" className="btn1 shadow mb-4 d-flex align-items-center justify-content-center">
                                             Ver mais
                                         </a>
                                     </div>
@@ -169,7 +169,7 @@ function BannerEmpreendimento() {
                     <SplideSlide>
                         <div className="row slide">
                             <div className="banner">
-                                <a href="https://rocketit.com.br/barbo/office_tower/"><img src={banner3} /></a>
+                                <a href="https://www.barbo.com.br/office_tower/"><img src={banner3} /></a>
                                 <div className="welcome">
                                     <div className="box-texto">
                                         <div className="title">Office Tower </div>
@@ -178,7 +178,7 @@ function BannerEmpreendimento() {
                                             Rio Claro | Jardim Claret <br />
                                             Salas - 42,06 m² / 43,66 m² / 49,94 m² <br />
                                         </p>
-                                        <a href="https://rocketit.com.br/barbo/office_tower/" className="btn1 shadow mb-4 d-flex align-items-center justify-content-center">
+                                        <a href="https://www.barbo.com.br/office_tower/" className="btn1 shadow mb-4 d-flex align-items-center justify-content-center">
                                             Ver mais
                                         </a>
                                     </div>
