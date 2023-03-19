@@ -38,8 +38,8 @@ import Error_Page_404 from './pages/error/404'
 const Routes = () => (
   <BrowserRouter>
     <Switch>
-      {/* <Route path="/fale_conosco" component={FaleConosco_Page} /> */}
-      <Route path="/portal_corretor" component={PortalCorretor_Page} />
+      <Route path="/fale_conosco" component={FaleConosco_Page} />
+      {/* <Route path="/portal_corretor" component={PortalCorretor_Page} /> */}
       {/* <Route path="/quem_somos" component={QuemSomos_Page} /> */}
 
       {/* <Route path="/blog" component={Blog_Page} /> */}
