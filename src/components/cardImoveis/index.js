@@ -15,7 +15,7 @@ function CardImoveis(props) {
 
   return (
     <Content>
-      <div className="card col-12 d-flex">
+      <button className="card col-12 d-flex">
         {/* <div className="love" alt="Favoritar">Pronto para morar</div> */}
         <img src={props.image} className="card-img-top" />
         <div className="card-body">
@@ -36,7 +36,7 @@ function CardImoveis(props) {
             {/* <a href={"/barbo/empreendimentos_interna"}>Ver mais</a> */}
           </div>
         </div>
-      </div>
+      </button>
     </Content>
   );
 }

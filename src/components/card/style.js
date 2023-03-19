@@ -115,12 +115,16 @@ a {
         padding: 0 0rem 0 0rem;
         margin: 0.5rem 0px;
     }
+    .card-items {
+        font-size: 1.2rem;
+    }
     .card-title{
         font-size: 2rem;
     }
     .card-text{
         height:100%;
-        padding: 1rem 6rem 0rem 1rem;
+        font-size: 1.2rem;
+        padding: 0rem 2rem 0rem 1rem;
     }
     .card-mais{
         right: 0rem;
@@ -131,9 +135,12 @@ a {
         display: table-cell;
         border: none;
         border-radius: 0px;
-        width: 18rem;
+        width: 19rem;
         margin: 16rem 0 0 1rem;
-
+         a{
+            font-size: 1.25rem;
+    
+        }
     
         &.active {
             background-color: #e73538;
@@ -161,10 +168,6 @@ a {
           color: #e73538;
           text-decoration: none;
         }
-    }
-    . btn a{
-        font-size: 1.25rem;
-
     }
 
 }

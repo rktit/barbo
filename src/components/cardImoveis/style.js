@@ -12,6 +12,7 @@ img{
 }
 
 .card-body{
+    min-height: 16rem;
     color: #252525;
     text-align: left;
     padding: 1.25rem 3.25rem 1.25rem 1.25rem;
@@ -20,14 +21,13 @@ img{
 .card-img-top{
     height: 24.75rem;
     width: 24.75rem;
-    margin-left: -0.5rem;
+    margin-left: -1rem;
 }
 
 .card-items{
     padding-bottom: 1rem;
     font-size: 1.5rem;
     font-weight: bold;
-    padding-right: 2rem;
     font-family: ${fonts.comfortaa};
 }
 .card-title{
@@ -47,7 +47,7 @@ img{
     border: none;
     border-radius: 0rem;
     width: 20rem;
-    margin: 2.5rem 0 -0.5rem 0.5rem;
+    margin: 4rem 0 -0.5rem 0.5rem;
     justify-content: center;
     
 
@@ -60,6 +60,7 @@ img{
     transition: 0.1s ease-in-out;
     background-color: #e73538;
     text-decoration: none;
+    color: #ffffff;
     }
      a {
         color: #ffffff;
@@ -117,7 +118,7 @@ img{
         border: none;
         border-radius: 0rem;
         width: 18rem;
-        margin: 1.5rem 0 -0.5rem 0.5rem;
+        margin: 1.5rem 0 -0.5rem 0rem;
         justify-content: center;
         
     

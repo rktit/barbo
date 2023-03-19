@@ -163,6 +163,9 @@ background-color: #ffffff;
     background: #252525;
     width: 5px;
 }
+a {
+    text-decoration: none;
+}
 @media only screen and (max-width: 600px) {
     margin: -60rem 0rem -26rem 0rem;
     display: flex!important;
@@ -208,48 +211,48 @@ background-color: #ffffff;
         font-size: 1rem;
         padding: 40px 30px;
     }
-        .box {
-            height: 10rem;
-            width: 20rem;
-            display: flex;
-            justify-content: center;
-        }
-        .filtro__select {
-            width: 14rem;
-            font-size: 14px;
-            color: #000;
-            font-family: ${fonts.comfortaa};
-            font-weight: 500;
-            border-radius: 0.5rem;
-            border-width: 1px;
-            border-color: rgb(0 0 0);
-            border-style: solid;
-            box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
-            background-color: transparent;
-            line-height: 17px;
-            padding: 20px;
-            margin: 4px 4px;
-        }
-         .filtro__item {
-            width: 14.5rem;
-            padding: 0 0;
-        }
-        .btn_lupa {
-            height: 2.75rem;
-            padding: 2rem 7rem;
-            border-radius: 0.5rem;
-            border-width: 1px;
-            justify-content: center;
-        }
-        .filtro__button {
-            width: 2.75rem;
-        }
-        
-        .splide__arrow svg {
-        width: 1.5em;
-        height: 1.5em;
-        fill: transparent;
-        transition: fill .2s linear;
+    .box {
+        height: 10rem;
+        width: 20rem;
+        display: flex;
+        justify-content: center;
+    }
+    .filtro__select {
+        width: 14rem;
+        font-size: 14px;
+        color: #000;
+        font-family: ${fonts.comfortaa};
+        font-weight: 500;
+        border-radius: 0.5rem;
+        border-width: 1px;
+        border-color: rgb(0 0 0);
+        border-style: solid;
+        box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+        background-color: transparent;
+        line-height: 17px;
+        padding: 20px;
+        margin: 4px 4px;
+    }
+     .filtro__item {
+        width: 14.5rem;
+        padding: 0 0;
+    }
+    .btn_lupa {
+        height: 2.75rem;
+        padding: 2rem 7rem;
+        border-radius: 0.5rem;
+        border-width: 1px;
+        justify-content: center;
+    }
+    .filtro__button {
+        width: 2.75rem;
+    }
+    
+    .splide__arrow svg {
+    width: 1.5em;
+    height: 1.5em;
+    fill: transparent;
+    transition: fill .2s linear;
     }
     .splide__pagination__page {
         display: inline-block;
@@ -266,10 +269,7 @@ background-color: #ffffff;
         background: #252525;
         width: 5px;
     }
-    
-    
-    }
-
+}
 `;
 
 export default Content;
