@@ -38,22 +38,22 @@ import Error_Page_404 from './pages/error/404'
 const Routes = () => (
   <BrowserRouter>
     <Switch>
-      <Route path="/fale_conosco" component={FaleConosco_Page} />
-      {/* <Route path="/portal_corretor" component={PortalCorretor_Page} /> */}
-      {/* <Route path="/quem_somos" component={QuemSomos_Page} /> */}
+      {/* <Route path="/barbo/fale_conosco" component={FaleConosco_Page} />
+      <Route path="/barbo/portal_corretor" component={PortalCorretor_Page} />
+      <Route path="/barbo/quem_somos" component={QuemSomos_Page} />
 
-      {/* <Route path="/blog" component={Blog_Page} /> */}
-      {/* <Route path="/declarar_imposto" component={DeclararImposto} /> */}
-      {/* <Route path="/beneficios_plantas" component={BeneficiosPlantas} /> */}
-      {/* <Route path="/iluminacao" component={BlogIluminacao} /> */}
+      <Route path="/barbo/blog" component={Blog_Page} />
+      <Route path="/barbo/declarar_imposto" component={DeclararImposto} />
+      <Route path="/barbo/beneficios_plantas" component={BeneficiosPlantas} />
+      <Route path="/barbo/iluminacao" component={BlogIluminacao} />
 
-      {/* <Route path="/empreendimentos" component={Empreendimentos_Page} />  */}
-      {/* <Route path="/office_tower" component={OfficeTower} /> */}
+      <Route path="/barbo/empreendimentos" component={Empreendimentos_Page} />
+      <Route path="/barbo/office_tower" component={OfficeTower} /> */}
 
-      {/* <Route path="/" component={Home_Page} /> */}
+      <Route path="/" component={Home_Page} />
 
-      {/* <Route path="/empreendimentos_interna" component={EmpreendimentosInterna} /> */}
-      {/* <Route path="/blog_interna" component={Blog_Interna} /> */}
+      {/* <Route path="/barbo/empreendimentos_interna" component={EmpreendimentosInterna} /> */}
+      {/* <Route path="/barbo/blog_interna" component={Blog_Interna} /> */}
 
       {/* <Route path="/trabalhe-conosco" component={WorkWithUs} /> */}
     </Switch>
