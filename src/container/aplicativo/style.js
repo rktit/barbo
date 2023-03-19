@@ -86,7 +86,7 @@ font-size: 12px;
   @media only screen and (max-width: 600px) {
     position: -webkit-sticky;
     position: sticky;
-    top: 78vh;
+    top: 77vh;
     bottom: 0px;
     border-radius: 0px;
     z-index: 1;
