@@ -43,8 +43,8 @@ const Routes = () => (
       {/* <Route path="/quem_somos" component={QuemSomos_Page} /> */}
 
       {/* <Route path="/blog" component={Blog_Page} /> */}
-      {/* <Route path="/declarar_imposto" component={DeclararImposto} /> */}
-      <Route path="/beneficios_plantas" component={BeneficiosPlantas} />
+      <Route path="/declarar_imposto" component={DeclararImposto} />
+      {/* <Route path="/beneficios_plantas" component={BeneficiosPlantas} /> */}
       {/* <Route path="/iluminacao" component={BlogIluminacao} /> */}
 
       {/* <Route path="/empreendimentos" component={Empreendimentos_Page} />  */}
