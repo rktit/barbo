@@ -40,9 +40,9 @@ const Routes = () => (
     <Switch>
       {/* <Route path="/fale_conosco" component={FaleConosco_Page} /> */}
       {/* <Route path="/portal_corretor" component={PortalCorretor_Page} /> */}
-      {/* <Route path="/quem_somos" component={QuemSomos_Page} /> */}
+      <Route path="/quem_somos" component={QuemSomos_Page} />
 
-      <Route path="/blog" component={Blog_Page} />
+      {/* <Route path="/blog" component={Blog_Page} /> */}
       {/* <Route path="/declarar_imposto" component={DeclararImposto} /> */}
       {/* <Route path="/beneficios_plantas" component={BeneficiosPlantas} /> */}
       {/* <Route path="/iluminacao" component={BlogIluminacao} /> */}
