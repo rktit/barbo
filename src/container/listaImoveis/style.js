@@ -149,29 +149,89 @@ background-color: #eeeeee;
 
 @media only screen and (max-width: 600px) {
 
-    .title {
+
+    .maquinas {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+
+    .title{
+        margin-top: 0px;
         font-size: 1.75rem;
         text-align: center;
+        width: 22rem;
+        padding: 4rem 0 1rem 0;
     }
-    .splide {
-        padding: 3rem 0em;
+
+    .splide{
+        margin: -2rem 0 2rem 0;
     }
-    .splide__slide {
-        border-radius: 1px;
-        margin: 0 20rem 0 0rem;
+
+    .slide{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: baseline;
     }
+    
+        .splide__pagination {
+        display: inline-flex;
+        align-items: center;
+        width: 95%;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 2rem 0px;
+    }
+    .texto{
+        text-align: center;
+        font-size: 1rem;
+        padding: 40px 30px;
+    }
+    .box {
+        height: 10rem;
+        width: 20rem;
+        display: flex;
+        justify-content: center;
+    }
+    .filtro__select {
+        width: 14rem;
+        font-size: 14px;
+        color: #000;
+        font-family: ${fonts.comfortaa};
+        font-weight: 500;
+        border-radius: 0.5rem;
+        border-width: 1px;
+        border-color: rgb(0 0 0);
+        border-style: solid;
+        box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+        background-color: transparent;
+        line-height: 17px;
+        padding: 20px;
+        margin: 4px 4px;
+    }
+     .filtro__item {
+        width: 14.5rem;
+        padding: 0 0;
+    }
+    .btn_lupa {
+        height: 2.75rem;
+        padding: 2rem 7rem;
+        border-radius: 0.5rem;
+        border-width: 1px;
+        justify-content: center;
+    }
+    .filtro__button {
+        width: 2.75rem;
+    }
+    
     .splide__arrow svg {
     width: 1.5em;
     height: 1.5em;
     fill: transparent;
     transition: fill .2s linear;
-    }
-    .slide{
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        flex-wrap: wrap;
-        margin: 0rem 2rem 0rem 0.5rem;
     }
     .splide__pagination__page {
         display: inline-block;
@@ -188,20 +248,8 @@ background-color: #eeeeee;
         background: #252525;
         width: 5px;
     }
-
-    .textos{
-        text-align: center;
-        top: 5px;
-        font-size: 0.7rem;
-        right:22%;
-
-        p{ 
-            border-left-width: 0px;
-        }
-    }
-
 }
-
 `;
+
 
 export default Content;

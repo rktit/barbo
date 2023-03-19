@@ -106,8 +106,8 @@ a {
         height: 28rem;
     }
     img{
-        width: 100%;
-        // height: auto;
+        // width: 100%;
+        height: 325px;
     }
     .card{
         width: 100%;
@@ -119,6 +119,7 @@ a {
         font-size: 1.2rem;
     }
     .card-title{
+        margin: 0.8rem 1rem 0rem 1rem;
         font-size: 2rem;
     }
     .card-text{

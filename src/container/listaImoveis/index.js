@@ -30,45 +30,42 @@ function ListaImoveis({ data, loading }) {
     <ScrollableAnchor id="">
       <Content className="d-flex flex-column align-items-center p-0">
         <div className="title ">Encontre um imóvel Barbo perto de você!</div>
-        {isMobile ? (
-          <Splide
-            className="splide col-12" options={{
-              // type: 'loop',
-              // focus: 'center',
-              rewind: false,
-              width: '100%',
-              gap: '2rem',
-              perPage: 1,
-              pagination: true,
-              arrows: false,
-            }}
-          >
+        {isMobile ?
+          <Splide className="splide col-12" options={{
+            type: 'loop',
+            focus: 'center',
+            rewind: true,
+            width: "100%",
+            perPage: 1,
+            pagination: true,
+            arrows: true,
+          }}>
             <SplideSlide className="slide col">
-            <a href="https://alakadim.com.br/lasrocas/">
+              <a href="https://alakadim.com.br/lasrocas/">
                 <Card image={lasrocas}
                   title="Las Rocas"
                   items="Piracicaba | Piracicamirim"
                   text="Área privativa de 55 m²" /></a>
-                  <a href="https://rocketit.com.br/higienopolis/">
+              <a href="https://rocketit.com.br/higienopolis/">
                 <Card image={higienopolis}
                   title="Higienópolis"
                   items="Piracicaba | Higienópolis"
                   text="Área privativa de 88 m²" /></a>
-            </SplideSlide>
-            <SplideSlide className="slide col">
-            <a href="https://alakadim.com.br/morada-do-porto/">
+            {/* </SplideSlide>
+            <SplideSlide className="slide col"> */}
+              <a href="https://alakadim.com.br/morada-do-porto/">
                 <Card image={moradadoporto}
                   title="Morada do Porto"
                   items="Americana | Terramérica"
                   text="Área privativa de 53m² e 68 m²" /></a>
-                  <a href="https://alakadim.com.br/villa-real/">
+              <a href="https://alakadim.com.br/villa-real/">
                 <Card image={villareal}
                   title="Villa Real"
                   items="Americana | Jardim Bela Vista"
                   text="Área privativa de 58 m²" /></a>
             </SplideSlide>
           </Splide>
-        ) : (
+          :
           <Splide
             className=""
             options={{
@@ -83,42 +80,42 @@ function ListaImoveis({ data, loading }) {
           >
             <SplideSlide>
               <div className="row slide">
-              <a href="https://alakadim.com.br/lasrocas/">
-                <Card image={lasrocas}
-                  title="Las Rocas"
-                  items="Piracicaba | Piracicamirim"
-                  text="Área privativa de 55 m²" /></a>
+                <a href="https://alakadim.com.br/lasrocas/">
+                  <Card image={lasrocas}
+                    title="Las Rocas"
+                    items="Piracicaba | Piracicamirim"
+                    text="Área privativa de 55 m²" /></a>
               </div>
             </SplideSlide>
             <SplideSlide>
               <div className="row slide">
-            <a href="https://rocketit.com.br/higienopolis/">
-                <Card image={higienopolis}
-                  title="Higienópolis"
-                  items="Piracicaba | Higienópolis"
-                  text="Área privativa de 88 m²" /></a>
+                <a href="https://rocketit.com.br/higienopolis/">
+                  <Card image={higienopolis}
+                    title="Higienópolis"
+                    items="Piracicaba | Higienópolis"
+                    text="Área privativa de 88 m²" /></a>
               </div>
             </SplideSlide>
             <SplideSlide>
               <div className="row slide">
-              <a href="https://alakadim.com.br/morada-do-porto/">
-                <Card image={moradadoporto}
-                  title="Morada do Porto"
-                  items="Americana | Terramérica"
-                  text="Área privativa de 53m² e 68 m²" /></a>
+                <a href="https://alakadim.com.br/morada-do-porto/">
+                  <Card image={moradadoporto}
+                    title="Morada do Porto"
+                    items="Americana | Terramérica"
+                    text="Área privativa de 53m² e 68 m²" /></a>
               </div>
             </SplideSlide>
             <SplideSlide>
               <div className="row slide">
-              <a href="https://alakadim.com.br/villa-real/">
-                <Card image={villareal}
-                  title="Villa Real"
-                  items="Americana | Jardim Bela Vista"
-                  text="Área privativa de 58 m²" /></a>
+                <a href="https://alakadim.com.br/villa-real/">
+                  <Card image={villareal}
+                    title="Villa Real"
+                    items="Americana | Jardim Bela Vista"
+                    text="Área privativa de 58 m²" /></a>
               </div>
             </SplideSlide>
           </Splide>
-        )}
+        }
       </Content>
     </ScrollableAnchor>
   )

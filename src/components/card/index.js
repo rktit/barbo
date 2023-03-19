@@ -14,23 +14,23 @@ function Card(props) {
 
   return (
     <Content>
-      <div className="card col-12 d-flex">
-        <img src={props.image} className="card-img-top"/>
-        <div className="card-body col-10">
-          <div className="col-12 card-items">
+      <button className="card col-12 d-flex">
+        <img src={props.image} className="card-img-top" />
+        <div className="card-body">
+          <div className="card-items">
             {props.items}
           </div>
-          <div className="card-title col-12">
+          <div className="card-title">
             {props.title}
           </div>
-          <div className="col-12 card-text">
+          <div className="card-text">
             {props.text}
           </div>
           <div className="btn d-flex col-12">
-          <a href={props.btn}> Mais informações</a>
+            <a href={props.btn}> Mais informações</a>
           </div>
         </div>
-      </div>
+      </button>
     </Content>
   );
 }
