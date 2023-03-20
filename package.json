@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "homepage1": "./",
-  "homepage": "https://www.barbo.com.br/office_tower",
+  "homepage": "https://www.barbo.com.br",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

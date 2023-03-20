@@ -48,9 +48,9 @@ const Routes = () => (
       {/* <Route path="/iluminacao" component={BlogIluminacao} /> */}
 
       {/* <Route path="/empreendimentos" component={Empreendimentos_Page} />  */}
-      <Route path="/office_tower" component={OfficeTower} />
+      {/* <Route path="/office_tower" component={OfficeTower} /> */}
 
-      {/* <Route path="/" component={Home_Page} /> */}
+      <Route path="/" component={Home_Page} />
 
       {/* <Route path="/empreendimentos_interna" component={EmpreendimentosInterna} /> */}
       {/* <Route path="/blog_interna" component={Blog_Interna} /> */}
