@@ -104,13 +104,13 @@ function Imoveis() {
             arrows: false,
           }}>
             <SplideSlide className="slide col">
-              <a href="https://www.barbo.com.br/frontlake/">
+              <a href="https://rocketit.com.br/barbo/frontlake/">
                 <CardImoveis image={front_lake}
                   items="Front Lake Edifício"
                   title="Rio Claro | Vila Operária"
                   text="Área privativa de 94 m²"
                   text1="3 Dormitórios (1 suíte)" /></a>
-              <a href="https://www.barbo.com.br/higienopolis/">
+              <a href="https://rocketit.com.br/barbo/higienopolis/">
                 <CardImoveis image={higienopolis}
                   items="Higienópolis Edifício"
                   title="Piracicaba | Higienópolis"
@@ -138,7 +138,7 @@ function Imoveis() {
                   title="Americana | Terramérica"
                   text="Área privativa de 53m² e 68 m²"
                   text1="2 ou 3 Dormitórios (1 Suíte)" /></a>
-              <a href="https://www.barbo.com.br/office_tower/">
+              <a href="https://rocketit.com.br/barbo/office_tower/">
                 <CardImoveis image={officetower}
                   items="Office Tower Edifício"
                   title="Rio Claro | Jardim Claret"
@@ -161,13 +161,13 @@ function Imoveis() {
           </Splide>
           :
           <div className="maquinas">
-            <a href="https://www.barbo.com.br/frontlake/">
+            <a href="https://rocketit.com.br/barbo/frontlake/">
               <CardImoveis image={front_lake}
                 items="Front Lake Edifício"
                 title="Rio Claro | Vila Operária"
                 text="Área privativa de 94 m²"
                 text1="3 Dormitórios (1 suíte)" /></a>
-            <a href="https://www.barbo.com.br/higienopolis/">
+            <a href="https://rocketit.com.br/barbo/higienopolis/">
               <CardImoveis image={higienopolis}
                 items="Higienópolis Edifício"
                 title="Piracicaba | Higienópolis"
@@ -191,7 +191,7 @@ function Imoveis() {
                 title="Americana | Terramérica"
                 text="Área privativa de 53m² e 68 m²"
                 text1="2 ou 3 Dormitórios (1 Suíte)" /></a>
-            <a href="https://www.barbo.com.br/office_tower/">
+            <a href="https://rocketit.com.br/barbo/office_tower/">
               <CardImoveis image={officetower}
                 items="Office Tower Edifício"
                 title="Rio Claro | Jardim Claret"
