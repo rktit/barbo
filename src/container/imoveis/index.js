@@ -104,13 +104,13 @@ function Imoveis() {
             arrows: false,
           }}>
             <SplideSlide className="slide col">
-              <a href="https://rocketit.com.br/barbo/frontlake/">
+              <a href="https://rocketit.com.br/frontlake/">
                 <CardImoveis image={front_lake}
                   items="Front Lake Edifício"
                   title="Rio Claro | Vila Operária"
                   text="Área privativa de 94 m²"
                   text1="3 Dormitórios (1 suíte)" /></a>
-              <a href="https://rocketit.com.br/barbo/higienopolis/">
+              <a href="https://rocketit.com.br/higienopolis/">
                 <CardImoveis image={higienopolis}
                   items="Higienópolis Edifício"
                   title="Piracicaba | Higienópolis"
@@ -161,13 +161,13 @@ function Imoveis() {
           </Splide>
           :
           <div className="maquinas">
-            <a href="https://rocketit.com.br/barbo/frontlake/">
+            <a href="https://rocketit.com.br/frontlake/">
               <CardImoveis image={front_lake}
                 items="Front Lake Edifício"
                 title="Rio Claro | Vila Operária"
                 text="Área privativa de 94 m²"
                 text1="3 Dormitórios (1 suíte)" /></a>
-            <a href="https://rocketit.com.br/barbo/higienopolis/">
+            <a href="https://rocketit.com.br/higienopolis/">
               <CardImoveis image={higienopolis}
                 items="Higienópolis Edifício"
                 title="Piracicaba | Higienópolis"
