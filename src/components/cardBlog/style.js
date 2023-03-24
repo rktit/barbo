@@ -7,9 +7,10 @@ img{
 }
 
 .card{
-    width: 25rem;
-    margin: 5px;
+    width: 24rem;
+    margin: 0px 9px;
 }
+
 
 .card-body{
     color: #252525;
@@ -17,7 +18,8 @@ img{
 }
 
 .card-img-top{
-    height: 22rem;
+    height: 24rem;
+    width: 23.85rem;
 }
 
 .card-items{
@@ -28,11 +30,13 @@ img{
 .card-title{
     margin-bottom: -0.2rem;
     font-size: 1.3rem;
+    font-weight: bold;
     font-family: ${fonts.comfortaa};
 }
 
 .card-text{
-    height:120px;
+    height: 5rem;
+    line-height: 1.25rem;
     font-family: ${fonts.comfortaa};
 }
 .love {
@@ -60,8 +64,10 @@ img{
     background-color: #252525;
     display: table-cell;
     border: none;
-    border-radius: 0;
-    width: 24rem;
+    border-radius: 0rem;
+    width: 20rem;
+    margin: 4rem 0 -0.5rem 0.5rem;
+    justify-content: center;
     
 
     &.active {
@@ -73,6 +79,14 @@ img{
     transition: 0.1s ease-in-out;
     background-color: #e73538;
     text-decoration: none;
+    color: #ffffff;
+    }
+     a {
+        color: #ffffff;
+        font-size: 1rem;
+        text-decoration: none;
+        background-color: transparent;
+        font-family: ${fonts.comfortaa};
     }
 }
 .btn-primary {
@@ -82,13 +96,15 @@ img{
 .btn1{
     background-color: #252525;
     font-family: ${fonts.comfortaa};
-    font-size: 1.75rem;
+    font-size: 1.25rem;
     text-align: center;
     color: #ffffff;
-    border-radius: 4px;
-    height: 50px;
-    width: 100%;
+    border-radius: 0px;
+    height: 2rem;
+    width: 22rem;
+    margin: 0rem;
     justify-content: center;
+    align-items: center;
 
     &.active {
       background-color: #252525;
@@ -96,7 +112,7 @@ img{
 
     :hover {
       transition: 0.1s ease-in-out;
-      background-color: #252525;
+      background-color: #e73538;
       text-decoration: none;
       text-align: center;
     }
@@ -105,17 +121,13 @@ img{
         text-decoration: none;
         background-color: transparent;
         text-align: center;
+        text-decoration-line: none;        
     }
 
   }
   @media only screen and (max-width: 600px) {
-    .card-img-top{
-        width: 100%;
-    }
-    img{
-        width: 100%;
-        // height: auto;
-    }
+    margin-top: 0.5rem;
+
     .card{
         width: 100%;
         height: 100%;
@@ -123,11 +135,13 @@ img{
     .card-body{
         color: #252525;
         text-align: left;
-        padding: 1.25rem 16px;
+        padding: 1.25rem 1rem;
+        width: 22rem;
     }
     
     .card-img-top{
-        height: 300px;
+        width: 100%;
+        height: auto;
     }
     
     .card-items{
@@ -143,8 +157,9 @@ img{
     .card-text{
         padding: 0;
     }
-    .btn{
-        
+    .btn1 {
+        margin: 0 0 0 0rem;
+        width: 20rem;
     }
 }
 

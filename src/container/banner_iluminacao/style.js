@@ -1,14 +1,14 @@
 import styled from "styled-components";
 import fonts from "config/fonts";
 
-import iluminacao from "images/blog/iluminacao/iluminacao.jpeg";
-// import backgroundMobile from "images/blog/banner_mobile_blog.png";
+import background from "images/blog/banner_blogs/iluminacao_desk.png";
+import backgroundMobile from "images/blog/banner_blogs/iluminacao_mobile.jpeg";
 
 
 const Content = styled.div`
   flex-direction: row;
   padding: 0 !important;
-  background: url(${iluminacao}) no-repeat center;
+  background: url(${background}) no-repeat center;
   background-size:cover;
   height: 20rem;
   width: 100%;
@@ -70,7 +70,7 @@ const Content = styled.div`
   }
 
   @media only screen and (max-width: 600px) {
-    background: url(${iluminacao}) no-repeat top center;
+    background: url(${backgroundMobile}) no-repeat top center;
     background-size:cover;
     align-items: center;
     top: -85rem;

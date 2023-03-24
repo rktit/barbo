@@ -1,8 +1,8 @@
 import styled from "styled-components";
 import fonts from "config/fonts";
 
-import background from "images/blog/declarar/declarar_imovel.jpg";
-import backgroundMobile from "images/blog/declarar/declarar_imovel.jpg";
+import background from "images/blog/banner_blogs/declarar_desk.png";
+import backgroundMobile from "images/blog/banner_blogs/declarar_mobile.jpg";
 
 
 const Content = styled.div`

@@ -2,8 +2,7 @@ import styled from "styled-components";
 import fonts from "config/fonts";
 
 
-import iluminacao from "images/blog/iluminacao/iluminacao_casa.jpeg";
-
+import iluminacao from "images/blog/iluminacao_casa.jpeg";
 
 const Content = styled.div`
   flex-direction: row;
@@ -26,7 +25,6 @@ const Content = styled.div`
   a {
     color: #007bff;
     font-family: ${fonts.comfortaa};
-    text-decoration: underline;
     background-color: transparent;
     &.active {
       background-color: #252525;
@@ -35,6 +33,7 @@ const Content = styled.div`
       transition: 0.1s ease-in-out;
       font-weight: 900;
       text-decoration: none;
+      text-decoration-line: none;
       }
 }
   .image-side{

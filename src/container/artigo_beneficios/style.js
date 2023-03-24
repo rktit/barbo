@@ -2,7 +2,7 @@ import styled from "styled-components";
 import fonts from "config/fonts";
 
 
-import plantas from "images/blog/beneficios/beneficios_apartamento.jpg";
+import plantas from "images/blog/beneficios_ambiente.jpeg";
 
 
 const Content = styled.div`
@@ -26,7 +26,6 @@ const Content = styled.div`
   a {
     color: #007bff;
     font-family: ${fonts.comfortaa};
-    text-decoration: underline;
     background-color: transparent;
     &.active {
       background-color: #252525;
@@ -35,6 +34,7 @@ const Content = styled.div`
       transition: 0.1s ease-in-out;
       font-weight: 900;
       text-decoration: none;
+      text-decoration-line: none;
       }
 }
   .image-side{

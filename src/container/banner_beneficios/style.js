@@ -1,8 +1,8 @@
 import styled from "styled-components";
 import fonts from "config/fonts";
 
-import background from "images/blog/beneficios/beneficios_ambiente.jpeg";
-// import backgroundMobile from "images/blog/banner_mobile_blog.png";
+import background from "images/blog/banner_blogs/plantas_desk.png";
+import backgroundMobile from "images/blog/banner_blogs/plantas_mobile.jpg";
 
 
 const Content = styled.div`
@@ -71,7 +71,7 @@ const Content = styled.div`
   }
 
   @media only screen and (max-width: 600px) {
-    background: url(${background}) no-repeat top center;
+    background: url(${backgroundMobile}) no-repeat top center;
     background-size:cover;
     align-items: center;
     top: -85rem;

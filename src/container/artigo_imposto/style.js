@@ -1,9 +1,7 @@
 import styled from "styled-components";
 import fonts from "config/fonts";
 
-
-import imposto from "images/blog/declarar/declarar_imovel.jpeg";
-
+import imposto from "images/blog/declarar_imovel.jpeg";
 
 const Content = styled.div`
   flex-direction: row;
@@ -25,7 +23,6 @@ const Content = styled.div`
   a {
     color: #007bff;
     font-family: ${fonts.comfortaa};
-    text-decoration: underline;
     background-color: transparent;
     &.active {
       background-color: #252525;
@@ -34,6 +31,7 @@ const Content = styled.div`
       transition: 0.1s ease-in-out;
       font-weight: 900;
       text-decoration: none;
+      text-decoration-line: none;
       }
 }
   .image-side{
