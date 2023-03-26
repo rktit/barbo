@@ -39,8 +39,8 @@ const Routes = () => (
   <BrowserRouter>
     <Switch>
       {/* <Route path="/barbo/fale_conosco" component={FaleConosco_Page} /> */}
-      {/* <Route path="/barbo/portal_corretor" component={PortalCorretor_Page} /> */}
-      <Route path="/barbo/quem_somos" component={QuemSomos_Page} />
+      <Route path="/barbo/portal_corretor" component={PortalCorretor_Page} />
+      {/* <Route path="/barbo/quem_somos" component={QuemSomos_Page} /> */}
 
       {/* <Route path="/barbo/blog" component={Blog_Page} /> */}
       {/* <Route path="/barbo/declarar_imposto" component={DeclararImposto} /> */}
