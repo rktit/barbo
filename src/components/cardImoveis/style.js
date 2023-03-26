@@ -90,9 +90,9 @@ img{
     }
     
     .card-img-top{
-        height: 20rem;
-        width: 22rem;
-        margin-left: -0.4rem;
+      height: 20rem;
+      width: 20rem;
+      margin-left: 0rem;
     }
     
     .card-items{

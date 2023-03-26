@@ -102,7 +102,7 @@ a {
 @media only screen and (max-width: 600px) {
     
     .card-img-top{
-        width: 23rem;
+        width: 24rem;
         height: 28rem;
     }
     img{
@@ -136,7 +136,7 @@ a {
         display: table-cell;
         border: none;
         border-radius: 0px;
-        width: 19rem;
+        width: 20rem;
         margin: 16rem 0 0 1rem;
          a{
             font-size: 1.25rem;
