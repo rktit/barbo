@@ -3,7 +3,7 @@ import React, { Fragment, useEffect, useState } from "react";
 import { configureAnchors } from "react-scrollable-anchor";
 
 import {FlashMessageCookies, ModalPolitica} from 'components';
-import {  Aplicativo,  Menu, BannerEmpreendimento, ListaImoveis, VideoBarbo, Footer} from "container";
+import {  Aplicativo,  Menu, BannerEmpreendimento, ListaImoveis, ConhecaBarbo, Footer} from "container";
 import { Services_State } from "service";
 
 const Home_Page = () => {
@@ -45,7 +45,7 @@ const Home_Page = () => {
       <Menu/>
       <BannerEmpreendimento />
       <ListaImoveis data={data} loading={loading}/>
-      <VideoBarbo/>
+      <ConhecaBarbo/>
       <Footer />
     </Fragment>
   );

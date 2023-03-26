@@ -38,7 +38,7 @@ function YoutubeVideo(props) {
   return (
     <Content className="col-12 row">
       {isMobile ?
-        <div className={`content col-12 ${props.className}`}>
+        <div className={`content ${props.className}`}>
           <YouTube videoId={"gcbXQM16094"} title={"Parceria YANMAR x Solis"} description={"descricao"} time={"tempo"} opts={opts}/>
           {/* <div className="flex">
             <img className="image" src={conhecaBarboMobile} />

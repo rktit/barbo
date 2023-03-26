@@ -5,7 +5,7 @@ import colors from "config/colors";
 const Content = styled.div`
 position: -webkit-sticky;
 position: sticky;
-top: 94vh;
+top: 95vh;
 padding: 0px 0px 13.5rem 0rem;
 bottom: 0px;
 border-radius: 0px;
@@ -83,6 +83,25 @@ font-size: 12px;
         padding-right: 6px;
       }
   }
+
+
+  @media only screen and (min-width: 1600px) {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 95vh;
+    padding: 0px 0px 12rem 0rem;
+    bottom: 0px;
+    border-radius: 0px;
+    z-index: 1;
+    max-width: 100%;
+    transform: translate(0%, 0%);
+    display: flex;
+    justify-content: center;
+    color: ${colors.white};
+    font-family: ${fonts.comfortaa};
+    font-size: 12px;
+  }
+
   @media only screen and (max-width: 600px) {
     position: -webkit-sticky;
     position: sticky;
@@ -98,7 +117,7 @@ font-size: 12px;
     font-family: ${fonts.comfortaa};
     font-size: 12px;
     flex-direction: column;
-    padding: 0px 0px 77rem 0rem;
+    padding: 0px 0px 71rem 0rem;
     align-items: center;
 
     button {

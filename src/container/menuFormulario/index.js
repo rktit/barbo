@@ -5,13 +5,13 @@ import * as Actions from 'store/actions';
 
 import { Formulario } from "container";
 
-import casa from "images/contato/casa.png";
-import cliente from "images/contato/cliente.png";
-import terreno from "images/contato/terreno.png";
-import vizinho from "images/contato/vizinho.png";
-import fornecedor from "images/contato/fornecedor.png";
-import assessoria from "images/contato/assessoria.png";
-import assuntos from "images/contato/assuntos.png";
+import casa from "images/contato/Icones/imovel_comprar.png";
+import cliente from "images/contato/Icones/cliente.png";
+import terreno from "images/contato/Icones/terreno.png";
+import vizinho from "images/contato/Icones/vizinho.png";
+import fornecedor from "images/contato/Icones/fornecedor.png";
+import assessoria from "images/contato/Icones/assessoria.png";
+import assuntos from "images/contato/Icones/assuntos.png";
 
 let limit_scroll = 450;
 let limit_scroll_header = 250;

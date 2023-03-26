@@ -42,7 +42,8 @@ function ArtigoImposto(props) {
                 como uma dívida, a segunda é que você<br />
                 não deve colocar o valor total do
                 <a href='https://www.instagram.com/barboempreendimentos/' target="_blank"> financiamento </a>, pois esse valor pode <br />
-                mudar. Você precisa declarar somente <br />
+                mudar. 
+                Você precisa declarar somente <br />
                 o valor pago até o momento, isso inclui <br />
                 a entrada, as prestações já quitadas, <br />
                 os impostos, custos de corretagem, e <br />

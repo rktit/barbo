@@ -148,15 +148,16 @@ function Imoveis() {
             <SplideSlide className="slide col">
               <a href="https://alakadim.com.br/quinta-do-valle/">
                 <CardImoveis image={quintadovale}
-                  items="Loteamento Quinta do Vale"
-                  title="Barra Bonita | Portal São José da Barra"
-                  text="Com lotes de 200m² a 400m²"
-                  text1="" /></a>
+                  items="Quinta do Vale"
+                  title="Barra Bonita | Portal São "
+                  text="José da Barra"
+                  text1="Com lotes de 200m² a 400m²" /></a>
               <a href="https://alakadim.com.br/villa-real/">
                 <CardImoveis image={villareal}
                   items="Villa Real Residencial"
                   title="Americana | Jardim Bela Vista"
-                  text="2 Dormitórios" /></a>
+                  text="Área privativa de 58 m²"
+                  text1="2 Dormitórios" /></a>
             </SplideSlide>
           </Splide>
           :
@@ -200,14 +201,15 @@ function Imoveis() {
             <a href="https://alakadim.com.br/quinta-do-valle/">
               <CardImoveis image={quintadovale}
                 items="Quinta do Vale"
-                title="Barra Bonita | Portal São José da Barra"
-                text="Com lotes de 200m² a 400m²"
-                text1="" /></a>
+                title="Barra Bonita | Portal São "
+                text="José da Barra"
+                text1="Com lotes de 200m² a 400m²" /></a>
             <a href="https://alakadim.com.br/villa-real/">
               <CardImoveis image={villareal}
                 items="Villa Real Residencial"
                 title="Americana | Jardim Bela Vista"
-                text="2 Dormitórios" /></a>
+                text="Área privativa de 58 m²"
+                text1="2 Dormitórios" /></a>
           </div>
         }
       </Content>

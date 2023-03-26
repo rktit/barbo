@@ -39,7 +39,7 @@ a {
 }
 
 .card-title{
-    margin: 0.8rem 1rem -0.5rem 0rem;
+    margin: 0.8rem 0rem -0.5rem 1rem;
     font-size: 1.5rem;
     text-align: start;
 }
@@ -119,7 +119,7 @@ a {
         font-size: 1.2rem;
     }
     .card-title{
-        margin: 0.8rem 1rem 0rem 1rem;
+        margin: 0.8rem 0rem -0.5rem 1rem;
         font-size: 2rem;
     }
     .card-text{

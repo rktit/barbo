@@ -3,7 +3,7 @@ import fonts from "config/fonts";
 import * as Color from "config/colors";
 
 const Content = styled.div`
-padding: 20px 0px !important;
+padding: 2px 0px !important;
 margin-top: -20rem;
 
 .content {

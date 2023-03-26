@@ -134,7 +134,7 @@ const Content = styled.div`
   margin: auto;
 }
   @media only screen and (max-width: 600px) {
-    padding-bottom: 8rem;
+    padding-bottom: 2rem;
     .titulo {
       font-size: 1rem;
       font-family: ${fonts.comfortaa};
