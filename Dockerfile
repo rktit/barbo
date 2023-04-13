@@ -1,6 +1,6 @@
 ### STAGE 1: Build ###
 FROM node:14.15.4 as build
-ARG PUBLIC_URL="http://44.214.98.105/"
+ARG PUBLIC_URL="https://www.barbo.com.br"
 ENV PUBLIC_URL="${PUBLIC_URL}"
 
 RUN mkdir /usr/src/app
@@ -16,5 +16,5 @@ RUN npm run build
 FROM nginx:1.13.12-alpine
 COPY --from=build /usr/src/app/build /usr/share/nginx/html
 COPY default.conf /etc/nginx/conf.d/default.conf
-EXPOSE 80
+EXPOSE 80 443
 CMD ["nginx", "-g", "daemon off;"]
