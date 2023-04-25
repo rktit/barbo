@@ -19,6 +19,7 @@ import PortalCorretor_Page from './pages/portal_corretor'
 import Blog_Interna from './pages/blog_interna'
 import WorkWithUs from './pages/work_with_us'
 import Error_Page_404 from './pages/error/404'
+import AdmPage from './pages/adm'
 
 // Validation Routes per User
 // const PrivateRoute = ({ component: Component, ...rest }) => (
@@ -56,6 +57,7 @@ const Routes = () => (
       {/* <Route path="/barbo/blog_interna" component={Blog_Interna} /> */}
 
       {/* <Route path="/barbo/trabalhe-conosco" component={WorkWithUs} /> */}
+      <Route path='/barbo/adm_page' component={AdmPage} />
     </Switch>
   </BrowserRouter>
 )
